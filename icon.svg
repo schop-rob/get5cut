@@ -1,0 +1,131 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Green glow filter - punchy -->
+    <filter id="greenGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.15  0 0 0 0 0.85  0 0 0 0 0.3  0 0 0 0.8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Red glow filter - punchy -->
+    <filter id="redGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 1  0 0 0 0 0.2  0 0 0 0 0.15  0 0 0 0.8 0" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Shine gradient -->
+    <linearGradient id="shine" x1="0%" y1="0%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="white" stop-opacity="0.15"/>
+      <stop offset="55%" stop-color="white" stop-opacity="0"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Green gradient - vivid -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6FF09E"/>
+      <stop offset="100%" stop-color="#1DB954"/>
+    </linearGradient>
+
+    <!-- Red gradient - vivid -->
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7070"/>
+      <stop offset="100%" stop-color="#E5252A"/>
+    </linearGradient>
+
+    <!-- Text shadow -->
+    <filter id="textShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+
+    <!-- Scissors shadow -->
+    <filter id="scissorsShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Inner shine -->
+    <radialGradient id="innerShine" cx="38%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#F5F5FA"/>
+    </radialGradient>
+
+    <!-- Background gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="48%" r="52%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEEEF2"/>
+    </radialGradient>
+
+    <!-- Cut gap mask for right edge -->
+    <clipPath id="rightEdgeTopClip">
+      <rect x="0" y="0" width="1024" height="555"/>
+    </clipPath>
+    <clipPath id="rightEdgeBottomClip">
+      <rect x="0" y="635" width="1024" height="400"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+  <!-- Pentagon ring - LARGE, fills the canvas -->
+  <!-- Outer radius: 430, Inner radius: 310, center: 512,490 -->
+  <!-- Outer vertices: top(512,60) topR(921,357) botR(765,838) botL(259,838) topL(103,357) -->
+  <!-- Inner vertices: top(512,180) topR(807,394) botR(694,741) botL(330,741) topL(217,394) -->
+
+  <!-- Segment 1: Top edge (green) -->
+  <path d="M 512,60 L 921,357 L 807,394 L 512,180 Z"
+        fill="url(#greenGrad)" filter="url(#greenGlow)"/>
+
+  <!-- Segment 2: Right edge (red) - SPLIT with gap for scissors -->
+  <!-- Top portion of right edge -->
+  <path d="M 921,357 L 843,598 L 750,560 L 807,394 Z"
+        fill="url(#redGrad)" filter="url(#redGlow)"/>
+  <!-- Bottom portion of right edge -->
+  <path d="M 843,668 L 765,838 L 694,741 L 750,630 Z"
+        fill="url(#redGrad)" filter="url(#redGlow)"/>
+
+  <!-- Segment 3: Bottom edge (green) -->
+  <path d="M 765,838 L 259,838 L 330,741 L 694,741 Z"
+        fill="url(#greenGrad)" filter="url(#greenGlow)"/>
+
+  <!-- Segment 4: Left edge (red) -->
+  <path d="M 259,838 L 103,357 L 217,394 L 330,741 Z"
+        fill="url(#redGrad)" filter="url(#redGlow)"/>
+
+  <!-- Segment 5: Top-left edge (red - asymmetry) -->
+  <path d="M 103,357 L 512,60 L 512,180 L 217,394 Z"
+        fill="url(#redGrad)" filter="url(#redGlow)"/>
+
+  <!-- White interior pentagon -->
+  <polygon points="512,180 807,394 694,741 330,741 217,394"
+           fill="url(#innerShine)"/>
+
+  <!-- Shine overlay across ring -->
+  <polygon points="512,60 921,357 765,838 259,838 103,357"
+           fill="url(#shine)" opacity="0.6"/>
+
+  <!-- Bold "5" -->
+  <text x="512" y="530"
+        font-family="'SF Pro Display', 'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-weight="900"
+        font-size="440"
+        fill="#1C1C1E"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        filter="url(#textShadow)">5</text>
+
+  <!-- Scissors ✂️ cutting INTO the right edge gap -->
+  <text x="845" y="630"
+        font-size="200"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        filter="url(#scissorsShadow)"
+        transform="rotate(130, 845, 615)">✂️</text>
+</svg>
