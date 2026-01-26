@@ -26,11 +26,30 @@
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
         "description": "Automatically remove silence and dead air from lectures, podcasts, and screen recordings. Fast on-device processing.",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        }
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free tier with 3 exports per month"
+            },
+            {
+                "@type": "Offer",
+                "price": "2.99",
+                "priceCurrency": "USD",
+                "description": "Monthly subscription",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "billingDuration": "P1M"
+                }
+            },
+            {
+                "@type": "Offer",
+                "price": "14.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime one-time purchase"
+            }
+        ]
     }
     </script>
     <style>
