@@ -1,0 +1,60 @@
+{
+  "use-cases": [
+    {
+      "slug": "remove-silence-from-zoom",
+      "meta_title": "How to Remove Silence from Zoom Recordings Automatically | 5cut",
+      "meta_description": "Learn how to instantly cut silence from long Zoom meeting recordings using 5cut on Mac, iPad, and iPhone. No cloud upload required.",
+      "h1": "Remove Silence from Zoom Recordings Automatically",
+      "tagline": "Turn a 2-hour Zoom meeting into a concise 45-minute summary.",
+      "paragraph_1": "Zoom meetings are notorious for long pauses, dead air while sharing screens, and awkward silences. 5cut allows you to import your Zoom MP4 recordings and automatically strip out the silence on your Mac or iOS device. Because all processing happens locally, your confidential meeting data never leaves your device.",
+      "faqs": [
+        {
+          "q": "How do I import a Zoom recording into 5cut?",
+          "a": "Simply locate your Zoom MP4 file in your Documents folder (usually under Documents/Zoom) and share it to the 5cut app, or open 5cut and import it directly."
+        },
+        {
+          "q": "Is my Zoom meeting data uploaded to the cloud?",
+          "a": "No. 5cut processes all video and audio locally on your device, ensuring complete privacy for sensitive business or educational meetings."
+        }
+      ]
+    },
+    {
+      "slug": "remove-silence-from-obs",
+      "meta_title": "Remove Silence from OBS Streams & Recordings | 5cut",
+      "meta_description": "Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on Mac and iOS.",
+      "h1": "Remove Silence from OBS Recordings",
+      "tagline": "Edit your Twitch VODs and OBS streams in minutes, not hours.",
+      "paragraph_1": "Streamers and content creators often end up with hours of OBS Studio footage filled with dead air. 5cut analyzes your OBS MP4 recordings and automatically cuts the silent segments, allowing you to quickly export a high-energy, action-packed video ready for YouTube or TikTok.",
+      "faqs": [
+        {
+          "q": "Does 5cut support OBS recordings?",
+          "a": "Yes, 5cut fully supports MP4 recordings exported from OBS Studio. If you record in MKV, simply remux to MP4 within OBS before importing."
+        },
+        {
+          "q": "Will silence removal desync my game audio?",
+          "a": "No, 5cut trims the entire video and audio timeline simultaneously, ensuring perfect lip-sync and game audio synchronization."
+        }
+      ]
+    }
+  ],
+  "alternatives": [
+    {
+      "slug": "timebolt-alternative",
+      "meta_title": "The Best Free TimeBolt Alternative for Mac & iOS | 5cut",
+      "meta_description": "Looking for a TimeBolt alternative? 5cut offers automatic silence removal, on-device transcription, and speaker identification for free on iOS and Mac.",
+      "h1": "The Best TimeBolt Alternative",
+      "tagline": "Remove silence automatically, completely on-device.",
+      "paragraph_1": "If you're looking for an alternative to TimeBolt that offers a seamless, native experience on Apple devices, 5cut is your best choice. Unlike web-based tools, 5cut processes your video entirely on your device for maximum privacy and speed. Plus, it includes built-in transcription and speaker identification.",
+      "faqs": [
+        {
+          "q": "How does 5cut compare to TimeBolt?",
+          "a": "5cut provides a highly optimized, native experience for iOS and Mac users, with completely on-device processing. It includes advanced features like speaker identification and 30-language transcription without requiring a costly subscription."
+        },
+        {
+          "q": "Is 5cut free?",
+          "a": "Yes, 5cut is free to use with up to 10 exports per month, making it a highly accessible alternative to premium-only tools."
+        }
+      ]
+    }
+  ]
+}

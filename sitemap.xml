@@ -92,4 +92,20 @@
         <lastmod>2026-01-24</lastmod>
         <priority>0.2</priority>
     </url>
+
+    <url>
+        <loc>https://get5cut.com/use-cases/remove-silence-from-zoom/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/use-cases/remove-silence-from-obs/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/alternatives/timebolt-alternative/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>

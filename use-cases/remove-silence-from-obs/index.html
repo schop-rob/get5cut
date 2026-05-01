@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5cut – Remove Silence from Lectures, Podcasts & Videos | iOS App</title>
-    <meta name="description" content="5cut automatically removes silence from lecture recordings, podcasts, and videos. On-device transcription in 30+ languages, speaker identification, batch processing. Perfect for students and expats. Free for iOS.">
+    <title>Remove Silence from OBS Streams & Recordings | 5cut</title>
+    <meta name="description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on Mac and iOS.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://get5cut.com/">
+    <link rel="canonical" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
     <link rel="alternate" hreflang="en" href="https://get5cut.com/">
     <link rel="alternate" hreflang="de" href="https://get5cut.com/de/">
     <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
-    <meta property="og:title" content="5cut – Remove Silence from Lectures, Podcasts & Videos">
-    <meta property="og:description" content="Turn a 90-minute lecture into 55 minutes. On-device transcription in 30+ languages. Speaker identification. Batch processing. Free for iOS.">
+    <meta property="og:title" content="Remove Silence from OBS Streams & Recordings | 5cut">
+    <meta property="og:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on Mac and iOS.">
     <meta property="og:url" content="https://get5cut.com/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">
     <meta property="og:locale:alternate" content="de_DE">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="5cut – Remove Silence from Lectures, Podcasts & Videos">
-    <meta name="twitter:description" content="Turn a 90-minute lecture into 55 minutes. On-device transcription in 30+ languages. Free for iOS.">
+    <meta name="twitter:title" content="Remove Silence from OBS Streams & Recordings | 5cut">
+    <meta name="twitter:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on Mac and iOS.">
     <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
     <script type="application/ld+json">
     {
@@ -68,50 +68,18 @@
         "mainEntity": [
             {
                 "@type": "Question",
-                "name": "How does 5cut remove silence from videos?",
+                "name": "Does 5cut support OBS recordings?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "5cut analyzes the audio waveform of your video directly on your iPhone or iPad. It detects segments below a configurable silence threshold, color-codes them (green for speech, red for silence), and removes or speeds through the silent parts. You can fine-tune with a slider or use Smart Mode presets (Gentle, Moderate, Aggressive)."
+                    "text": "Yes, 5cut fully supports MP4 recordings exported from OBS Studio. If you record in MKV, simply remux to MP4 within OBS before importing."
                 }
             },
             {
                 "@type": "Question",
-                "name": "Can 5cut generate subtitles and captions?",
+                "name": "Will silence removal desync my game audio?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Yes. 5cut includes on-device transcription supporting 30+ languages. You can burn subtitles directly into the video or export them as SRT files. All processing happens on your device — no cloud uploads required."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does 5cut identify different speakers?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. 5cut can automatically identify up to 4 speakers in a recording. Each speaker is color-coded and can be renamed for easy reference."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I process multiple lecture recordings at once?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. With batch processing (Premium), you can queue up a whole semester of lectures and process them all with the same or individual settings. Processing continues in the background."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is 5cut free to use?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "5cut is free with 10 exports per month. Premium removes the export limit and watermark for $1.99/month or a one-time $6.99 lifetime purchase."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does 5cut upload my videos to the cloud?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No. All processing — silence detection, transcription, speaker identification — happens entirely on your device. Your videos never leave your phone."
+                    "text": "No, 5cut trims the entire video and audio timeline simultaneously, ensuring perfect lip-sync and game audio synchronization."
                 }
             }
         ]
@@ -385,15 +353,16 @@
     <div class="lang-switch"><a href="/de/">Deutsch</a> | <a href="/zh/">中文</a></div>
     <div class="container">
         <img src="/icon.svg" alt="5cut app icon — automatic silence remover for lectures and videos" class="app-icon">
-        <h1 class="brand"><span class="highlight">5cut</span></h1>
-        <h2 class="tagline">Turn a 90-minute lecture into 55 minutes</h2>
+        <h1 class="brand" style="font-size: 36px; line-height: 1.2; letter-spacing: -0.02em; text-transform: none; margin-bottom: 16px;"><span class="highlight">Remove Silence from OBS Recordings</span></h1>
+        <h2 class="tagline">Edit your Twitch VODs and OBS streams in minutes, not hours.</h2>
+        
+        <div style="text-align: left; margin-bottom: 48px;">
+            <p style="font-size: 16px; color: #444; line-height: 1.6;">Streamers and content creators often end up with hours of OBS Studio footage filled with dead air. 5cut analyzes your OBS MP4 recordings and automatically cuts the silent segments, allowing you to quickly export a high-energy, action-packed video ready for YouTube or TikTok.</p>
+        </div>
 
         <div class="divider"></div>
 
-        <div class="callout">
-            <div class="stat">~30 min</div>
-            <div class="stat-label">of silence in a typical 90-minute lecture</div>
-        </div>
+        
 
         <div class="features">
             <div class="feature">
@@ -466,35 +435,14 @@
         <section class="faq">
             <h3>Frequently asked questions</h3>
             <details>
-                <summary>How does silence detection work?</summary>
-                <p>5cut analyzes the audio waveform of your video on-device. Segments below the silence threshold are color-coded red. You can drag a slider to adjust what counts as "silence," or use one of three Smart Mode presets: Gentle (keeps more), Moderate (balanced), or Aggressive (maximum time saved).</p>
+                <summary>Does 5cut support OBS recordings?</summary>
+                <p>Yes, 5cut fully supports MP4 recordings exported from OBS Studio. If you record in MKV, simply remux to MP4 within OBS before importing.</p>
             </details>
             <details>
-                <summary>Can I add subtitles to foreign language lectures?</summary>
-                <p>Yes. 5cut includes on-device transcription supporting over 30 languages — including English, German, Chinese, Japanese, Korean, Spanish, French, and many more. You can burn subtitles directly into the video or export them as an SRT file. Everything is processed on your device, so your recordings never leave your phone.</p>
+                <summary>Will silence removal desync my game audio?</summary>
+                <p>No, 5cut trims the entire video and audio timeline simultaneously, ensuring perfect lip-sync and game audio synchronization.</p>
             </details>
-            <details>
-                <summary>Does it work with Zoom and online course recordings?</summary>
-                <p>Yes. Import any MP4, MOV, or HEVC video. 5cut works with Zoom recordings, Microsoft Teams meetings, screen recordings, and any video file with an audio track.</p>
-            </details>
-            <details>
-                <summary>Can I process a whole semester of lectures at once?</summary>
-                <p>Yes. With batch processing (Premium), you can queue up multiple recordings and process them with individual or shared settings. Processing continues in the background so you can use other apps.</p>
-            </details>
-            <details>
-                <summary>Is my data private?</summary>
-                <p>Completely. All processing — silence detection, transcription, speaker identification — happens entirely on your device. No cloud uploads, no accounts, no data collection. Your videos never leave your phone.</p>
-            </details>
-            <details>
-                <summary>How much does 5cut cost?</summary>
-                <p>5cut is free to use with 10 exports per month. Premium removes the export limit and watermark for $1.99/month or a one-time $6.99 lifetime purchase.</p>
-            </details>
-            <details>
-                <summary>What languages is the app available in?</summary>
-                <p>The app interface is available in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese, and Simplified Chinese. On-device transcription supports over 30 languages.</p>
-            </details>
-        </section>
-    </div>
+        </div>
 
     <footer>
         <div class="footer-grid">
