@@ -4,83 +4,393 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Speed Up Zoom Recordings – Remove Dead Air | 5cut</title>
-    <meta name="description" content="Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device processing for iOS. No uploads.">
+    <meta name="description" content="Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device processing for iOS.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="canonical" href="https://get5cut.com/speed-up-zoom-recordings/">
-    <meta property="og:title" content="Speed Up Zoom Recordings – Remove Dead Air">
-    <meta property="og:description" content="Remove dead air from Zoom, Teams, and online course recordings. Free iOS app.">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/speed-up-zoom-recordings/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/speed-up-zoom-recordings/">
+    <meta property="og:title" content="Speed Up Zoom Recordings – Remove Dead Air | 5cut">
+    <meta property="og:description" content="Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device processing for iOS.">
     <meta property="og:url" content="https://get5cut.com/speed-up-zoom-recordings/">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Speed Up Zoom Recordings – Remove Dead Air | 5cut">
+    <meta name="twitter:description" content="Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device processing for iOS.">
+    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free tier with 10 exports per month"
+            },
+            {
+                "@type": "Offer",
+                "price": "1.99",
+                "priceCurrency": "USD",
+                "description": "Monthly subscription for unlimited exports",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "billingDuration": "P1M"
+                }
+            },
+            {
+                "@type": "Offer",
+                "price": "6.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime one-time purchase"
+            }
+        ],
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/apple-touch-icon.png",
+        "softwareVersion": "1.0"
+    }
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; background: #F5F5F5; color: #111; padding: 48px 24px; line-height: 1.6; }
-        .container { max-width: 640px; margin: 0 auto; }
-        h1 { font-family: Impact, 'Arial Black', sans-serif; font-size: 36px; letter-spacing: -0.03em; text-transform: uppercase; margin-bottom: 8px; line-height: 1.1; }
-        .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; }
-        h2 { font-size: 20px; font-weight: 700; margin-top: 36px; margin-bottom: 12px; }
-        p { font-size: 15px; color: #333; margin-bottom: 16px; }
-        ul, ol { font-size: 15px; color: #333; margin-bottom: 16px; padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        a { color: #111; }
-        .cta { display: inline-block; margin: 24px 0; }
-        .cta img { height: 54px; }
-        .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; }
-        .back:hover { text-decoration: underline; }
-        footer { margin-top: 64px; font-size: 12px; color: #999; text-align: center; }
-        footer a { color: #666; text-decoration: none; }
-        .links { display: flex; gap: 24px; justify-content: center; margin-top: 8px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Speed Up Zoom Recordings by Removing Dead Air</h1>
+    <div class="lang-switch">
+        <a href="/speed-up-zoom-recordings/" class="active">EN</a> | 
+        <a href="/de/speed-up-zoom-recordings/" class="">DE</a> | 
+        <a href="/zh/speed-up-zoom-recordings/" class="">ZH</a> | 
+        <a href="/fr/speed-up-zoom-recordings/" class="">FR</a> | 
+        <a href="/vi/speed-up-zoom-recordings/" class="">VI</a> | 
+        <a href="/es/speed-up-zoom-recordings/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Speed Up Zoom Recordings</span></h1>
+        <h2 class="tagline">Cut out the dead air automatically.</h2>
+
         <div class="divider"></div>
 
-        <p>Zoom lectures, Microsoft Teams meetings, and online course recordings are full of dead air: the host waiting for people to join, screen sharing delays, the professor reading chat questions silently, or long pauses between topics.</p>
-        <p>5cut detects these silent segments and removes them automatically.</p>
+        <section class="intro-text">
+            <p>Watching a 2-hour Zoom lecture is painful, especially when 20 minutes of it is just the professor fixing their mic or waiting for students to answer. 5cut automatically cuts out the dead air so you can get through your recordings faster without missing any content.</p>
+        </section>
 
-        <h2>Common dead air in online recordings</h2>
-        <ul>
-            <li><strong>Waiting room periods</strong> — "Let's give people a few more minutes"</li>
-            <li><strong>Screen sharing transitions</strong> — gaps between apps</li>
-            <li><strong>Chat reading</strong> — professor silently reading questions</li>
-            <li><strong>Breakout room transitions</strong></li>
-            <li><strong>Technical difficulties</strong> — "Can everyone hear me?"</li>
-        </ul>
+        <section class="privacy-box">
+            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
+            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+        </section>
 
-        <h2>How it works</h2>
-        <ol>
-            <li><strong>Download</strong> your Zoom recording to your iPhone</li>
-            <li><strong>Import</strong> into 5cut from Photos or Files</li>
-            <li><strong>Choose a Smart Mode</strong> — Gentle, Moderate, or Aggressive</li>
-            <li><strong>Export</strong> — trimmed recording saved to camera roll</li>
-        </ol>
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>In-App Recorder & Bookmarks</h3>
+                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Automatic Silence Removal</h3>
+                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>On-Device Transcription & AI Summaries</h3>
+                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Export to Apple Notes, Anki & Notion</h3>
+                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Speaker Identification</h3>
+                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                </div>
+            </div>
+        </article>
 
-        <h2>Works with all platforms</h2>
-        <p>5cut works with Zoom (MP4, M4V), Microsoft Teams, Google Meet, Webex, Blackboard Collaborate, Canvas Studio, Panopto, Kaltura, and any MP4, MOV, or HEVC video.</p>
+        <section class="how-it-works">
+            <h3>How it works</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>See the waveform</strong> — green is speech, red is silence</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Adjust the threshold</strong> or pick a Smart Mode preset</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
+            </div>
+        </section>
 
-        <h2>Better than 2× speed</h2>
-        <p>2× makes both speech and silence faster. If the professor speaks in a language you're learning, that's impossible to follow. Silence removal keeps speech natural and only cuts the parts where nothing is said.</p>
-
-        <h2>Add subtitles too</h2>
-        <p>After removing silence, generate subtitles in 30+ languages and burn them into the video. Great for foreign language lectures or poor audio quality.</p>
-
-        <h2>Batch process a whole course</h2>
-        <p>Queue up a full semester of recorded Zoom lectures with Premium batch processing. Processing continues in the background.</p>
-
-        <h2>Privacy</h2>
-        <p>Everything on your device. No uploads, no account, no data collection.</p>
-
-        <a class="cta" href="https://apps.apple.com/app/5cut/id6758529319">
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
-        <br>
-        <a class="back" href="/">&larr; Back to 5cut</a>
-    </div>
-        <footer>
+    </main>
+
+    <footer>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>Use Cases</h4>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remove Silence from Lecture Recordings – 5cut for iOS</title>
-    <meta name="description" content="Automatically remove silence and dead air from recorded university lectures. Save hours of study time before finals. Free iOS app with on-device processing — no uploads, no account.">
+    <meta name="description" content="Automatically remove silence and dead air from recorded university lectures. Save hours of study time before finals.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -12,28 +12,54 @@
     <link rel="alternate" hreflang="en" href="https://get5cut.com/remove-silence-from-lectures/">
     <link rel="alternate" hreflang="de" href="https://get5cut.com/de/remove-silence-from-lectures/">
     <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/remove-silence-from-lectures/">
-    <meta property="og:title" content="Remove Silence from Lecture Recordings – 5cut">
-    <meta property="og:description" content="A 90-minute lecture has ~30 minutes of silence. 5cut removes it automatically so you can study faster.">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/remove-silence-from-lectures/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/remove-silence-from-lectures/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/remove-silence-from-lectures/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/remove-silence-from-lectures/">
+    <meta property="og:title" content="Remove Silence from Lecture Recordings – 5cut for iOS">
+    <meta property="og:description" content="Automatically remove silence and dead air from recorded university lectures. Save hours of study time before finals.">
     <meta property="og:url" content="https://get5cut.com/remove-silence-from-lectures/">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Remove Silence from Lecture Recordings – 5cut for iOS">
+    <meta name="twitter:description" content="Automatically remove silence and dead air from recorded university lectures. Save hours of study time before finals.">
+    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "How to Remove Silence from Lecture Recordings on iPhone",
-        "description": "Learn how to automatically cut dead air from recorded university lectures using 5cut for iOS. Save hours of study time.",
-        "author": {
-            "@type": "Organization",
-            "name": "5cut"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "5cut",
-            "url": "https://get5cut.com"
-        },
-        "datePublished": "2026-05-01",
-        "mainEntityOfPage": "https://get5cut.com/remove-silence-from-lectures/"
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free tier with 10 exports per month"
+            },
+            {
+                "@type": "Offer",
+                "price": "1.99",
+                "priceCurrency": "USD",
+                "description": "Monthly subscription for unlimited exports",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "billingDuration": "P1M"
+                }
+            },
+            {
+                "@type": "Offer",
+                "price": "6.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime one-time purchase"
+            }
+        ],
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/apple-touch-icon.png",
+        "softwareVersion": "1.0"
     }
     </script>
     <style>
@@ -42,85 +68,168 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
             background: #F5F5F5;
             color: #111;
-            padding: 48px 24px;
-            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
         }
         .container {
             max-width: 640px;
-            margin: 0 auto;
-        }
-        h1 {
-            font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 36px;
-            letter-spacing: -0.03em;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-            line-height: 1.1;
-        }
-        .divider {
-            width: 80px;
-            height: 4px;
-            background: #FFCC00;
-            margin-bottom: 32px;
-        }
-        h2 {
-            font-size: 20px;
-            font-weight: 700;
-            margin-top: 36px;
-            margin-bottom: 12px;
-        }
-        h3 {
-            font-size: 16px;
-            font-weight: 700;
-            margin-top: 28px;
-            margin-bottom: 8px;
-        }
-        p {
-            font-size: 15px;
-            color: #333;
-            margin-bottom: 16px;
-        }
-        ul, ol {
-            font-size: 15px;
-            color: #333;
-            margin-bottom: 16px;
-            padding-left: 20px;
-        }
-        li { margin-bottom: 6px; }
-        a { color: #111; }
-        .callout {
-            background: #111;
-            color: #fff;
-            border-radius: 12px;
-            padding: 24px;
-            margin: 32px 0;
+            width: 100%;
             text-align: center;
         }
-        .callout .stat {
+        .brand {
             font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 48px;
-            letter-spacing: -0.03em;
-            line-height: 1;
-            margin-bottom: 4px;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
         }
-        .callout .stat-label {
-            font-size: 14px;
-            color: #999;
+        .highlight {
+            position: relative;
+            display: inline;
         }
-        .cta {
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
             display: inline-block;
-            margin: 24px 0;
+            margin-bottom: 32px;
         }
-        .cta img { height: 54px; }
-        .back {
-            display: inline-block;
-            margin-top: 48px;
-            font-size: 14px;
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
             color: #666;
             text-decoration: none;
+            margin: 0 4px;
         }
-        .back:hover { text-decoration: underline; }
-                footer {
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
             margin-top: 64px;
             font-size: 13px;
             color: #777;
@@ -156,65 +265,132 @@
             border-top: 1px solid #eee;
             padding-top: 24px;
         }
-        .lang-switch { text-align: right; font-size: 13px; margin-bottom: 20px; }
-        .lang-switch a { color: #666; text-decoration: none; }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="lang-switch"><a href="/de/remove-silence-from-lectures/">Deutsch</a> | <a href="/zh/remove-silence-from-lectures/">中文</a></div>
-        <h1>How to Remove Silence from Lecture Recordings</h1>
+    <div class="lang-switch">
+        <a href="/remove-silence-from-lectures/" class="active">EN</a> | 
+        <a href="/de/remove-silence-from-lectures/" class="">DE</a> | 
+        <a href="/zh/remove-silence-from-lectures/" class="">ZH</a> | 
+        <a href="/fr/remove-silence-from-lectures/" class="">FR</a> | 
+        <a href="/vi/remove-silence-from-lectures/" class="">VI</a> | 
+        <a href="/es/remove-silence-from-lectures/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Remove Silence from Lectures</span></h1>
+        <h2 class="tagline">Save hours of study time before finals.</h2>
+
         <div class="divider"></div>
 
-        <p>If you record lectures — or download them from your university's LMS — you know the problem: a 90-minute recording has about 30 minutes of silence. Professors pause between slides, students ask quiet questions off-mic, and there are long gaps during live demonstrations.</p>
+        <section class="intro-text">
+            <p>Did you know a typical 90-minute university lecture contains over 30 minutes of dead air? Professors pausing, writing on the board, or waiting for student responses. 5cut automatically detects and removes these silent gaps, turning a long lecture into a dense, fast-paced study session.</p>
+        </section>
 
-        <p>That silence wastes your study time. Watching at 2× speed helps, but it only compresses silence — it doesn't remove it. <strong>5cut removes it.</strong></p>
+        <section class="privacy-box">
+            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
+            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+        </section>
 
-        <div class="callout">
-            <div class="stat">90 → 55 min</div>
-            <div class="stat-label">Average time saved on a typical university lecture</div>
-        </div>
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>In-App Recorder & Bookmarks</h3>
+                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Automatic Silence Removal</h3>
+                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>On-Device Transcription & AI Summaries</h3>
+                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Export to Apple Notes, Anki & Notion</h3>
+                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Speaker Identification</h3>
+                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                </div>
+            </div>
+        </article>
 
-        <h2>Why silence removal beats 2× speed</h2>
-        <p>Speeding up a video makes everything faster — the silence and the speech. If a professor already speaks quickly, 2× makes them impossible to follow, especially in a foreign language.</p>
-        <p>Silence removal keeps speech at normal speed and only cuts the parts where nothing is being said. You hear every word clearly, but the dead air between sentences and slides is gone.</p>
+        <section class="how-it-works">
+            <h3>How it works</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>See the waveform</strong> — green is speech, red is silence</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Adjust the threshold</strong> or pick a Smart Mode preset</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
+            </div>
+        </section>
 
-        <h2>How 5cut works</h2>
-        <ol>
-            <li><strong>Import</strong> your lecture from Photos, Files, or share it directly from another app</li>
-            <li><strong>5cut analyzes the audio</strong> and color-codes the waveform — green for speech, red for silence</li>
-            <li><strong>Adjust the threshold</strong> with a slider, or pick a Smart Mode preset (Gentle, Moderate, or Aggressive)</li>
-            <li><strong>Export</strong> — the processed video is saved to your camera roll, ready to watch</li>
-        </ol>
-
-        <h2>Built for students</h2>
-        <h3>Finals week</h3>
-        <p>You have 20 hours of lecture recordings to review. At 2× speed, that's still 10 hours. With 5cut removing the silence, it's 6 — because the pauses are gone, not just faster.</p>
-
-        <h3>Foreign language lectures</h3>
-        <p>If you're studying abroad or taking courses in a second language, you need to hear every word clearly. 5cut removes silence without touching the speech, so you can concentrate on understanding the content rather than enduring dead air.</p>
-
-        <h3>Online courses and Zoom recordings</h3>
-        <p>Zoom lectures and MOOC recordings often have especially long pauses — the professor answering chat questions, screen sharing lag, or simply waiting for students to catch up. 5cut handles all of these.</p>
-
-        <h2>Also generates subtitles</h2>
-        <p>5cut can transcribe your lecture in over 30 languages directly on your device. Burn subtitles into the video for easy review, or export as an SRT file. This is especially useful for lectures in a foreign language where you want to read along while listening.</p>
-
-        <h2>Privacy first</h2>
-        <p>All processing happens on your iPhone or iPad. Your lecture recordings are never uploaded to any server. No account required, no data collected.</p>
-
-        <h2>Free to start</h2>
-        <p>5cut is free with 10 exports per month. Premium ($1.99/month or $6.99 lifetime) removes the limit and watermark, and adds batch processing so you can queue up a whole semester at once.</p>
-
-        <a class="cta" href="https://apps.apple.com/app/5cut/id6758529319">
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
+    </main>
 
-        <br>
-        <a class="back" href="/">&larr; Back to 5cut</a>
-    </div>
-
-        <footer>
+    <footer>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>Use Cases</h4>

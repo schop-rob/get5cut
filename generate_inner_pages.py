@@ -1,70 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
+import os
+import sys
+
+# We need to import the data from generate_pages.py and data_pages.py
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from data_pages import pages_data
+
+# Since generate_pages executes immediately, we will read it as a string to extract the `languages` dict.
+# Actually, simpler way: just copy the languages dict or use a regex/ast, but let's just define a quick getter.
+def get_languages():
+    import ast
+    with open('generate_pages.py', 'r', encoding='utf-8') as f:
+        content = f.read()
+        dict_str = content.split("languages = ")[1].split("\n\nhtml_template")[0]
+        return ast.literal_eval(dict_str)
+
+languages = get_languages()
+
+inner_page_template = """<!DOCTYPE html>
+<html lang="{lang_code}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transcribe Lectures on iPhone – Subtitles in 30+ Languages | 5cut</title>
-    <meta name="description" content="Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no cloud.">
+    <title>{page_title}</title>
+    <meta name="description" content="{page_desc}">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://get5cut.com/transcribe-lectures/">
-    <link rel="alternate" hreflang="en" href="https://get5cut.com/transcribe-lectures/">
-    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/transcribe-lectures/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/transcribe-lectures/">
-    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/transcribe-lectures/">
-    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/transcribe-lectures/">
-    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/transcribe-lectures/">
-    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/transcribe-lectures/">
-    <meta property="og:title" content="Transcribe Lectures on iPhone – Subtitles in 30+ Languages | 5cut">
-    <meta property="og:description" content="Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no cloud.">
-    <meta property="og:url" content="https://get5cut.com/transcribe-lectures/">
+    <link rel="canonical" href="https://get5cut.com/{page_path}/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/{page_path}/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/{page_path}/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/{page_path}/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/{page_path}/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/{page_path}/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/{page_path}/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/{page_path}/">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{page_desc}">
+    <meta property="og:url" content="https://get5cut.com/{page_path}/">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Transcribe Lectures on iPhone – Subtitles in 30+ Languages | 5cut">
-    <meta name="twitter:description" content="Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no cloud.">
+    <meta name="twitter:title" content="{page_title}">
+    <meta name="twitter:description" content="{page_desc}">
     <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
     <script type="application/ld+json">
-    {
+    {{
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "5cut",
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
-        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
+        "description": "{description}",
         "offers": [
-            {
+            {{
                 "@type": "Offer",
                 "price": "0",
                 "priceCurrency": "USD",
                 "description": "Free tier with 10 exports per month"
-            },
-            {
+            }},
+            {{
                 "@type": "Offer",
                 "price": "1.99",
                 "priceCurrency": "USD",
                 "description": "Monthly subscription for unlimited exports",
-                "priceSpecification": {
+                "priceSpecification": {{
                     "@type": "UnitPriceSpecification",
                     "billingDuration": "P1M"
-                }
-            },
-            {
+                }}
+            }},
+            {{
                 "@type": "Offer",
                 "price": "6.99",
                 "priceCurrency": "USD",
                 "description": "Lifetime one-time purchase"
-            }
+            }}
         ],
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
         "screenshot": "https://get5cut.com/apple-touch-icon.png",
         "softwareVersion": "1.0"
-    }
+    }}
     </script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
+        * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+        body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
             background: #F5F5F5;
             color: #111;
@@ -74,25 +92,25 @@
             align-items: center;
             justify-content: center;
             padding: 40px 24px;
-        }
-        .container {
+        }}
+        .container {{
             max-width: 640px;
             width: 100%;
             text-align: center;
-        }
-        .brand {
+        }}
+        .brand {{
             font-family: Impact, 'Arial Black', sans-serif;
             font-size: 36px;
             font-weight: 900;
             letter-spacing: -0.02em;
             line-height: 1.2;
             margin-bottom: 16px;
-        }
-        .highlight {
+        }}
+        .highlight {{
             position: relative;
             display: inline;
-        }
-        .highlight::after {
+        }}
+        .highlight::after {{
             content: '';
             position: absolute;
             bottom: 0.05em;
@@ -101,35 +119,35 @@
             height: 0.3em;
             background: #FFCC00;
             z-index: -1;
-        }
-        .tagline {
+        }}
+        .tagline {{
             font-size: 18px;
             font-weight: 400;
             color: #555;
             margin-bottom: 48px;
             letter-spacing: 0.02em;
-        }
-        .intro-text {
+        }}
+        .intro-text {{
             text-align: left;
             margin-bottom: 48px;
             font-size: 16px;
             color: #444;
             line-height: 1.6;
-        }
-        .intro-text p {
+        }}
+        .intro-text p {{
             margin-bottom: 16px;
-        }
-        .features {
+        }}
+        .features {{
             text-align: left;
             margin-bottom: 48px;
-        }
-        .feature {
+        }}
+        .feature {{
             display: flex;
             align-items: flex-start;
             gap: 12px;
             margin-bottom: 20px;
-        }
-        .feature-icon {
+        }}
+        .feature-icon {{
             width: 32px;
             height: 32px;
             background: #111;
@@ -139,48 +157,48 @@
             justify-content: center;
             flex-shrink: 0;
             font-size: 16px;
-        }
-        .feature-text h3 {
+        }}
+        .feature-text h3 {{
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 2px;
-        }
-        .feature-text p {
+        }}
+        .feature-text p {{
             font-size: 13px;
             color: #666;
             line-height: 1.4;
-        }
-        .app-icon {
+        }}
+        .app-icon {{
             width: 128px;
             height: 128px;
             border-radius: 22.37%;
             box-shadow: 0 4px 24px rgba(0,0,0,0.12);
             margin-bottom: 24px;
-        }
-        .use-cases {
+        }}
+        .use-cases {{
             text-align: left;
             margin-bottom: 48px;
-        }
-        .use-cases h3 {
+        }}
+        .use-cases h3 {{
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 8px;
-        }
-        .use-cases p {
+        }}
+        .use-cases p {{
             font-size: 13px;
             color: #666;
             line-height: 1.5;
             margin-bottom: 8px;
-        }
-        .privacy-box {
+        }}
+        .privacy-box {{
             background: #E8F5E9;
             border: 1px solid #4CAF50;
             border-radius: 12px;
             padding: 24px;
             margin-bottom: 48px;
             text-align: left;
-        }
-        .privacy-box h3 {
+        }}
+        .privacy-box h3 {{
             font-size: 16px;
             font-weight: 700;
             color: #2E7D32;
@@ -188,26 +206,26 @@
             display: flex;
             align-items: center;
             gap: 8px;
-        }
-        .privacy-box p {
+        }}
+        .privacy-box p {{
             font-size: 13px;
             color: #388E3C;
             line-height: 1.5;
-        }
-        .app-store-badge {
+        }}
+        .app-store-badge {{
             display: inline-block;
             margin-bottom: 32px;
-        }
-        .app-store-badge img {
+        }}
+        .app-store-badge img {{
             height: 54px;
-        }
-        .divider {
+        }}
+        .divider {{
             width: 120px;
             height: 6px;
             background: #FFCC00;
             margin: 0 auto 32px;
-        }
-        .lang-switch {
+        }}
+        .lang-switch {{
             position: absolute;
             top: 16px;
             right: 24px;
@@ -216,71 +234,71 @@
             padding: 4px 12px;
             border-radius: 16px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-        }
-        .lang-switch a {
+        }}
+        .lang-switch a {{
             color: #666;
             text-decoration: none;
             margin: 0 4px;
-        }
-        .lang-switch a.active {
+        }}
+        .lang-switch a.active {{
             font-weight: 700;
             color: #111;
-        }
-        .lang-switch a:hover {
+        }}
+        .lang-switch a:hover {{
             text-decoration: underline;
-        }
-        footer {
+        }}
+        footer {{
             margin-top: 64px;
             font-size: 13px;
             color: #777;
             text-align: left;
             width: 100%;
             max-width: 800px;
-        }
-        .footer-grid {
+        }}
+        .footer-grid {{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 32px;
             margin-bottom: 48px;
-        }
-        .footer-col h4 {
+        }}
+        .footer-col h4 {{
             font-size: 14px;
             color: #111;
             margin-bottom: 16px;
-        }
-        .footer-col a {
+        }}
+        .footer-col a {{
             display: block;
             color: #666;
             text-decoration: none;
             margin-bottom: 8px;
-        }
-        .footer-col a:hover {
+        }}
+        .footer-col a:hover {{
             text-decoration: underline;
             color: #111;
-        }
-        .copyright {
+        }}
+        .copyright {{
             text-align: center;
             font-size: 12px;
             color: #999;
             border-top: 1px solid #eee;
             padding-top: 24px;
-        }
-        .how-it-works {
+        }}
+        .how-it-works {{
             text-align: left;
             margin-bottom: 48px;
-        }
-        .how-it-works h3 {
+        }}
+        .how-it-works h3 {{
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
-        }
-        .step {
+        }}
+        .step {{
             display: flex;
             align-items: flex-start;
             gap: 12px;
             margin-bottom: 16px;
-        }
-        .step-number {
+        }}
+        .step-number {{
             width: 24px;
             height: 24px;
             background: #FFCC00;
@@ -291,97 +309,97 @@
             font-size: 13px;
             font-weight: 700;
             flex-shrink: 0;
-        }
-        .step p {
+        }}
+        .step p {{
             font-size: 13px;
             color: #666;
             line-height: 1.4;
-        }
-        .step strong {
+        }}
+        .step strong {{
             color: #111;
-        }
+        }}
     </style>
 </head>
 <body>
     <div class="lang-switch">
-        <a href="/transcribe-lectures/" class="active">EN</a> | 
-        <a href="/de/transcribe-lectures/" class="">DE</a> | 
-        <a href="/zh/transcribe-lectures/" class="">ZH</a> | 
-        <a href="/fr/transcribe-lectures/" class="">FR</a> | 
-        <a href="/vi/transcribe-lectures/" class="">VI</a> | 
-        <a href="/es/transcribe-lectures/" class="">ES</a>
+        <a href="/{page_path}/" class="{en_active}">EN</a> | 
+        <a href="/de/{page_path}/" class="{de_active}">DE</a> | 
+        <a href="/zh/{page_path}/" class="{zh_active}">ZH</a> | 
+        <a href="/fr/{page_path}/" class="{fr_active}">FR</a> | 
+        <a href="/vi/{page_path}/" class="{vi_active}">VI</a> | 
+        <a href="/es/{page_path}/" class="{es_active}">ES</a>
     </div>
     <main class="container">
         <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-        <h1 class="brand"><span class="highlight">Transcribe Lectures on iPhone</span></h1>
-        <h2 class="tagline">On-device, private, and fast.</h2>
+        <h1 class="brand"><span class="highlight">{page_h1}</span></h1>
+        <h2 class="tagline">{page_tagline}</h2>
 
         <div class="divider"></div>
 
         <section class="intro-text">
-            <p>Stop manually typing out lecture notes. With 5cut, you can generate accurate transcripts and AI summaries for any lecture directly on your iPhone. Operating entirely on-device, your audio is never uploaded to the cloud, ensuring absolute privacy for sensitive academic recordings.</p>
+            {page_intro}
         </section>
 
         <section class="privacy-box">
-            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
-            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
+            <p>{privacy_desc}</p>
         </section>
 
         <article class="features">
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>In-App Recorder & Bookmarks</h3>
-                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                    <h3>{feat1_title}</h3>
+                    <p>{feat1_desc}</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>Automatic Silence Removal</h3>
-                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
+                    <h3>{feat2_title}</h3>
+                    <p>{feat2_desc}</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>On-Device Transcription & AI Summaries</h3>
-                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
+                    <h3>{feat3_title}</h3>
+                    <p>{feat3_desc}</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>Export to Apple Notes, Anki & Notion</h3>
-                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
+                    <h3>{feat4_title}</h3>
+                    <p>{feat4_desc}</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Speaker Identification</h3>
-                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                    <h3>{feat5_title}</h3>
+                    <p>{feat5_desc}</p>
                 </div>
             </div>
         </article>
 
         <section class="how-it-works">
-            <h3>How it works</h3>
+            <h3>{how_it_works}</h3>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
+                <p>{step1}</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>See the waveform</strong> — green is speech, red is silence</p>
+                <p>{step2}</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>Adjust the threshold</strong> or pick a Smart Mode preset</p>
+                <p>{step3}</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
+                <p>{step4}</p>
             </div>
         </section>
 
@@ -393,18 +411,18 @@
     <footer>
         <div class="footer-grid">
             <div class="footer-col">
-                <h4>Use Cases</h4>
-                <a href="/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
-                <a href="/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
-                <a href="/remove-silence-from-lectures/">University Lectures</a>
-                <a href="/podcast-silence-remover/">Podcasts</a>
+                <h4>{footer_use_cases}</h4>
+                <a href="{prefix}/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
+                <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
+                <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
+                <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
             </div>
             <div class="footer-col">
-                <h4>Alternatives</h4>
-                <a href="/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+                <h4>{footer_alternatives}</h4>
+                <a href="{prefix}/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
             </div>
             <div class="footer-col">
-                <h4>Legal & Support</h4>
+                <h4>{footer_legal}</h4>
                 <a href="/support/">Support & Contact</a>
                 <a href="/privacy/">Privacy Policy</a>
                 <a href="/terms/">Terms of Service</a>
@@ -415,3 +433,46 @@
     </footer>
 </body>
 </html>
+"""
+
+for page_path, translations in pages_data.items():
+    for lang in ["en", "de", "zh", "fr", "vi", "es"]:
+        # Ensure we have data for this language, fallback to EN if missing
+        page_lang_data = translations.get(lang, translations["en"])
+        
+        # Get base data for features, footer, privacy, etc.
+        base_lang_data = languages[lang]
+        
+        # Combine
+        context = {**base_lang_data}
+        context["page_title"] = page_lang_data["title"]
+        context["page_desc"] = page_lang_data["desc"]
+        context["page_h1"] = page_lang_data["h1"]
+        context["page_tagline"] = page_lang_data["tagline"]
+        context["page_intro"] = page_lang_data["intro"]
+        context["page_path"] = page_lang_data.get("path", page_path)
+        
+        # Determine prefix for footer links
+        prefix = "" if lang == "en" else f"/{lang}"
+        context["prefix"] = prefix
+        
+        # Determine directory path
+        if lang == "en":
+            directory = page_path
+        else:
+            directory = os.path.join(lang, page_path)
+            
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            
+        # Setup active classes
+        for l in ["en", "de", "zh", "fr", "vi", "es"]:
+            context[f"{l}_active"] = "active" if l == lang else ""
+            
+        output_html = inner_page_template.format(**context)
+        
+        filepath = os.path.join(directory, "index.html")
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(output_html)
+            
+        print(f"Generated {filepath}")

@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remove Silence from OBS Streams & Recordings | 5cut</title>
-    <meta name="description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on your iPhone or iPad.">
+    <meta name="description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your recordings on your iPhone.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="canonical" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
-    <link rel="alternate" hreflang="en" href="https://get5cut.com/">
-    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/">
-    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
     <meta property="og:title" content="Remove Silence from OBS Streams & Recordings | 5cut">
-    <meta property="og:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on your iPhone or iPad.">
-    <meta property="og:url" content="https://get5cut.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="de_DE">
+    <meta property="og:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your recordings on your iPhone.">
+    <meta property="og:url" content="https://get5cut.com/use-cases/remove-silence-from-obs/">
+    <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Remove Silence from OBS Streams & Recordings | 5cut">
-    <meta name="twitter:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your MKV/MP4 recordings on your iPhone or iPad.">
+    <meta name="twitter:description" content="Edit your OBS Studio VODs faster. Automatically cut silence from your recordings on your iPhone.">
     <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
     <script type="application/ld+json">
     {
@@ -31,7 +32,7 @@
         "name": "5cut",
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
-        "description": "Automatically remove silence from lecture recordings, podcasts, and videos. On-device transcription in 30+ languages, speaker identification, and batch processing. Perfect for students and expats.",
+        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
         "offers": [
             {
                 "@type": "Offer",
@@ -56,12 +57,11 @@
                 "description": "Lifetime one-time purchase"
             }
         ],
-        "featureList": "Silence removal, on-device transcription in 30+ languages, speaker identification, batch processing, Smart Mode presets, Apple Pencil support, share extension",
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
         "screenshot": "https://get5cut.com/apple-touch-icon.png",
         "softwareVersion": "1.0"
     }
     </script>
-    
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -76,18 +76,17 @@
             padding: 40px 24px;
         }
         .container {
-            max-width: 480px;
+            max-width: 640px;
             width: 100%;
             text-align: center;
         }
         .brand {
             font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 96px;
+            font-size: 36px;
             font-weight: 900;
-            letter-spacing: -0.04em;
-            text-transform: uppercase;
-            line-height: 1;
-            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
         }
         .highlight {
             position: relative;
@@ -109,6 +108,16 @@
             color: #555;
             margin-bottom: 48px;
             letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
         }
         .features {
             text-align: left;
@@ -163,6 +172,28 @@
             line-height: 1.5;
             margin-bottom: 8px;
         }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
         .app-store-badge {
             display: inline-block;
             margin-bottom: 32px;
@@ -181,10 +212,19 @@
             top: 16px;
             right: 24px;
             font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         .lang-switch a {
             color: #666;
             text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
         }
         .lang-switch a:hover {
             text-decoration: underline;
@@ -225,49 +265,6 @@
             border-top: 1px solid #eee;
             padding-top: 24px;
         }
-
-        /* Expandable FAQ section */
-        .faq {
-            text-align: left;
-            margin-bottom: 48px;
-        }
-        .faq h3 {
-            font-size: 15px;
-            font-weight: 700;
-            margin-bottom: 12px;
-        }
-        .faq details {
-            margin-bottom: 8px;
-            border-bottom: 1px solid #E0E0E0;
-        }
-        .faq summary {
-            font-size: 14px;
-            font-weight: 600;
-            padding: 10px 0;
-            cursor: pointer;
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .faq summary::-webkit-details-marker { display: none; }
-        .faq summary::after {
-            content: '+';
-            font-size: 18px;
-            color: #999;
-            transition: transform 0.2s;
-        }
-        .faq details[open] summary::after {
-            content: '−';
-        }
-        .faq details p {
-            font-size: 13px;
-            color: #666;
-            line-height: 1.5;
-            padding: 0 0 12px;
-        }
-
-        /* How it works section */
         .how-it-works {
             text-align: left;
             margin-bottom: 48px;
@@ -303,87 +300,76 @@
         .step strong {
             color: #111;
         }
-
-        /* Stats callout */
-        .callout {
-            background: #111;
-            color: #fff;
-            border-radius: 12px;
-            padding: 24px;
-            margin-bottom: 48px;
-            text-align: center;
-        }
-        .callout .stat {
-            font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 48px;
-            letter-spacing: -0.03em;
-            line-height: 1;
-            margin-bottom: 4px;
-        }
-        .callout .stat-label {
-            font-size: 14px;
-            color: #999;
-        }
     </style>
 </head>
 <body>
-    <div class="lang-switch"><a href="/de/">Deutsch</a> | <a href="/zh/">中文</a></div>
-    <div class="container">
-        <img src="/icon.svg" alt="5cut app icon — automatic silence remover for lectures and videos" class="app-icon">
-        <h1 class="brand" style="font-size: 36px; line-height: 1.2; letter-spacing: -0.02em; text-transform: none; margin-bottom: 16px;"><span class="highlight">Remove Silence from OBS Recordings</span></h1>
-        <h2 class="tagline">Edit your Twitch VODs and OBS streams in minutes, not hours.</h2>
-        
-        <div style="text-align: left; margin-bottom: 48px;">
-            <p style="font-size: 16px; color: #444; line-height: 1.6;">Streamers and content creators often end up with hours of OBS Studio footage filled with dead air. 5cut analyzes your OBS MP4 recordings and automatically cuts the silent segments right on your iPhone or iPad, allowing you to quickly export a high-energy, action-packed video ready for YouTube or TikTok.</p>
-        </div>
+    <div class="lang-switch">
+        <a href="/use-cases/remove-silence-from-obs/" class="active">EN</a> | 
+        <a href="/de/use-cases/remove-silence-from-obs/" class="">DE</a> | 
+        <a href="/zh/use-cases/remove-silence-from-obs/" class="">ZH</a> | 
+        <a href="/fr/use-cases/remove-silence-from-obs/" class="">FR</a> | 
+        <a href="/vi/use-cases/remove-silence-from-obs/" class="">VI</a> | 
+        <a href="/es/use-cases/remove-silence-from-obs/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Remove Silence from OBS VODs</span></h1>
+        <h2 class="tagline">Speed up your editing workflow.</h2>
 
         <div class="divider"></div>
 
-        
+        <section class="intro-text">
+            <p>Streaming VODs recorded via OBS Studio often contain long stretches of silence during breaks or matchmaking queues. Transfer your OBS files to your iPhone and let 5cut automatically trim the dead air so your YouTube highlights are ready to post faster.</p>
+        </section>
 
-        <div class="features">
+        <section class="privacy-box">
+            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
+            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>In-App Recorder & Bookmarks</h3>
+                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                </div>
+            </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>Remove silence automatically</h3>
-                    <p>Detect and cut dead air from lectures, podcasts, Zoom recordings, and screen recordings. Use Smart Mode (Gentle, Moderate, Aggressive) or fine-tune the threshold yourself.</p>
+                    <h3>Automatic Silence Removal</h3>
+                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>On-device transcription in 30+ languages</h3>
-                    <p>Generate captions for foreign language lectures. Burn subtitles into the video or export as SRT. All on your iPhone — no uploads, no cloud.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
-                <div class="feature-text">
-                    <h3>Speaker identification</h3>
-                    <p>Automatically identify up to 4 speakers. Color-coded and renamable — perfect for seminars, interviews, and group discussions.</p>
-                </div>
-            </div>
-            <div class="feature">
-                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="6"/><path d="M8 5v3l2 2"/></svg></div>
-                <div class="feature-text">
-                    <h3>Export in seconds</h3>
-                    <p>Hardware-accelerated processing directly on your device. No uploads, no waiting, no account required.</p>
+                    <h3>On-Device Transcription & AI Summaries</h3>
+                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>Batch processing</h3>
-                    <p>Have a whole semester of lectures? Queue them all up and process with the same or individual settings. Runs in the background.</p>
+                    <h3>Export to Apple Notes, Anki & Notion</h3>
+                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
                 </div>
             </div>
-        </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Speaker Identification</h3>
+                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                </div>
+            </div>
+        </article>
 
         <section class="how-it-works">
             <h3>How it works</h3>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Import</strong> a lecture from Photos, Files, or share from another app</p>
+                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
@@ -395,31 +381,14 @@
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Export.</strong> Done. Silence removed, subtitles optional.</p>
+                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
             </div>
-        </section>
-
-        <section class="use-cases">
-            <h3>Perfect for</h3>
-            <p><a href="/remove-silence-from-lectures/">Students reviewing recorded lectures</a> in a foreign language — whether you are <a href="/study-abroad/">studying abroad</a> in Germany, Japan, Korea, or anywhere else. Expats watching local news, podcasts, and tutorials who want to skip dead air. <a href="/speed-up-zoom-recordings/">Zoom recordings with awkward pauses</a>. Online courses with long gaps between slides. <a href="/podcast-silence-remover/">Podcast episodes that need tightening</a> before upload. Any audio or video where silence is wasting your time.</p>
-            <p>Need subtitles? 5cut can also <a href="/transcribe-lectures/">transcribe lectures in 30+ languages</a> directly on your device.</p>
         </section>
 
         <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
-
-        <section class="faq">
-            <h3>Frequently asked questions</h3>
-            <details>
-                <summary>Does 5cut support OBS recordings?</summary>
-                <p>Yes, 5cut fully supports MP4 recordings exported from OBS Studio. If you record in MKV, simply remux to MP4 within OBS before transferring to your iPhone or iPad.</p>
-            </details>
-            <details>
-                <summary>Will silence removal desync my game audio?</summary>
-                <p>No, 5cut trims the entire video and audio timeline simultaneously, ensuring perfect lip-sync and game audio synchronization.</p>
-            </details>
-        </div>
+    </main>
 
     <footer>
         <div class="footer-grid">

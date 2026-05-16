@@ -4,90 +4,393 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essential Apps for Studying Abroad – Tools for Foreign Language Lectures | 5cut</title>
-    <meta name="description" content="Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles in 30+ languages, identify speakers. Study smarter abroad.">
+    <meta name="description" content="Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles in 30+ languages, identify speakers.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="canonical" href="https://get5cut.com/study-abroad/">
-    <meta property="og:title" content="Essential Apps for Studying Abroad – Foreign Language Lecture Tools">
-    <meta property="og:description" content="Essential iPhone app for international students. Remove silence, add subtitles, identify speakers.">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/study-abroad/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/study-abroad/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/study-abroad/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/study-abroad/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/study-abroad/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/study-abroad/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/study-abroad/">
+    <meta property="og:title" content="Essential Apps for Studying Abroad – Tools for Foreign Language Lectures | 5cut">
+    <meta property="og:description" content="Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles in 30+ languages, identify speakers.">
     <meta property="og:url" content="https://get5cut.com/study-abroad/">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Essential Apps for Studying Abroad – Tools for Foreign Language Lectures | 5cut">
+    <meta name="twitter:description" content="Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles in 30+ languages, identify speakers.">
+    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free tier with 10 exports per month"
+            },
+            {
+                "@type": "Offer",
+                "price": "1.99",
+                "priceCurrency": "USD",
+                "description": "Monthly subscription for unlimited exports",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "billingDuration": "P1M"
+                }
+            },
+            {
+                "@type": "Offer",
+                "price": "6.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime one-time purchase"
+            }
+        ],
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/apple-touch-icon.png",
+        "softwareVersion": "1.0"
+    }
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; background: #F5F5F5; color: #111; padding: 48px 24px; line-height: 1.6; }
-        .container { max-width: 640px; margin: 0 auto; }
-        h1 { font-family: Impact, 'Arial Black', sans-serif; font-size: 36px; letter-spacing: -0.03em; text-transform: uppercase; margin-bottom: 8px; line-height: 1.1; }
-        .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; }
-        h2 { font-size: 20px; font-weight: 700; margin-top: 36px; margin-bottom: 12px; }
-        h3 { font-size: 16px; font-weight: 700; margin-top: 28px; margin-bottom: 8px; }
-        p { font-size: 15px; color: #333; margin-bottom: 16px; }
-        ul { font-size: 15px; color: #333; margin-bottom: 16px; padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        a { color: #111; }
-        .cta { display: inline-block; margin: 24px 0; }
-        .cta img { height: 54px; }
-        .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; }
-        .back:hover { text-decoration: underline; }
-        footer { margin-top: 64px; font-size: 12px; color: #999; text-align: center; }
-        footer a { color: #666; text-decoration: none; }
-        .links { display: flex; gap: 24px; justify-content: center; margin-top: 8px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Study Abroad Smarter with 5cut</h1>
+    <div class="lang-switch">
+        <a href="/study-abroad/" class="active">EN</a> | 
+        <a href="/de/study-abroad/" class="">DE</a> | 
+        <a href="/zh/study-abroad/" class="">ZH</a> | 
+        <a href="/fr/study-abroad/" class="">FR</a> | 
+        <a href="/vi/study-abroad/" class="">VI</a> | 
+        <a href="/es/study-abroad/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Essential Tool for Studying Abroad</span></h1>
+        <h2 class="tagline">Record, translate, and conquer your courses.</h2>
+
         <div class="divider"></div>
 
-        <p>Studying in a country where you don't fully speak the language is hard enough. When your professor records a 90-minute lecture in German, Japanese, Korean, or Spanish, the last thing you need is 30 minutes of dead air making it even longer.</p>
+        <section class="intro-text">
+            <p>Studying abroad is challenging, especially when lectures are in a foreign language. 5cut is the perfect companion for international students. Record your lectures, generate transcripts in over 30 languages directly on your device, and get AI-powered study notes to review at your own pace.</p>
+        </section>
 
-        <p>5cut is an iPhone app built for exactly this situation.</p>
+        <section class="privacy-box">
+            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
+            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+        </section>
 
-        <h2>The problem with foreign language lectures</h2>
-        <p>When you're following a lecture in a second language, every minute of attention costs more effort. You're translating in your head, re-listening to phrases, and trying to keep up with unfamiliar vocabulary. Silence between slides or during transitions doesn't give you a rest — it breaks your concentration.</p>
-        <p>Removing that silence means you spend less total time per lecture, and the remaining content flows without interruption.</p>
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>In-App Recorder & Bookmarks</h3>
+                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Automatic Silence Removal</h3>
+                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>On-Device Transcription & AI Summaries</h3>
+                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Export to Apple Notes, Anki & Notion</h3>
+                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Speaker Identification</h3>
+                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                </div>
+            </div>
+        </article>
 
-        <h2>What 5cut does for international students</h2>
+        <section class="how-it-works">
+            <h3>How it works</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>See the waveform</strong> — green is speech, red is silence</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Adjust the threshold</strong> or pick a Smart Mode preset</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
+            </div>
+        </section>
 
-        <h3>Removes silence</h3>
-        <p>Automatically detects and cuts pauses, transitions, and dead air. A 90-minute lecture typically becomes 55–65 minutes. Use Smart Mode presets or fine-tune the threshold yourself.</p>
-
-        <h3>Transcribes in 30+ languages</h3>
-        <p>Generate subtitles for your lectures in the original language. Burn them into the video or export as SRT. Everything happens on your device — no uploads, no privacy concerns. Supported languages include German, Japanese, Korean, Chinese, Spanish, French, Italian, Portuguese, Vietnamese, and many more.</p>
-
-        <h3>Identifies speakers</h3>
-        <p>Seminars and group discussions with multiple speakers? 5cut identifies up to 4 speakers automatically, color-coded and renamable. Know exactly who said what.</p>
-
-        <h3>Batch processes a whole semester</h3>
-        <p>Don't process lectures one by one. Queue up an entire semester and let 5cut handle them all in the background with the same or individual settings.</p>
-
-        <h2>Works with lectures in any language</h2>
-        <p>5cut supports transcription in 30+ languages, making it useful wherever you study:</p>
-        <ul>
-            <li><strong>Germany</strong> — lectures in German</li>
-            <li><strong>Japan</strong> — lectures in Japanese</li>
-            <li><strong>South Korea</strong> — lectures in Korean</li>
-            <li><strong>France</strong> — lectures in French</li>
-            <li><strong>Spain</strong> — lectures in Spanish</li>
-            <li><strong>Italy</strong> — lectures in Italian</li>
-            <li><strong>Brazil</strong> — lectures in Portuguese</li>
-            <li><strong>USA/UK/Australia</strong> — lectures in English for non-native speakers</li>
-        </ul>
-
-        <h2>App available in 10 languages</h2>
-        <p>The 5cut interface is localized in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese, and Simplified Chinese. The app automatically matches your iPhone's language.</p>
-
-        <h2>Free and private</h2>
-        <p>5cut is free with 10 exports per month. All processing is on-device — your recordings never leave your phone. Premium ($1.99/month or $6.99 lifetime) adds unlimited exports and batch processing.</p>
-
-        <a class="cta" href="https://apps.apple.com/app/5cut/id6758529319">
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
-        <br>
-        <a class="back" href="/">&larr; Back to 5cut</a>
-    </div>
-        <footer>
+    </main>
+
+    <footer>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>Use Cases</h4>
