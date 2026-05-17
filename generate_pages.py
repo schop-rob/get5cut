@@ -111,7 +111,7 @@ languages = {
         "og_description": "录制讲座。去除静音。获取清晰的文本和学习笔记。iOS 版免费下载。",
         "brand": "5cut",
         "tagline": "录制讲座。去除静音。导出学习笔记。",
-        "stat1_value": "30m+",
+        "stat1_value": "30分钟+",
         "stat1_label": "每90分钟讲座可节省",
         "feat1_title": "应用内录音与书签",
         "feat1_desc": "直接在应用内录制讲座、会议和采访。在录制时添加章节书签。iOS 26+ 设备支持实时转写。",
