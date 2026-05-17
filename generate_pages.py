@@ -11,8 +11,8 @@ languages = {
         "og_description": "Record lectures. Trim silence. Get a clean transcript and study notes. Free for iOS.",
         "brand": "5cut",
         "tagline": "Record lectures. Trim silence. Export study notes.",
-        "stat1_value": "Notes + Anki",
-        "stat1_label": "Export clean study materials in seconds",
+        "stat1_value": "30m+",
+        "stat1_label": "saved per 90m lecture",
         "feat1_title": "In-App Recorder & Bookmarks",
         "feat1_desc": "Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.",
         "feat2_title": "Automatic Silence Removal",
@@ -61,8 +61,8 @@ languages = {
         "og_description": "Vorlesungen aufnehmen. Stille entfernen. Sauberes Transkript und Lernnotizen exportieren. Kostenlos für iOS.",
         "brand": "5cut",
         "tagline": "Vorlesungen aufnehmen. Stille entfernen. Lernnotizen exportieren.",
-        "stat1_value": "Notizen + Anki",
-        "stat1_label": "Saubere Lernmaterialien in Sekunden exportieren",
+        "stat1_value": "30m+",
+        "stat1_label": "gespart pro 90m Vorlesung",
         "feat1_title": "In-App Recorder & Lesezeichen",
         "feat1_desc": "Nimm Vorlesungen und Meetings direkt in der App auf. Füge Kapitelmarken während der Aufnahme hinzu. Live-Transkripte auf iOS 26+ Geräten.",
         "feat2_title": "Stille automatisch entfernen",
@@ -111,8 +111,8 @@ languages = {
         "og_description": "录制讲座。去除静音。获取清晰的文本和学习笔记。iOS 版免费下载。",
         "brand": "5cut",
         "tagline": "录制讲座。去除静音。导出学习笔记。",
-        "stat1_value": "笔记 + Anki",
-        "stat1_label": "秒级导出清晰的学习资料",
+        "stat1_value": "30m+",
+        "stat1_label": "每90分钟讲座可节省",
         "feat1_title": "应用内录音与书签",
         "feat1_desc": "直接在应用内录制讲座、会议和采访。在录制时添加章节书签。iOS 26+ 设备支持实时转写。",
         "feat2_title": "自动移除静音",
@@ -161,8 +161,8 @@ languages = {
         "og_description": "Enregistrez vos cours. Supprimez les silences. Obtenez une transcription propre. Gratuit sur iOS.",
         "brand": "5cut",
         "tagline": "Enregistrez vos cours. Coupez les silences. Exportez vos notes.",
-        "stat1_value": "Notes + Anki",
-        "stat1_label": "Exportez votre matériel d'étude en quelques secondes",
+        "stat1_value": "30m+",
+        "stat1_label": "économisés par cours de 90m",
         "feat1_title": "Enregistreur Intégré & Signets",
         "feat1_desc": "Enregistrez des cours, réunions et entretiens directement dans l'application. Ajoutez des signets. Transcription en direct sur iOS 26+.",
         "feat2_title": "Suppression Automatique des Silences",
@@ -211,8 +211,8 @@ languages = {
         "og_description": "Ghi âm bài giảng. Cắt bỏ khoảng lặng. Nhận bản ghi chép và ghi chú học tập. Miễn phí cho iOS.",
         "brand": "5cut",
         "tagline": "Ghi âm bài giảng. Cắt bỏ khoảng lặng. Xuất ghi chú.",
-        "stat1_value": "Ghi Chú + Anki",
-        "stat1_label": "Xuất tài liệu học tập chỉ trong vài giây",
+        "stat1_value": "30m+",
+        "stat1_label": "tiết kiệm mỗi bài giảng 90 phút",
         "feat1_title": "Máy Ghi Âm Tích Hợp & Đánh Dấu",
         "feat1_desc": "Ghi âm bài giảng, cuộc họp và phỏng vấn ngay trong ứng dụng. Thêm dấu trang chương. Tạo bản ghi chép trực tiếp trên iOS 26+.",
         "feat2_title": "Tự Động Xóa Khoảng Lặng",
@@ -261,8 +261,8 @@ languages = {
         "og_description": "Graba clases. Recorta silencios. Obtén una transcripción limpia y apuntes. Gratis para iOS.",
         "brand": "5cut",
         "tagline": "Graba clases. Recorta el silencio. Exporta apuntes.",
-        "stat1_value": "Apuntes + Anki",
-        "stat1_label": "Exporta material de estudio limpio en segundos",
+        "stat1_value": "30m+",
+        "stat1_label": "ahorrados por clase de 90m",
         "feat1_title": "Grabadora Integrada y Marcadores",
         "feat1_desc": "Graba clases, reuniones y entrevistas en la app. Añade marcadores de capítulo al grabar. Transcripción en vivo en dispositivos iOS 26+.",
         "feat2_title": "Eliminación Automática de Silencios",
@@ -679,7 +679,7 @@ html_template = """<!DOCTYPE html>
         </div>
 
         <section class="privacy-box">
-            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
+            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
             <p>{privacy_desc}</p>
         </section>
 

@@ -318,6 +318,25 @@ inner_page_template = """<!DOCTYPE html>
         .step strong {{
             color: #111;
         }}
+        .callout {{
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }}
+        .callout .stat {{
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }}
+        .callout .stat-label {{
+            font-size: 14px;
+            color: #999;
+        }}
     </style>
 </head>
 <body>
@@ -336,12 +355,17 @@ inner_page_template = """<!DOCTYPE html>
 
         <div class="divider"></div>
 
+        <div class="callout">
+            <div class="stat">{stat1_value}</div>
+            <div class="stat-label">{stat1_label}</div>
+        </div>
+
         <section class="intro-text">
             {page_intro}
         </section>
 
         <section class="privacy-box">
-            <h3><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
+            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
             <p>{privacy_desc}</p>
         </section>
 
