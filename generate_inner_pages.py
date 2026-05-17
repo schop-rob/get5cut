@@ -440,6 +440,8 @@ inner_page_template = """<!DOCTYPE html>
                 <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
                 <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
                 <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
+                <a href="{prefix}/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_alternatives}</h4>

@@ -788,14 +788,16 @@ html_template = """<!DOCTYPE html>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>{footer_use_cases}</h4>
-                <a href="/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
-                <a href="/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
-                <a href="/remove-silence-from-lectures/">University Lectures</a>
-                <a href="/podcast-silence-remover/">Podcasts</a>
+                <a href="{prefix}/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
+                <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
+                <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
+                <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
+                <a href="{prefix}/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_alternatives}</h4>
-                <a href="/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+                <a href="{prefix}/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_legal}</h4>
@@ -821,8 +823,10 @@ for lang, data in languages.items():
     # Setup active classes
     active_classes = {f"{l}_active": "active" if l == lang else "" for l in languages.keys()}
     
+    prefix = "" if directory == "." else f"/{directory}"
+    
     # Merge context
-    context = {**data, **active_classes, "canonical_path": canonical_path}
+    context = {**data, **active_classes, "canonical_path": canonical_path, "prefix": prefix}
     
     output_html = html_template.format(**context)
     

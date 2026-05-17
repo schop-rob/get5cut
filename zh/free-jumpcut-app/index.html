@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>免费 iPhone 自动剪切应用 – 去除静音 | 5cut</title>
+    <meta name="description" content="下载适合 iOS 的最佳免费跳剪应用。自动去除视频中的静音。每月前 10 次导出免费，无水印。">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/free-jumpcut-app/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/free-jumpcut-app/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/free-jumpcut-app/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/free-jumpcut-app/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/free-jumpcut-app/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/free-jumpcut-app/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/free-jumpcut-app/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/free-jumpcut-app/">
+    <meta property="og:title" content="免费 iPhone 自动剪切应用 – 去除静音 | 5cut">
+    <meta property="og:description" content="下载适合 iOS 的最佳免费跳剪应用。自动去除视频中的静音。每月前 10 次导出免费，无水印。">
+    <meta property="og:url" content="https://get5cut.com/free-jumpcut-app/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="免费 iPhone 自动剪切应用 – 去除静音 | 5cut">
+    <meta name="twitter:description" content="下载适合 iOS 的最佳免费跳剪应用。自动去除视频中的静音。每月前 10 次导出免费，无水印。">
+    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "直接在 iPhone 上录制讲座和会议。5cut 自动裁剪静音部分，支持 30 多种语言转写，并可导出清晰的学习笔记至 Anki、Notion 和 Obsidian。",
+        "offers": [
+            {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD",
+                "description": "Free tier with 10 exports per month"
+            },
+            {
+                "@type": "Offer",
+                "price": "1.99",
+                "priceCurrency": "USD",
+                "description": "Monthly subscription for unlimited exports",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "billingDuration": "P1M"
+                }
+            },
+            {
+                "@type": "Offer",
+                "price": "6.99",
+                "priceCurrency": "USD",
+                "description": "Lifetime one-time purchase"
+            }
+        ],
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/apple-touch-icon.png",
+        "softwareVersion": "1.0"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="/free-jumpcut-app/" class="">EN</a> | 
+        <a href="/de/free-jumpcut-app/" class="">DE</a> | 
+        <a href="/zh/free-jumpcut-app/" class="active">ZH</a> | 
+        <a href="/fr/free-jumpcut-app/" class="">FR</a> | 
+        <a href="/vi/free-jumpcut-app/" class="">VI</a> | 
+        <a href="/es/free-jumpcut-app/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">适用于 iPhone 的免费自动剪切应用</span></h1>
+        <h2 class="tagline">免费自动去除视频空白。</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">30分钟+</div>
+            <div class="stat-label">每90分钟讲座可节省</div>
+        </div>
+
+        <section class="intro-text">
+            <p>正在寻找快速、自动的剪切工具？5cut 是一款强大的 iOS 应用，可自动修剪视频中的空白内容。每月前 10 次导出完全免费，零水印，无任何隐藏费用。</p>
+        </section>
+
+        <section class="privacy-box">
+            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>隐私至上：100% 本地处理</h3>
+            <p>我们认为您的录音属于您自己。5cut 的所有音频处理、转写和 AI 摘要均完全在您的 iPhone 或 iPad 上运行。没有任何音频或视频会被上传到服务器，确保学生和专业人士的绝对隐私。</p>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>应用内录音与书签</h3>
+                    <p>直接在应用内录制讲座、会议和采访。在录制时添加章节书签。iOS 26+ 设备支持实时转写。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>自动移除静音</h3>
+                    <p>识别并剪切讲座和播客中的空白部分。使用智能模式（温和、适中、激进）或手动微调阈值。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>设备端转写与 AI 摘要</h3>
+                    <p>生成 30 多种语言的字幕，并获得 AI 摘要、要点和问答。全部在您的 iPhone 上本地处理——无需云端上传。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>导出至 Apple Notes、Anki 和 Notion</h3>
+                    <p>直接将带有发言人标签和章节标记的干净转写文稿导出到您最喜欢的学习工具（包括 Obsidian 和 Anki 填空卡片）中。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>发言人识别</h3>
+                    <p>自动识别录音中多达 4 位发言人。颜色标记并支持重命名，非常适合研讨会和小组讨论。</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h3>使用方法</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>录制或导入</strong>应用内直接录音，或从文件导入课程</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>查看波形图</strong> – 绿色代表语音，红色代表静音</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>调整阈值</strong>或选择智能模式预设</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>导出。</strong> 完成。静音已移除，学习笔记已生成。</p>
+            </div>
+        </section>
+
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+        </a>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>使用场景</h4>
+                <a href="/zh/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
+                <a href="/zh/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
+                <a href="/zh/remove-silence-from-lectures/">University Lectures</a>
+                <a href="/zh/podcast-silence-remover/">Podcasts</a>
+                <a href="/zh/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="/zh/smartphone-video-editor/">Smartphone Editor</a>
+            </div>
+            <div class="footer-col">
+                <h4>替代方案</h4>
+                <a href="/zh/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+            </div>
+            <div class="footer-col">
+                <h4>法律与支持</h4>
+                <a href="/support/">Support & Contact</a>
+                <a href="/privacy/">Privacy Policy</a>
+                <a href="/terms/">Terms of Service</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
+</body>
+</html>

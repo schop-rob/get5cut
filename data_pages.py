@@ -351,4 +351,93 @@ pages_data = {
             "intro": "<p>TimeBolt es una excelente herramienta de escritorio. Sin embargo, si buscas una alternativa móvil que te permita editar videos directamente desde tu iPhone, 5cut es tu mejor opción. 5cut procesa tu video completamente en el dispositivo para mayor privacidad.</p>"
         }
     }
+,
+    "free-jumpcut-app": {
+        "en": {
+                "title": "Free Jumpcut App for iPhone – Auto Silence Remover | 5cut",
+                "desc": "Download the best free jumpcut app for iOS. Automatically remove silence from videos. Free for your first 10 exports per month, no watermarks.",
+                "h1": "Free Jumpcut App for iPhone",
+                "tagline": "Automatically cut silence for free.",
+                "intro": "<p>Looking for a fast, automated jumpcutter? 5cut is a powerful iOS app that automatically trims dead air from your talking-head videos and vlogs. It's completely free for your first 10 exports every month, with zero watermarks and no hidden fees.</p>"
+        },
+        "de": {
+                "title": "Kostenlose Jumpcut App für iPhone – Stille automatisch entfernen | 5cut",
+                "desc": "Lade die beste kostenlose Jumpcut-App für iOS herunter. Entfernt Stille automatisch. Kostenlos für deine ersten 10 Exporte pro Monat, ohne Wasserzeichen.",
+                "h1": "Kostenlose Jumpcut App fürs iPhone",
+                "tagline": "Stille automatisch kostenlos herausschneiden.",
+                "intro": "<p>Auf der Suche nach einem schnellen, automatischen Jumpcutter? 5cut ist eine leistungsstarke iOS-App, die Pausen aus deinen Videos schneidet. Komplett kostenlos für deine ersten 10 Exporte pro Monat, ohne Wasserzeichen oder versteckte Kosten.</p>"
+        },
+        "zh": {
+                "title": "免费 iPhone 自动剪切应用 – 去除静音 | 5cut",
+                "desc": "下载适合 iOS 的最佳免费跳剪应用。自动去除视频中的静音。每月前 10 次导出免费，无水印。",
+                "h1": "适用于 iPhone 的免费自动剪切应用",
+                "tagline": "免费自动去除视频空白。",
+                "intro": "<p>正在寻找快速、自动的剪切工具？5cut 是一款强大的 iOS 应用，可自动修剪视频中的空白内容。每月前 10 次导出完全免费，零水印，无任何隐藏费用。</p>"
+        },
+        "fr": {
+                "title": "Application Gratuite de Jumpcut pour iPhone – Coupe Automatique | 5cut",
+                "desc": "Téléchargez la meilleure application de jumpcut gratuite pour iOS. Coupez les silences automatiquement. Gratuit pour vos 10 premiers exports par mois, sans filigrane.",
+                "h1": "Application Gratuite de Jumpcut sur iPhone",
+                "tagline": "Coupez les silences automatiquement et gratuitement.",
+                "intro": "<p>Vous cherchez un outil de jumpcut rapide et automatique ? 5cut est une puissante application iOS qui supprime les temps morts de vos vidéos. C'est totalement gratuit pour vos 10 premiers exports chaque mois, sans filigrane ni frais cachés.</p>"
+        },
+        "vi": {
+                "title": "Ứng Dụng Tự Động Cắt Video Miễn Phí Trên iPhone | 5cut",
+                "desc": "Tải xuống ứng dụng tự động cắt video (jumpcut) tốt nhất cho iOS. Tự động xóa khoảng lặng. Miễn phí cho 10 lần xuất đầu tiên mỗi tháng, không có hình mờ.",
+                "h1": "Ứng Dụng Cắt Video Miễn Phí Trên iPhone",
+                "tagline": "Tự động cắt khoảng trống miễn phí.",
+                "intro": "<p>Đang tìm một công cụ cắt video tự động nhanh chóng? 5cut là một ứng dụng iOS mạnh mẽ giúp tự động cắt bỏ khoảng trống trong video của bạn. Hoàn toàn miễn phí cho 10 lần xuất đầu tiên mỗi tháng, không có hình mờ và phí ẩn.</p>"
+        },
+        "es": {
+                "title": "App Gratuita de Jumpcut para iPhone – Cortar Silencios | 5cut",
+                "desc": "Descarga la mejor app gratuita de jumpcut para iOS. Elimina el silencio automáticamente. Gratis para tus primeras 10 exportaciones por mes, sin marcas de agua.",
+                "h1": "App Gratuita de Jumpcut para iPhone",
+                "tagline": "Recorta el silencio automáticamente gratis.",
+                "intro": "<p>¿Buscas un cortador automático rápido? 5cut es una potente app de iOS que recorta automáticamente el silencio de tus videos. Es completamente gratis para tus primeras 10 exportaciones cada mes, sin marcas de agua ni tarifas ocultas.</p>"
+        }
+},
+    "smartphone-video-editor": {
+        "en": {
+                "title": "Smartphone Video Editor for Talking Heads – AI Editor | 5cut",
+                "desc": "Edit videos directly on your smartphone. The best iPhone editor for talking heads, vlogs, and TikToks. Record, cut silence, and export on-device.",
+                "h1": "Smartphone Video Editor for Talking Heads",
+                "tagline": "Record and edit directly on your iPhone.",
+                "intro": "<p>Transferring large video files to your PC to edit is slow and annoying. 5cut is the ultimate smartphone video editor for creators. Record your talking head or vlog, let AI automatically remove the silence, add subtitles, and export directly from your phone in seconds.</p>"
+        },
+        "de": {
+                "title": "Smartphone Video Editor für Talking Heads | 5cut",
+                "desc": "Videos direkt auf dem Smartphone bearbeiten. Der beste iPhone-Editor für Vlogs und TikToks. Aufnehmen, Stille entfernen und exportieren.",
+                "h1": "Smartphone Video Editor für Talking Heads",
+                "tagline": "Direkt auf dem iPhone aufnehmen und bearbeiten.",
+                "intro": "<p>Das Übertragen großer Videodateien auf den PC ist langsam und nervig. 5cut ist der ultimative Smartphone-Video-Editor für Creator. Nimm deinen Vlog auf, lass die KI automatisch Stille entfernen, füge Untertitel hinzu und exportiere in Sekunden.</p>"
+        },
+        "zh": {
+                "title": "适用于口播视频的智能手机视频编辑器 | 5cut",
+                "desc": "直接在智能手机上编辑视频。适合 Vlog 和 TikTok 的最佳 iPhone 编辑器。本地录制、去除静音并导出。",
+                "h1": "适用于口播视频的手机视频编辑器",
+                "tagline": "直接在 iPhone 上录制和编辑。",
+                "intro": "<p>将大型视频文件传输到电脑进行编辑非常缓慢且烦人。5cut 是创作者的终极智能手机视频编辑器。录制您的口播或 Vlog，让 AI 自动去除静音，添加字幕，并在几秒钟内直接从手机导出。</p>"
+        },
+        "fr": {
+                "title": "Éditeur Vidéo sur Smartphone pour Vlogs – Éditeur IA | 5cut",
+                "desc": "Éditez des vidéos directement sur votre smartphone. Le meilleur éditeur iPhone pour les vlogs et TikTok. Enregistrez, coupez les silences et exportez.",
+                "h1": "Éditeur Vidéo sur Smartphone pour Vlogs",
+                "tagline": "Enregistrez et éditez directement sur votre iPhone.",
+                "intro": "<p>Transférer de gros fichiers vidéo sur PC est lent et agaçant. 5cut est l'éditeur vidéo ultime sur smartphone pour les créateurs. Enregistrez votre vlog, laissez l'IA couper les silences, ajoutez des sous-titres et exportez en quelques secondes.</p>"
+        },
+        "vi": {
+                "title": "Trình Chỉnh Sửa Video Trên Điện Thoại Thông Minh | 5cut",
+                "desc": "Chỉnh sửa video trực tiếp trên điện thoại thông minh. Trình chỉnh sửa iPhone tốt nhất cho vlog. Ghi hình, xóa khoảng lặng và xuất trên thiết bị.",
+                "h1": "Trình Chỉnh Sửa Video Trên Điện Thoại Tốt Nhất",
+                "tagline": "Ghi hình và chỉnh sửa trực tiếp trên iPhone.",
+                "intro": "<p>Chuyển tệp video lớn sang PC rất chậm và phiền phức. 5cut là trình chỉnh sửa video điện thoại thông minh tối thượng dành cho người sáng tạo. Ghi lại vlog của bạn, để AI tự động xóa khoảng trống, thêm phụ đề và xuất trong vài giây.</p>"
+        },
+        "es": {
+                "title": "Editor de Video para Smartphones y Vlogs | 5cut",
+                "desc": "Edita videos directamente en tu smartphone. El mejor editor de iPhone para vlogs y TikToks. Graba, elimina silencios y exporta en el dispositivo.",
+                "h1": "Editor de Video en Smartphone para Creadores",
+                "tagline": "Graba y edita directamente en tu iPhone.",
+                "intro": "<p>Transferir grandes archivos de video a la PC es lento y molesto. 5cut es el editor de video definitivo para creadores en smartphones. Graba tu vlog, deja que la IA elimine automáticamente el silencio, añade subtítulos y exporta en segundos.</p>"
+        }
+}
 }
