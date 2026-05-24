@@ -108,4 +108,29 @@
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://get5cut.com/best-app-for-medical-school-lectures/</loc>
+        <lastmod>2026-05-24</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/best-app-for-law-school-recordings/</loc>
+        <lastmod>2026-05-24</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/offline-lecture-transcription-iphone/</loc>
+        <lastmod>2026-05-24</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/record-meetings-privately-iphone/</loc>
+        <lastmod>2026-05-24</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://get5cut.com/offline-meeting-notes-iphone/</loc>
+        <lastmod>2026-05-24</lastmod>
+        <priority>0.8</priority>
+    </url>
 </urlset>
