@@ -318,6 +318,21 @@ inner_page_template = """<!DOCTYPE html>
             font-size: 14px;
             color: #999;
         }}
+        .engine-table {{
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }}
+        .engine-table th, .engine-table td {{
+            text-align: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }}
+        .engine-table th {{
+            font-weight: 700;
+            background: #eee;
+        }}
     </style>
 </head>
 <body>
