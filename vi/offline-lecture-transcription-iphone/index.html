@@ -3,42 +3,451 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chép Lời Bài Giảng Offline trên iPhone – Không Cần Internet | 5cut</title>
-    <meta name="description" content="Chép lời bản ghi bài giảng offline trên iPhone. Không cloud, không upload, không internet. AI trên thiết bị hỗ trợ 30+ ngôn ngữ. App iOS miễn phí.">
+    <title>Phiên Âm Bài Giảng Ngoại Tuyến Trên iPhone – Không Cần Internet | 5cut</title>
+    <meta name="description" content="Phiên âm bản ghi bài giảng ngoại tuyến trên iPhone. Không cần đám mây, không tải lên, không cần internet. Ứng dụng iOS miễn phí.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://get5cut.com/vi/offline-lecture-transcription-iphone/">
+    <link rel="canonical" href="https://get5cut.com/offline-lecture-transcription-iphone/">
     <link rel="alternate" hreflang="en" href="https://get5cut.com/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/offline-lecture-transcription-iphone/">
     <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/offline-lecture-transcription-iphone/">
-    <meta property="og:title" content="Chép Lời Bài Giảng Offline trên iPhone">
-    <meta property="og:url" content="https://get5cut.com/vi/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/offline-lecture-transcription-iphone/">
+    <meta property="og:title" content="Phiên Âm Bài Giảng Ngoại Tuyến Trên iPhone – Không Cần Internet | 5cut">
+    <meta property="og:description" content="Phiên âm bản ghi bài giảng ngoại tuyến trên iPhone. Không cần đám mây, không tải lên, không cần internet. Ứng dụng iOS miễn phí.">
+    <meta property="og:url" content="https://get5cut.com/offline-lecture-transcription-iphone/">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
-    <style>* { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; background: #F5F5F5; color: #111; padding: 48px 24px; line-height: 1.6; } .container { max-width: 640px; margin: 0 auto; } h1 { font-family: Impact, 'Arial Black', sans-serif; font-size: 36px; letter-spacing: -0.03em; text-transform: uppercase; margin-bottom: 8px; line-height: 1.1; } .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; } h2 { font-size: 20px; font-weight: 700; margin-top: 36px; margin-bottom: 12px; } p { font-size: 15px; color: #333; margin-bottom: 16px; } ul { font-size: 15px; color: #333; margin-bottom: 16px; padding-left: 20px; } li { margin-bottom: 6px; } a { color: #111; } .cta { display: inline-block; margin: 24px 0; } .cta img { height: 54px; } .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; } footer { margin: 64px auto 0; font-size: 13px; color: #777; } .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 48px; } .footer-col { text-align: left; }
-        .footer-col h4 { font-size: 14px; color: #111; margin-bottom: 16px; } .footer-col a { display: block; color: #666; text-decoration: none; margin-bottom: 8px; } .copyright { text-align: center; font-size: 12px; color: #999; border-top: 1px solid #eee; padding-top: 24px; }</style>
-    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Phiên Âm Bài Giảng Ngoại Tuyến Trên iPhone – Không Cần Internet | 5cut">
+    <meta name="twitter:description" content="Phiên âm bản ghi bài giảng ngoại tuyến trên iPhone. Không cần đám mây, không tải lên, không cần internet. Ứng dụng iOS miễn phí.">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "Ghi âm bài giảng trực tiếp trên iPhone. 5cut tự động cắt khoảng lặng, tạo phụ đề 30+ ngôn ngữ và xuất ghi chú học tập sạch sẽ sang Anki, Notion, và Obsidian.",
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "softwareVersion": "1.2.2"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Chép Lời Bài Giảng Offline trên iPhone</h1>
-        <div class="divider"></div>
-        <p>Hầu hết app chép lời cần internet. 5cut chép lời hoàn toàn trên iPhone, không cần kết nối sau khi tải model lần đầu.</p>
-        <h2>Cách hoạt động</h2>
-        <p>5cut dùng model AI chạy trực tiếp trên Neural Engine iPhone. Tải model ngôn ngữ một lần (40-600 MB), sau đó chép lời hoạt động ở chế độ máy bay, trên tàu, trong giảng đường WiFi kém.</p>
-        <h2>Tại sao offline quan trọng</h2>
-        <ul>
-            <li><strong>Riêng tư</strong> – bản ghi nhạy cảm không bao giờ rời thiết bị</li>
-            <li><strong>Không tốn data</strong> – chép lời hàng giờ không dùng 4G/5G</li>
-            <li><strong>Hoạt động mọi nơi</strong> – tầng hầm, tàu, máy bay</li>
-            <li><strong>Không phí theo phút</strong> – dịch vụ cloud tính $0.006-0.02/phút. Trên thiết bị miễn phí</li>
-            <li><strong>Nhanh</strong> – không chờ upload. Chép lời bắt đầu ngay</li>
-        </ul>
-        <h2>Miễn phí để bắt đầu</h2>
-        <p>5cut miễn phí với 10 lần xuất/tháng. Premium thêm xuất không giới hạn.</p>
-        <a class="cta" href="https://apps.apple.com/app/5cut/id6758529319?ct=vi_offline_transcription"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Tải 5cut trên App Store"></a>
-        <br><a class="back" href="/vi/">&larr; Quay lại 5cut</a>
+    <div class="lang-switch">
+        <a href="/offline-lecture-transcription-iphone/" class="">EN</a> | 
+        <a href="/de/offline-lecture-transcription-iphone/" class="">DE</a> | 
+        <a href="/zh/offline-lecture-transcription-iphone/" class="">ZH</a> | 
+        <a href="/fr/offline-lecture-transcription-iphone/" class="">FR</a> | 
+        <a href="/vi/offline-lecture-transcription-iphone/" class="active">VI</a> | 
+        <a href="/es/offline-lecture-transcription-iphone/" class="">ES</a>
     </div>
-    <footer><div class="footer-grid"><div class="footer-col"><h4>Trường hợp sử dụng</h4><a href="/vi/remove-silence-from-lectures/">Bài giảng</a><a href="/vi/best-app-for-medical-school-lectures/">Y khoa</a><a href="/vi/record-meetings-privately-iphone/">Cuộc họp riêng tư</a></div><div class="footer-col"><h4>Tính năng</h4><a href="/vi/transcribe-lectures/">Chép lời</a><a href="/vi/offline-lecture-transcription-iphone/">Chép lời offline</a></div><div class="footer-col"><h4>Hỗ trợ</h4><a href="/support/">Hỗ trợ</a><a href="/privacy/">Quyền riêng tư</a><a href="/terms/">Điều khoản</a></div></div><p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p></footer>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Phiên Âm Bài Giảng Ngoại Tuyến Trên iPhone</span></h1>
+        <h2 class="tagline">Phiên âm ngoại tuyến trên iPhone. Không cần Internet.</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">30m+</div>
+            <div class="stat-label">tiết kiệm mỗi bài giảng 90 phút</div>
+        </div>
+
+        <section class="intro-text">
+            <p>Hầu hết các ứng dụng phiên âm đều yêu cầu internet. 5cut hoạt động khác biệt: nó phiên âm hoàn toàn trên iPhone của bạn, không cần kết nối internet sau lần tải mô hình ban đầu.</p>
+<h2>Phiên âm ngoại tuyến hoạt động như thế nào</h2>
+<p>5cut sử dụng các mô hình AI chạy trực tiếp trên iPhone. Phiên âm hoạt động ngay cả ở chế độ trên máy bay, dưới tầng hầm hoặc trên tàu.</p>
+<h2>Bốn công cụ phiên âm</h2>
+<table class="engine-table">
+    <tr><th>Công cụ</th><th>Ngôn ngữ</th><th>Kích thước</th><th>Tốt nhất cho</th></tr>
+    <tr><td>Apple Speech</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao</td></tr>
+    <tr><td>Parakeet</td><td>25 ngôn ngữ Âu</td><td>~200 MB</td><td>Tự động phát hiện</td></tr>
+    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Đa ngôn ngữ, từ vựng lớn</td></tr>
+</table>
+<h2>Tại sao ngoại tuyến lại quan trọng</h2>
+<ul>
+    <li><strong>Quyền riêng tư</strong> – bản ghi âm không bao giờ rời khỏi thiết bị</li>
+    <li><strong>Không giới hạn dữ liệu</strong> – phiên âm hàng giờ mà không tốn dung lượng mạng</li>
+    <li><strong>Hoạt động mọi nơi</strong> – tầng hầm, máy bay, tàu hỏa</li>
+    <li><strong>Không phí theo phút</strong> – miễn phí sau khi tải mô hình</li>
+    <li><strong>Tốc độ</strong> – không cần chờ tải lên/tải xuống</li>
+</ul>
+<h2>Vượt ra ngoài phiên âm: xóa khoảng lặng</h2>
+<ol>
+    <li>Nhập hoặc ghi âm bài giảng</li>
+    <li>Tự động xóa khoảng lặng</li>
+    <li>Phiên âm phiên bản đã rút gọn ngoại tuyến</li>
+    <li>Xuất: video có phụ đề, tệp SRT hoặc văn bản</li>
+</ol>
+<h2>Nhận diện người nói</h2>
+<p>5cut nhận diện tối đa 4 người nói trong một bản ghi và đánh dấu bằng màu sắc.</p>
+<h2>Bắt đầu miễn phí</h2>
+<p>5cut kết hợp phiên âm trên thiết bị, xóa khoảng lặng, phụ đề và xử lý hàng loạt.</p>
+        </section>
+
+        <section class="privacy-box">
+            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Quyền Riêng Tư: 100% Xử Lý Trên Thiết Bị</h3>
+            <p>Chúng tôi tin rằng bản ghi âm thuộc về bạn. 5cut xử lý tất cả âm thanh, tạo phụ đề và tóm tắt AI hoàn toàn trên iPhone hoặc iPad của bạn. Không có âm thanh hoặc video nào được tải lên máy chủ.</p>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>Máy Ghi Âm Tích Hợp & Đánh Dấu</h3>
+                    <p>Ghi âm bài giảng, cuộc họp và phỏng vấn ngay trong ứng dụng. Thêm dấu trang chương. Tạo bản ghi chép trực tiếp trên iOS 26+.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Tự Động Xóa Khoảng Lặng</h3>
+                    <p>Phát hiện và cắt bỏ những khoảng trống từ bài giảng và podcast. Sử dụng chế độ Thông Minh hoặc tự điều chỉnh ngưỡng âm thanh.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>Tạo Phụ Đề & Tóm Tắt AI Trên Thiết Bị</h3>
+                    <p>Tạo phụ đề bằng 30+ ngôn ngữ. Nhận tóm tắt AI và Q&A. Tất cả được xử lý cục bộ trên iPhone của bạn — không cần tải lên đám mây.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Xuất Sang Apple Notes, Anki & Notion</h3>
+                    <p>Xuất bản ghi chép sạch sẽ với nhãn người nói và dấu trang chương trực tiếp sang các công cụ học tập yêu thích của bạn, bao gồm thẻ ghi nhớ Anki.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Nhận Diện Người Nói</h3>
+                    <p>Tự động nhận diện tối đa 4 người nói trong một bản ghi âm. Có mã màu và có thể đổi tên — hoàn hảo cho các cuộc hội thảo.</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h3>Cách hoạt động</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Ghi âm hoặc Nhập</strong> một bài giảng trực tiếp trong ứng dụng hoặc từ Tệp</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>Xem biểu đồ âm thanh</strong> — xanh là giọng nói, đỏ là khoảng lặng</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Điều chỉnh ngưỡng</strong> hoặc chọn chế độ Thông Minh</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Xuất.</strong> Xong. Khoảng lặng đã được xóa, ghi chú học tập được tạo.</p>
+            </div>
+        </section>
+
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+        </a>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Trường hợp sử dụng</h4>
+                <a href="/vi/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
+                <a href="/vi/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
+                <a href="/vi/remove-silence-from-lectures/">University Lectures</a>
+                <a href="/vi/podcast-silence-remover/">Podcasts</a>
+                <a href="/vi/free-jumpcut-app/">Jumpcut App</a>
+                <a href="/vi/smartphone-video-editor/">Smartphone Editor</a>
+            </div>
+            <div class="footer-col">
+                <h4>Các lựa chọn thay thế</h4>
+                <a href="/vi/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+            </div>
+            <div class="footer-col">
+                <h4>Pháp lý & Hỗ trợ</h4>
+                <a href="/support/">Support & Contact</a>
+                <a href="/privacy/">Privacy Policy</a>
+                <a href="/terms/">Terms of Service</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
 </body>
 </html>

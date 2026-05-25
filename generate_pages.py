@@ -8,9 +8,12 @@ languages = {
         "title": "5cut – Record & Trim Lectures, Export Study Notes | iOS App",
         "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
         "og_title": "5cut – Record & Trim Lectures, Export Study Notes",
-        "og_description": "Record lectures. Trim silence. Get a clean transcript and study notes. Free for iOS.",
+        "og_description": "Record lectures. Trim silence. Get a clean transcript and study notes. Private on iPhone.",
         "brand": "5cut",
         "tagline": "Record lectures. Trim silence. Export study notes.",
+        "proof1": "100% on-device",
+        "proof2": "No account",
+        "proof3": "Study-ready exports",
         "stat1_value": "30m+",
         "stat1_label": "saved per 90m lecture",
         "feat1_title": "In-App Recorder & Bookmarks",
@@ -41,11 +44,11 @@ languages = {
         "faq3_q": "Does it work with Zoom and online course recordings?",
         "faq3_a": "Yes. Import any MP4, MOV, or HEVC video. 5cut works with Zoom recordings, Microsoft Teams meetings, screen recordings, and any video file with an audio track.",
         "faq4_q": "Can I process a whole semester of lectures at once?",
-        "faq4_a": "Yes. With batch processing (Premium), you can queue up multiple recordings and process them with individual or shared settings.",
+        "faq4_a": "Yes. You can queue up multiple recordings and process them with individual or shared settings.",
         "faq5_q": "Is my data private?",
         "faq5_a": "Completely. All processing — silence detection, transcription, speaker identification — happens entirely on your device. No cloud uploads, no accounts, no data collection. Your videos never leave your phone.",
-        "faq6_q": "How much does 5cut cost?",
-        "faq6_a": "5cut is free to use with 10 exports per month. Premium removes the export limit and watermark for $1.99/month or a one-time $6.99 lifetime purchase.",
+        "faq6_q": "What does 5cut include?",
+        "faq6_a": "5cut includes recording and import, silence removal, transcripts, subtitles, speaker labels, batch workflows, and study exports to Apple Notes, Anki, Notion, and Obsidian. Current pricing is shown in the App Store.",
         "faq7_q": "What languages is the app available in?",
         "faq7_a": "The app interface is available in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese, and Simplified Chinese.",
         "footer_use_cases": "Use Cases",
@@ -58,9 +61,12 @@ languages = {
         "title": "5cut – Vorlesungen aufnehmen & schneiden, Lernnotizen exportieren | iOS App",
         "description": "Nimm Vorlesungen direkt auf deinem iPhone auf. 5cut entfernt automatisch Stille, transkribiert in 30+ Sprachen und exportiert saubere Lernnotizen zu Anki, Notion und Obsidian.",
         "og_title": "5cut – Vorlesungen aufnehmen & schneiden, Lernnotizen exportieren",
-        "og_description": "Vorlesungen aufnehmen. Stille entfernen. Sauberes Transkript und Lernnotizen exportieren. Kostenlos für iOS.",
+        "og_description": "Vorlesungen aufnehmen. Stille entfernen. Sauberes Transkript und Lernnotizen exportieren. Privat auf dem iPhone.",
         "brand": "5cut",
         "tagline": "Vorlesungen aufnehmen. Stille entfernen. Lernnotizen exportieren.",
+        "proof1": "100% auf dem Gerät",
+        "proof2": "Kein Konto",
+        "proof3": "Lernfertige Exporte",
         "stat1_value": "30m+",
         "stat1_label": "gespart pro 90m Vorlesung",
         "feat1_title": "In-App Recorder & Lesezeichen",
@@ -91,11 +97,11 @@ languages = {
         "faq3_q": "Funktioniert es mit Zoom- und Online-Vorlesungen?",
         "faq3_a": "Ja. Importiere jedes MP4-, MOV- oder HEVC-Video. 5cut funktioniert mit Zoom-Aufnahmen, Microsoft-Teams-Meetings, Bildschirmaufnahmen und jedem Video mit Audiospur.",
         "faq4_q": "Kann ich ein ganzes Semester auf einmal verarbeiten?",
-        "faq4_a": "Ja. Mit Stapelverarbeitung (Premium) kannst du mehrere Aufnahmen in die Warteschlange stellen.",
+        "faq4_a": "Ja. Du kannst mehrere Aufnahmen in die Warteschlange stellen und mit eigenen oder gemeinsamen Einstellungen verarbeiten.",
         "faq5_q": "Sind meine Daten sicher?",
         "faq5_a": "Absolut. Die gesamte Verarbeitung findet ausschließlich auf deinem Gerät statt. Kein Cloud-Upload, kein Account, keine Datenerfassung.",
-        "faq6_q": "Was kostet 5cut?",
-        "faq6_a": "5cut ist kostenlos mit 10 Exporten pro Monat. Premium entfernt das Exportlimit für 1,99 €/Monat oder einmalig 6,99 € (lebenslang).",
+        "faq6_q": "Was bietet 5cut?",
+        "faq6_a": "5cut bietet Aufnahme und Import, Stille-Entfernung, Transkripte, Untertitel, Sprecherlabels, Stapelverarbeitung und Exporte zu Apple Notes, Anki, Notion und Obsidian. Die aktuellen Preise stehen im App Store.",
         "faq7_q": "In welchen Sprachen ist die App verfügbar?",
         "faq7_a": "Die App-Oberfläche ist verfügbar in Deutsch, Englisch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch, Vietnamesisch und vereinfachtem Chinesisch.",
         "footer_use_cases": "Use Cases",
@@ -108,9 +114,12 @@ languages = {
         "title": "5cut – 录制并剪辑网课，导出学习笔记 | iOS 应用",
         "description": "直接在 iPhone 上录制讲座和会议。5cut 自动裁剪静音部分，支持 30 多种语言转写，并可导出清晰的学习笔记至 Anki、Notion 和 Obsidian。",
         "og_title": "5cut – 录制并剪辑网课，导出学习笔记",
-        "og_description": "录制讲座。去除静音。获取清晰的文本和学习笔记。iOS 版免费下载。",
+        "og_description": "录制讲座。去除静音。获取清晰的文本和学习笔记。在 iPhone 上私密处理。",
         "brand": "5cut",
         "tagline": "录制讲座。去除静音。导出学习笔记。",
+        "proof1": "100% 本地处理",
+        "proof2": "无需账户",
+        "proof3": "学习导出",
         "stat1_value": "30分钟+",
         "stat1_label": "每90分钟讲座可节省",
         "feat1_title": "应用内录音与书签",
@@ -141,11 +150,11 @@ languages = {
         "faq3_q": "支持 Zoom 或在线课程录制吗？",
         "faq3_a": "支持。可导入 MP4、MOV 或 HEVC 视频。适用于 Zoom 录制、Teams 会议、屏幕录像及任何带音轨的视频。",
         "faq4_q": "可以批量处理一整个学期的课吗？",
-        "faq4_a": "可以。高级版支持批量处理，可加入队列并在后台运行。",
+        "faq4_a": "可以。你可以将多个录音加入队列，并使用单独或共享设置进行处理。",
         "faq5_q": "我的数据隐私有保障吗？",
         "faq5_a": "绝对保障。所有处理过程均在本地完成。不上传云端，无需账号，不收集数据。",
-        "faq6_q": "5cut 是收费的吗？",
-        "faq6_a": "5cut 提供免费版，每月可导出 10 次。高级版（1.99 美元/月或 6.99 美元终身买断）可移除导出限制。",
+        "faq6_q": "5cut 包含哪些功能？",
+        "faq6_a": "5cut 包含录制与导入、静音移除、转写、字幕、说话人标签、批量流程，以及导出到 Apple Notes、Anki、Notion 和 Obsidian。当前价格以 App Store 显示为准。",
         "faq7_q": "应用支持哪些语言？",
         "faq7_a": "应用界面支持简体中文、英语、德语、西班牙语、法语、意大利语、日语、韩语、葡萄牙语和越南语。",
         "footer_use_cases": "使用场景",
@@ -161,6 +170,9 @@ languages = {
         "og_description": "Enregistrez vos cours. Supprimez les silences. Obtenez une transcription propre. Gratuit sur iOS.",
         "brand": "5cut",
         "tagline": "Enregistrez vos cours. Coupez les silences. Exportez vos notes.",
+        "proof1": "100% local",
+        "proof2": "Sans compte",
+        "proof3": "Exports prêts à étudier",
         "stat1_value": "30m+",
         "stat1_label": "économisés par cours de 90m",
         "feat1_title": "Enregistreur Intégré & Signets",
@@ -191,11 +203,11 @@ languages = {
         "faq3_q": "Cela fonctionne-t-il avec les enregistrements Zoom ?",
         "faq3_a": "Oui. Importez n'importe quelle vidéo MP4, MOV ou HEVC. 5cut fonctionne avec Zoom, Teams et les enregistrements d'écran.",
         "faq4_q": "Puis-je traiter tout un semestre de cours à la fois ?",
-        "faq4_a": "Oui. Avec le traitement par lots (Premium), vous pouvez mettre en file d'attente plusieurs enregistrements.",
+        "faq4_a": "Oui. Vous pouvez mettre en file d'attente plusieurs enregistrements et les traiter avec des réglages individuels ou partagés.",
         "faq5_q": "Mes données sont-elles privées ?",
         "faq5_a": "Complètement. Tout le traitement se fait sur votre appareil. Pas de cloud, pas de compte, pas de collecte de données.",
-        "faq6_q": "Combien coûte 5cut ?",
-        "faq6_a": "5cut est gratuit avec 10 exportations par mois. La version Premium supprime la limite pour 1,99 $/mois ou un achat unique de 6,99 $.",
+        "faq6_q": "Que comprend 5cut ?",
+        "faq6_a": "5cut inclut l'enregistrement et l'import, la suppression des silences, les transcriptions, les sous-titres, les étiquettes de locuteurs, les flux par lots et les exports vers Apple Notes, Anki, Notion et Obsidian. Les prix actuels sont affichés dans l'App Store.",
         "faq7_q": "Quelles sont les langues disponibles pour l'application ?",
         "faq7_a": "L'interface est disponible en anglais, allemand, espagnol, français, italien, japonais, coréen, portugais, vietnamien et chinois.",
         "footer_use_cases": "Cas d'utilisation",
@@ -211,6 +223,9 @@ languages = {
         "og_description": "Ghi âm bài giảng. Cắt bỏ khoảng lặng. Nhận bản ghi chép và ghi chú học tập. Miễn phí cho iOS.",
         "brand": "5cut",
         "tagline": "Ghi âm bài giảng. Cắt bỏ khoảng lặng. Xuất ghi chú.",
+        "proof1": "100% trên thiết bị",
+        "proof2": "Không cần tài khoản",
+        "proof3": "Xuất ghi chú học tập",
         "stat1_value": "30m+",
         "stat1_label": "tiết kiệm mỗi bài giảng 90 phút",
         "feat1_title": "Máy Ghi Âm Tích Hợp & Đánh Dấu",
@@ -241,11 +256,11 @@ languages = {
         "faq3_q": "Ứng dụng có hoạt động với các bản ghi Zoom không?",
         "faq3_a": "Có. Nhập bất kỳ video MP4, MOV hoặc HEVC nào. 5cut hoạt động với các bản ghi Zoom, Microsoft Teams và bất kỳ tệp video nào có rãnh âm thanh.",
         "faq4_q": "Tôi có thể xử lý toàn bộ bài giảng của một học kỳ cùng lúc không?",
-        "faq4_a": "Có. Với tính năng xử lý hàng loạt (Premium), bạn có thể xếp hàng nhiều bản ghi âm.",
+        "faq4_a": "Có. Bạn có thể xếp hàng nhiều bản ghi âm và xử lý bằng cài đặt riêng hoặc cài đặt chung.",
         "faq5_q": "Dữ liệu của tôi có riêng tư không?",
         "faq5_a": "Hoàn toàn. Tất cả quá trình xử lý diễn ra hoàn toàn trên thiết bị của bạn. Không tải lên đám mây, không thu thập dữ liệu.",
-        "faq6_q": "5cut có giá bao nhiêu?",
-        "faq6_a": "5cut miễn phí với 10 lần xuất mỗi tháng. Gói Premium loại bỏ giới hạn xuất với giá $1.99/tháng hoặc mua một lần trọn đời $6.99.",
+        "faq6_q": "5cut gồm những gì?",
+        "faq6_a": "5cut gồm ghi âm và nhập tệp, xóa khoảng lặng, bản chép lời, phụ đề, nhãn người nói, quy trình xử lý hàng loạt và xuất sang Apple Notes, Anki, Notion, Obsidian. Giá hiện tại được hiển thị trong App Store.",
         "faq7_q": "Ứng dụng có sẵn bằng những ngôn ngữ nào?",
         "faq7_a": "Giao diện ứng dụng có sẵn bằng tiếng Anh, Đức, Tây Ban Nha, Pháp, Ý, Nhật Bản, Hàn Quốc, Bồ Đào Nha, Tiếng Việt và Tiếng Trung.",
         "footer_use_cases": "Trường hợp sử dụng",
@@ -261,6 +276,9 @@ languages = {
         "og_description": "Graba clases. Recorta silencios. Obtén una transcripción limpia y apuntes. Gratis para iOS.",
         "brand": "5cut",
         "tagline": "Graba clases. Recorta el silencio. Exporta apuntes.",
+        "proof1": "100% en el dispositivo",
+        "proof2": "Sin cuenta",
+        "proof3": "Exportaciones para estudiar",
         "stat1_value": "30m+",
         "stat1_label": "ahorrados por clase de 90m",
         "feat1_title": "Grabadora Integrada y Marcadores",
@@ -291,11 +309,11 @@ languages = {
         "faq3_q": "¿Funciona con Zoom y grabaciones de cursos en línea?",
         "faq3_a": "Sí. Importa cualquier video MP4, MOV o HEVC. 5cut funciona con grabaciones de Zoom, Microsoft Teams y cualquier archivo de video con una pista de audio.",
         "faq4_q": "¿Puedo procesar todo un semestre de clases a la vez?",
-        "faq4_a": "Sí. Con el procesamiento por lotes (Premium), puedes poner en cola varias grabaciones.",
+        "faq4_a": "Sí. Puedes poner en cola varias grabaciones y procesarlas con ajustes individuales o compartidos.",
         "faq5_q": "¿Son privados mis datos?",
         "faq5_a": "Completamente. Todo el procesamiento ocurre en tu dispositivo. No hay subidas a la nube, cuentas, ni recopilación de datos.",
-        "faq6_q": "¿Cuánto cuesta 5cut?",
-        "faq6_a": "5cut es gratis con 10 exportaciones al mes. Premium elimina el límite por $1.99/mes o una compra única de $6.99.",
+        "faq6_q": "¿Qué incluye 5cut?",
+        "faq6_a": "5cut incluye grabación e importación, eliminación de silencios, transcripciones, subtítulos, etiquetas de hablantes, flujos por lotes y exportación a Apple Notes, Anki, Notion y Obsidian. El precio actual aparece en la App Store.",
         "faq7_q": "¿En qué idiomas está disponible la aplicación?",
         "faq7_a": "La interfaz está disponible en inglés, alemán, español, francés, italiano, japonés, coreano, portugués, vietnamita y chino simplificado.",
         "footer_use_cases": "Casos de uso",
@@ -326,11 +344,11 @@ html_template = """<!DOCTYPE html>
     <meta property="og:description" content="{og_description}">
     <meta property="og:url" content="https://get5cut.com{canonical_path}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{og_title}">
     <meta name="twitter:description" content="{og_description}">
-    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {{
         "@context": "https://schema.org",
@@ -339,33 +357,14 @@ html_template = """<!DOCTYPE html>
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
         "description": "{description}",
-        "offers": [
-            {{
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "description": "Free tier with 10 exports per month"
-            }},
-            {{
-                "@type": "Offer",
-                "price": "1.99",
-                "priceCurrency": "USD",
-                "description": "Monthly subscription for unlimited exports",
-                "priceSpecification": {{
-                    "@type": "UnitPriceSpecification",
-                    "billingDuration": "P1M"
-                }}
-            }},
-            {{
-                "@type": "Offer",
-                "price": "6.99",
-                "priceCurrency": "USD",
-                "description": "Lifetime one-time purchase"
-            }}
-        ],
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
-        "screenshot": "https://get5cut.com/apple-touch-icon.png",
-        "softwareVersion": "1.0"
+        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "author": {{
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        }},
+        "softwareVersion": "1.2.2"
     }}
     </script>
     <style>
@@ -375,22 +374,28 @@ html_template = """<!DOCTYPE html>
             background: #F5F5F5;
             color: #111;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             padding: 40px 24px;
         }}
         .container {{
-            max-width: 480px;
+            max-width: 1040px;
             width: 100%;
-            text-align: center;
+            margin: 0 auto;
+        }}
+        .hero {{
+            min-height: calc(100vh - 96px);
+            display: grid;
+            grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+            gap: 56px;
+            align-items: center;
+        }}
+        .hero-copy {{
+            text-align: left;
         }}
         .brand {{
             font-family: Impact, 'Arial Black', sans-serif;
             font-size: 96px;
             font-weight: 900;
-            letter-spacing: -0.04em;
+            letter-spacing: 0;
             text-transform: uppercase;
             line-height: 1;
             margin-bottom: 8px;
@@ -410,11 +415,66 @@ html_template = """<!DOCTYPE html>
             z-index: -1;
         }}
         .tagline {{
-            font-size: 18px;
+            font-size: 30px;
+            line-height: 1.08;
             font-weight: 400;
             color: #555;
-            margin-bottom: 48px;
-            letter-spacing: 0.02em;
+            margin-bottom: 28px;
+            letter-spacing: 0;
+        }}
+        .hero-proof {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 24px;
+        }}
+        .proof-pill {{
+            border: 1px solid #D7D1C6;
+            border-radius: 999px;
+            padding: 8px 12px;
+            font-size: 13px;
+            color: #333;
+            background: #fff;
+        }}
+        .hero-visual {{
+            position: relative;
+            min-height: 570px;
+        }}
+        .phone-shot {{
+            position: absolute;
+            width: min(31vw, 250px);
+            max-width: 250px;
+            border-radius: 28px;
+            box-shadow: 0 24px 64px rgba(17, 17, 17, 0.18);
+            background: #111;
+        }}
+        .phone-shot.recorder {{
+            left: 0;
+            top: 16px;
+            transform: rotate(-4deg);
+        }}
+        .phone-shot.editor {{
+            left: 30%;
+            top: 58px;
+            z-index: 2;
+        }}
+        .phone-shot.transcript {{
+            right: 0;
+            top: 16px;
+            transform: rotate(4deg);
+        }}
+        .hero-note {{
+            position: absolute;
+            left: 12%;
+            right: 12%;
+            bottom: 12px;
+            background: #111;
+            color: #fff;
+            padding: 16px 18px;
+            border-radius: 8px;
+            font-size: 15px;
+            line-height: 1.35;
+            text-align: center;
         }}
         .features {{
             text-align: left;
@@ -655,6 +715,27 @@ html_template = """<!DOCTYPE html>
             font-size: 14px;
             color: #999;
         }}
+        @media (max-width: 820px) {{
+            body {{ padding: 32px 18px; }}
+            .hero {{
+                min-height: auto;
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }}
+            .hero-copy {{ text-align: center; }}
+            .brand {{ font-size: 82px; }}
+            .tagline {{ font-size: 25px; }}
+            .hero-proof {{ justify-content: center; }}
+            .hero-visual {{
+                min-height: 500px;
+                overflow: hidden;
+            }}
+            .phone-shot {{ width: 210px; }}
+            .phone-shot.recorder {{ left: -6px; }}
+            .phone-shot.editor {{ left: calc(50% - 105px); top: 46px; }}
+            .phone-shot.transcript {{ right: -6px; }}
+            .hero-note {{ left: 0; right: 0; bottom: 0; }}
+        }}
     </style>
 </head>
 <body>
@@ -667,16 +748,29 @@ html_template = """<!DOCTYPE html>
         <a href="/es/" class="{es_active}">ES</a>
     </div>
     <main class="container">
-        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-        <h1 class="brand"><span class="highlight">{brand}</span></h1>
-        <h2 class="tagline">{tagline}</h2>
+        <section class="hero">
+            <div class="hero-copy">
+                <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+                <h1 class="brand"><span class="highlight">{brand}</span></h1>
+                <h2 class="tagline">{tagline}</h2>
+                <div class="hero-proof">
+                    <span class="proof-pill">{proof1}</span>
+                    <span class="proof-pill">{proof2}</span>
+                    <span class="proof-pill">{proof3}</span>
+                </div>
+                <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                </a>
+            </div>
+            <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
+                <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
+                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot editor">
+                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot transcript">
+                <p class="hero-note">{stat1_value} {stat1_label}. Record, trim, transcribe, and export notes without uploading your audio.</p>
+            </div>
+        </section>
 
         <div class="divider"></div>
-
-        <div class="callout">
-            <div class="stat">{stat1_value}</div>
-            <div class="stat-label">{stat1_label}</div>
-        </div>
 
         <section class="privacy-box">
             <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
@@ -792,7 +886,7 @@ html_template = """<!DOCTYPE html>
                 <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
                 <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
                 <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
-                <a href="{prefix}/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="{prefix}/free-jumpcut-app/">Jumpcut App</a>
                 <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">

@@ -38,11 +38,11 @@ inner_page_template = """<!DOCTYPE html>
     <meta property="og:description" content="{page_desc}">
     <meta property="og:url" content="https://get5cut.com/{page_path}/">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{page_title}">
     <meta name="twitter:description" content="{page_desc}">
-    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {{
         "@context": "https://schema.org",
@@ -51,33 +51,14 @@ inner_page_template = """<!DOCTYPE html>
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
         "description": "{description}",
-        "offers": [
-            {{
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "description": "Free tier with 10 exports per month"
-            }},
-            {{
-                "@type": "Offer",
-                "price": "1.99",
-                "priceCurrency": "USD",
-                "description": "Monthly subscription for unlimited exports",
-                "priceSpecification": {{
-                    "@type": "UnitPriceSpecification",
-                    "billingDuration": "P1M"
-                }}
-            }},
-            {{
-                "@type": "Offer",
-                "price": "6.99",
-                "priceCurrency": "USD",
-                "description": "Lifetime one-time purchase"
-            }}
-        ],
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
-        "screenshot": "https://get5cut.com/apple-touch-icon.png",
-        "softwareVersion": "1.0"
+        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "author": {{
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        }},
+        "softwareVersion": "1.2.2"
     }}
     </script>
     <style>
@@ -440,7 +421,7 @@ inner_page_template = """<!DOCTYPE html>
                 <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
                 <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
                 <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
-                <a href="{prefix}/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="{prefix}/free-jumpcut-app/">Jumpcut App</a>
                 <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">

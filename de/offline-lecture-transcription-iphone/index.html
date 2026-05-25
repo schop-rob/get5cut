@@ -8,123 +8,447 @@
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://get5cut.com/de/offline-lecture-transcription-iphone/">
+    <link rel="canonical" href="https://get5cut.com/offline-lecture-transcription-iphone/">
     <link rel="alternate" hreflang="en" href="https://get5cut.com/offline-lecture-transcription-iphone/">
     <link rel="alternate" hreflang="de" href="https://get5cut.com/de/offline-lecture-transcription-iphone/">
-    <meta property="og:title" content="Offline Vorlesungen transkribieren auf dem iPhone">
-    <meta property="og:description" content="Vorlesungen offline auf dem iPhone transkribieren. On-Device-KI, 30+ Sprachen, keine Cloud. Kostenlos.">
-    <meta property="og:url" content="https://get5cut.com/de/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/offline-lecture-transcription-iphone/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/offline-lecture-transcription-iphone/">
+    <meta property="og:title" content="Offline Vorlesungen transkribieren auf dem iPhone – Kein Internet nötig | 5cut">
+    <meta property="og:description" content="Vorlesungsaufnahmen offline auf dem iPhone transkribieren. Keine Cloud, kein Upload, kein Internet nötig. On-Device-KI in 30+ Sprachen. Sprechererkennung. Export als SRT oder Text. Kostenlose iOS-App.">
+    <meta property="og:url" content="https://get5cut.com/offline-lecture-transcription-iphone/">
     <meta property="og:type" content="article">
-    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Offline Vorlesungen transkribieren auf dem iPhone – Kein Internet nötig | 5cut">
+    <meta name="twitter:description" content="Vorlesungsaufnahmen offline auf dem iPhone transkribieren. Keine Cloud, kein Upload, kein Internet nötig. On-Device-KI in 30+ Sprachen. Sprechererkennung. Export als SRT oder Text. Kostenlose iOS-App.">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Offline Vorlesungen transkribieren auf dem iPhone",
-        "description": "Vorlesungen komplett offline auf dem iPhone transkribieren mit On-Device-KI-Modellen.",
-        "author": { "@type": "Organization", "name": "5cut" },
-        "publisher": { "@type": "Organization", "name": "5cut", "url": "https://get5cut.com" },
-        "datePublished": "2026-05-24",
-        "mainEntityOfPage": "https://get5cut.com/de/offline-lecture-transcription-iphone/"
+        "@type": "SoftwareApplication",
+        "name": "5cut",
+        "operatingSystem": "iOS",
+        "applicationCategory": "MultimediaApplication",
+        "description": "Nimm Vorlesungen direkt auf deinem iPhone auf. 5cut entfernt automatisch Stille, transkribiert in 30+ Sprachen und exportiert saubere Lernnotizen zu Anki, Notion und Obsidian.",
+        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
+        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "softwareVersion": "1.2.2"
     }
     </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif; background: #F5F5F5; color: #111; padding: 48px 24px; line-height: 1.6; }
-        .container { max-width: 640px; margin: 0 auto; }
-        h1 { font-family: Impact, 'Arial Black', sans-serif; font-size: 36px; letter-spacing: -0.03em; text-transform: uppercase; margin-bottom: 8px; line-height: 1.1; }
-        .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; }
-        h2 { font-size: 20px; font-weight: 700; margin-top: 36px; margin-bottom: 12px; }
-        p { font-size: 15px; color: #333; margin-bottom: 16px; }
-        ul, ol { font-size: 15px; color: #333; margin-bottom: 16px; padding-left: 20px; }
-        li { margin-bottom: 6px; }
-        a { color: #111; }
-        .engine-table { width: 100%; border-collapse: collapse; font-size: 14px; margin-bottom: 24px; }
-        .engine-table th, .engine-table td { text-align: center; padding: 10px 12px; border-bottom: 1px solid #ddd; }
-        .engine-table th { font-weight: 700; background: #eee; }
-        .cta { display: inline-block; margin: 24px 0; }
-        .cta img { height: 54px; }
-        .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; }
-        .back:hover { text-decoration: underline; }
-        footer { margin: 64px auto 0; font-size: 13px; color: #777; text-align: center; width: 100%; max-width: 800px; }
-        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; margin-bottom: 48px; }
-        .footer-col { text-align: left; }
-        .footer-col h4 { font-size: 14px; color: #111; margin-bottom: 16px; }
-        .footer-col a { display: block; color: #666; text-decoration: none; margin-bottom: 8px; }
-        .footer-col a:hover { text-decoration: underline; color: #111; }
-        .copyright { text-align: center; font-size: 12px; color: #999; border-top: 1px solid #eee; padding-top: 24px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h3 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
     </style>
-    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Offline Vorlesungen transkribieren auf dem iPhone</h1>
+    <div class="lang-switch">
+        <a href="/offline-lecture-transcription-iphone/" class="">EN</a> | 
+        <a href="/de/offline-lecture-transcription-iphone/" class="active">DE</a> | 
+        <a href="/zh/offline-lecture-transcription-iphone/" class="">ZH</a> | 
+        <a href="/fr/offline-lecture-transcription-iphone/" class="">FR</a> | 
+        <a href="/vi/offline-lecture-transcription-iphone/" class="">VI</a> | 
+        <a href="/es/offline-lecture-transcription-iphone/" class="">ES</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <h1 class="brand"><span class="highlight">Offline Vorlesungen transkribieren auf dem iPhone</span></h1>
+        <h2 class="tagline">Offline auf dem iPhone transkribieren. Kein Internet erforderlich.</h2>
+
         <div class="divider"></div>
 
-        <p>Die meisten Transkriptions-Apps brauchen Internet. Du lädst deine Vorlesung auf einen Server hoch, wartest auf die Verarbeitung und hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. 5cut funktioniert anders: Es transkribiert vollständig auf deinem iPhone, ohne Internetverbindung nach dem einmaligen Modell-Download.</p>
+        <div class="callout">
+            <div class="stat">30m+</div>
+            <div class="stat-label">gespart pro 90m Vorlesung</div>
+        </div>
 
-        <h2>Wie Offline-Transkription funktioniert</h2>
-        <p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, in der U-Bahn, in einem Hörsaal mit schlechtem WLAN – überall.</p>
+        <section class="intro-text">
+            <p>Die meisten Transkriptions-Apps brauchen Internet. Du lädst deine Vorlesung auf einen Server hoch, wartest auf die Verarbeitung und hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. 5cut funktioniert anders: Es transkribiert vollständig auf deinem iPhone, ohne Internetverbindung nach dem einmaligen Modell-Download.</p>
+<h2>Wie Offline-Transkription funktioniert</h2>
+<p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, in der U-Bahn, in einem Hörsaal mit schlechtem WLAN – überall.</p>
+<h2>Vier Transkriptions-Engines</h2>
+<p>5cut bietet mehrere KI-Engines, damit du die richtige Balance aus Geschwindigkeit, Genauigkeit und Modellgröße wählen kannst:</p>
+<table class="engine-table">
+    <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Ideal für</th></tr>
+    <tr><td>Apple Speech</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel</td></tr>
+    <tr><td>Parakeet</td><td>25 europäische</td><td>~200 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
+    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, großes Vokabular</td></tr>
+</table>
+<h2>Warum Offline wichtig ist</h2>
+<ul>
+    <li><strong>Datenschutz</strong> – Vorlesungsaufnahmen mit sensiblen Inhalten verlassen nie dein Gerät</li>
+    <li><strong>Keine Datenvolumen-Kosten</strong> – stundenlange Aufnahmen transkribieren ohne mobiles Datenvolumen zu verbrauchen</li>
+    <li><strong>Funktioniert überall</strong> – Kellerräume, Züge, Flugzeuge, Bibliotheken mit gesperrtem WLAN</li>
+    <li><strong>Keine Minutenkosten</strong> – Cloud-Dienste berechnen pro Minute. On-Device ist kostenlos</li>
+    <li><strong>Geschwindigkeit</strong> – kein Upload-/Download-Warten. Transkription startet sofort</li>
+</ul>
+<h2>Unterstützte Sprachen</h2>
+<p>5cut unterstützt die Transkription in über 40 Sprachen. Die genaue Liste hängt von der gewählten Engine ab.</p>
+<h2>Über Transkription hinaus: auch Stille entfernen</h2>
+<p>5cut ist primär ein Stille-Entfernungs-Tool. Der typische Workflow ist:</p>
+<ol>
+    <li>Vorlesung importieren oder aufnehmen</li>
+    <li>Stille automatisch entfernen (spart 20-35% der Aufnahme)</li>
+    <li>Die gekürzte Version offline transkribieren</li>
+    <li>Exportieren: Video mit eingebrannten Untertiteln, SRT-Datei oder Text-Transkript</li>
+</ol>
+<p>Die Stille-Entfernung funktioniert ebenfalls komplett offline.</p>
+<h2>Sprechererkennung</h2>
+<p>5cut kann bis zu 4 Sprecher identifizieren und im Transkript farblich markieren. Dies funktioniert ebenfalls offline.</p>
+<h2>Kostenlos starten</h2>
+<p>5cut kombiniert On-Device-Transkription, Stille-Entfernung, Untertitel und Stapelverarbeitung.</p>
+        </section>
 
-        <h2>Vier Transkriptions-Engines</h2>
-        <table class="engine-table">
-            <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Ideal für</th></tr>
-            <tr><td>Apple Speech</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
-            <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel</td></tr>
-            <tr><td>Parakeet</td><td>25 europäische</td><td>~200 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
-            <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, großes Vokabular</td></tr>
-        </table>
+        <section class="privacy-box">
+            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
+            <p>Wir glauben, dass deine Aufnahmen dir gehören. 5cut verarbeitet Audio, Transkription und KI-Zusammenfassungen vollständig auf deinem iPhone oder iPad. Kein Audio oder Video wird jemals auf einen Server hochgeladen, was absolute Privatsphäre garantiert.</p>
+        </section>
 
-        <h2>Warum Offline wichtig ist</h2>
-        <ul>
-            <li><strong>Datenschutz</strong> – Vorlesungsaufnahmen mit sensiblen Inhalten verlassen nie dein Gerät</li>
-            <li><strong>Keine Datenvolumen-Kosten</strong> – stundenlange Aufnahmen transkribieren ohne mobiles Datenvolumen zu verbrauchen</li>
-            <li><strong>Funktioniert überall</strong> – Kellerräume, Züge, Flugzeuge, Bibliotheken mit gesperrtem WLAN</li>
-            <li><strong>Keine Minutenkosten</strong> – Cloud-Transkriptionsdienste kosten 0,006-0,02€ pro Minute. Ein Semester Vorlesungen kann 50-200€ kosten. On-Device ist kostenlos nach dem Modell-Download</li>
-            <li><strong>Geschwindigkeit</strong> – kein Upload-/Download-Warten. Transkription startet sofort</li>
-        </ul>
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>In-App Recorder & Lesezeichen</h3>
+                    <p>Nimm Vorlesungen und Meetings direkt in der App auf. Füge Kapitelmarken während der Aufnahme hinzu. Live-Transkripte auf iOS 26+ Geräten.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Stille automatisch entfernen</h3>
+                    <p>Erkennt und schneidet Pausen aus Vorlesungen und Podcasts. Nutze den Smart-Mode (Sanft, Moderat, Aggressiv) oder passe den Schwellenwert selbst an.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>On-Device Transkription & KI-Zusammenfassungen</h3>
+                    <p>Generiere Untertitel in 30+ Sprachen. Erhalte KI-Zusammenfassungen und Q&A. Alles lokal auf deinem iPhone verarbeitet – kein Cloud-Upload.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Export zu Apple Notes, Anki & Notion</h3>
+                    <p>Exportiere ein sauberes Transkript mit Sprechernamen und Kapitelmarken direkt in deine Lern-Tools, inklusive Obsidian und generierten Anki-Lernkarten.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Sprechererkennung</h3>
+                    <p>Erkennt automatisch bis zu 4 Sprecher. Farbcodiert und umbenennbar – perfekt für Seminare, Interviews und Gruppengespräche.</p>
+                </div>
+            </div>
+        </article>
 
-        <h2>Über Transkription hinaus: auch Stille entfernen</h2>
-        <p>5cut ist primär ein Stille-Entfernungs-Tool. Der typische Workflow ist:</p>
-        <ol>
-            <li>Vorlesung importieren oder aufnehmen</li>
-            <li>Stille automatisch entfernen (spart 20-35% der Aufnahme)</li>
-            <li>Die gekürzte Version offline transkribieren</li>
-            <li>Exportieren: Video mit eingebrannten Untertiteln, SRT-Datei oder Text-Transkript</li>
-        </ol>
+        <section class="how-it-works">
+            <h3>So funktioniert's</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Aufnehmen oder Importieren</strong> einer Vorlesung direkt in der App oder aus Dateien</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>Sieh die Wellenform</strong> – grün ist Sprache, rot ist Stille</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Passe den Schwellenwert an</strong> oder wähle einen Smart-Mode</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Exportieren.</strong> Fertig. Stille entfernt, Lernnotizen erstellt.</p>
+            </div>
+        </section>
 
-        <h2>Kostenlos starten</h2>
-        <p>5cut ist kostenlos mit 10 Exporten pro Monat. Transkription ist auf allen Stufen verfügbar. Premium bietet unbegrenzte Exporte und Stapelverarbeitung.</p>
-
-        <a class="cta" href="https://apps.apple.com/app/5cut/id6758529319?ct=de_offline_transcription">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="5cut im App Store laden">
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
-
-        <br>
-        <a class="back" href="/de/">&larr; Zurück zu 5cut</a>
-    </div>
+    </main>
 
     <footer>
         <div class="footer-grid">
             <div class="footer-col">
-                <h4>Anwendungsfälle</h4>
-                <a href="/de/use-cases/remove-silence-from-zoom/">Zoom-Aufnahmen</a>
-                <a href="/de/remove-silence-from-lectures/">Uni-Vorlesungen</a>
-                <a href="/de/best-app-for-medical-school-lectures/">Medizinstudium</a>
-                <a href="/de/best-app-for-law-school-recordings/">Jurastudium</a>
-                <a href="/de/record-meetings-privately-iphone/">Private Meetings</a>
+                <h4>Use Cases</h4>
+                <a href="/de/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
+                <a href="/de/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
+                <a href="/de/remove-silence-from-lectures/">University Lectures</a>
+                <a href="/de/podcast-silence-remover/">Podcasts</a>
+                <a href="/de/free-jumpcut-app/">Jumpcut App</a>
+                <a href="/de/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">
-                <h4>Funktionen</h4>
-                <a href="/de/transcribe-lectures/">Transkription</a>
-                <a href="/de/offline-lecture-transcription-iphone/">Offline-Transkription</a>
+                <h4>Alternativen</h4>
                 <a href="/de/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
             </div>
             <div class="footer-col">
                 <h4>Rechtliches & Support</h4>
-                <a href="/support/">Support & Kontakt</a>
-                <a href="/privacy/">Datenschutz</a>
-                <a href="/terms/">Nutzungsbedingungen</a>
+                <a href="/support/">Support & Contact</a>
+                <a href="/privacy/">Privacy Policy</a>
+                <a href="/terms/">Terms of Service</a>
                 <a href="/impressum/">Impressum</a>
             </div>
         </div>

@@ -20,11 +20,11 @@
     <meta property="og:description" content="Ghi âm bài giảng. Cắt bỏ khoảng lặng. Nhận bản ghi chép và ghi chú học tập. Miễn phí cho iOS.">
     <meta property="og:url" content="https://get5cut.com/vi/">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://get5cut.com/apple-touch-icon.png">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="5cut – Ghi Âm & Cắt Khoảng Lặng, Xuất Ghi Chú Học Tập">
     <meta name="twitter:description" content="Ghi âm bài giảng. Cắt bỏ khoảng lặng. Nhận bản ghi chép và ghi chú học tập. Miễn phí cho iOS.">
-    <meta name="twitter:image" content="https://get5cut.com/apple-touch-icon.png">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -33,33 +33,14 @@
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
         "description": "Ghi âm bài giảng trực tiếp trên iPhone. 5cut tự động cắt khoảng lặng, tạo phụ đề 30+ ngôn ngữ và xuất ghi chú học tập sạch sẽ sang Anki, Notion, và Obsidian.",
-        "offers": [
-            {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "USD",
-                "description": "Free tier with 10 exports per month"
-            },
-            {
-                "@type": "Offer",
-                "price": "1.99",
-                "priceCurrency": "USD",
-                "description": "Monthly subscription for unlimited exports",
-                "priceSpecification": {
-                    "@type": "UnitPriceSpecification",
-                    "billingDuration": "P1M"
-                }
-            },
-            {
-                "@type": "Offer",
-                "price": "6.99",
-                "priceCurrency": "USD",
-                "description": "Lifetime one-time purchase"
-            }
-        ],
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
-        "screenshot": "https://get5cut.com/apple-touch-icon.png",
-        "softwareVersion": "1.0"
+        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "softwareVersion": "1.2.2"
     }
     </script>
     <style>
@@ -69,22 +50,28 @@
             background: #F5F5F5;
             color: #111;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             padding: 40px 24px;
         }
         .container {
-            max-width: 480px;
+            max-width: 1040px;
             width: 100%;
-            text-align: center;
+            margin: 0 auto;
+        }
+        .hero {
+            min-height: calc(100vh - 96px);
+            display: grid;
+            grid-template-columns: minmax(0, 0.9fr) minmax(360px, 1.1fr);
+            gap: 56px;
+            align-items: center;
+        }
+        .hero-copy {
+            text-align: left;
         }
         .brand {
             font-family: Impact, 'Arial Black', sans-serif;
             font-size: 96px;
             font-weight: 900;
-            letter-spacing: -0.04em;
+            letter-spacing: 0;
             text-transform: uppercase;
             line-height: 1;
             margin-bottom: 8px;
@@ -104,14 +91,69 @@
             z-index: -1;
         }
         .tagline {
-            font-size: 18px;
+            font-size: 30px;
+            line-height: 1.08;
             font-weight: 400;
             color: #555;
-            margin-bottom: 48px;
-            letter-spacing: 0.02em;
+            margin-bottom: 28px;
+            letter-spacing: 0;
+        }
+        .hero-proof {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+        .proof-pill {
+            border: 1px solid #D7D1C6;
+            border-radius: 999px;
+            padding: 8px 12px;
+            font-size: 13px;
+            color: #333;
+            background: #fff;
+        }
+        .hero-visual {
+            position: relative;
+            min-height: 570px;
+        }
+        .phone-shot {
+            position: absolute;
+            width: min(31vw, 250px);
+            max-width: 250px;
+            border-radius: 28px;
+            box-shadow: 0 24px 64px rgba(17, 17, 17, 0.18);
+            background: #111;
+        }
+        .phone-shot.recorder {
+            left: 0;
+            top: 16px;
+            transform: rotate(-4deg);
+        }
+        .phone-shot.editor {
+            left: 30%;
+            top: 58px;
+            z-index: 2;
+        }
+        .phone-shot.transcript {
+            right: 0;
+            top: 16px;
+            transform: rotate(4deg);
+        }
+        .hero-note {
+            position: absolute;
+            left: 12%;
+            right: 12%;
+            bottom: 12px;
+            background: #111;
+            color: #fff;
+            padding: 16px 18px;
+            border-radius: 8px;
+            font-size: 15px;
+            line-height: 1.35;
+            text-align: center;
         }
         .features {
-            text-align: center;
+            text-align: left;
             margin-bottom: 48px;
         }
         .feature {
@@ -149,7 +191,7 @@
             margin-bottom: 24px;
         }
         .use-cases {
-            text-align: center;
+            text-align: left;
             margin-bottom: 48px;
         }
         .use-cases h3 {
@@ -169,7 +211,7 @@
             border-radius: 12px;
             padding: 24px;
             margin-bottom: 48px;
-            text-align: center;
+            text-align: left;
         }
         .privacy-box h3 {
             font-size: 16px;
@@ -221,12 +263,12 @@
             text-decoration: underline;
         }
         footer {
+            margin-top: 64px;
             font-size: 13px;
             color: #777;
-            text-align: center;
+            text-align: left;
             width: 100%;
             max-width: 800px;
-            margin: 64px auto 0;
         }
         .footer-grid {
             display: grid;
@@ -234,7 +276,6 @@
             gap: 32px;
             margin-bottom: 48px;
         }
-        .footer-col { text-align: left; }
         .footer-col h4 {
             font-size: 14px;
             color: #111;
@@ -258,7 +299,7 @@
             padding-top: 24px;
         }
         .faq {
-            text-align: center;
+            text-align: left;
             margin-bottom: 48px;
         }
         .faq h3 {
@@ -297,7 +338,7 @@
             padding: 0 0 12px;
         }
         .how-it-works {
-            text-align: center;
+            text-align: left;
             margin-bottom: 48px;
         }
         .how-it-works h3 {
@@ -350,8 +391,28 @@
             font-size: 14px;
             color: #999;
         }
+        @media (max-width: 820px) {
+            body { padding: 32px 18px; }
+            .hero {
+                min-height: auto;
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .hero-copy { text-align: center; }
+            .brand { font-size: 82px; }
+            .tagline { font-size: 25px; }
+            .hero-proof { justify-content: center; }
+            .hero-visual {
+                min-height: 500px;
+                overflow: hidden;
+            }
+            .phone-shot { width: 210px; }
+            .phone-shot.recorder { left: -6px; }
+            .phone-shot.editor { left: calc(50% - 105px); top: 46px; }
+            .phone-shot.transcript { right: -6px; }
+            .hero-note { left: 0; right: 0; bottom: 0; }
+        }
     </style>
-    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
     <div class="lang-switch">
@@ -363,16 +424,29 @@
         <a href="/es/" class="">ES</a>
     </div>
     <main class="container">
-        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-        <h1 class="brand"><span class="highlight">5cut</span></h1>
-        <h2 class="tagline">Ghi âm bài giảng. Cắt bỏ khoảng lặng. Xuất ghi chú.</h2>
+        <section class="hero">
+            <div class="hero-copy">
+                <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+                <h1 class="brand"><span class="highlight">5cut</span></h1>
+                <h2 class="tagline">Ghi âm bài giảng. Cắt bỏ khoảng lặng. Xuất ghi chú.</h2>
+                <div class="hero-proof">
+                    <span class="proof-pill">100% trên thiết bị</span>
+                    <span class="proof-pill">Không cần tài khoản</span>
+                    <span class="proof-pill">Xuất ghi chú học tập</span>
+                </div>
+                <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                </a>
+            </div>
+            <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
+                <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
+                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot editor">
+                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot transcript">
+                <p class="hero-note">30m+ tiết kiệm mỗi bài giảng 90 phút. Record, trim, transcribe, and export notes without uploading your audio.</p>
+            </div>
+        </section>
 
         <div class="divider"></div>
-
-        <div class="callout">
-            <div class="stat">30m+</div>
-            <div class="stat-label">tiết kiệm mỗi bài giảng 90 phút</div>
-        </div>
 
         <section class="privacy-box">
             <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Quyền Riêng Tư: 100% Xử Lý Trên Thiết Bị</h3>
@@ -443,7 +517,7 @@
             <p>Cần phụ đề? 5cut cũng có thể <a href="/transcribe-lectures/">tạo phụ đề cho bài giảng bằng 30+ ngôn ngữ</a> trực tiếp trên thiết bị của bạn.</p>
         </section>
 
-        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=vi">
+        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
             <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
         </a>
 
@@ -463,15 +537,15 @@
             </details>
             <details>
                 <summary>Tôi có thể xử lý toàn bộ bài giảng của một học kỳ cùng lúc không?</summary>
-                <p>Có. Với tính năng xử lý hàng loạt (Premium), bạn có thể xếp hàng nhiều bản ghi âm.</p>
+                <p>Có. Bạn có thể xếp hàng nhiều bản ghi âm và xử lý bằng cài đặt riêng hoặc cài đặt chung.</p>
             </details>
             <details>
                 <summary>Dữ liệu của tôi có riêng tư không?</summary>
                 <p>Hoàn toàn. Tất cả quá trình xử lý diễn ra hoàn toàn trên thiết bị của bạn. Không tải lên đám mây, không thu thập dữ liệu.</p>
             </details>
             <details>
-                <summary>5cut có giá bao nhiêu?</summary>
-                <p>5cut miễn phí với 10 lần xuất mỗi tháng. Gói Premium loại bỏ giới hạn xuất với giá $1.99/tháng hoặc mua một lần trọn đời $6.99.</p>
+                <summary>5cut gồm những gì?</summary>
+                <p>5cut gồm ghi âm và nhập tệp, xóa khoảng lặng, bản chép lời, phụ đề, nhãn người nói, quy trình xử lý hàng loạt và xuất sang Apple Notes, Anki, Notion, Obsidian. Giá hiện tại được hiển thị trong App Store.</p>
             </details>
             <details>
                 <summary>Ứng dụng có sẵn bằng những ngôn ngữ nào?</summary>
@@ -488,14 +562,12 @@
                 <a href="/vi/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
                 <a href="/vi/remove-silence-from-lectures/">University Lectures</a>
                 <a href="/vi/podcast-silence-remover/">Podcasts</a>
-                <a href="/vi/free-jumpcut-app/">Free Jumpcutter</a>
+                <a href="/vi/free-jumpcut-app/">Jumpcut App</a>
                 <a href="/vi/smartphone-video-editor/">Smartphone Editor</a>
             </div>
             <div class="footer-col">
                 <h4>Các lựa chọn thay thế</h4>
                 <a href="/vi/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
-                <a href="/vi/offline-lecture-transcription-iphone/">Offline Transcription</a>
-                <a href="/vi/offline-meeting-notes-iphone/">Offline Meeting Notes</a>
             </div>
             <div class="footer-col">
                 <h4>Pháp lý & Hỗ trợ</h4>
