@@ -6,7 +6,6 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from data_pages import pages_data
 
 # Since generate_pages executes immediately, we will read it as a string to extract the `languages` dict.
-# Actually, simpler way: just copy the languages dict or use a regex/ast, but let's just define a quick getter.
 def get_languages():
     import ast
     with open('generate_pages.py', 'r', encoding='utf-8') as f:
@@ -26,7 +25,7 @@ inner_page_template = """<!DOCTYPE html>
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="canonical" href="https://get5cut.com/{page_path}/">
+    <link rel="canonical" href="https://get5cut.com{prefix}/{page_path}/">
     <link rel="alternate" hreflang="en" href="https://get5cut.com/{page_path}/">
     <link rel="alternate" hreflang="de" href="https://get5cut.com/de/{page_path}/">
     <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/{page_path}/">
@@ -36,7 +35,7 @@ inner_page_template = """<!DOCTYPE html>
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/{page_path}/">
     <meta property="og:title" content="{page_title}">
     <meta property="og:description" content="{page_desc}">
-    <meta property="og:url" content="https://get5cut.com/{page_path}/">
+    <meta property="og:url" content="https://get5cut.com{prefix}/{page_path}/">
     <meta property="og:type" content="article">
     <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -46,19 +45,24 @@ inner_page_template = """<!DOCTYPE html>
     <script type="application/ld+json">
     {{
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "5cut",
-        "operatingSystem": "iOS",
-        "applicationCategory": "MultimediaApplication",
-        "description": "{description}",
-        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
-        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "@type": "Article",
+        "headline": "{page_title}",
+        "description": "{page_desc}",
+        "image": "https://get5cut.com/assets/og-card.png",
         "author": {{
             "@type": "Person",
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         }},
-        "softwareVersion": "1.2.2"
+        "publisher": {{
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {{
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }}
+        }},
+        "mainEntityOfPage": "https://get5cut.com{prefix}/{page_path}/"
     }}
     </script>
     <style>
@@ -160,7 +164,7 @@ inner_page_template = """<!DOCTYPE html>
             text-align: left;
             margin-bottom: 48px;
         }}
-        .use-cases h3 {{
+        .use-cases h2 {{
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 8px;
@@ -179,7 +183,7 @@ inner_page_template = """<!DOCTYPE html>
             margin-bottom: 48px;
             text-align: left;
         }}
-        .privacy-box h3 {{
+        .privacy-box h2 {{
             font-size: 16px;
             font-weight: 700;
             color: #2E7D32;
@@ -192,6 +196,16 @@ inner_page_template = """<!DOCTYPE html>
             font-size: 13px;
             color: #388E3C;
             line-height: 1.5;
+        }}
+        .cta-container {{
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }}
+        .cta-subtext {{
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
         }}
         .app-store-badge {{
             display: inline-block;
@@ -268,7 +282,7 @@ inner_page_template = """<!DOCTYPE html>
             text-align: left;
             margin-bottom: 48px;
         }}
-        .how-it-works h3 {{
+        .how-it-works h2 {{
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -360,11 +374,6 @@ inner_page_template = """<!DOCTYPE html>
             {page_intro}
         </section>
 
-        <section class="privacy-box">
-            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h3>
-            <p>{privacy_desc}</p>
-        </section>
-
         <article class="features">
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
@@ -404,7 +413,7 @@ inner_page_template = """<!DOCTYPE html>
         </article>
 
         <section class="how-it-works">
-            <h3>{how_it_works}</h3>
+            <h2>{how_it_works}</h2>
             <div class="step">
                 <div class="step-number">1</div>
                 <p>{step1}</p>
@@ -423,9 +432,17 @@ inner_page_template = """<!DOCTYPE html>
             </div>
         </section>
 
-        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-        </a>
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h2>
+            <p>{privacy_desc}</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">{cta_subtext}</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+            </a>
+        </div>
     </main>
 
     <footer>

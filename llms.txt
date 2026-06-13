@@ -1,6 +1,6 @@
 # 5cut
 
-5cut is an iOS app for recording lectures and meetings, removing silence, generating on-device transcripts and subtitles, and exporting study notes.
+5cut is an iOS app for recording lectures and meetings, removing silence, generating on-device transcripts and subtitles, live-translating in 30+ languages, and exporting study notes.
 
 Key pages:
 - https://get5cut.com/
@@ -8,6 +8,15 @@ Key pages:
 - https://get5cut.com/offline-lecture-transcription-iphone/
 - https://get5cut.com/remove-silence-from-lectures/
 - https://get5cut.com/record-meetings-privately-iphone/
+- https://get5cut.com/offline-meeting-notes-iphone/
+- https://get5cut.com/podcast-silence-remover/
+- https://get5cut.com/smartphone-video-editor/
+- https://get5cut.com/best-app-for-law-school-recordings/
+- https://get5cut.com/best-app-for-medical-school-lectures/
+- https://get5cut.com/free-jumpcut-app/
+- https://get5cut.com/use-cases/remove-silence-from-zoom/
+- https://get5cut.com/use-cases/remove-silence-from-obs/
+- https://get5cut.com/alternatives/timebolt-alternative/
 - https://get5cut.com/privacy/
 - https://get5cut.com/support/
 

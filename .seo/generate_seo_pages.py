@@ -13,15 +13,18 @@ def load_template():
 
 def inject_faqs(html, faqs):
     # Build HTML FAQs
-    faq_html = '<h3>Frequently asked questions</h3>\n'
+    faq_html = '''        <section class="faq">
+            <h2>Frequently asked questions</h2>\n'''
     for faq in faqs:
         faq_html += f'''            <details>
                 <summary>{faq["q"]}</summary>
                 <p>{faq["a"]}</p>
             </details>
 '''
+    faq_html += '        </section>'
+    
     # Replace the FAQ section
-    html = re.sub(r'<h3>Frequently asked questions</h3>.*?</div>', faq_html + '        </div>', html, flags=re.DOTALL)
+    html = re.sub(r'<section class="faq">.*?</section>', faq_html, html, flags=re.DOTALL)
     
     # Update FAQ schema
     schema_entities = []
