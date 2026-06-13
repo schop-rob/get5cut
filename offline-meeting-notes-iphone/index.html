@@ -28,19 +28,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "5cut",
-        "operatingSystem": "iOS",
-        "applicationCategory": "MultimediaApplication",
-        "description": "Record lectures and meetings directly on your iPhone. 5cut automatically trims silence, transcribes in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Perfect for students.",
-        "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
-        "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
+        "@type": "Article",
+        "headline": "Offline Meeting Notes on iPhone – Transcribe Without Internet | 5cut",
+        "description": "Generate meeting notes and transcripts offline on iPhone. No internet, no cloud, no uploads. Record meetings, identify speakers, and get a full transcript — all on-device.",
+        "image": "https://get5cut.com/assets/og-card.png",
         "author": {
             "@type": "Person",
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         },
-        "softwareVersion": "1.2.2"
+        "publisher": {
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }
+        },
+        "mainEntityOfPage": "https://get5cut.com/offline-meeting-notes-iphone/"
     }
     </script>
     <style>
@@ -142,7 +147,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .use-cases h3 {
+        .use-cases h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 8px;
@@ -161,7 +166,7 @@
             margin-bottom: 48px;
             text-align: left;
         }
-        .privacy-box h3 {
+        .privacy-box h2 {
             font-size: 16px;
             font-weight: 700;
             color: #2E7D32;
@@ -174,6 +179,16 @@
             font-size: 13px;
             color: #388E3C;
             line-height: 1.5;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
         }
         .app-store-badge {
             display: inline-block;
@@ -250,7 +265,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .how-it-works h3 {
+        .how-it-works h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -334,13 +349,13 @@
         <div class="divider"></div>
 
         <div class="callout">
-            <div class="stat">30m+</div>
-            <div class="stat-label">saved per 90m lecture</div>
+            <div class="stat">Save up to 30%</div>
+            <div class="stat-label">of study time on average</div>
         </div>
 
         <section class="intro-text">
             <p>You need meeting notes, but your company's security policy won't let you use Otter, Fireflies, or any cloud transcription service. Or you're in a conference room with no WiFi. Or you simply don't trust a third party with your meeting content.</p>
-<p>5cut generates meeting transcripts entirely offline on your iPhone. Record, transcribe, identify speakers — no internet connection required at any point.</p>
+<p>5cut generates meeting transcripts entirely offline on your iPhone. Record, transcribe, identify speakers — no internet connection required after the initial model download.</p>
 <h2>How offline meeting notes work</h2>
 <ol>
     <li><strong>Download a language model once</strong> — this is the only step that needs internet (40-700 MB)</li>
@@ -365,75 +380,78 @@
     <li><strong>30+ languages</strong> — multilingual teams can transcribe in the meeting's language</li>
 </ul>
 <h2>Free to start</h2>
-<p>5cut combines private recording, on-device transcription, silence removal, and batch processing.</p>
-        </section>
-
-        <section class="privacy-box">
-            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacy First: 100% On-Device</h3>
-            <p>We believe your recordings are yours. 5cut processes all audio, transcription, and AI summaries entirely on your iPhone or iPad. No audio or video is ever uploaded to a server, ensuring absolute privacy and compliance for students and professionals.</p>
+<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>
         </section>
 
         <article class="features">
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>In-App Recorder & Bookmarks</h3>
-                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. Live transcript generated on iOS 26+ devices.</p>
+                    <h3>In-App Recorder & Live Captions</h3>
+                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording. View live transcripts in real-time on iOS 26+ devices.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>Automatic Silence Removal</h3>
-                    <p>Detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or fine-tune the decibel threshold manually.</p>
+                    <h3>Smart Silence Removal</h3>
+                    <p>Automatically detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or customize thresholds manually.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>On-Device Transcription & AI Summaries</h3>
-                    <p>Generate captions in 30+ languages. Get AI summaries, key points, and Q&A powered by Apple Foundation Models. All processed locally on your iPhone — no cloud uploads.</p>
+                    <h3>On-Device Translation & AI summaries</h3>
+                    <p>Follow lectures in your native tongue with live translation. Generate AI summaries, key points, and study questions — all powered by on-device AI, no internet required.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>Export to Apple Notes, Anki & Notion</h3>
-                    <p>Export a clean transcript with speaker labels and chapter markers directly to your favorite study tools, including Obsidian and auto-generated Anki cloze flashcards.</p>
+                    <h3>Export to Notion, Anki & Obsidian</h3>
+                    <p>Export your trimmed transcripts with speaker labels directly to your favorite study tools, including Obsidian and auto-generated Anki study cards.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Speaker Identification</h3>
-                    <p>Automatically identify up to 4 speakers in a single recording. Color-coded and renamable labels — perfect for seminars and group discussions.</p>
+                    <h3>Multi-Speaker Identification</h3>
+                    <p>Automatically identify up to 4 speakers in a single recording with color-coded, renamable labels — perfect for group discussions and seminars.</p>
                 </div>
             </div>
         </article>
 
         <section class="how-it-works">
-            <h3>How it works</h3>
+            <h2>How it works</h2>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Record or Import</strong> a lecture directly in-app or from Files</p>
+                <p><strong>Record or Import</strong> any audio or video directly on your iPhone</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>See the waveform</strong> — green is speech, red is silence</p>
+                <p><strong>Auto-detect silence</strong> — see speech in green and gaps in red</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>Adjust the threshold</strong> or pick a Smart Mode preset</p>
+                <p><strong>Translate & summarize</strong> on-device using local AI models</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Export.</strong> Done. Silence removed, study notes generated.</p>
+                <p><strong>Export to study tools</strong> — send clean files to Anki, Notion, or Obsidian</p>
             </div>
         </section>
 
-        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-        </a>
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Your Recordings Never Leave Your Phone</h2>
+            <p>We can't see your recordings — they never leave your phone. No account, no analytics, no ads.</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">Free download · 3-day Premium trial · 5 exports/month free · No account</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+            </a>
+        </div>
     </main>
 
     <footer>

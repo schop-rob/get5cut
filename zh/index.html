@@ -17,13 +17,13 @@
     <link rel="alternate" hreflang="es" href="https://get5cut.com/es/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
     <meta property="og:title" content="5cut – 录制并剪辑网课，导出学习笔记">
-    <meta property="og:description" content="录制讲座。去除静音。获取清晰的文本和学习笔记。在 iPhone 上私密处理。">
+    <meta property="og:description" content="录制讲座。去除静音。实时翻译。获取清晰的文本和学习笔记。在 iPhone 上私密处理。">
     <meta property="og:url" content="https://get5cut.com/zh/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="5cut – 录制并剪辑网课，导出学习笔记">
-    <meta name="twitter:description" content="录制讲座。去除静音。获取清晰的文本和学习笔记。在 iPhone 上私密处理。">
+    <meta name="twitter:description" content="录制讲座。去除静音。实时翻译。获取清晰的文本和学习笔记。在 iPhone 上私密处理。">
     <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
@@ -69,7 +69,7 @@
         }
         .brand {
             font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 96px;
+            font-size: 72px;
             font-weight: 900;
             letter-spacing: 0;
             text-transform: uppercase;
@@ -111,6 +111,21 @@
             font-size: 13px;
             color: #333;
             background: #fff;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: left;
+        }
+        @media (max-width: 820px) {
+            .cta-container {
+                text-align: center;
+            }
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
         }
         .hero-visual {
             position: relative;
@@ -194,7 +209,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .use-cases h3 {
+        .use-cases h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 8px;
@@ -213,7 +228,7 @@
             margin-bottom: 48px;
             text-align: left;
         }
-        .privacy-box h3 {
+        .privacy-box h2 {
             font-size: 16px;
             font-weight: 700;
             color: #2E7D32;
@@ -302,7 +317,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .faq h3 {
+        .faq h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -341,7 +356,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .how-it-works h3 {
+        .how-it-works h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -399,7 +414,7 @@
                 gap: 28px;
             }
             .hero-copy { text-align: center; }
-            .brand { font-size: 82px; }
+            .brand { font-size: 56px; }
             .tagline { font-size: 25px; }
             .hero-proof { justify-content: center; }
             .hero-visual {
@@ -427,109 +442,122 @@
         <section class="hero">
             <div class="hero-copy">
                 <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-                <h1 class="brand"><span class="highlight">5cut</span></h1>
-                <h2 class="tagline">录制讲座。去除静音。导出学习笔记。</h2>
+                <h1 class="brand"><span class="highlight">5cut</span> – AI 课程录音与去静音工具</h1>
+                <h2 class="tagline">拒绝重复听课浪费时间。自动裁剪静音，实时翻译，本地生成学习笔记。</h2>
                 <div class="hero-proof">
-                    <span class="proof-pill">100% 本地处理</span>
-                    <span class="proof-pill">无需账户</span>
-                    <span class="proof-pill">学习导出</span>
+                    <span class="proof-pill">100% 设备端离线处理</span>
+                    <span class="proof-pill">无需注册账户</span>
+                    <span class="proof-pill">30+ 语言实时翻译</span>
                 </div>
-                <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
-                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-                </a>
+                <div class="cta-container">
+                    <p class="cta-subtext">免费下载 · 3 天 Premium 试用 · 每月 5 次免费导出 · 无需账户</p>
+                    <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                    </a>
+                </div>
             </div>
             <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
                 <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
-                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot editor">
-                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot transcript">
-                <p class="hero-note">30分钟+ 每90分钟讲座可节省. Record, trim, transcribe, and export notes without uploading your audio.</p>
+                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot editor">
+                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot transcript">
+                <p class="hero-note">录制、裁剪、转写、翻译、导出 — 全部在设备上完成，无需上传音频。</p>
             </div>
         </section>
 
         <div class="divider"></div>
 
-        <section class="privacy-box">
-            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>隐私至上：100% 本地处理</h3>
-            <p>我们认为您的录音属于您自己。5cut 的所有音频处理、转写和 AI 摘要均完全在您的 iPhone 或 iPad 上运行。没有任何音频或视频会被上传到服务器，确保学生和专业人士的绝对隐私。</p>
-        </section>
-
         <article class="features">
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>应用内录音与书签</h3>
-                    <p>直接在应用内录制讲座、会议和采访。在录制时添加章节书签。iOS 26+ 设备支持实时转写。</p>
+                    <h3>应用内录音与实时字幕</h3>
+                    <p>直接录制课堂讲座或会议。录音时可添加章节标记。iOS 26+ 设备支持生成实时字幕。</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>自动移除静音</h3>
-                    <p>识别并剪切讲座和播客中的空白部分。使用智能模式（温和、适中、激进）或手动微调阈值。</p>
+                    <h3>智能去除静音</h3>
+                    <p>自动检测并裁剪讲座和播客中的无声停顿。支持智能预设模式（温和、适中、激进）或手动调节阈值。</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>设备端转写与 AI 摘要</h3>
-                    <p>生成 30 多种语言的字幕，并获得 AI 摘要、要点和问答。全部在您的 iPhone 上本地处理——无需云端上传。</p>
+                    <h3>设备端翻译与 AI 摘要</h3>
+                    <p>支持实时翻译，用母语轻松跟上外语课程。在本地生成 AI 摘要、核心要点与问答，无需上传云端。</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>导出至 Apple Notes、Anki 和 Notion</h3>
-                    <p>直接将带有发言人标签和章节标记的干净转写文稿导出到您最喜欢的学习工具（包括 Obsidian 和 Anki 填空卡片）中。</p>
+                    <h3>导出至 Notion、Anki 与 Obsidian</h3>
+                    <p>将整理好的干净文本及发言人标记直接导出至 Notion、Obsidian，并支持自动生成 Anki 学习卡片。</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>发言人识别</h3>
-                    <p>自动识别录音中多达 4 位发言人。颜色标记并支持重命名，非常适合研讨会和小组讨论。</p>
+                    <h3>多发言人识别</h3>
+                    <p>自动识别录音中多达 4 位发言人，并提供颜色标记与名称修改。非常适合研讨会和小组讨论。</p>
                 </div>
             </div>
         </article>
 
         <section class="how-it-works">
-            <h3>使用方法</h3>
+            <h2>使用方法</h2>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>录制或导入</strong>应用内直接录音，或从文件导入课程</p>
+                <p><strong>录制或导入</strong>音频或视频文件至 iPhone</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>查看波形图</strong> – 绿色代表语音，红色代表静音</p>
+                <p><strong>自动检测静音</strong> — 绿色代表语音，红色代表静音</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>调整阈值</strong>或选择智能模式预设</p>
+                <p><strong>离线翻译与总结</strong> — 在设备上运行本地 AI 模型处理</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>导出。</strong> 完成。静音已移除，学习笔记已生成。</p>
+                <p><strong>导出学习资料</strong> — 将整理好的笔记发送至 Anki、Notion 或 Obsidian</p>
             </div>
         </section>
 
         <section class="use-cases">
-            <h3>适用人群</h3>
-            <p><a href="/zh/remove-silence-from-lectures/">复习外语网课的留学生</a> – 无论是在<a href="/study-abroad/">留学</a>还是上在线课程。观看当地新闻的外派人员，以及需要处理<a href="/speed-up-zoom-recordings/">冗长 Zoom 录制</a>或<a href="/podcast-silence-remover/">播客</a>的专业人士。</p>
-            <p>需要字幕？5cut 还可以直接在您的设备上 <a href="/transcribe-lectures/">转写 30 多种语言的课程</a>。</p>
+            <h2>适用人群</h2>
+            <p>复旧外语课程的留学生、交换生、外派人员。也同样适用于希望去除 Zoom 会议录制尴尬停顿或加速收听播客的职场人士。</p>
+            <p>需要字幕或实时翻译？5cut 可以在设备上完全离线转写和翻译 30 多种语言的讲座。</p>
         </section>
 
-        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-        </a>
+        <div class="dev-story" style="background:#fff; border-radius:12px; padding:24px; margin-bottom:48px; border: 1px solid #D7D1C6;">
+            <p style="font-style:italic; font-size:14px; color:#444; line-height:1.5; margin-bottom:12px;">
+                "我开发 5cut 是因为用外语听那些又长又多停顿的课非常浪费学习时间。设备端翻译和去静音功能彻底改变了我的学习方式，而且完全本地处理意味着我的课程资料永远不会被上传到云端服务器。"
+            </p>
+            <p style="font-weight:700; font-size:12px; color:#111;">— Robin Schöppner, 5cut 开发者</p>
+        </div>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>你的录音永远不会离开你的手机</h2>
+            <p>我们无法看到、听到或存储你的录音 — 一切都在你的设备上处理。无云端上传、无需账户、无跟踪、无广告。你的课堂录音完全属于你。</p>
+        </section>
+
+        <div class="cta-container" style="text-align: center;">
+            <p class="cta-subtext">免费下载 · 3 天 Premium 试用 · 每月 5 次免费导出 · 无需账户</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+            </a>
+        </div>
 
         <section class="faq">
-            <h3>常见问题</h3>
+            <h2>常见问题</h2>
             <details>
                 <summary>静音检测是如何工作的？</summary>
                 <p>5cut 在设备本地分析视频音频波形。低于阈值的片段标记为红色。您可以手动调整滑块，或选择三种智能模式。</p>
             </details>
             <details>
-                <summary>我可以为外语课生成字幕吗？</summary>
-                <p>可以。5cut 支持 30 多种语言的设备端转写。字幕可嵌入视频或导出为 SRT。</p>
+                <summary>我可以为课程生成字幕和翻译吗？</summary>
+                <p>可以。5cut 支持 30 多种语言的设备端转写与实时翻译。字幕可嵌入视频或导出为 SRT。</p>
             </details>
             <details>
                 <summary>支持 Zoom 或在线课程录制吗？</summary>
@@ -544,8 +572,8 @@
                 <p>绝对保障。所有处理过程均在本地完成。不上传云端，无需账号，不收集数据。</p>
             </details>
             <details>
-                <summary>5cut 包含哪些功能？</summary>
-                <p>5cut 包含录制与导入、静音移除、转写、字幕、说话人标签、批量流程，以及导出到 Apple Notes、Anki、Notion 和 Obsidian。当前价格以 App Store 显示为准。</p>
+                <summary>5cut 有 Premium 付费计划吗？</summary>
+                <p>有的。录音、静音裁剪和转写预览（前 5 分钟）都是免费的。您可以升级到 5cut Premium 来解锁无限次数导出、说话人识别、完整长度转录以及 AI 总结。我们提供 3 天免费试用。5cut Premium 为月度订阅或一次性终身升级——价格在 App Store 中显示并按地区调整。</p>
             </details>
             <details>
                 <summary>应用支持哪些语言？</summary>
@@ -568,6 +596,11 @@
             <div class="footer-col">
                 <h4>替代方案</h4>
                 <a href="/zh/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+            </div>
+            <div class="footer-col">
+                <h4>按学科分类</h4>
+                <a href="/zh/best-app-for-medical-school-lectures/">Medical School Lectures</a>
+                <a href="/zh/best-app-for-law-school-recordings/">Law School Recordings</a>
             </div>
             <div class="footer-col">
                 <h4>法律与支持</h4>

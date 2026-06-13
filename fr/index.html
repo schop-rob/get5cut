@@ -17,13 +17,13 @@
     <link rel="alternate" hreflang="es" href="https://get5cut.com/es/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
     <meta property="og:title" content="5cut – Enregistrez, Coupez & Exportez vos Notes de Cours">
-    <meta property="og:description" content="Enregistrez vos cours. Supprimez les silences. Obtenez une transcription propre. Gratuit sur iOS.">
+    <meta property="og:description" content="Enregistrez vos cours. Supprimez les silences. Traduisez en direct. Obtenez une transcription propre. Privé sur iPhone.">
     <meta property="og:url" content="https://get5cut.com/fr/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="5cut – Enregistrez, Coupez & Exportez vos Notes de Cours">
-    <meta name="twitter:description" content="Enregistrez vos cours. Supprimez les silences. Obtenez une transcription propre. Gratuit sur iOS.">
+    <meta name="twitter:description" content="Enregistrez vos cours. Supprimez les silences. Traduisez en direct. Obtenez une transcription propre. Privé sur iPhone.">
     <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
@@ -69,7 +69,7 @@
         }
         .brand {
             font-family: Impact, 'Arial Black', sans-serif;
-            font-size: 96px;
+            font-size: 72px;
             font-weight: 900;
             letter-spacing: 0;
             text-transform: uppercase;
@@ -111,6 +111,21 @@
             font-size: 13px;
             color: #333;
             background: #fff;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: left;
+        }
+        @media (max-width: 820px) {
+            .cta-container {
+                text-align: center;
+            }
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
         }
         .hero-visual {
             position: relative;
@@ -194,7 +209,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .use-cases h3 {
+        .use-cases h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 8px;
@@ -213,7 +228,7 @@
             margin-bottom: 48px;
             text-align: left;
         }
-        .privacy-box h3 {
+        .privacy-box h2 {
             font-size: 16px;
             font-weight: 700;
             color: #2E7D32;
@@ -302,7 +317,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .faq h3 {
+        .faq h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -341,7 +356,7 @@
             text-align: left;
             margin-bottom: 48px;
         }
-        .how-it-works h3 {
+        .how-it-works h2 {
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 12px;
@@ -399,7 +414,7 @@
                 gap: 28px;
             }
             .hero-copy { text-align: center; }
-            .brand { font-size: 82px; }
+            .brand { font-size: 56px; }
             .tagline { font-size: 25px; }
             .hero-proof { justify-content: center; }
             .hero-visual {
@@ -427,109 +442,122 @@
         <section class="hero">
             <div class="hero-copy">
                 <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-                <h1 class="brand"><span class="highlight">5cut</span></h1>
-                <h2 class="tagline">Enregistrez vos cours. Coupez les silences. Exportez vos notes.</h2>
+                <h1 class="brand"><span class="highlight">5cut</span> – Enregistreur de cours IA & Coupe-silence</h1>
+                <h2 class="tagline">Ne perdez plus d'heures à réécouter. Coupez les silences, traduisez en direct et générez vos notes.</h2>
                 <div class="hero-proof">
-                    <span class="proof-pill">100% local</span>
-                    <span class="proof-pill">Sans compte</span>
-                    <span class="proof-pill">Exports prêts à étudier</span>
+                    <span class="proof-pill">100% local (hors ligne)</span>
+                    <span class="proof-pill">Sans création de compte</span>
+                    <span class="proof-pill">Traduction en direct dans 30+ langues</span>
                 </div>
-                <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
-                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-                </a>
+                <div class="cta-container">
+                    <p class="cta-subtext">Téléchargement gratuit · Essai Premium de 3 jours · 5 exports/mois gratuits · Sans compte</p>
+                    <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                    </a>
+                </div>
             </div>
             <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
                 <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
-                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot editor">
-                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot transcript">
-                <p class="hero-note">30m+ économisés par cours de 90m. Record, trim, transcribe, and export notes without uploading your audio.</p>
+                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot editor">
+                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot transcript">
+                <p class="hero-note">Enregistrez, coupez, transcrivez, traduisez et exportez — tout sur votre appareil, sans envoyer votre audio.</p>
             </div>
         </section>
 
         <div class="divider"></div>
 
-        <section class="privacy-box">
-            <h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Confidentialité Absolue : 100% Local</h3>
-            <p>Nous pensons que vos enregistrements vous appartiennent. 5cut traite tout l'audio, les transcriptions et les résumés IA entièrement sur votre iPhone ou iPad. Aucune donnée n'est envoyée sur un serveur, garantissant une confidentialité totale.</p>
-        </section>
-
         <article class="features">
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>Enregistreur Intégré & Signets</h3>
-                    <p>Enregistrez des cours, réunions et entretiens directement dans l'application. Ajoutez des signets. Transcription en direct sur iOS 26+.</p>
+                    <h3>Enregistreur & Sous-titres en Direct</h3>
+                    <p>Enregistrez vos cours et réunions. Ajoutez des signets et suivez la transcription en direct sur les appareils iOS 26+.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>Suppression Automatique des Silences</h3>
-                    <p>Détectez et coupez les temps morts des cours et podcasts. Utilisez le mode intelligent ou ajustez le seuil manuellement.</p>
+                    <h3>Suppression Intelligente des Silences</h3>
+                    <p>Détectez et coupez automatiquement les blancs des cours et podcasts. Utilisez les préréglages intelligents ou ajustez le seuil à la main.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>Transcription & Résumés IA Locaux</h3>
-                    <p>Générez des sous-titres dans plus de 30 langues. Obtenez des résumés IA et Q&R. Tout est traité localement sur votre iPhone — aucun téléversement.</p>
+                    <h3>Traduction Locale & Résumés par IA</h3>
+                    <p>Suivez les cours dans votre langue grâce à la traduction en direct. Obtenez des résumés IA et des questions-réponses générés localement.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>Exportation vers Apple Notes, Anki & Notion</h3>
-                    <p>Exportez une transcription propre avec les noms des locuteurs et des signets directement vers vos outils préférés, y compris les cartes Anki.</p>
+                    <h3>Exportation vers Notion, Anki & Obsidian</h3>
+                    <p>Exportez des transcriptions propres avec locuteurs directement vers vos outils d'étude favoris, y compris des cartes mémoires Anki.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Identification des Locuteurs</h3>
-                    <p>Identifiez automatiquement jusqu'à 4 locuteurs dans un enregistrement. Codes couleurs et noms modifiables — parfait pour les séminaires.</p>
+                    <h3>Identification Multi-Locuteurs</h3>
+                    <p>Identifiez automatiquement jusqu'à 4 locuteurs dans un enregistrement. Codes couleurs et étiquettes renommables — idéal pour les séminaires.</p>
                 </div>
             </div>
         </article>
 
         <section class="how-it-works">
-            <h3>Comment ça marche</h3>
+            <h2>Comment ça marche</h2>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Enregistrez ou Importez</strong> un cours directement dans l'application ou depuis vos Fichiers</p>
+                <p><strong>Enregistrez ou Importez</strong> de l'audio ou de la vidéo directement sur votre iPhone</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>Voyez l'onde</strong> — vert = parole, rouge = silence</p>
+                <p><strong>Détectez les silences</strong> — parole en vert, temps morts en rouge</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>Ajustez le seuil</strong> ou choisissez un mode intelligent</p>
+                <p><strong>Traduisez & résumez</strong> sur l'appareil avec l'IA locale</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Exportez.</strong> Terminé. Les silences sont supprimés, les notes générées.</p>
+                <p><strong>Exportez</strong> — envoyez vos notes propres vers Anki, Notion ou Obsidian</p>
             </div>
         </section>
 
         <section class="use-cases">
-            <h3>Parfait pour</h3>
-            <p>Les étudiants qui révisent des cours enregistrés dans une langue étrangère — que vous <a href="/study-abroad/">étudiiez à l'étranger</a> ou suiviez des cours en ligne. Les professionnels confrontés à des <a href="/speed-up-zoom-recordings/">enregistrements Zoom avec des blancs</a> ou des <a href="/podcast-silence-remover/">podcasts</a>.</p>
-            <p>Besoin de sous-titres ? 5cut peut aussi <a href="/transcribe-lectures/">transcrire des cours dans plus de 30 langues</a> directement sur votre appareil.</p>
+            <h2>Parfait pour</h2>
+            <p>Les étudiants internationaux suivant des cours dans une langue étrangère, les étudiants à l'étranger et les expatriés. Convient aussi aux professionnels pour couper les blancs des enregistrements Zoom ou accélérer les podcasts.</p>
+            <p>Besoin de traduction ? 5cut transcrit et traduit les cours dans plus de 30 langues directement sur votre appareil, sans connexion.</p>
         </section>
 
-        <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
-        </a>
+        <div class="dev-story" style="background:#fff; border-radius:12px; padding:24px; margin-bottom:48px; border: 1px solid #D7D1C6;">
+            <p style="font-style:italic; font-size:14px; color:#444; line-height:1.5; margin-bottom:12px;">
+                "J'ai créé 5cut parce que réécouter de longs cours remplis de blancs dans une langue étrangère dévorait mon temps d'étude. La traduction sur l'appareil et la suppression des silences ont totalement changé ma façon d'apprendre, et le traitement local garantit que mes cours ne sont jamais envoyés sur un serveur cloud."
+            </p>
+            <p style="font-weight:700; font-size:12px; color:#111;">— Robin Schöppner, Créateur de 5cut</p>
+        </div>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Vos enregistrements ne quittent jamais votre téléphone</h2>
+            <p>Nous ne pouvons ni voir, ni écouter, ni stocker vos enregistrements — tout est traité sur votre appareil. Pas d'envoi vers le cloud, pas de compte, pas de suivi, pas de publicité. Vos cours restent entièrement les vôtres.</p>
+        </section>
+
+        <div class="cta-container" style="text-align: center;">
+            <p class="cta-subtext">Téléchargement gratuit · Essai Premium de 3 jours · 5 exports/mois gratuits · Sans compte</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+            </a>
+        </div>
 
         <section class="faq">
-            <h3>Foire aux questions</h3>
+            <h2>Foire aux questions</h2>
             <details>
                 <summary>Comment fonctionne la détection des silences ?</summary>
                 <p>5cut analyse l'onde audio sur votre appareil. Les segments sous le seuil de silence sont colorés en rouge. Vous pouvez ajuster le curseur pour définir le "silence".</p>
             </details>
             <details>
-                <summary>Puis-je ajouter des sous-titres à des cours en langue étrangère ?</summary>
-                <p>Oui. 5cut inclut une transcription sur l'appareil pour plus de 30 langues. Vous pouvez intégrer les sous-titres à la vidéo ou exporter en SRT.</p>
+                <summary>Puis-je ajouter des sous-titres et des traductions ?</summary>
+                <p>Oui. 5cut inclut une transcription sur l'appareil et la traduction en direct pour plus de 30 langues. Vous pouvez intégrer les sous-titres à la vidéo ou exporter en SRT.</p>
             </details>
             <details>
                 <summary>Cela fonctionne-t-il avec les enregistrements Zoom ?</summary>
@@ -544,8 +572,8 @@
                 <p>Complètement. Tout le traitement se fait sur votre appareil. Pas de cloud, pas de compte, pas de collecte de données.</p>
             </details>
             <details>
-                <summary>Que comprend 5cut ?</summary>
-                <p>5cut inclut l'enregistrement et l'import, la suppression des silences, les transcriptions, les sous-titres, les étiquettes de locuteurs, les flux par lots et les exports vers Apple Notes, Anki, Notion et Obsidian. Les prix actuels sont affichés dans l'App Store.</p>
+                <summary>Existe-t-il une version Premium ?</summary>
+                <p>Oui. L'enregistrement, la suppression des silences et l'aperçu de transcription (5 premières minutes) sont gratuits. Vous pouvez passer à 5cut Premium pour un nombre d'exports illimité, l'identification des locuteurs, les transcriptions intégrales et les résumés IA. Un essai gratuit de 3 jours est disponible. Premium est un abonnement mensuel ou un achat à vie unique — les prix sont affichés dans l'App Store et adaptés à votre région.</p>
             </details>
             <details>
                 <summary>Quelles sont les langues disponibles pour l'application ?</summary>
@@ -568,6 +596,11 @@
             <div class="footer-col">
                 <h4>Alternatives</h4>
                 <a href="/fr/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+            </div>
+            <div class="footer-col">
+                <h4>Par domaine d'études</h4>
+                <a href="/fr/best-app-for-medical-school-lectures/">Medical School Lectures</a>
+                <a href="/fr/best-app-for-law-school-recordings/">Law School Recordings</a>
             </div>
             <div class="footer-col">
                 <h4>Légal & Support</h4>
