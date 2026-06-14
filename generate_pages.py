@@ -646,7 +646,7 @@ html_template = """<!DOCTYPE html>
             text-decoration: underline;
         }}
         footer {{
-            margin-top: 64px;
+            margin: 64px auto 0;
             font-size: 13px;
             color: #777;
             text-align: left;
