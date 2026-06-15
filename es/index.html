@@ -159,6 +159,7 @@
             left: 12%;
             right: 12%;
             bottom: 12px;
+            z-index: 10;
             background: #111;
             color: #fff;
             padding: 16px 18px;
@@ -287,7 +288,7 @@
         }
         .footer-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 32px;
             margin-bottom: 48px;
         }
@@ -530,12 +531,8 @@
             <p>¿Necesitas subtítulos o traducciones? 5cut transcribe y traduce clases en más de 30 idiomas directamente en tu dispositivo y sin conexión.</p>
         </section>
 
-        <div class="dev-story" style="background:#fff; border-radius:12px; padding:24px; margin-bottom:48px; border: 1px solid #D7D1C6;">
-            <p style="font-style:italic; font-size:14px; color:#444; line-height:1.5; margin-bottom:12px;">
-                "Creé 5cut porque volver a escuchar clases largas llenas de silencios en un idioma extranjero consumía mi tiempo de estudio. La traducción en el dispositivo y el recorte de silencios cambiaron por completo mi forma de aprender, y al ser privado, mis clases nunca se suben a un servidor en la nube."
-            </p>
-            <p style="font-weight:700; font-size:12px; color:#111;">— Robin Schöppner, Creador de 5cut</p>
-        </div>
+
+
 
         <section class="privacy-box">
             <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Privacidad Ante Todo: 100% en el Dispositivo</h2>
