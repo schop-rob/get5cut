@@ -73,7 +73,7 @@ languages = {
         "og_title": "5cut – Vorlesungen aufnehmen & schneiden, Lernnotizen exportieren",
         "og_description": "Vorlesungen aufnehmen. Stille entfernen. Live-Übersetzung. Sauberes Transkript und Lernnotizen exportieren. Privat auf dem iPhone.",
         "brand": "5cut",
-        "brand_suffix": " – KI-Vorlesungsrekorder & Stille-Trimmer",
+        "brand_suffix": " – KI-Rekorder & Stille-Trimmer",
         "tagline": "Komm bei Vorlesungen mit – in deiner Sprache, in deinem Tempo.",
         "subhead_features": "Vorlesungen aufnehmen, Stille automatisch entfernen, live in 30+ Sprachen übersetzen und Lernnotizen auf dem Gerät exportieren.",
         "proof1": "100% auf dem Gerät (offline)",
@@ -527,6 +527,7 @@ html_template = """<!DOCTYPE html>
             left: 12%;
             right: 12%;
             bottom: 12px;
+            z-index: 10;
             background: #111;
             color: #fff;
             padding: 16px 18px;
@@ -655,7 +656,7 @@ html_template = """<!DOCTYPE html>
         }}
         .footer-grid {{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
             gap: 32px;
             margin-bottom: 48px;
         }}
@@ -898,12 +899,8 @@ html_template = """<!DOCTYPE html>
             <p>{perfect_for_desc2}</p>
         </section>
 
-        <div class="dev-story" style="background:#fff; border-radius:12px; padding:24px; margin-bottom:48px; border: 1px solid #D7D1C6;">
-            <p style="font-style:italic; font-size:14px; color:#444; line-height:1.5; margin-bottom:12px;">
-                "{creator_promise}"
-            </p>
-            <p style="font-weight:700; font-size:12px; color:#111;">— {creator_signature}</p>
-        </div>
+
+
 
         <section class="privacy-box">
             <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>{privacy_title}</h2>
