@@ -505,7 +505,6 @@ html_template = """<!DOCTYPE html>
             max-width: 250px;
             border-radius: 28px;
             box-shadow: 0 24px 64px rgba(17, 17, 17, 0.18);
-            background: #111;
         }}
         .phone-shot.recorder {{
             left: 0;
@@ -516,6 +515,7 @@ html_template = """<!DOCTYPE html>
             left: 30%;
             top: 58px;
             z-index: 2;
+            box-shadow: 0 30px 80px rgba(17, 17, 17, 0.34), 0 10px 28px rgba(17, 17, 17, 0.24);
         }}
         .phone-shot.transcript {{
             right: 0;
