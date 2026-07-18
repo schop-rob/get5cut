@@ -15,7 +15,7 @@ def add_translations():
                 "desc": "Transcribe lecture recordings offline on iPhone. No cloud, no upload, no internet needed. On-device AI in 30+ languages. Speaker identification. Export as SRT or text. Free iOS app.",
                 "h1": "Offline Lecture Transcription on iPhone",
                 "tagline": "Transcribe offline on iPhone. No Internet Required.",
-                "intro": """<p>Most transcription apps require internet. You upload your lecture to a server, wait for processing, and hope the cloud service handles your data responsibly. 5cut works differently: it transcribes entirely on your iPhone, with no internet connection required after the initial model download.</p>
+                "intro": """<p>Most transcription apps require internet. With 5cut, you can select a downloaded on-device engine for offline transcription. Availability depends on the engine, language, device, and initial model download.</p>
 <h2>How offline transcription works</h2>
 <p>5cut uses on-device AI models that run directly on your iPhone's Neural Engine. The first time you select a language, the model downloads (typically 40-600 MB depending on the engine). After that, transcription works in airplane mode, on the subway, in a lecture hall with terrible WiFi — anywhere.</p>
 <h2>Four transcription engines</h2>
@@ -29,7 +29,7 @@ def add_translations():
 </table>
 <h2>Why offline matters</h2>
 <ul>
-    <li><strong>Privacy</strong> — lecture recordings with sensitive content never leave your device</li>
+    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; choose a downloaded on-device engine for offline transcription</li>
     <li><strong>No data caps</strong> — transcribe hours of recordings without eating into your mobile data plan</li>
     <li><strong>Works everywhere</strong> — campus basements, trains, planes, libraries with blocked WiFi</li>
     <li><strong>No per-minute costs</strong> — cloud transcription services charge per minute. On-device is free after the model download</li>
@@ -41,7 +41,7 @@ def add_translations():
 <p>5cut is primarily a silence removal tool. The typical workflow is:</p>
 <ol>
     <li>Import or record a lecture</li>
-    <li>Remove silence automatically (saves 20-35% of the recording)</li>
+    <li>Remove detected silence automatically</li>
     <li>Transcribe the condensed version offline</li>
     <li>Export: video with burned-in subtitles, SRT file, or plain text transcript</li>
 </ol>
@@ -70,7 +70,7 @@ def add_translations():
 </table>
 <h2>Warum Offline wichtig ist</h2>
 <ul>
-    <li><strong>Datenschutz</strong> – Vorlesungsaufnahmen mit sensiblen Inhalten verlassen nie dein Gerät</li>
+    <li><strong>Keine 5cut-Cloud-Kopie</strong> – 5cut hat keinen Server; nutze eine heruntergeladene On-Device-Engine für Offline-Transkription</li>
     <li><strong>Keine Datenvolumen-Kosten</strong> – stundenlange Aufnahmen transkribieren ohne mobiles Datenvolumen zu verbrauchen</li>
     <li><strong>Funktioniert überall</strong> – Kellerräume, Züge, Flugzeuge, Bibliotheken mit gesperrtem WLAN</li>
     <li><strong>Keine Minutenkosten</strong> – Cloud-Dienste berechnen pro Minute. On-Device ist kostenlos</li>
@@ -82,7 +82,7 @@ def add_translations():
 <p>5cut ist primär ein Stille-Entfernungs-Tool. Der typische Workflow ist:</p>
 <ol>
     <li>Vorlesung importieren oder aufnehmen</li>
-    <li>Stille automatisch entfernen (spart 20-35% der Aufnahme)</li>
+    <li>Erkannte Stille automatisch entfernen</li>
     <li>Die gekürzte Version offline transkribieren</li>
     <li>Exportieren: Video mit eingebrannten Untertiteln, SRT-Datei oder Text-Transkript</li>
 </ol>
@@ -110,7 +110,7 @@ def add_translations():
 </table>
 <h2>Pourquoi le hors ligne est important</h2>
 <ul>
-    <li><strong>Confidentialité</strong> – les enregistrements ne quittent jamais votre appareil</li>
+    <li><strong>Aucune copie cloud 5cut</strong> – 5cut n'a pas de serveur ; choisissez un moteur téléchargé pour transcrire hors ligne</li>
     <li><strong>Sans frais de données</strong> – transcrivez sans consommer votre forfait mobile</li>
     <li><strong>Fonctionne partout</strong> – sous-sols, trains, avions</li>
     <li><strong>Sans coût à la minute</strong> – le traitement local est gratuit</li>
@@ -146,7 +146,7 @@ def add_translations():
 </table>
 <h2>为什么离线很重要</h2>
 <ul>
-    <li><strong>隐私</strong> – 敏感录音绝不离开您的设备</li>
+    <li><strong>无 5cut 云端副本</strong> – 如需离线转写，请选择受支持的已下载模型</li>
     <li><strong>无数据限制</strong> – 转写数小时的录音而不用担心流量</li>
     <li><strong>随处可用</strong> – 校园地下室、火车、飞机上</li>
     <li><strong>无按分钟收费</strong> – 设备端处理完全免费</li>
@@ -182,7 +182,7 @@ def add_translations():
 </table>
 <h2>Tại sao ngoại tuyến lại quan trọng</h2>
 <ul>
-    <li><strong>Quyền riêng tư</strong> – bản ghi âm không bao giờ rời khỏi thiết bị</li>
+    <li><strong>Không có bản sao đám mây của 5cut</strong> – 5cut không có máy chủ; chọn mô hình đã tải xuống để phiên âm ngoại tuyến</li>
     <li><strong>Không giới hạn dữ liệu</strong> – phiên âm hàng giờ mà không tốn dung lượng mạng</li>
     <li><strong>Hoạt động mọi nơi</strong> – tầng hầm, máy bay, tàu hỏa</li>
     <li><strong>Không phí theo phút</strong> – miễn phí sau khi tải mô hình</li>
@@ -218,7 +218,7 @@ def add_translations():
 </table>
 <h2>Por qué importa que sea offline</h2>
 <ul>
-    <li><strong>Privacidad</strong> – las grabaciones nunca salen de tu dispositivo</li>
+    <li><strong>Sin copia de 5cut en la nube</strong> – 5cut no tiene servidor; elige un modelo descargado para transcribir sin conexión</li>
     <li><strong>Sin consumo de datos</strong> – transcribe horas de grabaciones sin gastar tus datos móviles</li>
     <li><strong>Funciona en todas partes</strong> – sótanos, trenes, aviones</li>
     <li><strong>Sin costos por minuto</strong> – el procesamiento local es gratuito</li>
@@ -242,13 +242,13 @@ def add_translations():
                 "title": "Best App for Medical School Lectures – Record, Trim & Transcribe | 5cut",
                 "desc": "Record and condense medical school lectures on iPhone. Remove silence, transcribe in 30+ languages, export to Anki. On-device processing keeps patient case discussions private.",
                 "h1": "Best App for Medical School Lectures",
-                "tagline": "Turn a 2-hour anatomy lecture into 80 minutes of content.",
-                "intro": """<p>Medical school means 4-6 hours of lectures daily. Anatomy, pharmacology, pathology — each recorded lecture is 60-120 minutes, but up to 30% is silence. That's hours of dead air every week.</p>
-<p>5cut removes silence from lecture recordings automatically on your iPhone. A 2-hour anatomy lecture becomes 80 minutes of actual content. Then you can transcribe it, export notes to Anki, and review faster.</p>
+                "tagline": "Remove dead air before reviewing an anatomy lecture.",
+                "intro": """<p>Medical school lectures can contain long stretches of dead air between explanations, demonstrations, and questions.</p>
+<p>5cut detects and removes silence from lecture recordings on your iPhone. Then you can transcribe the condensed recording, export notes to Anki, and review it at natural speech speed.</p>
 <h2>Why med students use 5cut</h2>
 <ul>
-    <li><strong>Save 6-10 hours per week</strong> — remove silence from every lecture recording before review</li>
-    <li><strong>On-device processing</strong> — recordings with patient case discussions never leave your phone</li>
+    <li><strong>Review less dead air</strong> — remove detected silence from lecture recordings before review</li>
+    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; downloaded on-device engines are available for offline transcription</li>
     <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>
     <li><strong>Export to Anki</strong> — turn transcribed lecture segments into flashcards</li>
     <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>
@@ -282,7 +282,7 @@ def add_translations():
 <h2>Warum Medizinstudierende 5cut nutzen</h2>
 <ul>
     <li><strong>6-10 Stunden pro Woche sparen</strong> — Stille aus jeder Vorlesungsaufnahme entfernen</li>
-    <li><strong>On-Device-Verarbeitung</strong> — Aufnahmen mit Patientenfällen verlassen nie dein iPhone</li>
+    <li><strong>Keine 5cut-Cloud-Kopie</strong> — 5cut hat keinen Server; heruntergeladene On-Device-Engines stehen für Offline-Transkription bereit</li>
     <li><strong>In 30+ Sprachen transkribieren</strong> — Untertitel in der Muttersprache generieren</li>
     <li><strong>Export zu Anki</strong> — Transkribierte Segmente in Karteikarten umwandeln</li>
     <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche über Nacht verarbeiten</li>
@@ -308,7 +308,7 @@ def add_translations():
 <p>5cut supprime automatiquement les silences sur votre iPhone. Ensuite, vous pouvez transcrire le cours et exporter vers Anki pour réviser plus vite.</p>
 <h2>Pourquoi les étudiants en médecine utilisent 5cut</h2>
 <ul>
-    <li><strong>Gagnez 6-10h par semaine</strong> — supprimez les silences avant de réviser</li>
+    <li><strong>Révisez moins de temps morts</strong> — supprimez les silences détectés avant d’étudier</li>
     <li><strong>Traitement local</strong> — les cas cliniques des patients restent sur votre téléphone</li>
     <li><strong>Transcrivez en 30+ langues</strong> — créez des sous-titres dans votre langue maternelle</li>
     <li><strong>Export vers Anki</strong> — transformez les transcriptions en flashcards</li>
@@ -336,7 +336,7 @@ def add_translations():
 <h2>为什么医学生使用 5cut</h2>
 <ul>
     <li><strong>每周节省 6-10 小时</strong> — 复习前去除每次讲座录音的静音</li>
-    <li><strong>设备端处理</strong> — 涉及患者案例的录音绝不离开您的手机</li>
+    <li><strong>无 5cut 云端副本</strong> — 如需离线转写，请选择受支持的已下载模型</li>
     <li><strong>30+ 语言转写</strong> — 留学生可以生成母语字幕</li>
     <li><strong>导出至 Anki</strong> — 将讲座片段转化为闪卡</li>
     <li><strong>批量处理</strong> — 一次性处理一整周的录音</li>
@@ -363,7 +363,7 @@ def add_translations():
 <h2>Tại sao sinh viên y khoa sử dụng 5cut</h2>
 <ul>
     <li><strong>Tiết kiệm 6-10 giờ mỗi tuần</strong> — xóa khoảng lặng trước khi ôn tập</li>
-    <li><strong>Xử lý trên thiết bị</strong> — bảo mật tuyệt đối cho các trường hợp bệnh nhân</li>
+    <li><strong>Không có bản sao đám mây 5cut</strong> — chọn mô hình đã tải xuống được hỗ trợ để phiên âm ngoại tuyến</li>
     <li><strong>Phiên âm 30+ ngôn ngữ</strong> — hỗ trợ sinh viên quốc tế tạo phụ đề</li>
     <li><strong>Xuất sang Anki</strong> — chuyển đoạn bài giảng thành flashcard</li>
     <li><strong>Xử lý hàng loạt</strong> — xử lý bản ghi của cả tuần chỉ trong một đêm</li>
@@ -390,7 +390,7 @@ def add_translations():
 <h2>Por qué los estudiantes de medicina usan 5cut</h2>
 <ul>
     <li><strong>Ahorra 6-10 horas a la semana</strong> — elimina silencios antes de repasar</li>
-    <li><strong>Procesamiento local</strong> — los casos clínicos nunca salen de tu teléfono</li>
+    <li><strong>Sin copia de 5cut en la nube</strong> — 5cut no tiene servidor; los modelos descargados permiten transcribir sin conexión</li>
     <li><strong>Transcribe en 30+ idiomas</strong> — genera subtítulos en tu idioma nativo</li>
     <li><strong>Exporta a Anki</strong> — convierte transcripciones en tarjetas de estudio</li>
     <li><strong>Procesamiento por lotes</strong> — procesa grabaciones de toda la semana durante la noche</li>
@@ -411,14 +411,14 @@ def add_translations():
         "best-app-for-law-school-recordings": {
             "en": {
                 "title": "Best App for Law School Recordings – Trim & Transcribe Lectures | 5cut",
-                "desc": "Condense law school lectures on iPhone. Remove silence from recorded classes, transcribe case discussions, export notes. All processing stays on-device for confidentiality.",
+                "desc": "Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. 5cut has no server or cloud copy.",
                 "h1": "Best App for Law School Recordings",
                 "tagline": "Condense a 90-minute law lecture into 60 minutes. On-device.",
                 "intro": """<p>Law school lectures run long. A 90-minute contracts class has 15-25 minutes of silence: the professor reading from the casebook, pausing between Socratic questions, waiting for students to flip to the right page. That silence adds up to hours every week — hours you could spend briefing cases or outlining.</p>
 <p>5cut removes silence from lecture recordings on your iPhone. Your 90-minute class becomes 65 minutes of actual instruction. Then transcribe it, identify speakers, and export notes — all without uploading anything to the cloud.</p>
 <h2>Why law students use 5cut</h2>
 <ul>
-    <li><strong>Condense lectures by 20-35%</strong> — cut dead air while keeping speech at natural speed</li>
+    <li><strong>Condense lectures</strong> — cut detected dead air while keeping speech at natural speed</li>
     <li><strong>Socratic method tracking</strong> — speaker identification separates the professor from student responses</li>
     <li><strong>Case name search</strong> — transcribe the lecture, then search the text for specific case citations</li>
     <li><strong>On-device privacy</strong> — hypothetical client scenarios and case discussions stay on your phone</li>
@@ -435,7 +435,7 @@ def add_translations():
     <li><strong>Export</strong> — save trimmed audio for commute listening, or export transcript to your outlining tool</li>
 </ol>
 <h2>Privacy and professional responsibility</h2>
-<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. 5cut processes everything locally on your iPhone — the recording never leaves your device.</p>
+<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. 5cut has no server and keeps no cloud copy; use a downloaded on-device engine when offline transcription is required.</p>
 <h2>Free to start</h2>
 <p>5cut supports a full exam-season workflow with recording, transcription, silence removal, and batch processing.</p>"""
             },
@@ -448,7 +448,7 @@ def add_translations():
 <p>5cut entfernt die Stille aus Vorlesungsaufnahmen auf deinem iPhone. Dann kannst du sie transkribieren, Sprecher identifizieren und Notizen exportieren – alles lokal.</p>
 <h2>Warum Jurastudierende 5cut nutzen</h2>
 <ul>
-    <li><strong>Vorlesungen um 20-35% kürzen</strong> — Leere Pausen entfernen, Sprechtempo beibehalten</li>
+    <li><strong>Vorlesungen kürzen</strong> — Erkannte Pausen entfernen, Sprechtempo beibehalten</li>
     <li><strong>Sokratische Methode tracken</strong> — Sprechererkennung trennt Professor von Studierenden</li>
     <li><strong>Fälle durchsuchen</strong> — Transkript nach bestimmten Urteilen durchsuchen</li>
     <li><strong>On-Device Datenschutz</strong> — Falldiskussionen bleiben auf dem Smartphone</li>
@@ -468,7 +468,7 @@ def add_translations():
 <p>5cut supprime les silences sur votre iPhone. Transcrivez, identifiez les locuteurs et exportez vos notes – sans rien envoyer sur le cloud.</p>
 <h2>Pourquoi les étudiants en droit l'utilisent</h2>
 <ul>
-    <li><strong>Condensez les cours de 20-35%</strong> — coupez les blancs</li>
+    <li><strong>Condensez les cours</strong> — coupez les blancs détectés</li>
     <li><strong>Suivi de la méthode socratique</strong> — différenciez le professeur des étudiants</li>
     <li><strong>Recherche de jurisprudence</strong> — cherchez des cas spécifiques dans la transcription</li>
     <li><strong>Confidentialité locale</strong> — les scénarios juridiques restent sur votre téléphone</li>
@@ -488,14 +488,14 @@ def add_translations():
 <p>5cut 可以在 iPhone 上自动去除讲座录音中的静音。然后进行转写、识别说话人并导出笔记——这一切都不需要上传到云端。</p>
 <h2>为什么法学生使用 5cut</h2>
 <ul>
-    <li><strong>精简讲座 20-35%</strong> — 剪切空白，保留自然语速</li>
+    <li><strong>精简讲座</strong> — 剪切检测到的空白，保留自然语速</li>
     <li><strong>追踪苏格拉底式问答</strong> — 说话人识别可区分教授和学生的回答</li>
     <li><strong>案例检索</strong> — 转写后搜索特定的案件引用</li>
     <li><strong>设备端隐私</strong> — 假设的客户场景和案例讨论留在您的手机上</li>
     <li><strong>备考</strong> — 批量处理一整个学期的讲座录音</li>
 </ul>
 <h2>隐私与专业责任</h2>
-<p>法学院课程经常讨论案件细节和法律策略。5cut 完全在 iPhone 上进行本地处理——录音绝不离开设备。</p>
+<p>法学院课程经常讨论案件细节和法律策略。5cut 没有服务器或录音云端副本；如需离线转写，请选择受支持的已下载模型。</p>
 <h2>免费开始使用</h2>
 <p>5cut 支持备考季的完整工作流，包括录制、转写、静音移除和批量处理。</p>"""
             },
@@ -508,7 +508,7 @@ def add_translations():
 <p>5cut xóa khoảng lặng từ các bản ghi trên iPhone. Sau đó, phiên âm, xác định người nói và xuất ghi chú – mà không cần tải lên đám mây.</p>
 <h2>Tại sao sinh viên luật sử dụng 5cut</h2>
 <ul>
-    <li><strong>Rút gọn bài giảng 20-35%</strong> — cắt bỏ khoảng trống</li>
+    <li><strong>Rút gọn bài giảng</strong> — cắt bỏ khoảng trống đã phát hiện</li>
     <li><strong>Theo dõi phương pháp Socrates</strong> — phân biệt giáo sư và sinh viên trả lời</li>
     <li><strong>Tìm kiếm tên vụ án</strong> — tìm kiếm các trích dẫn vụ án cụ thể trong bản ghi</li>
     <li><strong>Quyền riêng tư trên thiết bị</strong> — các tình huống khách hàng giả định ở lại trên điện thoại của bạn</li>
@@ -528,7 +528,7 @@ def add_translations():
 <p>5cut elimina los silencios en tu iPhone. Luego puedes transcribir, identificar hablantes y exportar apuntes – sin subir nada a la nube.</p>
 <h2>Por qué los estudiantes de derecho usan 5cut</h2>
 <ul>
-    <li><strong>Condensa clases un 20-35%</strong> — recorta espacios en blanco manteniendo la velocidad</li>
+    <li><strong>Condensa clases</strong> — recorta los silencios detectados manteniendo la velocidad</li>
     <li><strong>Seguimiento del método socrático</strong> — separa al profesor de las respuestas de los alumnos</li>
     <li><strong>Búsqueda de jurisprudencia</strong> — busca citas de casos específicos en la transcripción</li>
     <li><strong>Privacidad local</strong> — los escenarios de casos se quedan en tu teléfono</li>
@@ -542,12 +542,12 @@ def add_translations():
         },
         "record-meetings-privately-iphone": {
             "en": {
-                "title": "Record Meetings Privately on iPhone – No Cloud, Full Compliance | 5cut",
-                "desc": "Record and transcribe business meetings without uploading to the cloud. On-device processing keeps sensitive discussions completely private. GDPR and SOC 2 friendly.",
+                "title": "Record Meetings Privately on iPhone – No 5cut Cloud Copy | 5cut",
+                "desc": "Record meetings on iPhone. 5cut has no server or cloud copy; choose a supported downloaded on-device engine for offline transcription.",
                 "h1": "Record Meetings Privately on iPhone",
                 "tagline": "Record and transcribe meetings on-device. No cloud upload.",
                 "intro": """<p>Your meeting contains proprietary strategy, client names, revenue numbers, or personnel decisions. Cloud-based meeting recorders like Otter, Fireflies, or Fathom upload everything to their servers. Their AI processes your words on someone else's infrastructure.</p>
-<p>5cut records and transcribes meetings entirely on your iPhone. Nothing leaves your device. No cloud. No third-party servers. No data processing agreements needed.</p>
+<p>5cut has no server and keeps no cloud copy of your meetings. For offline transcription, select a downloaded on-device engine supported for your language and device. Always follow your organization's recording and data-handling rules.</p>
 <h2>The compliance problem with cloud recorders</h2>
 <p>Every time you use a cloud transcription service, you're creating a data processing relationship. That means:</p>
 <ul>
@@ -557,7 +557,7 @@ def add_translations():
     <li>If the service is breached, your meeting content is exposed</li>
     <li>Client NDAs may prohibit sharing recordings with third parties</li>
 </ul>
-<p>On-device processing eliminates all of these concerns.</p>
+<p>On-device processing can reduce third-party exposure, but you must still follow your organization's recording and data-handling rules.</p>
 <h2>Who needs private meeting recording</h2>
 <h3>Legal professionals</h3>
 <p>Client meetings, case strategy discussions, settlement negotiations. Attorney-client privilege doesn't mix well with third-party cloud processing.</p>
@@ -570,7 +570,7 @@ def add_translations():
 <h2>The 5cut workflow for meetings</h2>
 <ol>
     <li><strong>Open the recorder</strong> — tap record when the meeting starts.</li>
-    <li><strong>Live transcription</strong> — see words appear in real-time as people speak</li>
+    <li><strong>Transcribe after recording</strong> — choose a supported downloaded on-device engine</li>
     <li><strong>Speaker identification</strong> — up to 4 speakers are automatically identified</li>
     <li><strong>Trim silence</strong> — remove the gaps between agenda items</li>
     <li><strong>Export</strong> — transcript as text or SRT. Everything stays in your Files app</li>
@@ -581,7 +581,7 @@ def add_translations():
 <p>5cut combines private recording, on-device transcription, and silence removal.</p>"""
             },
             "de": {
-                "title": "Meetings privat auf dem iPhone aufnehmen – Keine Cloud, volle Compliance | 5cut",
+                "title": "Meetings privat auf dem iPhone aufnehmen – Ohne 5cut-Cloud-Kopie | 5cut",
                 "desc": "Meetings aufnehmen und transkribieren ohne Cloud-Upload. On-Device-Verarbeitung hält vertrauliche Diskussionen sicher. GDPR- und Compliance-freundlich.",
                 "h1": "Meetings privat auf dem iPhone aufnehmen",
                 "tagline": "Meetings lokal aufnehmen und transkribieren. Kein Cloud-Upload.",
@@ -595,7 +595,7 @@ def add_translations():
     <li>Kunden-NDAs könnten das Teilen von Aufnahmen untersagen</li>
     <li>Bei einem Datenleck sind deine Meeting-Inhalte gefährdet</li>
 </ul>
-<p>Lokale Verarbeitung eliminiert all diese Bedenken.</p>
+<p>Lokale Verarbeitung kann die Weitergabe an Dritte reduzieren. Prüfe trotzdem die Regeln deiner Organisation.</p>
 <h2>Wer private Meeting-Aufnahmen braucht</h2>
 <h3>Rechtsanwälte & Kanzleien</h3>
 <p>Mandantengespräche und Fallstrategien. Das Anwaltsgeheimnis verträgt sich nicht mit Cloud-Verarbeitung.</p>
@@ -608,7 +608,7 @@ def add_translations():
 <h2>Der 5cut-Workflow für Meetings</h2>
 <ol>
     <li><strong>Rekorder öffnen</strong> — einfach Aufnahme starten.</li>
-    <li><strong>Live-Transkription</strong> — Text erscheint in Echtzeit</li>
+    <li><strong>Nach der Aufnahme transkribieren</strong> — eine unterstützte On-Device-Engine wählen</li>
     <li><strong>Sprechererkennung</strong> — bis zu 4 Sprecher werden erkannt</li>
     <li><strong>Stille schneiden</strong> — Pausen zwischen Tagesordnungspunkten entfernen</li>
     <li><strong>Export</strong> — alles bleibt sicher in deiner Dateien-App</li>
@@ -618,11 +618,11 @@ def add_translations():
             },
             "fr": {
                 "title": "Enregistrez vos Réunions en Privé sur iPhone – Sans Cloud | 5cut",
-                "desc": "Enregistrez et transcrivez vos réunions d'affaires sans cloud. Le traitement local garde les discussions sensibles totalement privées. Compatible RGPD.",
+                "desc": "Enregistrez des réunions sur iPhone. 5cut n'a pas de serveur ni de copie cloud ; choisissez un moteur téléchargé compatible pour transcrire hors ligne.",
                 "h1": "Enregistrez vos Réunions en Privé sur iPhone",
                 "tagline": "Enregistrez et transcrivez localement. Aucun téléchargement cloud.",
                 "intro": """<p>Votre réunion aborde des stratégies confidentielles ou des données clients. Les enregistreurs cloud comme Otter ou Fireflies envoient tout sur leurs serveurs.</p>
-<p>5cut enregistre et transcrit entièrement sur votre iPhone. Rien ne quitte votre appareil. Pas de serveurs tiers. Pas besoin de contrats de traitement des données.</p>
+<p>5cut n'a pas de serveur et ne conserve aucune copie cloud de vos réunions. Pour transcrire hors ligne, choisissez un moteur téléchargé compatible avec votre langue et votre appareil.</p>
 <h2>Le problème de conformité des enregistreurs cloud</h2>
 <ul>
     <li>Un tiers détient les enregistrements de discussions confidentielles</li>
@@ -630,7 +630,7 @@ def add_translations():
     <li>Les accords de confidentialité (NDA) peuvent interdire le cloud</li>
     <li>En cas de piratage, vos réunions sont exposées</li>
 </ul>
-<p>Le traitement local élimine toutes ces préoccupations.</p>
+<p>Le traitement local peut réduire l’exposition à des tiers, mais vous devez respecter les règles de votre organisation.</p>
 <h2>Qui a besoin d'enregistrements privés</h2>
 <h3>Professions juridiques</h3>
 <p>Le secret professionnel ne fait pas bon ménage avec le cloud.</p>
@@ -641,7 +641,7 @@ def add_translations():
 <h2>Le flux de travail 5cut</h2>
 <ol>
     <li><strong>Ouvrez l'enregistreur</strong> — appuyez sur enregistrer</li>
-    <li><strong>Transcription en direct</strong> — le texte apparaît en temps réel</li>
+    <li><strong>Transcrivez après l’enregistrement</strong> — choisissez un moteur téléchargé compatible</li>
     <li><strong>Identification des locuteurs</strong> — jusqu'à 4 personnes</li>
     <li><strong>Coupez les silences</strong> — supprimez les blancs</li>
     <li><strong>Exportez</strong> — tout reste sécurisé sur votre appareil</li>
@@ -650,12 +650,12 @@ def add_translations():
 <p>5cut combine enregistrement privé, transcription locale et suppression des silences.</p>"""
             },
             "zh": {
-                "title": "在 iPhone 上私密录制会议 – 无云端，完全合规 | 5cut",
-                "desc": "录制和转写商务会议，无需上传云端。设备端处理确保敏感讨论完全保密。符合 GDPR 标准。",
+                "title": "在 iPhone 上私密录制会议 – 无 5cut 云端副本 | 5cut",
+                "desc": "在 iPhone 上录制会议。5cut 没有服务器或云端副本；如需离线转写，请选择受支持的已下载模型。",
                 "h1": "在 iPhone 上私密录制会议",
                 "tagline": "在设备端录制和转写会议。无云端上传。",
                 "intro": """<p>您的会议包含专有战略、客户名单、收入数据或人事决策。Otter 或 Fireflies 等基于云端的会议记录工具会将所有内容上传到其服务器。</p>
-<p>5cut 完全在您的 iPhone 上录制和转写会议。没有任何数据会离开您的设备。无云端，无第三方服务器，无需数据处理协议。</p>
+<p>5cut 没有服务器，也不会保存会议的云端副本。如需离线转写，请选择支持当前语言和设备的已下载模型。</p>
 <h2>云端录音工具的合规性问题</h2>
 <ul>
     <li>第三方现在持有您机密讨论的录音</li>
@@ -663,7 +663,7 @@ def add_translations():
     <li>客户 NDA 可能禁止与第三方分享录音</li>
     <li>如果服务遭到黑客攻击，您的会议内容将面临风险</li>
 </ul>
-<p>设备端处理消除了所有这些顾虑。</p>
+<p>设备端处理可减少第三方接触，但您仍须遵守所在机构的规定。</p>
 <h2>谁需要私密会议录音</h2>
 <h3>法律专业人士</h3>
 <p>律师-客户特权与第三方云处理不相容。</p>
@@ -674,7 +674,7 @@ def add_translations():
 <h2>5cut 会议工作流</h2>
 <ol>
     <li><strong>打开录音机</strong> — 会议开始时点击录音</li>
-    <li><strong>实时转写</strong> — 在设备上实时查看转写文本</li>
+    <li><strong>录制后转写</strong> — 选择受支持的已下载模型</li>
     <li><strong>说话人识别</strong> — 自动识别多达 4 位说话人</li>
     <li><strong>去除静音</strong> — 移除议程项目之间的空白</li>
     <li><strong>导出</strong> — 所有内容均保留在您的“文件”应用中</li>
@@ -683,8 +683,8 @@ def add_translations():
 <p>5cut 结合了私密录制、设备端转写和静音移除功能。</p>"""
             },
             "vi": {
-                "title": "Ghi Âm Cuộc Họp Riêng Tư Trên iPhone – Bảo Mật Tuyệt Đối | 5cut",
-                "desc": "Ghi âm và phiên âm cuộc họp mà không tải lên đám mây. Xử lý trên thiết bị giữ cho các cuộc thảo luận nhạy cảm hoàn toàn riêng tư. Thân thiện với GDPR.",
+                "title": "Ghi Âm Cuộc Họp Riêng Tư Trên iPhone – Không Có Bản Sao Đám Mây 5cut | 5cut",
+                "desc": "Ghi âm cuộc họp trên iPhone. 5cut không có máy chủ hoặc bản sao đám mây; chọn mô hình đã tải xuống được hỗ trợ để phiên âm ngoại tuyến.",
                 "h1": "Ghi Âm Cuộc Họp Riêng Tư Trên iPhone",
                 "tagline": "Ghi âm và phiên âm trên thiết bị. Không tải lên đám mây.",
                 "intro": """<p>Cuộc họp của bạn chứa chiến lược, danh sách khách hàng hoặc quyết định nhân sự. Các công cụ ghi âm đám mây tải mọi thứ lên máy chủ của họ.</p>
@@ -696,7 +696,7 @@ def add_translations():
     <li>NDA có thể cấm chia sẻ với bên thứ ba</li>
     <li>Nguy cơ rò rỉ dữ liệu nếu dịch vụ bị tấn công</li>
 </ul>
-<p>Xử lý trên thiết bị loại bỏ tất cả những lo ngại này.</p>
+<p>Xử lý trên thiết bị có thể giảm việc tiếp xúc với bên thứ ba, nhưng bạn vẫn phải tuân theo quy định của tổ chức.</p>
 <h2>Ai cần ghi âm cuộc họp riêng tư</h2>
 <h3>Luật sư</h3>
 <p>Đặc quyền luật sư-khách hàng không phù hợp với xử lý đám mây.</p>
@@ -707,7 +707,7 @@ def add_translations():
 <h2>Quy trình của 5cut</h2>
 <ol>
     <li><strong>Mở máy ghi âm</strong> — nhấn ghi âm khi cuộc họp bắt đầu</li>
-    <li><strong>Phiên âm trực tiếp</strong> — xem văn bản xuất hiện theo thời gian thực</li>
+    <li><strong>Phiên âm sau khi ghi</strong> — chọn mô hình đã tải xuống được hỗ trợ</li>
     <li><strong>Nhận diện người nói</strong> — tối đa 4 người</li>
     <li><strong>Cắt khoảng lặng</strong> — xóa các khoảng trống</li>
     <li><strong>Xuất</strong> — mọi thứ được giữ an toàn trên thiết bị</li>
@@ -716,12 +716,12 @@ def add_translations():
 <p>5cut kết hợp ghi âm riêng tư, phiên âm và xóa khoảng lặng.</p>"""
             },
             "es": {
-                "title": "Grabar Reuniones en Privado en iPhone – Sin Nube, Cumplimiento Total | 5cut",
-                "desc": "Graba y transcribe reuniones sin subir a la nube. El procesamiento local mantiene las discusiones sensibles completamente privadas. Cumple con GDPR.",
+                "title": "Grabar Reuniones en Privado en iPhone – Sin Copia Cloud de 5cut | 5cut",
+                "desc": "Graba reuniones en iPhone. 5cut no tiene servidor ni copia en la nube; elige un modelo descargado compatible para transcribir sin conexión.",
                 "h1": "Grabar Reuniones en Privado en iPhone",
                 "tagline": "Graba y transcribe localmente. Sin nube.",
                 "intro": """<p>Tu reunión contiene estrategias confidenciales o datos de clientes. Las grabadoras en la nube como Otter o Fireflies suben todo a sus servidores.</p>
-<p>5cut graba y transcribe reuniones completamente en tu iPhone. Nada sale de tu dispositivo. Sin nube. Sin servidores de terceros. Sin necesidad de acuerdos de procesamiento de datos.</p>
+<p>5cut no tiene servidor ni guarda copias de tus reuniones en la nube. Para transcribir sin conexión, elige un modelo descargado compatible con tu idioma y dispositivo.</p>
 <h2>El problema de cumplimiento con las grabadoras en la nube</h2>
 <ul>
     <li>Un tercero posee grabaciones de discusiones confidenciales</li>
@@ -740,7 +740,7 @@ def add_translations():
 <h2>El flujo de trabajo de 5cut</h2>
 <ol>
     <li><strong>Abre la grabadora</strong> — toca grabar cuando empiece la reunión</li>
-    <li><strong>Transcripción en vivo</strong> — ve las palabras en tiempo real</li>
+    <li><strong>Transcribe después de grabar</strong> — elige un modelo descargado compatible</li>
     <li><strong>Identificación de hablantes</strong> — hasta 4 personas</li>
     <li><strong>Recorta el silencio</strong> — elimina los tiempos muertos</li>
     <li><strong>Exporta</strong> — todo se guarda seguro en tus Archivos</li>
@@ -767,7 +767,7 @@ def add_translations():
 </ol>
 <h2>Why go offline for meeting notes</h2>
 <h3>Corporate security policies</h3>
-<p>Many companies prohibit uploading internal discussions to third-party services. IT security reviews for new SaaS tools take months. 5cut needs no security review — data never leaves the device.</p>
+<p>Many companies prohibit uploading internal discussions to third-party services. 5cut has no server or cloud copy, and downloaded on-device engines can reduce third-party exposure. Always verify your organization's security requirements.</p>
 <h3>Regulated industries</h3>
 <p>Finance, healthcare, legal, defense — these sectors have strict data handling requirements. On-device processing means no vendor risk assessment.</p>
 <h3>Unreliable connectivity</h3>
@@ -800,7 +800,7 @@ def add_translations():
 </ol>
 <h2>Warum Offline für Meeting-Notizen?</h2>
 <h3>Firmenrichtlinien</h3>
-<p>Viele Unternehmen verbieten Uploads. 5cut benötigt keinen Security-Review, da die Daten das Gerät nie verlassen.</p>
+<p>Viele Unternehmen verbieten Uploads. 5cut hat keinen Server und keine Cloud-Kopie; heruntergeladene On-Device-Engines reduzieren die Abhängigkeit von Drittanbietern. Prüfe trotzdem die Vorgaben deiner Organisation.</p>
 <h3>Regulierte Branchen</h3>
 <p>Finanzen, Gesundheit, Recht – hier gelten strenge Datenschutzvorgaben.</p>
 <h3>Schlechtes WLAN</h3>
@@ -832,7 +832,7 @@ def add_translations():
 </ol>
 <h2>Pourquoi le hors ligne ?</h2>
 <h3>Sécurité d'entreprise</h3>
-<p>Les données ne quittent jamais l'appareil, aucun examen de sécurité informatique n'est requis.</p>
+<p>5cut n'a ni serveur ni copie cloud ; les moteurs téléchargés réduisent l'exposition à des tiers. Vérifiez toujours les exigences de sécurité de votre organisation.</p>
 <h3>Secteurs réglementés</h3>
 <p>Finance, santé, droit – le traitement local simplifie la conformité.</p>
 <h3>Connexion instable</h3>
@@ -864,7 +864,7 @@ def add_translations():
 </ol>
 <h2>为什么选择离线会议笔记</h2>
 <h3>企业安全政策</h3>
-<p>许多公司禁止将内部讨论上传到第三方服务。5cut 不需要安全审查——数据永远不会离开设备。</p>
+<p>5cut 没有服务器或云端副本，下载后的设备端模型可减少第三方接触。请始终核对所在机构的安全要求。</p>
 <h3>受监管的行业</h3>
 <p>金融、医疗保健、法律——这些行业对数据处理有严格要求。设备端处理意味着没有合规风险。</p>
 <h3>网络不稳定</h3>
@@ -896,7 +896,7 @@ def add_translations():
 </ol>
 <h2>Tại sao chọn ngoại tuyến?</h2>
 <h3>Chính sách bảo mật công ty</h3>
-<p>Dữ liệu không bao giờ rời khỏi thiết bị, không cần đánh giá rủi ro an ninh mạng.</p>
+<p>5cut không có máy chủ hay bản sao đám mây; các mô hình đã tải xuống giúp giảm việc dùng dịch vụ bên thứ ba. Hãy luôn kiểm tra yêu cầu bảo mật của tổ chức.</p>
 <h3>Ngành công nghiệp được quản lý</h3>
 <p>Tài chính, y tế, luật pháp – xử lý trên thiết bị đảm bảo tính tuân thủ cao nhất.</p>
 <h3>Kết nối không ổn định</h3>
@@ -928,7 +928,7 @@ def add_translations():
 </ol>
 <h2>¿Por qué offline?</h2>
 <h3>Políticas de seguridad corporativas</h3>
-<p>Los datos nunca salen del dispositivo, por lo que no se requiere revisión de seguridad de TI.</p>
+<p>5cut no tiene servidor ni copia en la nube; los modelos descargados reducen la exposición a terceros. Verifica siempre los requisitos de seguridad de tu organización.</p>
 <h3>Sectores regulados</h3>
 <p>Finanzas, salud, legal – el procesamiento local simplifica el cumplimiento.</p>
 <h3>Conectividad poco confiable</h3>

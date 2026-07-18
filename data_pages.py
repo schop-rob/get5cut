@@ -5,42 +5,42 @@ pages_data = {
             "desc": "Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device processing for iOS.",
             "h1": "Speed Up Zoom Recordings",
             "tagline": "Cut out the dead air automatically.",
-            "intro": "<p>Watching a 2-hour Zoom lecture is painful, especially when 20 minutes of it is just the professor fixing their mic or waiting for students to answer. 5cut automatically cuts out the dead air so you can get through your recordings faster without missing any content.</p>"
+            "intro": "<p>Long Zoom lectures often include dead air while the professor fixes a microphone or waits for students to answer. 5cut detects those quiet stretches so you can review the recording without speeding up speech.</p>"
         },
         "de": {
             "title": "Zoom-Aufnahmen beschleunigen – Stille entfernen | 5cut",
             "desc": "Entfernen Sie Pausen aus Zoom-, Teams- und Online-Kursen. On-Device-Verarbeitung für iOS.",
             "h1": "Zoom-Aufnahmen beschleunigen",
             "tagline": "Schneiden Sie Pausen automatisch heraus.",
-            "intro": "<p>Eine 2-stündige Zoom-Vorlesung anzusehen ist mühsam, besonders wenn 20 Minuten davon nur Warten sind. 5cut schneidet die Stille automatisch heraus, damit Sie Ihre Aufnahmen schneller durchgehen können, ohne Inhalte zu verpassen.</p>"
+            "intro": "<p>Lange Zoom-Vorlesungen enthalten oft Leerlauf, während das Mikrofon eingerichtet oder auf Antworten gewartet wird. 5cut erkennt diese stillen Abschnitte, damit du die Aufnahme ohne schnelleres Sprechtempo nacharbeiten kannst.</p>"
         },
         "zh": {
             "title": "加速 Zoom 录音 – 移除静音 | 5cut",
             "desc": "移除 Zoom、Teams 和在线课程录音中的尴尬停顿和空白。iOS 本地处理。",
             "h1": "加速 Zoom 录音",
             "tagline": "自动剪切空白部分。",
-            "intro": "<p>观看 2 小时的 Zoom 讲座很痛苦，尤其是其中 20 分钟只是在等待。5cut 会自动剪切空白部分，让您更快地浏览录音，同时不会错过任何内容。</p>"
+            "intro": "<p>较长的 Zoom 讲座常包含调试麦克风或等待回答时的空白。5cut 可检测这些安静片段，帮助你在不加快语速的情况下复习录音。</p>"
         },
         "fr": {
             "title": "Accélérer les Enregistrements Zoom – Supprimer les Silences | 5cut",
             "desc": "Supprimez les pauses gênantes et les temps morts des enregistrements Zoom, Teams et des cours en ligne. Traitement local sur iOS.",
             "h1": "Accélérer les Enregistrements Zoom",
             "tagline": "Coupez les temps morts automatiquement.",
-            "intro": "<p>Regarder un cours Zoom de 2 heures est pénible, surtout quand 20 minutes ne sont que des temps d'attente. 5cut supprime automatiquement les blancs pour que vous puissiez regarder vos enregistrements plus rapidement sans rien manquer.</p>"
+            "intro": "<p>Les longs cours Zoom contiennent souvent des temps morts pendant le réglage d’un micro ou l’attente d’une réponse. 5cut détecte ces passages silencieux pour réviser l’enregistrement sans accélérer la parole.</p>"
         },
         "vi": {
             "title": "Tăng Tốc Bản Ghi Zoom – Xóa Khoảng Lặng | 5cut",
             "desc": "Xóa những khoảng dừng khó xử khỏi các bản ghi Zoom, Teams và khóa học trực tuyến. Xử lý trên thiết bị cho iOS.",
             "h1": "Tăng Tốc Bản Ghi Zoom",
             "tagline": "Tự động cắt bỏ những khoảng trống.",
-            "intro": "<p>Việc xem một bài giảng Zoom dài 2 giờ rất mệt mỏi, đặc biệt là khi 20 phút trong số đó chỉ là sự chờ đợi. 5cut tự động cắt bỏ những khoảng lặng để bạn có thể xem các bản ghi của mình nhanh hơn mà không bỏ lỡ nội dung nào.</p>"
+            "intro": "<p>Các bài giảng Zoom dài thường có khoảng trống khi chỉnh mic hoặc chờ câu trả lời. 5cut phát hiện các đoạn yên lặng đó để bạn xem lại bản ghi mà không cần tăng tốc giọng nói.</p>"
         },
         "es": {
             "title": "Acelerar Grabaciones de Zoom – Eliminar Silencios | 5cut",
             "desc": "Elimina pausas incómodas y silencios de grabaciones de Zoom, Teams y cursos en línea. Procesamiento local para iOS.",
             "h1": "Acelerar Grabaciones de Zoom",
             "tagline": "Recorta el silencio automáticamente.",
-            "intro": "<p>Ver una clase por Zoom de 2 horas es agotador, especialmente cuando 20 minutos son solo tiempos de espera. 5cut recorta automáticamente el silencio para que puedas repasar tus grabaciones más rápido sin perderte nada.</p>"
+            "intro": "<p>Las clases largas de Zoom suelen incluir tiempos muertos mientras se ajusta un micrófono o se espera una respuesta. 5cut detecta esos tramos silenciosos para repasar la grabación sin acelerar la voz.</p>"
         }
     },
     "study-abroad": {
@@ -49,42 +49,42 @@ pages_data = {
             "desc": "Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles in 30+ languages, identify speakers.",
             "h1": "Essential Tool for Studying Abroad",
             "tagline": "Record, translate, and conquer your courses.",
-            "intro": "<p>Studying abroad is challenging, especially when lectures are in a foreign language. 5cut is the perfect companion for international students. Record your lectures, generate transcripts in over 30 languages directly on your device, and get AI-powered study notes to review at your own pace.</p>"
+            "intro": "<p>Studying abroad is challenging, especially when lectures are in a foreign language. Record your lectures with 5cut, generate transcripts in over 30 languages, and, with Premium on iOS 26+, create AI study notes on your iPhone.</p>"
         },
         "de": {
             "title": "Unverzichtbare Apps fürs Auslandsstudium – Tools für Vorlesungen | 5cut",
             "desc": "Die unverzichtbare iPhone-App für internationale Studierende. Stille entfernen, Untertitel in 30+ Sprachen und KI-Notizen.",
             "h1": "Das beste Tool fürs Auslandsstudium",
             "tagline": "Vorlesungen aufnehmen, übersetzen und meistern.",
-            "intro": "<p>Ein Auslandsstudium ist herausfordernd, besonders wenn Vorlesungen in einer Fremdsprache gehalten werden. 5cut ist der perfekte Begleiter für internationale Studierende. Nimm Vorlesungen auf, generiere Transkripte und KI-Lernnotizen direkt auf dem Gerät.</p>"
+            "intro": "<p>Ein Auslandsstudium ist herausfordernd, besonders wenn Vorlesungen in einer Fremdsprache gehalten werden. Nimm Vorlesungen mit 5cut auf, erstelle Transkripte und generiere mit Premium auf iOS 26+ KI-Lernnotizen auf deinem iPhone.</p>"
         },
         "zh": {
             "title": "留学生必备 App – 外语网课神器 | 5cut",
             "desc": "国际学生的必备 iPhone 应用。去除外语讲座的静音，添加 30 多种语言的字幕。",
             "h1": "留学生必备神器",
             "tagline": "录制、转写，轻松搞定课程。",
-            "intro": "<p>出国留学是一项挑战，尤其是在听外语讲座时。5cut 是国际学生的完美伴侣。录制您的讲座，在设备上直接生成 30 多种语言的转写文本，并获取 AI 生成的学习笔记，方便您按照自己的节奏复习。</p>"
+            "intro": "<p>出国留学是一项挑战，尤其是在听外语讲座时。使用 5cut 录制讲座并生成 30 多种语言的转写文本；Premium 用户还可在 iOS 26+ 上创建 AI 学习笔记。</p>"
         },
         "fr": {
             "title": "Applications Indispensables pour Étudier à l'Étranger – 5cut",
             "desc": "Application iPhone essentielle pour les étudiants internationaux. Supprimez les silences, ajoutez des sous-titres en plus de 30 langues.",
             "h1": "L'Outil Indispensable pour Étudier à l'Étranger",
             "tagline": "Enregistrez, traduisez et maîtrisez vos cours.",
-            "intro": "<p>Étudier à l'étranger est un défi, surtout quand les cours sont dans une langue étrangère. 5cut est le compagnon parfait pour les étudiants internationaux. Enregistrez vos cours, générez des transcriptions dans plus de 30 langues directement sur votre appareil et obtenez des notes d'étude IA pour réviser à votre propre rythme.</p>"
+            "intro": "<p>Étudier à l'étranger est un défi, surtout quand les cours sont dans une langue étrangère. Enregistrez vos cours avec 5cut, générez des transcriptions dans plus de 30 langues et, avec Premium sur iOS 26+, créez des notes d'étude IA sur votre iPhone.</p>"
         },
         "vi": {
             "title": "Ứng Dụng Cần Thiết Cho Du Học Sinh – Công Cụ Dịch Bài Giảng | 5cut",
             "desc": "Ứng dụng iPhone không thể thiếu cho sinh viên quốc tế. Xóa khoảng lặng, thêm phụ đề 30+ ngôn ngữ.",
             "h1": "Công Cụ Hoàn Hảo Để Du Học",
             "tagline": "Ghi âm, dịch thuật và chinh phục các khóa học.",
-            "intro": "<p>Du học là một thử thách, đặc biệt là khi bài giảng bằng ngoại ngữ. 5cut là người bạn đồng hành hoàn hảo cho sinh viên quốc tế. Ghi âm bài giảng, tạo bản ghi chép bằng hơn 30 ngôn ngữ trực tiếp trên thiết bị của bạn và nhận các ghi chú học tập AI để ôn tập theo tốc độ của riêng bạn.</p>"
+            "intro": "<p>Du học là một thử thách, đặc biệt là khi bài giảng bằng ngoại ngữ. Ghi âm bài giảng bằng 5cut, tạo bản chép lời bằng hơn 30 ngôn ngữ và, với Premium trên iOS 26+, tạo ghi chú học tập AI trên iPhone.</p>"
         },
         "es": {
             "title": "Apps Esenciales para Estudiar en el Extranjero – 5cut",
             "desc": "App esencial de iPhone para estudiantes internacionales. Elimina silencios, añade subtítulos en más de 30 idiomas.",
             "h1": "La Herramienta Esencial para Estudiar en el Extranjero",
             "tagline": "Graba, traduce y domina tus cursos.",
-            "intro": "<p>Estudiar en el extranjero es un desafío, especialmente cuando las clases son en un idioma extranjero. 5cut es el compañero perfecto para los estudiantes internacionales. Graba tus clases, genera transcripciones en más de 30 idiomas y obtén apuntes IA para repasar a tu propio ritmo.</p>"
+            "intro": "<p>Estudiar en el extranjero es un desafío, especialmente cuando las clases son en otro idioma. Graba tus clases con 5cut, genera transcripciones en más de 30 idiomas y, con Premium en iOS 26+, crea apuntes con IA en tu iPhone.</p>"
         }
     },
     "transcribe-lectures": {
@@ -93,86 +93,86 @@ pages_data = {
             "desc": "Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no cloud.",
             "h1": "Transcribe Lectures on iPhone",
             "tagline": "On-device, private, and fast.",
-            "intro": "<p>Stop manually typing out lecture notes. With 5cut, you can generate accurate transcripts and AI summaries for any lecture directly on your iPhone. Operating entirely on-device, your audio is never uploaded to the cloud, ensuring absolute privacy for sensitive academic recordings.</p>"
+            "intro": "<p>Stop manually typing out lecture notes. With 5cut, you can generate lecture transcripts on your iPhone and, with Premium on iOS 26+, create AI summaries. 5cut has no server and keeps no cloud copy of your recordings; downloaded on-device engines are available for offline transcription.</p>"
         },
         "de": {
             "title": "Vorlesungen auf dem iPhone transkribieren | 5cut",
             "desc": "Erstellen Sie Untertitel für Vorlesungsaufzeichnungen in über 30 Sprachen. On-Device-Transkription.",
             "h1": "Vorlesungen auf dem iPhone transkribieren",
             "tagline": "Lokal, privat und schnell.",
-            "intro": "<p>Hör auf, Vorlesungsnotizen manuell abzutippen. Mit 5cut kannst du genaue Transkripte und KI-Zusammenfassungen direkt auf deinem iPhone generieren. Da alles lokal verarbeitet wird, bleibt deine Privatsphäre absolut geschützt.</p>"
+            "intro": "<p>Hör auf, Vorlesungsnotizen manuell abzutippen. Mit 5cut erstellst du Transkripte auf deinem iPhone und mit Premium auf iOS 26+ auch KI-Zusammenfassungen. 5cut hat keinen Server und speichert keine Cloud-Kopie deiner Aufnahmen; heruntergeladene On-Device-Engines stehen für Offline-Transkription bereit.</p>"
         },
         "zh": {
             "title": "在 iPhone 上转写讲座 – 30+ 语言字幕 | 5cut",
             "desc": "生成超过 30 种语言的讲座录音字幕。设备端转写——无上传，无云端。",
             "h1": "在 iPhone 上转写讲座",
             "tagline": "本地处理，保护隐私，速度极快。",
-            "intro": "<p>不要再手动打字记录讲座笔记了。使用 5cut，您可以直接在 iPhone 上为任何讲座生成准确的转写文本和 AI 摘要。完全在设备端运行，确保敏感学术录音的绝对隐私。</p>"
+            "intro": "<p>不要再手动打字记录讲座笔记了。使用 5cut，您可以直接在 iPhone 上生成讲座转写文本；Premium 用户还可在 iOS 26+ 上创建 AI 摘要。5cut 没有服务器，也不会保存录音的云端副本；下载后的设备端引擎可用于离线转写。</p>"
         },
         "fr": {
             "title": "Transcrire des Cours sur iPhone – Sous-titres | 5cut",
             "desc": "Générez des sous-titres pour les enregistrements de cours dans plus de 30 langues. Transcription locale.",
             "h1": "Transcrire des Cours sur iPhone",
             "tagline": "Local, privé et rapide.",
-            "intro": "<p>Arrêtez de taper manuellement vos notes de cours. Avec 5cut, générez des transcriptions précises et des résumés IA pour n'importe quel cours directement sur votre iPhone. Fonctionnant entièrement en local, votre vie privée est garantie.</p>"
+            "intro": "<p>Arrêtez de taper manuellement vos notes de cours. Avec 5cut, générez des transcriptions sur votre iPhone et, avec Premium sur iOS 26+, créez des résumés IA. 5cut n'a aucun serveur et ne conserve aucune copie cloud de vos enregistrements ; les moteurs téléchargés permettent la transcription hors ligne.</p>"
         },
         "vi": {
             "title": "Tạo Phụ Đề Bài Giảng Trên iPhone – 30+ Ngôn Ngữ | 5cut",
             "desc": "Tạo phụ đề cho bản ghi bài giảng bằng hơn 30 ngôn ngữ. Xử lý trên thiết bị — không tải lên đám mây.",
             "h1": "Tạo Phụ Đề Bài Giảng Trên iPhone",
             "tagline": "Cục bộ, riêng tư và nhanh chóng.",
-            "intro": "<p>Ngừng việc nhập ghi chú bài giảng theo cách thủ công. Với 5cut, bạn có thể tạo bản ghi chép chính xác và tóm tắt AI trực tiếp trên iPhone. Hoạt động hoàn toàn trên thiết bị, quyền riêng tư của bạn luôn được đảm bảo.</p>"
+            "intro": "<p>Ngừng việc nhập ghi chú bài giảng theo cách thủ công. Với 5cut, bạn có thể tạo bản chép lời trên iPhone và, với Premium trên iOS 26+, tạo tóm tắt AI. 5cut không có máy chủ và không giữ bản sao đám mây của bản ghi; các mô hình đã tải xuống hỗ trợ phiên âm ngoại tuyến.</p>"
         },
         "es": {
             "title": "Transcribir Clases en iPhone – Subtítulos | 5cut",
             "desc": "Genera subtítulos para grabaciones de clases en más de 30 idiomas. Transcripción en el dispositivo.",
             "h1": "Transcribir Clases en iPhone",
             "tagline": "Local, privado y rápido.",
-            "intro": "<p>Deja de escribir apuntes a mano. Con 5cut, puedes generar transcripciones precisas y resúmenes IA para cualquier clase directamente en tu iPhone. Operando de forma completamente local, tu privacidad está garantizada.</p>"
+            "intro": "<p>Deja de escribir apuntes a mano. Con 5cut puedes generar transcripciones en tu iPhone y, con Premium en iOS 26+, crear resúmenes IA. 5cut no tiene servidor ni guarda copias de tus grabaciones en la nube; los modelos descargados permiten transcribir sin conexión.</p>"
         }
     },
     "remove-silence-from-lectures": {
         "en": {
             "title": "Remove Silence from Lecture Recordings – 5cut for iOS",
-            "desc": "Automatically remove silence and dead air from recorded university lectures. Save hours of study time before finals.",
+            "desc": "Automatically detect and remove silence and dead air from recorded university lectures while keeping speech at natural speed.",
             "h1": "Remove Silence from Lectures",
-            "tagline": "Save hours of study time before finals.",
-            "intro": "<p>Did you know a typical 90-minute university lecture can often contain 20% to 30% of empty pauses and dead air? Professors pausing, writing on the board, or waiting for student responses. 5cut automatically detects and removes these silent gaps, turning a long lecture into a dense, fast-paced study session.</p>"
+            "tagline": "Review the lecture, not the dead air.",
+            "intro": "<p>Recorded lectures can contain silent gaps while professors pause, write on the board, or wait for responses. 5cut detects those quiet stretches and lets you remove them while keeping speech at natural speed.</p>"
         },
         "de": {
             "title": "Stille aus Vorlesungsaufnahmen entfernen – 5cut für iOS",
-            "desc": "Entfernen Sie automatisch Stille aus aufgezeichneten Uni-Vorlesungen. Sparen Sie Stunden an Lernzeit.",
+            "desc": "Erkannte Stille aus aufgezeichneten Uni-Vorlesungen entfernen und Sprache in natürlichem Tempo behalten.",
             "h1": "Stille aus Vorlesungen entfernen",
-            "tagline": "Spare Stunden an Lernzeit vor den Prüfungen.",
-            "intro": "<p>Wusstest du, dass eine typische 90-minütige Vorlesung oft 20% bis 30% aus Pausen und leerer Stille bestehen kann? Professoren pausieren, schreiben an die Tafel oder warten. 5cut erkennt und entfernt diese Lücken automatisch und macht aus einer langen Vorlesung eine kompakte Lerneinheit.</p>"
+            "tagline": "Wiederhole die Vorlesung, nicht den Leerlauf.",
+            "intro": "<p>Aufgezeichnete Vorlesungen enthalten oft stille Lücken, während Lehrende pausieren, an die Tafel schreiben oder auf Antworten warten. 5cut erkennt diese Abschnitte und entfernt sie bei natürlichem Sprechtempo.</p>"
         },
         "zh": {
             "title": "如何去除网课录音中的静音 – 5cut iOS 版",
             "desc": "自动移除网课录制中的空白部分和静音。节省备考复习时间。",
             "h1": "去除讲座录音中的静音",
-            "tagline": "在期末考试前节省数小时的复习时间。",
-            "intro": "<p>您知道吗？一节典型的 90 分钟大学讲座往往包含 20% 到 30% 的无声停顿与空白时间：教授停顿、写黑板或等待学生回答。5cut 会自动检测并移除这些静音间隙，将冗长的讲座变成紧凑的复习资料。</p>"
+            "tagline": "复习讲座内容，而不是空白。",
+            "intro": "<p>录制的讲座常包含教师停顿、写板书或等待回答时的静音片段。5cut 可检测并移除这些空白，同时保留自然语速。</p>"
         },
         "fr": {
             "title": "Supprimer les Silences des Enregistrements de Cours – 5cut",
-            "desc": "Supprimez automatiquement les silences et temps morts des cours universitaires enregistrés. Gagnez des heures d'étude.",
+            "desc": "Détectez et supprimez les silences des cours enregistrés tout en gardant une parole naturelle.",
             "h1": "Supprimer les Silences des Cours",
-            "tagline": "Gagnez des heures d'étude avant les examens.",
-            "intro": "<p>Saviez-vous qu'un cours de 90 minutes peut souvent contenir 20 % à 30 % de pauses vides et de temps morts ? Les professeurs font des pauses ou écrivent au tableau. 5cut détecte et supprime automatiquement ces blancs, transformant un long cours en une session d'étude dense.</p>"
+            "tagline": "Révisez le cours, pas les temps morts.",
+            "intro": "<p>Les cours enregistrés contiennent souvent des blancs quand l’enseignant fait une pause, écrit au tableau ou attend une réponse. 5cut détecte et supprime ces passages tout en gardant une parole naturelle.</p>"
         },
         "vi": {
             "title": "Xóa Khoảng Lặng Khỏi Bản Ghi Bài Giảng – 5cut",
-            "desc": "Tự động xóa khoảng lặng khỏi các bài giảng đại học. Tiết kiệm hàng giờ học tập.",
+            "desc": "Phát hiện và xóa khoảng lặng khỏi bài giảng đã ghi trong khi giữ tốc độ nói tự nhiên.",
             "h1": "Xóa Khoảng Lặng Khỏi Bài Giảng",
-            "tagline": "Tiết kiệm hàng giờ học tập trước kỳ thi.",
-            "intro": "<p>Bạn có biết một bài giảng đại học dài 90 phút thường có thể chứa từ 20% đến 30% khoảng dừng và khoảng lặng trống? Các giáo sư dừng lại, viết lên bảng, hoặc chờ đợi. 5cut tự động phát hiện và xóa các khoảng trống này, biến một bài giảng dài thành một buổi học cô đọng.</p>"
+            "tagline": "Ôn lại bài giảng, không phải khoảng trống.",
+            "intro": "<p>Bài giảng đã ghi thường có các đoạn yên lặng khi giảng viên tạm dừng, viết bảng hoặc chờ câu trả lời. 5cut phát hiện và xóa các đoạn đó trong khi giữ tốc độ nói tự nhiên.</p>"
         },
         "es": {
             "title": "Eliminar Silencios de Grabaciones de Clases – 5cut",
-            "desc": "Elimina automáticamente los silencios de clases universitarias grabadas. Ahorra horas de estudio.",
+            "desc": "Detecta y elimina silencios de clases grabadas manteniendo la voz a velocidad natural.",
             "h1": "Eliminar Silencios de Clases",
-            "tagline": "Ahorra horas de estudio antes de los exámenes finales.",
-            "intro": "<p>¿Sabías que una clase universitaria de 90 minutos a menudo puede contener entre un 20% y un 30% de pausas vacías y tiempos muertos? Profesores haciendo pausas o escribiendo en la pizarra. 5cut detecta y recorta automáticamente estos espacios, convirtiendo una larga clase en una sesión de estudio rápida.</p>"
+            "tagline": "Repasa la clase, no los tiempos muertos.",
+            "intro": "<p>Las clases grabadas suelen contener silencios mientras el profesor hace una pausa, escribe en la pizarra o espera una respuesta. 5cut detecta y elimina esos tramos manteniendo la voz a velocidad natural.</p>"
         }
     },
     "podcast-silence-remover": {
@@ -313,7 +313,7 @@ pages_data = {
             "desc": "Looking for a mobile TimeBolt alternative? 5cut offers automatic silence removal, on-device transcription, and speaker identification for free on iPhone.",
             "h1": "The Best Mobile TimeBolt Alternative",
             "tagline": "Remove silence automatically from your iPhone or iPad.",
-            "intro": "<p>TimeBolt is a great desktop tool for PC and Mac users. However, if you are looking for a mobile alternative that lets you edit video directly from your iPhone, 5cut is your best choice. 5cut processes your video entirely on-device for maximum privacy and speed without relying on desktop hardware. Plus, it includes built-in AI transcription.</p>"
+            "intro": "<p>TimeBolt is a desktop tool for PC and Mac users. 5cut is a mobile alternative for editing video directly on an iPhone. Silence removal runs on-device, and downloaded transcription engines are available for offline use. 5cut has no server and keeps no cloud copy of your recordings.</p>"
         },
         "de": {
             "title": "Die beste kostenlose TimeBolt Alternative für iOS | 5cut",
@@ -444,13 +444,12 @@ pages_data = {
 'best-app-for-law-school-recordings': {'de': {'desc': 'Kürzen Sie Jura-Vorlesungen auf dem iPhone. Stille entfernen, Falldiskussionen transkribieren, Notizen exportieren. Komplett lokal für höchste '
                                                        'Vertraulichkeit.',
                                                'h1': 'Beste App für Jura-Vorlesungen',
-                                               'intro': '<p>Eine 90-minütige Jura-Vorlesung hat oft 15-25 Minuten Stille: Pausen zwischen sokratischen Fragen, Warten auf Antworten. Diese Stille '
-                                                        'summiert sich auf Stunden pro Woche.</p>\n'
+                                               'intro': '<p>Jura-Vorlesungen enthalten oft Pausen zwischen sokratischen Fragen, beim Lesen von Fällen oder beim Warten auf Antworten.</p>\n'
                                                         '<p>5cut entfernt die Stille aus Vorlesungsaufnahmen auf deinem iPhone. Dann kannst du sie transkribieren, Sprecher identifizieren und Notizen '
                                                         'exportieren – alles lokal.</p>\n'
                                                         '<h2>Warum Jurastudierende 5cut nutzen</h2>\n'
                                                         '<ul>\n'
-                                                        '    <li><strong>Stille kürzen – meist etwa 30% einer Vorlesung</strong> — Sprechtempo bleibt erhalten</li>\n'
+                                                        '    <li><strong>Erkannte Stille kürzen</strong> — Sprechtempo bleibt erhalten</li>\n'
                                                         '    <li><strong>Sokratische Methode tracken</strong> — Sprechererkennung trennt Professor von Studierenden</li>\n'
                                                         '    <li><strong>Fälle durchsuchen</strong> — Transkript nach bestimmten Urteilen durchsuchen</li>\n'
                                                         '    <li><strong>On-Device Datenschutz</strong> — Falldiskussionen bleiben auf dem Smartphone</li>\n'
@@ -462,19 +461,15 @@ pages_data = {
                                                         '<h2>Kostenlos starten</h2>\n'
 
                                                         '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
-                                               'tagline': 'Mache aus einer 90-minütigen Jura-Vorlesung 60 Minuten.',
+                                               'tagline': 'Entferne erkannte Pausen aus Jura-Vorlesungen.',
                                                'title': 'Beste App für Jura-Vorlesungen – Aufnehmen & Transkribieren | 5cut'},
-                                        'en': {'desc': 'Condense law school lectures on iPhone. Remove silence from recorded classes, transcribe case discussions, export notes. All processing stays '
-                                                       'on-device for confidentiality.',
+                                        'en': {'desc': 'Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. 5cut has no server or cloud copy.',
                                                'h1': 'Best App for Law School Recordings',
-                                               'intro': '<p>Law school lectures run long. A 90-minute contracts class has 15-25 minutes of silence: the professor reading from the casebook, pausing '
-                                                        'between Socratic questions, waiting for students to flip to the right page. That silence adds up to hours every week — hours you could spend '
-                                                        'briefing cases or outlining.</p>\n'
-                                                        '<p>5cut removes silence from lecture recordings on your iPhone. Your 90-minute class becomes 65 minutes of actual instruction. Then '
-                                                        'transcribe it, identify speakers, and export notes — all without uploading anything to the cloud.</p>\n'
+                                               'intro': '<p>Law school lectures can contain long pauses while a professor reads from the casebook, waits between Socratic questions, or gives students time to find a page.</p>\n'
+                                                        '<p>5cut detects those quiet stretches on your iPhone. Then transcribe the recording, identify speakers, and export notes.</p>\n'
                                                         '<h2>Why law students use 5cut</h2>\n'
                                                         '<ul>\n'
-                                                        '    <li><strong>Trim the silence — typically ~30% of a lecture</strong> — speech stays at natural speed</li>\n'
+                                                        '    <li><strong>Trim detected silence</strong> — speech stays at natural speed</li>\n'
                                                         '    <li><strong>Socratic method tracking</strong> — speaker identification separates the professor from student responses</li>\n'
                                                         '    <li><strong>Case name search</strong> — transcribe the lecture, then search the text for specific case citations</li>\n'
                                                         '    <li><strong>On-device privacy</strong> — hypothetical client scenarios and case discussions stay on your phone</li>\n'
@@ -494,22 +489,21 @@ pages_data = {
                                                         '</ol>\n'
                                                         '<h2>Privacy and professional responsibility</h2>\n'
                                                         '<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. 5cut processes everything locally on your '
-                                                        'iPhone — the recording never leaves your device.</p>\n'
+                                                        'iPhone. 5cut has no server and keeps no cloud copy; use a downloaded on-device engine when offline transcription is required.</p>\n'
                                                         '<h2>Free to start</h2>\n'
 
                                                         '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
-                                               'tagline': 'Condense a 90-minute law lecture into 60 minutes. On-device.',
+                                               'tagline': 'Remove detected pauses from law-school recordings.',
                                                'title': 'Best App for Law School Recordings – Trim & Transcribe Lectures | 5cut'},
                                         'es': {'desc': 'Condensa clases de derecho en iPhone. Elimina silencios, transcribe debates, exporta apuntes. Procesamiento local para máxima '
                                                        'confidencialidad.',
                                                'h1': 'Mejor App para Clases de Derecho',
-                                               'intro': '<p>Las clases de derecho son largas. Una clase de 90 minutos tiene 15-25 minutos de silencio: el profesor leyendo, pausas entre preguntas '
-                                                        'socráticas... Ese silencio suma horas cada semana.</p>\n'
+                                               'intro': '<p>Las clases de derecho pueden incluir pausas largas mientras el profesor lee, espera entre preguntas socráticas o deja tiempo para buscar una página.</p>\n'
                                                         '<p>5cut elimina los silencios en tu iPhone. Luego puedes transcribir, identificar hablantes y exportar apuntes – sin subir nada a la '
                                                         'nube.</p>\n'
                                                         '<h2>Por qué los estudiantes de derecho usan 5cut</h2>\n'
                                                         '<ul>\n'
-                                                        '    <li><strong>Recorta el silencio — normalmente ~30% de una clase</strong> — mantén la velocidad del habla</li>\n'
+                                                        '    <li><strong>Recorta el silencio detectado</strong> — mantén la velocidad del habla</li>\n'
                                                         '    <li><strong>Seguimiento del método socrático</strong> — separa al profesor de las respuestas de los alumnos</li>\n'
                                                         '    <li><strong>Búsqueda de jurisprudencia</strong> — busca citas de casos específicos en la transcripción</li>\n'
                                                         '    <li><strong>Privacidad local</strong> — los escenarios de casos se quedan en tu teléfono</li>\n'
@@ -520,18 +514,17 @@ pages_data = {
                                                         '<h2>Comienza gratis</h2>\n'
 
                                                         '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
-                                               'tagline': 'Condensa una clase de derecho de 90 minutos en 60 minutos.',
+                                               'tagline': 'Elimina pausas detectadas de las grabaciones de derecho.',
                                                'title': 'Mejor App para Clases de Derecho – Grabar y Transcribir | 5cut'},
                                         'fr': {'desc': 'Condensez les cours de droit sur iPhone. Supprimez les silences, transcrivez les débats, exportez vos notes. Traitement local pour la '
                                                        'confidentialité.',
                                                'h1': 'Meilleure Application pour les Cours de Droit',
-                                               'intro': '<p>Un cours de droit de 90 minutes contient souvent 15 à 25 minutes de silence : le professeur lisant un cas, des pauses socratiques... Ces '
-                                                        "silences s'accumulent.</p>\n"
+                                               'intro': '<p>Les cours de droit peuvent contenir de longues pauses pendant la lecture d’un cas, entre les questions socratiques ou en attendant une réponse.</p>\n'
                                                         '<p>5cut supprime les silences sur votre iPhone. Transcrivez, identifiez les locuteurs et exportez vos notes – sans rien envoyer sur le '
                                                         'cloud.</p>\n'
                                                         "<h2>Pourquoi les étudiants en droit l'utilisent</h2>\n"
                                                         '<ul>\n'
-                                                        '    <li><strong>Coupez les silences — souvent ~30% du cours</strong> — gardez une parole naturelle</li>\n'
+                                                        '    <li><strong>Coupez les silences détectés</strong> — gardez une parole naturelle</li>\n'
                                                         '    <li><strong>Suivi de la méthode socratique</strong> — différenciez le professeur des étudiants</li>\n'
                                                         '    <li><strong>Recherche de jurisprudence</strong> — cherchez des cas spécifiques dans la transcription</li>\n'
                                                         '    <li><strong>Confidentialité locale</strong> — les scénarios juridiques restent sur votre téléphone</li>\n'
@@ -542,17 +535,16 @@ pages_data = {
                                                         '<h2>Gratuit pour commencer</h2>\n'
 
                                                         '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
-                                               'tagline': 'Condensez un cours de droit de 90 minutes en 60 minutes.',
+                                               'tagline': 'Supprimez les pauses détectées des cours de droit.',
                                                'title': 'Meilleure Application pour les Cours de Droit | 5cut'},
                                         'vi': {'desc': 'Rút gọn các bài giảng luật trên iPhone. Xóa khoảng lặng, phiên âm thảo luận tình huống, xuất ghi chú. Xử lý trên thiết bị đảm bảo tính bảo '
                                                        'mật.',
                                                'h1': 'Ứng Dụng Tốt Nhất Cho Sinh Viên Luật',
-                                               'intro': '<p>Một lớp học hợp đồng 90 phút có 15-25 phút im lặng: giáo sư đọc án lệ, tạm dừng giữa các câu hỏi theo phương pháp Socrates. Những khoảng '
-                                                        'trống này cộng dồn thành nhiều giờ mỗi tuần.</p>\n'
+                                               'intro': '<p>Bài giảng luật có thể có những khoảng dừng dài khi giảng viên đọc án lệ, chờ giữa các câu hỏi Socrates hoặc đợi câu trả lời.</p>\n'
                                                         '<p>5cut xóa khoảng lặng từ các bản ghi trên iPhone. Sau đó, phiên âm, xác định người nói và xuất ghi chú – mà không cần tải lên đám mây.</p>\n'
                                                         '<h2>Tại sao sinh viên luật sử dụng 5cut</h2>\n'
                                                         '<ul>\n'
-                                                        '    <li><strong>Cắt khoảng lặng — thường khoảng 30% bài giảng</strong> — giữ tốc độ nói tự nhiên</li>\n'
+                                                        '    <li><strong>Cắt khoảng lặng đã phát hiện</strong> — giữ tốc độ nói tự nhiên</li>\n'
                                                         '    <li><strong>Theo dõi phương pháp Socrates</strong> — phân biệt giáo sư và sinh viên trả lời</li>\n'
                                                         '    <li><strong>Tìm kiếm tên vụ án</strong> — tìm kiếm các trích dẫn vụ án cụ thể trong bản ghi</li>\n'
                                                         '    <li><strong>Quyền riêng tư trên thiết bị</strong> — các tình huống khách hàng giả định ở lại trên điện thoại của bạn</li>\n'
@@ -563,38 +555,37 @@ pages_data = {
                                                         '<h2>Bắt đầu miễn phí</h2>\n'
 
                                                         '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
-                                               'tagline': 'Rút gọn bài giảng luật 90 phút xuống còn 60 phút.',
+                                               'tagline': 'Xóa khoảng dừng đã phát hiện khỏi bản ghi bài giảng luật.',
                                                'title': 'Ứng Dụng Tốt Nhất Cho Bài Giảng Luật – Ghi Âm & Phiên Âm | 5cut'},
                                         'zh': {'desc': '在 iPhone 上精简法学院讲座。去除静音、转写案例讨论、导出笔记。全部在设备端处理，确保机密性。',
                                                'h1': '法学院讲座最佳录音应用',
-                                               'intro': '<p>法学院的讲座时间很长。一节 90 分钟的合同法课往往有 15-25 分钟的静音：教授阅读案例、苏格拉底式提问之间的停顿等。这些静音每周会浪费大量时间。</p>\n'
+                                               'intro': '<p>法学讲座在教授阅读案例、苏格拉底式提问之间或等待回答时，可能包含较长的静音片段。</p>\n'
                                                         '<p>5cut 可以在 iPhone 上自动去除讲座录音中的静音。然后进行转写、识别说话人并导出笔记——这一切都不需要上传到云端。</p>\n'
                                                         '<h2>为什么法学生使用 5cut</h2>\n'
                                                         '<ul>\n'
-                                                        '    <li><strong>剪掉静音——讲座通常约 30% 是停顿</strong> — 保留自然语速</li>\n'
+                                                        '    <li><strong>剪掉检测到的静音</strong> — 保留自然语速</li>\n'
                                                         '    <li><strong>追踪苏格拉底式问答</strong> — 说话人识别可区分教授和学生的回答</li>\n'
                                                         '    <li><strong>案例检索</strong> — 转写后搜索特定的案件引用</li>\n'
                                                         '    <li><strong>设备端隐私</strong> — 假设的客户场景和案例讨论留在您的手机上</li>\n'
                                                         '    <li><strong>备考</strong> — 批量处理一整个学期的讲座录音</li>\n'
                                                         '</ul>\n'
                                                         '<h2>隐私与专业责任</h2>\n'
-                                                        '<p>法学院课程经常讨论案件细节和法律策略。5cut 完全在 iPhone 上进行本地处理——录音绝不离开设备。</p>\n'
+                                                        '<p>法学院课程经常讨论案件细节和法律策略。5cut 没有服务器或录音云端副本；如需离线转写，请选择受支持的已下载模型。</p>\n'
                                                         '<h2>免费开始使用</h2>\n'
 
                                                         '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
-                                               'tagline': '将 90 分钟的法学讲座缩减为 60 分钟。完全在设备端进行。',
+                                               'tagline': '去除法学讲座录音中检测到的停顿。',
                                                'title': '法学院讲座最佳录音应用 – 剪切与转写 | 5cut'}},
  'best-app-for-medical-school-lectures': {'de': {'desc': 'Nehmen Sie Medizin-Vorlesungen auf dem iPhone auf und kürzen Sie sie. Stille entfernen, transkribieren, in Anki exportieren. '
                                                          'On-Device-Verarbeitung schützt Patientendaten.',
                                                  'h1': 'Beste App für Medizin-Vorlesungen',
-                                                 'intro': '<p>Medizinstudium bedeutet 4-6 Stunden Vorlesungen täglich. Anatomie, Pharmakologie, Pathologie — bis zu 30% davon sind Stille. Das sind '
-                                                          'Stunden an verlorener Zeit pro Woche.</p>\n'
+                                                 'intro': '<p>Medizinische Vorlesungen können lange Pausen zwischen Erklärungen, Demonstrationen und Fragen enthalten.</p>\n'
                                                           '<p>5cut entfernt Stille automatisch auf deinem iPhone. Eine 2-stündige Anatomie-Vorlesung wird zu 80 Minuten echtem Inhalt. Danach kannst '
                                                           'du sie transkribieren, Notizen zu Anki exportieren und schneller lernen.</p>\n'
                                                           '<h2>Warum Medizinstudierende 5cut nutzen</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>6-10 Stunden pro Woche sparen</strong> — Stille aus jeder Vorlesungsaufnahme entfernen</li>\n'
-                                                          '    <li><strong>On-Device-Verarbeitung</strong> — Aufnahmen mit Patientenfällen verlassen nie dein iPhone</li>\n'
+                                                          '    <li><strong>Weniger Leerlauf wiederholen</strong> — erkannte Stille vor dem Lernen entfernen</li>\n'
+                                                          '    <li><strong>Keine 5cut-Cloud-Kopie</strong> — 5cut hat keinen Server; heruntergeladene On-Device-Engines stehen für Offline-Transkription bereit</li>\n'
                                                           '    <li><strong>In 30+ Sprachen transkribieren</strong> — Untertitel in der Muttersprache generieren</li>\n'
                                                           '    <li><strong>Export zu Anki</strong> — Transkribierte Segmente in Q&A-Lernkarten umwandeln</li>\n'
                                                           '    <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche über Nacht verarbeiten</li>\n'
@@ -612,19 +603,18 @@ pages_data = {
                                                           '<h2>Kostenlos starten</h2>\n'
 
                                                           '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
-                                                 'tagline': 'Mache aus einer 2-stündigen Anatomie-Vorlesung 80 Minuten Inhalt.',
+                                                 'tagline': 'Entferne Leerlauf vor der Wiederholung einer Anatomie-Vorlesung.',
                                                  'title': 'Beste App für Medizin-Vorlesungen – Aufnehmen, Schneiden & Transkribieren | 5cut'},
                                           'en': {'desc': 'Record and condense medical school lectures on iPhone. Remove silence, transcribe in 30+ languages, export to Anki. On-device processing '
                                                          'keeps patient case discussions private.',
                                                  'h1': 'Best App for Medical School Lectures',
-                                                 'intro': '<p>Medical school means 4-6 hours of lectures daily. Anatomy, pharmacology, pathology — each recorded lecture is 60-120 minutes, and often about '
-                                                          "30% is silence. That's hours of dead air every week.</p>\n"
+                                                 'intro': '<p>Medical lectures can contain long stretches of dead air between explanations, demonstrations, and questions.</p>\n'
                                                           '<p>5cut removes silence from lecture recordings automatically on your iPhone. A 2-hour anatomy lecture becomes 80 minutes of actual '
                                                           'content. Then you can transcribe it, export notes to Anki, and review faster.</p>\n'
                                                           '<h2>Why med students use 5cut</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Save 6-10 hours per week</strong> — remove silence from every lecture recording before review</li>\n'
-                                                          '    <li><strong>On-device processing</strong> — recordings with patient case discussions never leave your phone</li>\n'
+                                                          '    <li><strong>Review less dead air</strong> — remove detected silence before studying</li>\n'
+                                                          '    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; downloaded on-device engines are available for offline transcription</li>\n'
                                                           '    <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>\n'
                                                           '    <li><strong>Export to Anki</strong> — turn transcribed lecture segments into Q&A study cards</li>\n'
                                                           '    <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>\n'
@@ -653,17 +643,17 @@ pages_data = {
                                                           '<h2>Free to start</h2>\n'
 
                                                           '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
-                                                 'tagline': 'Turn a 2-hour anatomy lecture into 80 minutes of content.',
+                                                 'tagline': 'Remove dead air before reviewing an anatomy lecture.',
                                                  'title': 'Best App for Medical School Lectures – Record, Trim & Transcribe | 5cut'},
                                           'es': {'desc': 'Graba y condensa clases de medicina en iPhone. Elimina silencios, transcribe en 30+ idiomas, exporta a Anki. El procesamiento local protege '
                                                          'los casos de pacientes.',
                                                  'h1': 'Mejor App para Clases de Medicina',
-                                                 'intro': '<p>La escuela de medicina requiere 4-6 horas de clases diarias. Hasta el 30% es silencio. Eso suma horas de tiempo muerto cada semana.</p>\n'
+                                                 'intro': '<p>Las clases de medicina pueden contener pausas largas entre explicaciones, demostraciones y preguntas.</p>\n'
                                                           '<p>5cut elimina automáticamente los silencios en tu iPhone. Luego puedes transcribir, exportar a Anki y repasar mucho más rápido.</p>\n'
                                                           '<h2>Por qué los estudiantes de medicina usan 5cut</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Ahorra 6-10 horas a la semana</strong> — elimina silencios antes de repasar</li>\n'
-                                                          '    <li><strong>Procesamiento local</strong> — los casos clínicos nunca salen de tu teléfono</li>\n'
+                                                          '    <li><strong>Repasa menos tiempos muertos</strong> — elimina silencios detectados antes de estudiar</li>\n'
+                                                          '    <li><strong>Sin copia de 5cut en la nube</strong> — 5cut no tiene servidor; los modelos descargados permiten transcribir sin conexión</li>\n'
                                                           '    <li><strong>Transcribe en 30+ idiomas</strong> — genera subtítulos en tu idioma nativo</li>\n'
                                                           '    <li><strong>Exporta a Anki</strong> — convierte transcripciones en tarjetas de estudio Q&A</li>\n'
                                                           '    <li><strong>Procesamiento por lotes</strong> — procesa grabaciones de toda la semana durante la noche</li>\n'
@@ -680,18 +670,17 @@ pages_data = {
                                                           '<h2>Comienza gratis</h2>\n'
 
                                                           '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
-                                                 'tagline': 'Convierte una clase de anatomía de 2 horas en 80 minutos.',
+                                                 'tagline': 'Elimina tiempos muertos antes de repasar una clase de anatomía.',
                                                  'title': 'Mejor App para Clases de Medicina – Grabar y Transcribir | 5cut'},
                                           'fr': {'desc': 'Enregistrez et condensez vos cours de médecine sur iPhone. Supprimez les silences, transcrivez et exportez vers Anki. Le traitement local '
                                                          'protège la confidentialité des patients.',
                                                  'h1': 'Meilleure Application pour les Cours de Médecine',
-                                                 'intro': "<p>Les études de médecine impliquent 4 à 6 heures de cours par jour. Jusqu'à 30% de ces cours sont des silences. Ce sont des heures perdues "
-                                                          'chaque semaine.</p>\n'
+                                                 'intro': '<p>Les cours de médecine peuvent contenir de longues pauses entre les explications, démonstrations et questions.</p>\n'
                                                           '<p>5cut supprime automatiquement les silences sur votre iPhone. Ensuite, vous pouvez transcrire le cours et exporter vers Anki pour réviser '
                                                           'plus vite.</p>\n'
                                                           '<h2>Pourquoi les étudiants en médecine utilisent 5cut</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Gagnez 6-10h par semaine</strong> — supprimez les silences avant de réviser</li>\n'
+                                                          '    <li><strong>Révisez moins de temps morts</strong> — supprimez les silences détectés avant d’étudier</li>\n'
                                                           '    <li><strong>Traitement local</strong> — les cas cliniques des patients restent sur votre téléphone</li>\n'
                                                           '    <li><strong>Transcrivez en 30+ langues</strong> — créez des sous-titres dans votre langue maternelle</li>\n'
                                                           '    <li><strong>Export vers Anki</strong> — transformez les transcriptions en cartes d\'étude Q&A</li>\n'
@@ -710,17 +699,17 @@ pages_data = {
                                                           '<h2>Gratuit pour commencer</h2>\n'
 
                                                           '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
-                                                 'tagline': "Transformez un cours d'anatomie de 2h en 80 minutes.",
+                                                 'tagline': "Supprimez les temps morts avant de réviser un cours d'anatomie.",
                                                  'title': 'Meilleure Application pour les Cours de Médecine – Enregistrez et Transcrivez | 5cut'},
                                           'vi': {'desc': 'Ghi âm và rút gọn các bài giảng y khoa trên iPhone. Xóa khoảng lặng, phiên âm 30+ ngôn ngữ, xuất sang Anki. Xử lý trên thiết bị bảo vệ thông '
                                                          'tin bệnh nhân.',
                                                  'h1': 'Ứng Dụng Tốt Nhất Cho Bài Giảng Y Khoa',
-                                                 'intro': '<p>Trường y đồng nghĩa với 4-6 giờ nghe giảng mỗi ngày. Lên đến 30% thời gian là khoảng lặng. Đó là hàng giờ lãng phí mỗi tuần.</p>\n'
+                                                 'intro': '<p>Bài giảng y khoa có thể chứa những khoảng dừng dài giữa phần giải thích, minh họa và câu hỏi.</p>\n'
                                                           '<p>5cut tự động xóa khoảng lặng trên iPhone của bạn. Sau đó, bạn có thể phiên âm, xuất ghi chú sang Anki và ôn tập nhanh hơn.</p>\n'
                                                           '<h2>Tại sao sinh viên y khoa sử dụng 5cut</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Tiết kiệm 6-10 giờ mỗi tuần</strong> — xóa khoảng lặng trước khi ôn tập</li>\n'
-                                                          '    <li><strong>Xử lý trên thiết bị</strong> — bảo mật tuyệt đối cho các trường hợp bệnh nhân</li>\n'
+                                                          '    <li><strong>Ôn tập ít khoảng trống hơn</strong> — xóa khoảng lặng đã phát hiện trước khi học</li>\n'
+                                                          '    <li><strong>Không có bản sao đám mây 5cut</strong> — chọn mô hình đã tải xuống được hỗ trợ để phiên âm ngoại tuyến</li>\n'
                                                           '    <li><strong>Phiên âm 30+ ngôn ngữ</strong> — hỗ trợ sinh viên quốc tế tạo phụ đề</li>\n'
                                                           '    <li><strong>Xuất sang Anki</strong> — chuyển đoạn bài giảng thành thẻ học Q&A</li>\n'
                                                           '    <li><strong>Xử lý hàng loạt</strong> — xử lý bản ghi của cả tuần chỉ trong một đêm</li>\n'
@@ -737,16 +726,16 @@ pages_data = {
                                                           '<h2>Bắt đầu miễn phí</h2>\n'
 
                                                           '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
-                                                 'tagline': 'Biến bài giảng giải phẫu 2 giờ thành 80 phút nội dung.',
+                                                 'tagline': 'Xóa khoảng trống trước khi ôn lại bài giảng giải phẫu.',
                                                  'title': 'Ứng Dụng Tốt Nhất Cho Sinh Viên Y Khoa – Ghi Âm & Phiên Âm | 5cut'},
                                           'zh': {'desc': '在 iPhone 上录制并精简医学院讲座。去除静音、30多种语言转写、导出至 Anki。设备端处理保护患者案例讨论隐私。',
                                                  'h1': '医学生最佳讲座应用',
-                                                 'intro': '<p>医学院意味着每天 4-6 小时的讲座。解剖学、药理学、病理学——其中高达 30% 是静音。这相当于每周数小时的空白时间。</p>\n'
+                                                 'intro': '<p>医学讲座在讲解、演示和提问之间可能包含较长的静音片段。</p>\n'
                                                           '<p>5cut 可以在您的 iPhone 上自动去除讲座录音中的静音。然后您可以转写内容，将笔记导出到 Anki，并更快地复习。</p>\n'
                                                           '<h2>为什么医学生使用 5cut</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>每周节省 6-10 小时</strong> — 复习前去除每次讲座录音的静音</li>\n'
-                                                          '    <li><strong>设备端处理</strong> — 涉及患者案例的录音绝不离开您的手机</li>\n'
+                                                          '    <li><strong>少复习空白片段</strong> — 学习前去除检测到的静音</li>\n'
+                                                          '    <li><strong>无 5cut 云端副本</strong> — 如需离线转写，请选择受支持的已下载模型</li>\n'
                                                           '    <li><strong>30+ 语言转写</strong> — 留学生可以生成母语字幕</li>\n'
                                                           '    <li><strong>导出至 Anki</strong> — 将讲座片段转化为问答（Q&A）学习卡片</li>\n'
                                                           '    <li><strong>批量处理</strong> — 一次性处理一整周的录音</li>\n'
@@ -763,14 +752,14 @@ pages_data = {
                                                           '<h2>免费开始使用</h2>\n'
 
                                                           '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
-                                                 'tagline': '将 2 小时的解剖学讲座缩减为 80 分钟。',
+                                                 'tagline': '复习解剖学讲座前去除空白片段。',
                                                  'title': '医学生最佳讲座应用 – 录制、剪切与转写 | 5cut'}},
  'offline-lecture-transcription-iphone': {'de': {'desc': 'Vorlesungsaufnahmen offline auf dem iPhone transkribieren. Keine Cloud, kein Upload, kein Internet nötig. On-Device-KI in 30+ Sprachen. '
                                                          'Sprechererkennung. Export als SRT oder Text. Kostenlose iOS-App.',
                                                  'h1': 'Offline Vorlesungen transkribieren auf dem iPhone',
                                                  'intro': '<p>Die meisten Transkriptions-Apps brauchen Internet. Du lädst deine Vorlesung auf einen Server hoch, wartest auf die Verarbeitung und '
-                                                          'hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. 5cut funktioniert anders: Es transkribiert vollständig auf deinem '
-                                                          'iPhone, ohne Internetverbindung nach dem einmaligen Modell-Download.</p>\n'
+                                                          'hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. Mit 5cut kannst du eine heruntergeladene On-Device-Engine für Offline-'
+                                                          'Transkription wählen. Die Verfügbarkeit hängt von Engine, Sprache, Gerät und Modell-Download ab.</p>\n'
                                                           '<h2>Wie Offline-Transkription funktioniert</h2>\n'
                                                           '<p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache '
                                                           'auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, '
@@ -786,7 +775,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Warum Offline wichtig ist</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Datenschutz</strong> – Vorlesungsaufnahmen mit sensiblen Inhalten verlassen nie dein Gerät</li>\n'
+                                                          '    <li><strong>Keine 5cut-Cloud-Kopie</strong> – 5cut hat keinen Server; nutze für Offline-Transkription eine heruntergeladene On-Device-Engine</li>\n'
                                                           '    <li><strong>Keine Datenvolumen-Kosten</strong> – stundenlange Aufnahmen transkribieren ohne mobiles Datenvolumen zu verbrauchen</li>\n'
                                                           '    <li><strong>Funktioniert überall</strong> – Kellerräume, Züge, Flugzeuge, Bibliotheken mit gesperrtem WLAN</li>\n'
                                                           '    <li><strong>Keine Minutenkosten</strong> – Cloud-Dienste berechnen pro Minute. On-Device ist kostenlos</li>\n'
@@ -798,7 +787,7 @@ pages_data = {
                                                           '<p>5cut ist primär ein Stille-Entfernungs-Tool. Der typische Workflow ist:</p>\n'
                                                           '<ol>\n'
                                                           '    <li>Vorlesung importieren oder aufnehmen</li>\n'
-                                                          '    <li>Stille automatisch entfernen (eine typische Aufnahme besteht zu etwa 30% aus Pausen)</li>\n'
+                                                          '    <li>Erkannte Stille automatisch entfernen</li>\n'
                                                           '    <li>Die gekürzte Version offline transkribieren</li>\n'
                                                           '    <li>Exportieren: Video mit eingebrannten Untertiteln, SRT-Datei oder Text-Transkript</li>\n'
                                                           '</ol>\n'
@@ -814,8 +803,8 @@ pages_data = {
                                                          'identification. Export as SRT or text. Free iOS app.',
                                                  'h1': 'Offline Lecture Transcription on iPhone',
                                                  'intro': '<p>Most transcription apps require internet. You upload your lecture to a server, wait for processing, and hope the cloud service handles '
-                                                          'your data responsibly. 5cut works differently: it transcribes entirely on your iPhone, with no internet connection required after the '
-                                                          'initial model download.</p>\n'
+                                                          'your data responsibly. With 5cut, you can select a downloaded on-device engine for offline transcription. Availability depends on the engine, language, '
+                                                          'device, and initial model download.</p>\n'
                                                           '<h2>How offline transcription works</h2>\n'
                                                           "<p>5cut uses on-device AI models that run directly on your iPhone's Neural Engine. The first time you select a language, the model "
                                                           'downloads (typically 40-600 MB depending on the engine). After that, transcription works in airplane mode, on the subway, in a lecture hall '
@@ -831,7 +820,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Why offline matters</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Privacy</strong> — lecture recordings with sensitive content never leave your device</li>\n'
+                                                          '    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; choose a downloaded on-device engine for offline transcription</li>\n'
                                                           '    <li><strong>No data caps</strong> — transcribe hours of recordings without eating into your mobile data plan</li>\n'
                                                           '    <li><strong>Works everywhere</strong> — campus basements, trains, planes, libraries with blocked WiFi</li>\n'
                                                           '    <li><strong>No per-minute costs</strong> — cloud transcription services charge per minute. On-device is free after the model '
@@ -845,7 +834,7 @@ pages_data = {
                                                           '<p>5cut is primarily a silence removal tool. The typical workflow is:</p>\n'
                                                           '<ol>\n'
                                                           '    <li>Import or record a lecture</li>\n'
-                                                          '    <li>Remove silence automatically (a typical lecture is around 30% silence)</li>\n'
+                                                          '    <li>Remove detected silence automatically</li>\n'
                                                           '    <li>Transcribe the condensed version offline</li>\n'
                                                           '    <li>Export: video with burned-in subtitles, SRT file, or plain text transcript</li>\n'
                                                           '</ol>\n'
@@ -860,8 +849,8 @@ pages_data = {
                                                  'title': 'Offline Lecture Transcription on iPhone – No Internet Required | 5cut'},
                                           'es': {'desc': 'Transcribe grabaciones de clases offline en iPhone. Sin nube, sin subidas, sin internet. IA local en 30+ idiomas. App iOS gratuita.',
                                                  'h1': 'Transcripción de Clases Offline en iPhone',
-                                                 'intro': '<p>La mayoría de las apps de transcripción requieren internet. 5cut funciona de manera diferente: transcribe completamente en tu iPhone, '
-                                                          'sin conexión a internet después de descargar el modelo inicial.</p>\n'
+                                                 'intro': '<p>La mayoría de las apps de transcripción requieren internet. Con 5cut puedes elegir un modelo descargado en el dispositivo para transcribir '
+                                                          'sin conexión. La disponibilidad depende del motor, el idioma, el dispositivo y la descarga inicial.</p>\n'
                                                           '<h2>Cómo funciona la transcripción offline</h2>\n'
                                                           '<p>5cut utiliza modelos de IA locales que se ejecutan directamente en tu iPhone. La transcripción funciona en modo avión, en el metro o en '
                                                           'cualquier lugar.</p>\n'
@@ -875,7 +864,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Por qué importa que sea offline</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Privacidad</strong> – las grabaciones nunca salen de tu dispositivo</li>\n'
+                                                          '    <li><strong>Sin copia de 5cut en la nube</strong> – 5cut no tiene servidor; elige un modelo descargado para transcribir sin conexión</li>\n'
                                                           '    <li><strong>Sin consumo de datos</strong> – transcribe horas de grabaciones sin gastar tus datos móviles</li>\n'
                                                           '    <li><strong>Funciona en todas partes</strong> – sótanos, trenes, aviones</li>\n'
                                                           '    <li><strong>Sin costos por minuto</strong> – el procesamiento local es gratuito</li>\n'
@@ -897,8 +886,8 @@ pages_data = {
                                                  'title': 'Transcripción de Clases Offline en iPhone – Sin Internet | 5cut'},
                                           'fr': {'desc': "Transcrivez vos cours hors ligne sur iPhone. Pas de cloud, pas de téléversement, pas d'internet. IA locale en 30+ langues. App iOS gratuite.",
                                                  'h1': 'Transcription de Cours Hors Ligne sur iPhone',
-                                                 'intro': '<p>La plupart des applications de transcription nécessitent internet. 5cut fonctionne différemment : il transcrit entièrement sur votre '
-                                                          'iPhone, sans connexion requise après le téléchargement initial du modèle.</p>\n'
+                                                 'intro': '<p>La plupart des applications de transcription nécessitent internet. Avec 5cut, vous pouvez choisir un moteur téléchargé sur l’appareil pour '
+                                                          'transcrire hors ligne. La disponibilité dépend du moteur, de la langue, de l’appareil et du téléchargement initial.</p>\n'
                                                           '<h2>Comment fonctionne la transcription hors ligne</h2>\n'
                                                           "<p>5cut utilise des modèles d'IA locaux qui s'exécutent sur le Neural Engine de votre iPhone. La transcription fonctionne en mode avion, "
                                                           "dans le métro, n'importe où.</p>\n"
@@ -912,7 +901,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Pourquoi le hors ligne est important</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Confidentialité</strong> – les enregistrements ne quittent jamais votre appareil</li>\n'
+                                                          '    <li><strong>Aucune copie cloud 5cut</strong> – 5cut n’a pas de serveur ; choisissez un moteur téléchargé pour transcrire hors ligne</li>\n'
                                                           '    <li><strong>Sans frais de données</strong> – transcrivez sans consommer votre forfait mobile</li>\n'
                                                           '    <li><strong>Fonctionne partout</strong> – sous-sols, trains, avions</li>\n'
                                                           '    <li><strong>Sans coût à la minute</strong> – le traitement local est gratuit</li>\n'
@@ -949,7 +938,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Tại sao ngoại tuyến lại quan trọng</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>Quyền riêng tư</strong> – bản ghi âm không bao giờ rời khỏi thiết bị</li>\n'
+                                                          '    <li><strong>Không có bản sao đám mây của 5cut</strong> – 5cut không có máy chủ; chọn mô hình đã tải xuống để phiên âm ngoại tuyến</li>\n'
                                                           '    <li><strong>Không giới hạn dữ liệu</strong> – phiên âm hàng giờ mà không tốn dung lượng mạng</li>\n'
                                                           '    <li><strong>Hoạt động mọi nơi</strong> – tầng hầm, máy bay, tàu hỏa</li>\n'
                                                           '    <li><strong>Không phí theo phút</strong> – miễn phí sau khi tải mô hình</li>\n'
@@ -984,7 +973,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>为什么离线很重要</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>隐私</strong> – 敏感录音绝不离开您的设备</li>\n'
+                                                          '    <li><strong>无 5cut 云端副本</strong> – 如需离线转写，请选择受支持的已下载模型</li>\n'
                                                           '    <li><strong>无数据限制</strong> – 转写数小时的录音而不用担心流量</li>\n'
                                                           '    <li><strong>随处可用</strong> – 校园地下室、火车、飞机上</li>\n'
                                                           '    <li><strong>无按分钟收费</strong> – 设备端处理完全免费</li>\n'
@@ -1020,7 +1009,7 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>Warum Offline für Meeting-Notizen?</h2>\n'
                                                   '<h3>Firmenrichtlinien</h3>\n'
-                                                  '<p>Viele Unternehmen verbieten Uploads. 5cut benötigt keinen Security-Review, da die Daten das Gerät nie verlassen.</p>\n'
+                                                  '<p>Viele Unternehmen verbieten Uploads. 5cut hat keinen Server und keine Cloud-Kopie; heruntergeladene On-Device-Engines reduzieren die Abhängigkeit von Drittanbietern. Prüfe trotzdem die Vorgaben deiner Organisation.</p>\n'
                                                   '<h3>Regulierte Branchen</h3>\n'
                                                   '<p>Finanzen, Gesundheit, Recht – hier gelten strenge Datenschutzvorgaben.</p>\n'
                                                   '<h3>Schlechtes WLAN</h3>\n'
@@ -1053,8 +1042,8 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>Why go offline for meeting notes</h2>\n'
                                                   '<h3>Corporate security policies</h3>\n'
-                                                  '<p>Many companies prohibit uploading internal discussions to third-party services. IT security reviews for new SaaS tools take months. 5cut needs '
-                                                  'no security review — data never leaves the device.</p>\n'
+                                                  '<p>Many companies prohibit uploading internal discussions to third-party services. 5cut has no server or cloud copy, and downloaded on-device engines '
+                                                  'can reduce third-party exposure. Always verify your organization\'s own recording and security requirements.</p>\n'
                                                   '<h3>Regulated industries</h3>\n'
                                                   '<p>Finance, healthcare, legal, defense — these sectors have strict data handling requirements. On-device processing means no vendor risk '
                                                   'assessment.</p>\n'
@@ -1088,7 +1077,7 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>¿Por qué offline?</h2>\n'
                                                   '<h3>Políticas de seguridad corporativas</h3>\n'
-                                                  '<p>Los datos nunca salen del dispositivo, por lo que no se requiere revisión de seguridad de TI.</p>\n'
+                                                  '<p>5cut no tiene servidor ni copia en la nube; los modelos descargados reducen la exposición a terceros. Verifica siempre los requisitos de seguridad de tu organización.</p>\n'
                                                   '<h3>Sectores regulados</h3>\n'
                                                   '<p>Finanzas, salud, legal – el procesamiento local simplifica el cumplimiento.</p>\n'
                                                   '<h3>Conectividad poco confiable</h3>\n'
@@ -1121,7 +1110,7 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>Pourquoi le hors ligne ?</h2>\n'
                                                   "<h3>Sécurité d'entreprise</h3>\n"
-                                                  "<p>Les données ne quittent jamais l'appareil, aucun examen de sécurité informatique n'est requis.</p>\n"
+                                                  "<p>5cut n'a ni serveur ni copie cloud ; les moteurs téléchargés réduisent l'exposition à des tiers. Vérifiez toujours les exigences de sécurité de votre organisation.</p>\n"
                                                   '<h3>Secteurs réglementés</h3>\n'
                                                   '<p>Finance, santé, droit – le traitement local simplifie la conformité.</p>\n'
                                                   '<h3>Connexion instable</h3>\n'
@@ -1152,7 +1141,7 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>Tại sao chọn ngoại tuyến?</h2>\n'
                                                   '<h3>Chính sách bảo mật công ty</h3>\n'
-                                                  '<p>Dữ liệu không bao giờ rời khỏi thiết bị, không cần đánh giá rủi ro an ninh mạng.</p>\n'
+                                                  '<p>5cut không có máy chủ hay bản sao đám mây; các mô hình đã tải xuống giúp giảm việc dùng dịch vụ bên thứ ba. Hãy luôn kiểm tra yêu cầu bảo mật của tổ chức.</p>\n'
                                                   '<h3>Ngành công nghiệp được quản lý</h3>\n'
                                                   '<p>Tài chính, y tế, luật pháp – xử lý trên thiết bị đảm bảo tính tuân thủ cao nhất.</p>\n'
                                                   '<h3>Kết nối không ổn định</h3>\n'
@@ -1183,9 +1172,9 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>为什么选择离线会议笔记</h2>\n'
                                                   '<h3>企业安全政策</h3>\n'
-                                                  '<p>许多公司禁止将内部讨论上传到第三方服务。5cut 不需要安全审查——数据永远不会离开设备。</p>\n'
+                                                  '<p>许多公司禁止将内部讨论上传到第三方服务。5cut 没有服务器或云端副本，下载后的设备端模型可减少第三方接触。请始终核对所在机构的安全要求。</p>\n'
                                                   '<h3>受监管的行业</h3>\n'
-                                                  '<p>金融、医疗保健、法律——这些行业对数据处理有严格要求。设备端处理意味着没有合规风险。</p>\n'
+                                                  '<p>金融、医疗保健和法律行业对数据处理有严格要求。设备端处理可减少第三方接触，但仍需遵守所在机构的规则。</p>\n'
                                                   '<h3>网络不稳定</h3>\n'
                                                   '<p>无论您的网络连接如何，离线转写都能正常工作。</p>\n'
                                                   '<h2>您将获得什么</h2>\n'
@@ -1200,13 +1189,12 @@ pages_data = {
                                                   '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                          'tagline': '离线转写会议。包含说话人识别功能。',
                                          'title': 'iPhone 上的离线会议笔记 – 无需网络即可转写 | 5cut'}},
- 'record-meetings-privately-iphone': {'de': {'desc': 'Meetings aufnehmen und transkribieren ohne Cloud-Upload. On-Device-Verarbeitung hält vertrauliche Diskussionen sicher. GDPR- und '
-                                                     'Compliance-freundlich.',
+ 'record-meetings-privately-iphone': {'de': {'desc': 'Meetings auf dem iPhone aufnehmen. 5cut hat keinen Server und speichert keine Cloud-Kopie; für Offline-Transkription eine unterstützte On-Device-Engine wählen.',
                                              'h1': 'Meetings privat auf dem iPhone aufnehmen',
                                              'intro': '<p>Dein Meeting enthält vertrauliche Strategien, Kundennamen oder Personalentscheidungen. Cloud-basierte Recorder wie Otter oder Fireflies '
                                                       'laden alles auf ihre Server hoch.</p>\n'
-                                                      '<p>5cut nimmt Meetings vollständig auf deinem iPhone auf und transkribiert sie. Nichts verlässt dein Gerät. Keine Cloud. Keine '
-                                                      'Drittanbieter-Server. Keine Auftragsverarbeitungsverträge (AVV) nötig.</p>\n'
+                                                      '<p>5cut hat keinen Server und speichert keine Cloud-Kopie deiner Meetings. Wähle für Offline-Transkription eine heruntergeladene On-Device-Engine, '
+                                                      'die Sprache und Gerät unterstützt. Beachte immer die Aufnahme- und Datenschutzregeln deiner Organisation.</p>\n'
                                                       '<h2>Das Compliance-Problem mit Cloud-Recordern</h2>\n'
                                                       '<p>Jedes Mal, wenn du einen Cloud-Dienst nutzt, gehst du ein Risiko ein:</p>\n'
                                                       '<ul>\n'
@@ -1215,7 +1203,7 @@ pages_data = {
                                                       '    <li>Kunden-NDAs könnten das Teilen von Aufnahmen untersagen</li>\n'
                                                       '    <li>Bei einem Datenleck sind deine Meeting-Inhalte gefährdet</li>\n'
                                                       '</ul>\n'
-                                                      '<p>Lokale Verarbeitung eliminiert all diese Bedenken.</p>\n'
+                                                      '<p>Lokale Verarbeitung kann die Weitergabe an Dritte reduzieren. Prüfe trotzdem die Regeln deiner Organisation.</p>\n'
                                                       '<h2>Wer private Meeting-Aufnahmen braucht</h2>\n'
                                                       '<h3>Rechtsanwälte & Kanzleien</h3>\n'
                                                       '<p>Mandantengespräche und Fallstrategien. Das Anwaltsgeheimnis verträgt sich nicht mit Cloud-Verarbeitung.</p>\n'
@@ -1228,7 +1216,7 @@ pages_data = {
                                                       '<h2>Der 5cut-Workflow für Meetings</h2>\n'
                                                       '<ol>\n'
                                                       '    <li><strong>Rekorder öffnen</strong> — einfach Aufnahme starten.</li>\n'
-                                                      '    <li><strong>Live-Transkription</strong> — Text erscheint in Echtzeit</li>\n'
+                                                      '    <li><strong>Nach der Aufnahme transkribieren</strong> — eine unterstützte On-Device-Engine wählen</li>\n'
                                                       '    <li><strong>Sprechererkennung</strong> — bis zu 4 Sprecher werden erkannt</li>\n'
                                                       '    <li><strong>Stille schneiden</strong> — Pausen zwischen Tagesordnungspunkten entfernen</li>\n'
                                                       '    <li><strong>Export</strong> — alles bleibt sicher in deiner Dateien-App</li>\n'
@@ -1237,14 +1225,13 @@ pages_data = {
 
                                                       '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                              'tagline': 'Meetings lokal aufnehmen und transkribieren. Kein Cloud-Upload.',
-                                             'title': 'Meetings privat auf dem iPhone aufnehmen – Keine Cloud, volle Compliance | 5cut'},
-                                      'en': {'desc': 'Record and transcribe business meetings without uploading to the cloud. On-device processing keeps sensitive discussions completely private. '
-                                                     'GDPR and SOC 2 friendly.',
+                                             'title': 'Meetings privat auf dem iPhone aufnehmen – Ohne 5cut-Cloud-Kopie | 5cut'},
+                                      'en': {'desc': 'Record meetings on iPhone. 5cut has no server or cloud copy; choose a supported downloaded on-device engine for offline transcription.',
                                              'h1': 'Record Meetings Privately on iPhone',
                                              'intro': '<p>Your meeting contains proprietary strategy, client names, revenue numbers, or personnel decisions. Cloud-based meeting recorders like Otter, '
                                                       "Fireflies, or Fathom upload everything to their servers. Their AI processes your words on someone else's infrastructure.</p>\n"
-                                                      '<p>5cut records and transcribes meetings entirely on your iPhone. Nothing leaves your device. No cloud. No third-party servers. No data '
-                                                      'processing agreements needed.</p>\n'
+                                                      '<p>5cut has no server and keeps no cloud copy of your meetings. For offline transcription, select a downloaded on-device engine supported for '
+                                                      'your language and device. Always follow your organization\'s recording and data-handling rules.</p>\n'
                                                       '<h2>The compliance problem with cloud recorders</h2>\n'
                                                       "<p>Every time you use a cloud transcription service, you're creating a data processing relationship. That means:</p>\n"
                                                       '<ul>\n'
@@ -1254,14 +1241,13 @@ pages_data = {
                                                       '    <li>If the service is breached, your meeting content is exposed</li>\n'
                                                       '    <li>Client NDAs may prohibit sharing recordings with third parties</li>\n'
                                                       '</ul>\n'
-                                                      '<p>On-device processing eliminates all of these concerns.</p>\n'
+                                                      '<p>On-device processing can reduce third-party exposure, but you must still follow your organization\'s recording and data-handling rules.</p>\n'
                                                       '<h2>Who needs private meeting recording</h2>\n'
                                                       '<h3>Legal professionals</h3>\n'
                                                       "<p>Client meetings, case strategy discussions, settlement negotiations. Attorney-client privilege doesn't mix well with third-party cloud "
                                                       'processing.</p>\n'
                                                       '<h3>Healthcare</h3>\n'
-                                                      '<p>Clinical team meetings, patient case reviews, administrative discussions involving PHI. HIPAA compliance is simpler when recordings stay '
-                                                      'on-device.</p>\n'
+                                                      '<p>Clinical team meetings and patient case reviews are sensitive. Confirm authorization and applicable healthcare rules before recording.</p>\n'
                                                       '<h3>Finance and banking</h3>\n'
                                                       "<p>Investment discussions, client advisory meetings, compliance reviews. Material non-public information shouldn't exist on a transcription "
                                                       "startup's servers.</p>\n"
@@ -1270,26 +1256,25 @@ pages_data = {
                                                       '<h2>The 5cut workflow for meetings</h2>\n'
                                                       '<ol>\n'
                                                       '    <li><strong>Open the recorder</strong> — tap record when the meeting starts.</li>\n'
-                                                      '    <li><strong>Live transcription</strong> — see words appear in real-time as people speak</li>\n'
+                                                      '    <li><strong>Transcribe after recording</strong> — choose a supported downloaded on-device engine</li>\n'
                                                       '    <li><strong>Speaker identification</strong> — up to 4 speakers are automatically identified</li>\n'
                                                       '    <li><strong>Trim silence</strong> — remove the gaps between agenda items</li>\n'
                                                       '    <li><strong>Export</strong> — transcript as text or SRT. Everything stays in your Files app</li>\n'
                                                       '</ol>\n'
                                                       '<h2>Compared to alternatives</h2>\n'
-                                                      '<p>Unlike Otter.ai or Fireflies which upload to their cloud, 5cut is fully offline after model download. Unlike Voice Memos, 5cut transcribes, '
-                                                      'identifies speakers, and removes silence.</p>\n'
+                                                      '<p>Unlike cloud-first meeting tools, 5cut has no server or cloud copy. Downloaded on-device engines can transcribe offline when supported for the '
+                                                      'selected language and device. 5cut also identifies speakers and removes silence.</p>\n'
                                                       '<h2>Free to start</h2>\n'
 
                                                       '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                              'tagline': 'Record and transcribe meetings on-device. No cloud upload.',
-                                             'title': 'Record Meetings Privately on iPhone – No Cloud, Full Compliance | 5cut'},
-                                      'es': {'desc': 'Graba y transcribe reuniones sin subir a la nube. El procesamiento local mantiene las discusiones sensibles completamente privadas. Cumple con '
-                                                     'GDPR.',
+                                             'title': 'Record Meetings Privately on iPhone – No 5cut Cloud Copy | 5cut'},
+                                      'es': {'desc': 'Graba reuniones en iPhone. 5cut no tiene servidor ni copia en la nube; elige un modelo descargado compatible para transcribir sin conexión.',
                                              'h1': 'Grabar Reuniones en Privado en iPhone',
                                              'intro': '<p>Tu reunión contiene estrategias confidenciales o datos de clientes. Las grabadoras en la nube como Otter o Fireflies suben todo a sus '
                                                       'servidores.</p>\n'
-                                                      '<p>5cut graba y transcribe reuniones completamente en tu iPhone. Nada sale de tu dispositivo. Sin nube. Sin servidores de terceros. Sin '
-                                                      'necesidad de acuerdos de procesamiento de datos.</p>\n'
+                                                      '<p>5cut no tiene servidor ni guarda copias de tus reuniones en la nube. Para transcribir sin conexión, elige un modelo descargado compatible con '
+                                                      'tu idioma y dispositivo. Respeta siempre las normas de grabación y datos de tu organización.</p>\n'
                                                       '<h2>El problema de cumplimiento con las grabadoras en la nube</h2>\n'
                                                       '<ul>\n'
                                                       '    <li>Un tercero posee grabaciones de discusiones confidenciales</li>\n'
@@ -1297,7 +1282,7 @@ pages_data = {
                                                       '    <li>Los NDA de clientes pueden prohibir compartir grabaciones</li>\n'
                                                       '    <li>Si el servicio es hackeado, tu contenido queda expuesto</li>\n'
                                                       '</ul>\n'
-                                                      '<p>El procesamiento en el dispositivo elimina estas preocupaciones.</p>\n'
+                                                      '<p>El procesamiento en el dispositivo puede reducir la exposición a terceros, pero debes seguir las normas de tu organización.</p>\n'
                                                       '<h2>Quién necesita grabación privada</h2>\n'
                                                       '<h3>Profesionales legales</h3>\n'
                                                       '<p>El privilegio abogado-cliente no se mezcla bien con la nube.</p>\n'
@@ -1309,7 +1294,7 @@ pages_data = {
                                                       '<h2>El flujo de trabajo de 5cut</h2>\n'
                                                       '<ol>\n'
                                                       '    <li><strong>Abre la grabadora</strong> — toca grabar cuando empiece la reunión</li>\n'
-                                                      '    <li><strong>Transcripción en vivo</strong> — ve las palabras en tiempo real</li>\n'
+                                                      '    <li><strong>Transcribe después de grabar</strong> — elige un modelo descargado compatible</li>\n'
                                                       '    <li><strong>Identificación de hablantes</strong> — hasta 4 personas</li>\n'
                                                       '    <li><strong>Recorta el silencio</strong> — elimina los tiempos muertos</li>\n'
                                                       '    <li><strong>Exporta</strong> — todo se guarda seguro en tus Archivos</li>\n'
@@ -1318,14 +1303,13 @@ pages_data = {
 
                                                       '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                              'tagline': 'Graba y transcribe localmente. Sin nube.',
-                                             'title': 'Grabar Reuniones en Privado en iPhone – Sin Nube, Cumplimiento Total | 5cut'},
-                                      'fr': {'desc': "Enregistrez et transcrivez vos réunions d'affaires sans cloud. Le traitement local garde les discussions sensibles totalement privées. "
-                                                     'Compatible RGPD.',
+                                             'title': 'Grabar Reuniones en Privado en iPhone – Sin Copia Cloud de 5cut | 5cut'},
+                                      'fr': {'desc': "Enregistrez des réunions sur iPhone. 5cut n'a pas de serveur ni de copie cloud ; choisissez un moteur téléchargé compatible pour transcrire hors ligne.",
                                              'h1': 'Enregistrez vos Réunions en Privé sur iPhone',
                                              'intro': '<p>Votre réunion aborde des stratégies confidentielles ou des données clients. Les enregistreurs cloud comme Otter ou Fireflies envoient tout '
                                                       'sur leurs serveurs.</p>\n'
-                                                      '<p>5cut enregistre et transcrit entièrement sur votre iPhone. Rien ne quitte votre appareil. Pas de serveurs tiers. Pas besoin de contrats de '
-                                                      'traitement des données.</p>\n'
+                                                      '<p>5cut n’a pas de serveur et ne conserve aucune copie cloud de vos réunions. Pour transcrire hors ligne, choisissez un moteur téléchargé compatible '
+                                                      'avec votre langue et votre appareil. Respectez toujours les règles d’enregistrement et de données de votre organisation.</p>\n'
                                                       '<h2>Le problème de conformité des enregistreurs cloud</h2>\n'
                                                       '<ul>\n'
                                                       '    <li>Un tiers détient les enregistrements de discussions confidentielles</li>\n'
@@ -1333,18 +1317,18 @@ pages_data = {
                                                       '    <li>Les accords de confidentialité (NDA) peuvent interdire le cloud</li>\n'
                                                       '    <li>En cas de piratage, vos réunions sont exposées</li>\n'
                                                       '</ul>\n'
-                                                      '<p>Le traitement local élimine toutes ces préoccupations.</p>\n'
+                                                      '<p>Le traitement local peut réduire l’exposition à des tiers, mais vous devez respecter les règles de votre organisation.</p>\n'
                                                       "<h2>Qui a besoin d'enregistrements privés</h2>\n"
                                                       '<h3>Professions juridiques</h3>\n'
                                                       '<p>Le secret professionnel ne fait pas bon ménage avec le cloud.</p>\n'
                                                       '<h3>Santé et RH</h3>\n'
-                                                      "<p>Discussions sur les patients ou les employés. La conformité est assurée si les données restent sur l'appareil.</p>\n"
+                                                      "<p>Les discussions sur les patients ou les employés sont sensibles. Vérifiez les autorisations et les règles applicables avant d’enregistrer.</p>\n"
                                                       '<h3>Finance</h3>\n'
                                                       '<p>Informations privilégiées et stratégie financière.</p>\n'
                                                       '<h2>Le flux de travail 5cut</h2>\n'
                                                       '<ol>\n'
                                                       "    <li><strong>Ouvrez l'enregistreur</strong> — appuyez sur enregistrer</li>\n"
-                                                      '    <li><strong>Transcription en direct</strong> — le texte apparaît en temps réel</li>\n'
+                                                      '    <li><strong>Transcrivez après l’enregistrement</strong> — choisissez un moteur téléchargé compatible</li>\n'
                                                       "    <li><strong>Identification des locuteurs</strong> — jusqu'à 4 personnes</li>\n"
                                                       '    <li><strong>Coupez les silences</strong> — supprimez les blancs</li>\n'
                                                       '    <li><strong>Exportez</strong> — tout reste sécurisé sur votre appareil</li>\n'
@@ -1354,13 +1338,11 @@ pages_data = {
                                                       '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                              'tagline': 'Enregistrez et transcrivez localement. Aucun téléchargement cloud.',
                                              'title': 'Enregistrez vos Réunions en Privé sur iPhone – Sans Cloud | 5cut'},
-                                      'vi': {'desc': 'Ghi âm và phiên âm cuộc họp mà không tải lên đám mây. Xử lý trên thiết bị giữ cho các cuộc thảo luận nhạy cảm hoàn toàn riêng tư. Thân thiện với '
-                                                     'GDPR.',
+                                      'vi': {'desc': 'Ghi âm cuộc họp trên iPhone. 5cut không có máy chủ hoặc bản sao đám mây; chọn mô hình đã tải xuống được hỗ trợ để phiên âm ngoại tuyến.',
                                              'h1': 'Ghi Âm Cuộc Họp Riêng Tư Trên iPhone',
                                              'intro': '<p>Cuộc họp của bạn chứa chiến lược, danh sách khách hàng hoặc quyết định nhân sự. Các công cụ ghi âm đám mây tải mọi thứ lên máy chủ của '
                                                       'họ.</p>\n'
-                                                      '<p>5cut ghi âm và phiên âm hoàn toàn trên iPhone của bạn. Không có dữ liệu nào rời khỏi thiết bị. Không có đám mây. Không có máy chủ của bên '
-                                                      'thứ ba.</p>\n'
+                                                      '<p>5cut không có máy chủ và không giữ bản sao đám mây của cuộc họp. Để phiên âm ngoại tuyến, hãy chọn mô hình đã tải xuống hỗ trợ ngôn ngữ và thiết bị của bạn.</p>\n'
                                                       '<h2>Vấn đề tuân thủ với ghi âm đám mây</h2>\n'
                                                       '<ul>\n'
                                                       '    <li>Bên thứ ba nắm giữ các bản ghi âm bí mật</li>\n'
@@ -1368,7 +1350,7 @@ pages_data = {
                                                       '    <li>NDA có thể cấm chia sẻ với bên thứ ba</li>\n'
                                                       '    <li>Nguy cơ rò rỉ dữ liệu nếu dịch vụ bị tấn công</li>\n'
                                                       '</ul>\n'
-                                                      '<p>Xử lý trên thiết bị loại bỏ tất cả những lo ngại này.</p>\n'
+                                                      '<p>Xử lý trên thiết bị có thể giảm việc tiếp xúc với bên thứ ba, nhưng bạn vẫn phải tuân theo quy định của tổ chức.</p>\n'
                                                       '<h2>Ai cần ghi âm cuộc họp riêng tư</h2>\n'
                                                       '<h3>Luật sư</h3>\n'
                                                       '<p>Đặc quyền luật sư-khách hàng không phù hợp với xử lý đám mây.</p>\n'
@@ -1379,7 +1361,7 @@ pages_data = {
                                                       '<h2>Quy trình của 5cut</h2>\n'
                                                       '<ol>\n'
                                                       '    <li><strong>Mở máy ghi âm</strong> — nhấn ghi âm khi cuộc họp bắt đầu</li>\n'
-                                                      '    <li><strong>Phiên âm trực tiếp</strong> — xem văn bản xuất hiện theo thời gian thực</li>\n'
+                                                      '    <li><strong>Phiên âm sau khi ghi</strong> — chọn mô hình đã tải xuống được hỗ trợ</li>\n'
                                                       '    <li><strong>Nhận diện người nói</strong> — tối đa 4 người</li>\n'
                                                       '    <li><strong>Cắt khoảng lặng</strong> — xóa các khoảng trống</li>\n'
                                                       '    <li><strong>Xuất</strong> — mọi thứ được giữ an toàn trên thiết bị</li>\n'
@@ -1388,11 +1370,11 @@ pages_data = {
 
                                                       '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                              'tagline': 'Ghi âm và phiên âm trên thiết bị. Không tải lên đám mây.',
-                                             'title': 'Ghi Âm Cuộc Họp Riêng Tư Trên iPhone – Bảo Mật Tuyệt Đối | 5cut'},
-                                      'zh': {'desc': '录制和转写商务会议，无需上传云端。设备端处理确保敏感讨论完全保密。符合 GDPR 标准。',
+                                             'title': 'Ghi Âm Cuộc Họp Riêng Tư Trên iPhone – Không Có Bản Sao Đám Mây 5cut | 5cut'},
+                                      'zh': {'desc': '在 iPhone 上录制会议。5cut 没有服务器或云端副本；如需离线转写，请选择受支持的已下载模型。',
                                              'h1': '在 iPhone 上私密录制会议',
                                              'intro': '<p>您的会议包含专有战略、客户名单、收入数据或人事决策。Otter 或 Fireflies 等基于云端的会议记录工具会将所有内容上传到其服务器。</p>\n'
-                                                      '<p>5cut 完全在您的 iPhone 上录制和转写会议。没有任何数据会离开您的设备。无云端，无第三方服务器，无需数据处理协议。</p>\n'
+                                                      '<p>5cut 没有服务器，也不会保存会议的云端副本。如需离线转写，请选择支持当前语言和设备的已下载模型，并始终遵守所在机构的录音与数据规定。</p>\n'
                                                       '<h2>云端录音工具的合规性问题</h2>\n'
                                                       '<ul>\n'
                                                       '    <li>第三方现在持有您机密讨论的录音</li>\n'
@@ -1400,7 +1382,7 @@ pages_data = {
                                                       '    <li>客户 NDA 可能禁止与第三方分享录音</li>\n'
                                                       '    <li>如果服务遭到黑客攻击，您的会议内容将面临风险</li>\n'
                                                       '</ul>\n'
-                                                      '<p>设备端处理消除了所有这些顾虑。</p>\n'
+                                                      '<p>设备端处理可减少第三方接触，但您仍须遵守所在机构的规定。</p>\n'
                                                       '<h2>谁需要私密会议录音</h2>\n'
                                                       '<h3>法律专业人士</h3>\n'
                                                       '<p>律师-客户特权与第三方云处理不相容。</p>\n'
@@ -1411,7 +1393,7 @@ pages_data = {
                                                       '<h2>5cut 会议工作流</h2>\n'
                                                       '<ol>\n'
                                                       '    <li><strong>打开录音机</strong> — 会议开始时点击录音</li>\n'
-                                                      '    <li><strong>实时转写</strong> — 在设备上实时查看转写文本</li>\n'
+                                                      '    <li><strong>录制后转写</strong> — 选择受支持的已下载模型</li>\n'
                                                       '    <li><strong>说话人识别</strong> — 自动识别多达 4 位说话人</li>\n'
                                                       '    <li><strong>去除静音</strong> — 移除议程项目之间的空白</li>\n'
                                                       '    <li><strong>导出</strong> — 所有内容均保留在您的“文件”应用中</li>\n'
@@ -1420,6 +1402,6 @@ pages_data = {
 
                                                       '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                              'tagline': '在设备端录制和转写会议。无云端上传。',
-                                             'title': '在 iPhone 上私密录制会议 – 无云端，完全合规 | 5cut'}
+                                             'title': '在 iPhone 上私密录制会议 – 无 5cut 云端副本 | 5cut'}
     }
 }

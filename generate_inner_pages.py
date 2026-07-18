@@ -348,6 +348,7 @@ inner_page_template = """<!DOCTYPE html>
             background: #eee;
         }}
     </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
     <div class="lang-switch">
@@ -459,6 +460,7 @@ inner_page_template = """<!DOCTYPE html>
             <div class="footer-col">
                 <h4>{footer_alternatives}</h4>
                 <a href="{prefix}/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
+                <a href="/alternatives/otter-alternative/">Otter.ai Alternative</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_legal}</h4>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>5cut iPhone Offline Transcription Test — Protocol</title>
+  <meta name="description" content="Pre-registered protocol for comparing 5cut's four iPhone transcription engines on English and German lecture-style recordings.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://get5cut.com/research/iphone-offline-transcription-test/">
+  <link rel="icon" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+  <style>
+    :root { --ink:#17201d; --muted:#5f6b66; --paper:#f7f5ef; --card:#fffdf8; --line:#d9ddd8; --green:#276b54; --green-dark:#174b3a; --soft:#e8f2ed; --pending:#fff4df; }
+    * { box-sizing: border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.65; }
+    a { color:var(--green-dark); text-underline-offset:3px; }
+    header { background:var(--card); border-bottom:1px solid var(--line); }
+    nav { max-width:1060px; margin:auto; padding:16px 22px; display:flex; justify-content:space-between; gap:18px; }
+    .brand { font-size:1.3rem; font-weight:850; color:var(--ink); text-decoration:none; letter-spacing:-.04em; }
+    main { max-width:1060px; margin:auto; padding:64px 22px 90px; }
+    article { max-width:850px; }
+    h1 { font-size:clamp(2.25rem,7vw,4.5rem); line-height:1; letter-spacing:-.055em; margin:12px 0 20px; }
+    h2 { font-size:clamp(1.55rem,4vw,2.2rem); line-height:1.15; letter-spacing:-.035em; margin:52px 0 12px; }
+    h3 { margin:30px 0 8px; }
+    .eyebrow { color:var(--green); font-weight:800; letter-spacing:.09em; text-transform:uppercase; font-size:.76rem; }
+    .lede { font-size:1.18rem; color:var(--muted); }
+    .status { background:var(--pending); border:1px solid #efd39f; border-radius:14px; padding:18px 20px; margin:28px 0; }
+    .question { background:var(--soft); border-left:5px solid var(--green); border-radius:0 14px 14px 0; padding:20px 22px; font-size:1.08rem; }
+    .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:14px; background:var(--card); margin:20px 0; }
+    table { width:100%; min-width:700px; border-collapse:collapse; }
+    th,td { text-align:left; vertical-align:top; padding:14px 16px; border-bottom:1px solid var(--line); }
+    th { background:var(--soft); font-size:.88rem; }
+    tr:last-child td { border-bottom:0; }
+    code { background:#edf0ed; padding:2px 5px; border-radius:5px; }
+    pre { overflow:auto; background:#202723; color:#f4f3ee; padding:18px; border-radius:12px; }
+    .pending { color:#85611f; font-weight:750; }
+    .button { display:inline-block; margin-top:24px; background:var(--green-dark); color:white; padding:13px 18px; border-radius:10px; text-decoration:none; font-weight:800; }
+    footer { border-top:1px solid var(--line); background:var(--card); padding:28px 22px; color:var(--muted); }
+    footer div { max-width:1060px; margin:auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <a class="brand" href="/">5cut</a>
+      <a href="/transcribe-lectures/">Lecture transcription</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <p class="eyebrow">Pre-registered product test</p>
+      <h1>Which 5cut engine handles accented lecture speech offline?</h1>
+      <p class="lede">This page is the publication scaffold for a repeatable comparison of Apple Speech, WhisperKit, Parakeet, and Qwen3-ASR inside 5cut on one iPhone.</p>
+
+      <div class="status">
+        <strong>Status: protocol ready; recordings and results pending.</strong><br>
+        This page is intentionally excluded from search while it contains no measurements. It must not be added to the sitemap or <code>llms.txt</code> until the audio, reference transcripts, raw outputs, and computed results are published together.
+      </div>
+
+      <p class="question"><strong>Pre-registered question:</strong> Which of 5cut's four iPhone transcription engines can handle accented lecture speech without a network connection, and how accurate are they?</p>
+
+      <h2>Test material</h2>
+      <p>Robin records two original, lecture-style samples with the same iPhone microphone and ordinary indoor conditions. Each sample is approximately five minutes and is released with a manually checked reference transcript.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Sample</th><th>Speaker and language</th><th>Audio</th><th>Reference transcript</th></tr></thead>
+          <tbody>
+            <tr><td>EN-01</td><td>Robin speaking non-native English</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>DE-01</td><td>Robin speaking native German</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Controls</h2>
+      <ol>
+        <li>Use one iPhone, one iOS build, the same microphone position, and the same source files for every engine.</li>
+        <li>Download required models before the test. Record device, iOS, 5cut, engine, and model versions.</li>
+        <li>Enable Airplane Mode before each transcription run and confirm Wi-Fi and Bluetooth are off.</li>
+        <li>Start from a fresh import for each run. Do not manually correct an engine output.</li>
+        <li>Export the raw text and measure elapsed transcription time with the same timing rule.</li>
+        <li>Publish failures and weak results. A network-dependent or failed run is a result, not a reason to omit the engine.</li>
+      </ol>
+
+      <h2>Engines and results</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Engine</th><th>Offline run</th><th>EN-01 WER</th><th>DE-01 WER</th><th>Runtime</th></tr></thead>
+          <tbody>
+            <tr><td>Apple Speech</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>WhisperKit</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>Parakeet</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>Qwen3-ASR</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>How word error rate is calculated</h2>
+      <p>Word error rate (WER) is the minimum number of substitutions, deletions, and insertions required to transform the engine output into the reference transcript, divided by the number of words in the reference.</p>
+      <pre aria-label="Word error rate formula">WER = (substitutions + deletions + insertions) / reference words</pre>
+      <p>The repository contains a dependency-free calculator at <code>growth_engine/benchmark/compute_wer.py</code>. Before publication, the normalization rules and exact command must be listed here so another person can reproduce each number.</p>
+
+      <h2>Required publication bundle</h2>
+      <ul>
+        <li>Both original audio files and manually checked reference transcripts.</li>
+        <li>All eight raw engine outputs: four engines × two samples.</li>
+        <li>WER results, edit counts, elapsed times, and any failed runs.</li>
+        <li>Device, iOS, 5cut, engine, and model versions plus the test date.</li>
+        <li>Normalization rules and the exact calculator command.</li>
+        <li>A limitations section that distinguishes this small, single-speaker test from a general accuracy claim.</li>
+      </ul>
+
+      <h2>Limitations to publish with the results</h2>
+      <p>This will be a two-sample test recorded by one speaker on one device, not a population benchmark. WER can change with microphones, background noise, technical vocabulary, accents, languages, segmentation, punctuation normalization, model versions, and device hardware. The results will describe these files and this setup only.</p>
+
+      <h2>Publication gate</h2>
+      <p>Remove <code>noindex</code> and add this page to the sitemap and <code>llms.txt</code> only after every required artifact is linked and every pending cell is replaced. Re-run after a material engine change or six months, whichever is later.</p>
+
+      <a class="button" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_engine_test">View 5cut on the App Store</a>
+    </article>
+  </main>
+
+  <footer><div>© 2026 Robin Schöppner · <a href="/privacy/">Privacy</a> · <a href="/support/">Support</a></div></footer>
+</body>
+</html>
