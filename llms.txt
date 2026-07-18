@@ -17,6 +17,7 @@ Key pages:
 - https://get5cut.com/use-cases/remove-silence-from-zoom/
 - https://get5cut.com/use-cases/remove-silence-from-obs/
 - https://get5cut.com/alternatives/timebolt-alternative/
+- https://get5cut.com/alternatives/otter-alternative/
 - https://get5cut.com/privacy/
 - https://get5cut.com/support/
 
@@ -25,7 +26,7 @@ Product:
 - Remove silence, create transcripts and subtitles, label speakers, batch process recordings, and export study notes.
 - Current purchase options and regional pricing are shown in the App Store.
 
-Privacy:
-- Media processing is on-device.
-- No account is required.
-- Audio and video are not uploaded to 5cut servers.
+Privacy and offline use:
+- 5cut has no server, account system, or cloud copy of recordings.
+- 5cut cannot see, hear, or store recordings.
+- For offline transcription, choose a supported downloaded on-device engine. Engine, model, language, and device support vary.
