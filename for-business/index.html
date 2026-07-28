@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>On-Device Transcription for Regulated Work - 5cut</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/for-business/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/for-business/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/for-business/">
+    <meta name="description" content="Transcribe meetings and interviews on iPhone without uploading audio anywhere. No server, no account, no telemetry — for teams that cannot send recordings to a cloud service.">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            padding: 48px 24px;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        h1 {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 46px;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            line-height: 1.05;
+        }
+        .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; }
+        h2 { font-size: 18px; font-weight: 700; margin-top: 36px; margin-bottom: 8px; }
+        p, ul { font-size: 15px; color: #333; margin-bottom: 16px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        a { color: #111; }
+        .lede { font-size: 18px; color: #111; margin-bottom: 24px; }
+        .card {
+            background: #fff; border-radius: 12px; padding: 24px; margin: 24px 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .card h3 { font-size: 15px; margin-bottom: 6px; }
+        .card p { margin-bottom: 0; font-size: 14px; }
+        .note {
+            background: #fff; border-left: 4px solid #FFCC00; padding: 16px 20px;
+            margin: 24px 0; font-size: 14px;
+        }
+        .cta {
+            display: inline-block; background: #111; color: #fff; text-decoration: none;
+            padding: 14px 24px; border-radius: 10px; font-weight: 600; font-size: 15px;
+            margin-top: 8px;
+        }
+        .contact-box {
+            background: #fff; border-radius: 12px; padding: 24px; margin: 24px 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .contact-box a { font-weight: 600; font-size: 17px; }
+        .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; }
+        .back:hover { text-decoration: underline; }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Transcription that never uploads</h1>
+        <div class="divider"></div>
+
+        <p class="lede">Most transcription tools work by sending your audio to their servers. If your recordings contain client matters, patient information, personnel discussions or unreleased work, that upload is the problem — not the transcript.</p>
+
+        <p>5cut records and transcribes on the iPhone itself. There is no 5cut server to send anything to, no account to create, and no third-party transcription service in the path. The recording stays on the device it was made on.</p>
+
+        <h2>Who this is for</h2>
+
+        <div class="card">
+            <h3>Legal and professional services</h3>
+            <p>Client interviews and case discussions where uploading audio to a third-party processor would need its own justification.</p>
+        </div>
+
+        <div class="card">
+            <h3>Healthcare and research</h3>
+            <p>Interviews and consultations involving patient or subject data, where the simplest compliant answer is that the audio never left the device.</p>
+        </div>
+
+        <div class="card">
+            <h3>HR, works councils and internal investigations</h3>
+            <p>Conversations that cannot be routed through an external service, regardless of that service's own assurances.</p>
+        </div>
+
+        <div class="card">
+            <h3>Teams under a no-cloud-upload policy</h3>
+            <p>Organisations whose security policy prohibits uploading internal discussions to external SaaS, which rules out most transcription tools by default.</p>
+        </div>
+
+        <h2>What it does</h2>
+
+        <ul>
+            <li>Records or imports audio and video on iPhone and iPad.</li>
+            <li>Produces a searchable transcript, with automatic speaker labels for up to four speakers.</li>
+            <li>Removes silence, so a long recording becomes a shorter one to review.</li>
+            <li>Exports transcripts, subtitles and notes to Files, Apple Notes, Markdown, Notion, Obsidian or Anki.</li>
+            <li>Works with no network connection once the language model has been downloaded.</li>
+        </ul>
+
+        <h2>Why the claim is checkable</h2>
+
+        <p>"On-device" is easy to assert. Two things make it verifiable here:</p>
+
+        <ul>
+            <li><strong>The app does not request the Speech Recognition permission.</strong> iOS will not grant an app a capability it has not declared, and the declaration is absent from the app bundle. An app that could send audio to a speech service would need it.</li>
+            <li><strong>Put the device in airplane mode.</strong> Once a model is downloaded, transcription still works. A cloud tool cannot do this.</li>
+        </ul>
+
+        <p>Version 1.2.4 removed the last code path that could route audio to a speech server for languages without on-device support. The full technical detail is in the <a href="/security/">security summary</a>.</p>
+
+        <h2>Procurement</h2>
+
+        <p>No data processing agreement is required, because no data is processed on your behalf — there is no system that could receive it. The <a href="/security/">security summary</a> is written to answer a standard vendor questionnaire, and states plainly what 5cut does <em>not</em> have as well as what it does.</p>
+
+        <div class="note">
+            <p style="margin-bottom:8px;"><strong>Being straight about the size of this.</strong></p>
+            <p style="margin-bottom:0;">5cut is an independent app, not an enterprise platform. There is no admin console, no SSO and no audit log, because there is no account system. Deployment and control run through Apple Business Manager and your existing MDM. If you need central policy enforcement inside the app, 5cut is not the right tool and we would rather say so now.</p>
+        </div>
+
+        <h2>Deployment and licensing</h2>
+
+        <p>5cut can be deployed to managed devices through Apple Business Manager and your MDM. Apple does not allow in-app purchases to be bought in volume, so for a team-wide licence the route is a custom build with the paid features already enabled, distributed privately to your organisation. Get in touch and we will walk through it.</p>
+
+        <div class="contact-box">
+            <p style="margin-bottom: 8px; color: #666; font-size: 13px;">Talk to the developer directly</p>
+            <a href="mailto:support@get5cut.com">support@get5cut.com</a>
+        </div>
+
+        <p><a href="https://apps.apple.com/app/id6758529319" class="cta">Download 5cut on the App Store</a></p>
+
+        <a href="/" class="back">← Back to 5cut</a>
+    </div>
+</body>
+</html>

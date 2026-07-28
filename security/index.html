@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security &amp; Data Handling - 5cut</title>
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/security/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/security/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/security/">
+    <meta name="description" content="Security and data handling summary for 5cut: on-device transcription, no server, no account, no telemetry. Written for IT and procurement review.">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            padding: 48px 24px;
+            line-height: 1.6;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        h1 {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        .divider { width: 80px; height: 4px; background: #FFCC00; margin-bottom: 32px; }
+        h2 { font-size: 18px; font-weight: 700; margin-top: 36px; margin-bottom: 8px; }
+        p, ul { font-size: 15px; color: #333; margin-bottom: 16px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        a { color: #111; }
+        .lede { font-size: 17px; color: #111; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0 24px; font-size: 14px; }
+        th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+        th { background: #fff; font-weight: 700; }
+        td.answer { font-weight: 600; white-space: nowrap; }
+        .contact-box {
+            background: #fff; border-radius: 12px; padding: 24px; margin: 24px 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+        .contact-box a { font-weight: 600; font-size: 17px; }
+        .note {
+            background: #fff; border-left: 4px solid #FFCC00; padding: 16px 20px;
+            margin: 24px 0; font-size: 14px;
+        }
+        .back { display: inline-block; margin-top: 48px; font-size: 14px; color: #666; text-decoration: none; }
+        .back:hover { text-decoration: underline; }
+        .updated { font-size: 13px; color: #666; margin-bottom: 24px; }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Security</h1>
+        <div class="divider"></div>
+        <p class="updated">Data handling summary for IT and procurement review. Last updated 28 July 2026, app version 1.2.5.</p>
+
+        <p class="lede">5cut records and transcribes audio and video entirely on the user's device. There is no 5cut server, no account system, and no cloud processing. Recordings, transcripts and exports never leave the device unless the user exports them somewhere themselves.</p>
+
+        <h2>The short version</h2>
+
+        <table>
+            <tr><th>Question</th><th>Answer</th></tr>
+            <tr><td>Is customer audio uploaded anywhere?</td><td class="answer">No</td></tr>
+            <tr><td>Is a third-party transcription service used?</td><td class="answer">No</td></tr>
+            <tr><td>Are accounts or logins required?</td><td class="answer">No</td></tr>
+            <tr><td>Is there analytics or telemetry?</td><td class="answer">No</td></tr>
+            <tr><td>Is a Data Processing Agreement required?</td><td class="answer">No — see below</td></tr>
+            <tr><td>Is data encrypted at rest?</td><td class="answer">Yes — see below</td></tr>
+            <tr><td>Can it run without network access?</td><td class="answer">Yes, after model download</td></tr>
+        </table>
+
+        <h2>Why no DPA is needed</h2>
+
+        <p>A data processing agreement governs a processor handling personal data on a controller's behalf. 5cut never receives your data, so there is no processing relationship to govern. The developer has no technical ability to access, view, or retain any recording, transcript, or export — not because of a policy commitment, but because no system exists that could receive them.</p>
+
+        <p>If your process requires a signed statement to that effect rather than a policy page, contact us and we will provide one.</p>
+
+        <h2>Where data lives</h2>
+
+        <ul>
+            <li>Imported and recorded media, drafts, and transcripts are stored inside the app's iOS sandbox container on the device.</li>
+            <li>Nothing is written to shared storage unless the user explicitly exports it.</li>
+            <li>The container is covered by your device's MDM policy, remote wipe, and encryption posture like any other app.</li>
+        </ul>
+
+        <h2>Encryption at rest, precisely</h2>
+
+        <p>Two layers apply. Every modern iPhone encrypts its storage in hardware with a key fused into the silicon, which defeats physically extracting the flash. On top of that, iOS Data Protection gives each file a key wrapped by a class key derived in part from the user's device passcode. 5cut's files use:</p>
+
+        <ul>
+            <li><strong>Complete protection</strong> for the project database — unreadable whenever the device is locked.</li>
+            <li><strong>Complete until first user authentication</strong> for imported and recorded media — unreadable until the user unlocks the device once after a restart. This is also the iOS default for app data.</li>
+        </ul>
+
+        <p>Two limits worth stating plainly. Data Protection derives its strength from the user having a device passcode; without one, protection falls back to the hardware layer alone — which is why a passcode policy enforced through MDM matters. And it protects a lost or stolen device, not a device that is unlocked in an attacker's hands. Once a user exports a file to Photos or Files, it is governed by that destination's protection, not by 5cut's.</p>
+
+        <h2>Transcription and speaker identification</h2>
+
+        <p>All speech processing runs locally using on-device models:</p>
+
+        <ul>
+            <li><strong>Apple SpeechAnalyzer</strong> (iOS 26+), using Apple's on-device speech assets.</li>
+            <li><strong>WhisperKit</strong>, <strong>Parakeet</strong> and <strong>Qwen3-ASR</strong>, running as local Core ML models.</li>
+            <li><strong>Speaker identification</strong> uses a local Sortformer model.</li>
+        </ul>
+
+        <p>Earlier versions could fall back to Apple's server-side speech recognition for language and device combinations without on-device support. <strong>That path was removed in version 1.2.5.</strong> The app no longer requests the iOS Speech Recognition permission at all, which is independently verifiable: the permission does not appear in the app's Info.plist, and iOS will not grant an app access to a capability it has not declared.</p>
+
+        <h2>Network activity</h2>
+
+        <p>The app makes outbound requests in exactly two situations, and neither transmits user content:</p>
+
+        <ul>
+            <li><strong>Model downloads.</strong> The first time a user selects an engine, its model is downloaded from Hugging Face (or its mirror) or, for Apple's engine, from Apple. This is a one-time download <em>to</em> the device.</li>
+            <li><strong>User-initiated video import.</strong> If a user chooses to import a video from a URL, the app fetches that URL.</li>
+        </ul>
+
+        <p>There are no analytics, crash-reporting, attribution, or advertising SDKs. The app's internal analytics helper compiles to debug-build logging only and is inert in App Store builds.</p>
+
+        <h2>Third-party components</h2>
+
+        <p>All are open-source, run locally, and perform inference or utility work only. None transmit user data:</p>
+
+        <ul>
+            <li>WhisperKit (argmaxinc) — local speech recognition</li>
+            <li>FluidAudio (FluidInference) — local speech recognition and speaker diarization</li>
+            <li>swift-transformers, swift-jinja (Hugging Face) — local model tokenisation and templating</li>
+            <li>swift-collections, swift-argument-parser (Apple) — data structures and utilities</li>
+        </ul>
+
+        <h2>Permissions requested</h2>
+
+        <ul>
+            <li><strong>Microphone</strong> — only while recording in the app.</li>
+            <li><strong>Photo Library</strong> — to select videos to edit and to save exports the user requests.</li>
+            <li><strong>Files</strong> — when the user imports a file.</li>
+        </ul>
+
+        <p>Speech Recognition is <em>not</em> requested. Contacts, location, calendar, and tracking permissions are not requested.</p>
+
+        <h2>Data export is user-initiated</h2>
+
+        <p>Users can export transcripts and notes to Apple Notes, Markdown, Anki, Notion or Obsidian, and video to Photos or Files. These are deliberate user actions with a normal iOS share sheet. If your organisation restricts destinations, this is governed by your existing MDM and Managed Open In policies — 5cut adds no independent channel.</p>
+
+        <h2>What we do not claim</h2>
+
+        <div class="note">
+            <p style="margin-bottom:8px;"><strong>5cut is a small independent app, and it is worth being precise about the limits.</strong></p>
+            <p style="margin-bottom:8px;">There is no SOC 2 report, no ISO 27001 certification, and no third-party penetration test. Those attest to organisational controls around handling customer data — controls that exist to manage a risk 5cut does not create, because no customer data is received.</p>
+            <p style="margin-bottom:0;">There is also no admin console, no central policy enforcement, and no audit log, because there is no account system to attach them to. Deployment and control are handled entirely through Apple Business Manager and your MDM.</p>
+        </div>
+
+        <h2>Deployment</h2>
+
+        <p>5cut is distributed through the App Store and can be deployed to managed devices via Apple Business Manager and your MDM. Note that Apple does not permit in-app purchases to be bought in volume — for an organisation-wide licence, contact us about a custom build with the paid features already enabled.</p>
+
+        <div class="contact-box">
+            <p style="margin-bottom: 8px; color: #666; font-size: 13px;">Security or procurement questions</p>
+            <a href="mailto:support@get5cut.com">support@get5cut.com</a>
+        </div>
+
+        <p style="font-size:14px;color:#666;">See also the <a href="/privacy/">privacy policy</a> and <a href="/for-business/">5cut for organisations</a>.</p>
+
+        <a href="/" class="back">← Back to 5cut</a>
+    </div>
+</body>
+</html>

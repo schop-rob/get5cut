@@ -22,7 +22,7 @@ languages = {
         "cta_pill2": "5 Free Exports/Mo",
         "cta_pill3": "No Account Required",
         "cta_subtext": "Free download · 3-day Premium trial · 5 exports/month free · No account",
-        "creator_promise": "I built 5cut because re-listening to long, pause-filled lectures in a foreign language was eating up my study time. On-device translation and silence-trimming changed how I learn, and 5cut has no server that can keep a cloud copy of my coursework.",
+        "creator_promise": "I built 5cut because re-listening to long, pause-filled lectures in a foreign language was eating up my study time. On-device translation and silence-trimming changed how I learn, and everything stays on the phone — my coursework never leaves it.",
         "creator_signature": "Creator of 5cut",
         "feat1_title": "In-App Recorder & Bookmarks",
         "feat1_desc": "Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording so important moments are easier to find later.",
@@ -40,7 +40,7 @@ languages = {
         "step3": "<strong>Translate & summarize</strong> on-device using local AI models (AI summaries require Premium and iOS 26+)",
         "step4": "<strong>Export to study tools</strong> — send clean files to Anki, Notion, or Obsidian",
         "privacy_title": "No 5cut Server. No Cloud Copy.",
-        "privacy_desc": "We can't see, hear, or store your recordings. 5cut has no server and creates no cloud copy. No account, no in-app analytics, no ads.",
+        "privacy_desc": "Your recordings never leave your device. Every transcript is generated on your iPhone — there is no 5cut server, no cloud processing, and no third-party transcription service. No account, no analytics, no ads.",
         "perfect_for": "Perfect for",
         "perfect_for_desc1": "International students attending lectures in a second language, study abroad participants, and expats watching local media. Also perfect for professionals who want to skip awkward pauses in Zoom recordings or speed up podcasts.",
         "perfect_for_desc2": "Need live translations? 5cut transcribes and translates lectures in 30+ languages, with downloaded on-device engines available for offline use.",
@@ -54,7 +54,7 @@ languages = {
         "faq4_q": "Can I process a whole semester of lectures at once?",
         "faq4_a": "Yes. You can queue up multiple recordings and process them with individual or shared settings.",
         "faq5_q": "Is my data private?",
-        "faq5_a": "5cut has no server, account system, or cloud copy of your recordings, so we cannot see, hear, or store them. Downloaded on-device engines are available when you need offline transcription.",
+        "faq5_a": "Your recordings never leave your device. 5cut has no server and no account system, so there is nothing for us to see, hear, or store, and no third party receives your audio either. Every transcription engine runs on the device; models download once, then work offline.",
         "faq6_q": "Is there a premium plan?",
         "faq6_a": "Yes. Recording, silence removal, and transcript previews (up to 5 minutes) are free. You can upgrade to 5cut Premium for unlimited exports, speaker identification, full-length transcripts, and AI summaries on iOS 26+. A 3-day free trial is available. Premium is a monthly subscription or a one-time lifetime purchase — prices are shown in the App Store and adjusted for your region.",
         "faq7_q": "What languages is the app available in?",
@@ -63,7 +63,7 @@ languages = {
         "footer_alternatives": "Alternatives",
         "footer_legal": "Legal & Support",
         "footer_study_fields": "By Field of Study",
-        "hero_note_desc": "Record, trim, transcribe, translate, and export — with no 5cut server and no 5cut cloud copy."
+        "hero_note_desc": "Record, trim, transcribe, translate, and export — entirely on your iPhone. Your recordings never leave it."
     },
     "de": {
         "dir": "de",
@@ -103,7 +103,7 @@ languages = {
         "step3": "<strong>Übersetzen & Zusammenfassen</strong> auf dem Gerät mit lokaler KI (KI-Zusammenfassungen erfordern Premium und iOS 26+)",
         "step4": "<strong>Exportieren</strong> – saubere Notizen an Anki, Notion oder Obsidian senden",
         "privacy_title": "Kein 5cut-Server. Keine Cloud-Kopie.",
-        "privacy_desc": "Wir können deine Aufnahmen weder sehen, hören noch speichern. 5cut hat keinen Server und legt keine Cloud-Kopie an. Kein Konto, keine In-App-Analyse, keine Werbung.",
+        "privacy_desc": "Deine Aufnahmen verlassen dein Gerät nie. Jedes Transkript entsteht auf deinem iPhone – es gibt keinen 5cut-Server, keine Cloud-Verarbeitung und keinen Transkriptionsdienst von Drittanbietern. Kein Konto, keine In-App-Analyse, keine Werbung.",
         "perfect_for": "Perfekt für",
         "perfect_for_desc1": "Internationale Studierende, die Vorlesungen in einer Fremdsprache nacharbeiten (z. B. im Auslandsstudium). Expats und Profis, die lästige Pausen aus Zoom-Meetings schneiden oder Podcasts schneller hören wollen.",
         "perfect_for_desc2": "Brauchst du Untertitel oder Live-Übersetzungen? 5cut unterstützt über 30 Sprachen; heruntergeladene On-Device-Engines lassen sich offline nutzen.",
@@ -126,7 +126,7 @@ languages = {
         "footer_alternatives": "Alternativen",
         "footer_legal": "Rechtliches & Support",
         "footer_study_fields": "Nach Fachbereich",
-        "hero_note_desc": "Aufnehmen, kürzen, transkribieren, übersetzen und exportieren – ohne 5cut-Server und ohne 5cut-Cloud-Kopie."
+        "hero_note_desc": "Aufnehmen, kürzen, transkribieren, übersetzen und exportieren – vollständig auf deinem iPhone. Deine Aufnahmen verlassen es nie."
     },
     "zh": {
         "dir": "zh",
@@ -162,7 +162,7 @@ languages = {
         "step3": "<strong>在设备端翻译与总结</strong> — AI 摘要需要 Premium 和 iOS 26+",
         "step4": "<strong>导出学习资料</strong> — 将整理好的笔记发送至 Anki、Notion 或 Obsidian",
         "privacy_title": "无 5cut 服务器，无云端副本",
-        "privacy_desc": "我们无法查看、收听或存储你的录音。5cut 没有服务器，也不会创建云端副本。无需账户，无应用内分析，无广告。",
+        "privacy_desc": "你的录音绝不会离开设备。每份转录都在你的 iPhone 上生成——没有 5cut 服务器，没有云端处理，也没有第三方转录服务。无需账户，无应用内分析，无广告。",
         "perfect_for": "适用人群",
         "perfect_for_desc1": "复旧外语课程的留学生、交换生、外派人员。也同样适用于希望去除 Zoom 会议录制尴尬停顿或加速收听播客的职场人士。",
         "perfect_for_desc2": "需要字幕或实时翻译？5cut 支持 30 多种语言；下载所需模型后，可使用设备端引擎离线处理。",
@@ -176,7 +176,7 @@ languages = {
         "faq4_q": "可以批量处理一整个学期的课吗？",
         "faq4_a": "可以。你可以将多个录音加入队列，并使用单独或共享设置进行处理。",
         "faq5_q": "我的数据隐私有保障吗？",
-        "faq5_a": "5cut 没有服务器、账户系统，也不会保存你的录音云端副本，因此我们无法查看、收听或存储录音。下载后的设备端引擎可用于离线转写。",
+        "faq5_a": "5cut 没有服务器、账户系统，也不会保存你的录音云端副本，因此我们无法查看、收听或存储录音。所有转录引擎都在设备上运行；模型只需下载一次，之后即可离线使用。",
         "faq6_q": "5cut 有 Premium 付费计划吗？",
         "faq6_a": "有的。录音、静音裁剪和转写预览（前 5 分钟）都是免费的。您可以升级到 5cut Premium 来解锁无限次数导出、说话人识别、完整长度转录以及 iOS 26+ 上的 AI 总结。我们提供 3 天免费试用。5cut Premium 为月度订阅或一次性终身升级——价格在 App Store 中显示并按地区调整。",
         "faq7_q": "应用支持哪些语言？",
@@ -185,7 +185,7 @@ languages = {
         "footer_alternatives": "替代方案",
         "footer_legal": "法律与支持",
         "footer_study_fields": "按学科分类",
-        "hero_note_desc": "录制、裁剪、转写、翻译和导出 — 无 5cut 服务器，也无 5cut 云端副本。"
+        "hero_note_desc": "录制、裁剪、转写、翻译和导出 — 全部在你的 iPhone 上完成。你的录音绝不会离开设备。"
     },
     "fr": {
         "dir": "fr",
@@ -221,7 +221,7 @@ languages = {
         "step3": "<strong>Traduisez & résumez</strong> sur l'appareil avec l'IA locale (les résumés IA nécessitent Premium et iOS 26+)",
         "step4": "<strong>Exportez</strong> — envoyez vos notes propres vers Anki, Notion ou Obsidian",
         "privacy_title": "Aucun serveur 5cut. Aucune copie cloud.",
-        "privacy_desc": "Nous ne pouvons ni voir, ni écouter, ni stocker vos enregistrements. 5cut n'a aucun serveur et ne crée aucune copie cloud. Sans compte, sans analyse dans l'app, sans publicité.",
+        "privacy_desc": "Vos enregistrements ne quittent jamais votre appareil. Chaque transcription est générée sur votre iPhone — pas de serveur 5cut, pas de traitement dans le cloud, aucun service de transcription tiers. Sans compte, sans analyse dans l'app, sans publicité.",
         "perfect_for": "Parfait pour",
         "perfect_for_desc1": "Les étudiants internationaux suivant des cours dans une langue étrangère, les étudiants à l'étranger et les expatriés. Convient aussi aux professionnels pour couper les blancs des enregistrements Zoom ou accélérer les podcasts.",
         "perfect_for_desc2": "Besoin de traduction ? 5cut prend en charge plus de 30 langues ; les moteurs téléchargés sur l'appareil peuvent fonctionner hors ligne.",
@@ -244,7 +244,7 @@ languages = {
         "footer_alternatives": "Alternatives",
         "footer_legal": "Légal & Support",
         "footer_study_fields": "Par domaine d'études",
-        "hero_note_desc": "Enregistrez, coupez, transcrivez, traduisez et exportez — sans serveur 5cut ni copie cloud 5cut."
+        "hero_note_desc": "Enregistrez, coupez, transcrivez, traduisez et exportez — entièrement sur votre iPhone. Vos enregistrements ne le quittent jamais."
     },
     "vi": {
         "dir": "vi",
@@ -280,7 +280,7 @@ languages = {
         "step3": "<strong>Dịch thuật & tóm tắt</strong> trên thiết bị bằng AI cục bộ (tóm tắt AI cần Premium và iOS 26+)",
         "step4": "<strong>Xuất sang công cụ học tập</strong> — gửi ghi chú sạch sang Anki, Notion, hoặc Obsidian",
         "privacy_title": "Không có máy chủ 5cut. Không có bản sao đám mây.",
-        "privacy_desc": "Chúng tôi không thể xem, nghe hoặc lưu trữ bản ghi âm của bạn. 5cut không có máy chủ và không tạo bản sao trên đám mây. Không cần tài khoản, không phân tích trong ứng dụng, không quảng cáo.",
+        "privacy_desc": "Bản ghi của bạn không bao giờ rời khỏi thiết bị. Mọi bản chép lời đều được tạo trên iPhone của bạn — không có máy chủ 5cut, không xử lý đám mây, không có dịch vụ chép lời bên thứ ba. Không cần tài khoản, không phân tích trong ứng dụng, không quảng cáo.",
         "perfect_for": "Hoàn hảo cho",
         "perfect_for_desc1": "Du học sinh và sinh viên quốc tế học tập bằng ngoại ngữ, người định cư ở nước ngoài. Cũng rất phù hợp cho các chuyên gia muốn cắt bỏ khoảng lặng từ các bản ghi cuộc họp Zoom hoặc đẩy nhanh tốc độ nghe podcast.",
         "perfect_for_desc2": "Cần phụ đề hay dịch thuật? 5cut hỗ trợ hơn 30 ngôn ngữ; các mô hình đã tải xuống có thể xử lý ngoại tuyến trên thiết bị.",
@@ -303,7 +303,7 @@ languages = {
         "footer_alternatives": "Các lựa chọn thay thế",
         "footer_legal": "Pháp lý & Hỗ trợ",
         "footer_study_fields": "Theo lĩnh vực học tập",
-        "hero_note_desc": "Ghi âm, cắt khoảng lặng, chuyển ngữ, dịch thuật và xuất — không có máy chủ hay bản sao đám mây của 5cut."
+        "hero_note_desc": "Ghi âm, cắt khoảng lặng, chuyển ngữ, dịch thuật và xuất — hoàn toàn trên iPhone của bạn. Bản ghi không bao giờ rời khỏi thiết bị."
     },
     "es": {
         "dir": "es",
@@ -339,7 +339,7 @@ languages = {
         "step3": "<strong>Traduce y resume</strong> en el dispositivo usando la IA local (los resúmenes con IA requieren Premium e iOS 26+)",
         "step4": "<strong>Exporta apuntes</strong> — envía archivos limpios a Anki, Notion o Obsidian",
         "privacy_title": "Sin servidor de 5cut. Sin copia en la nube.",
-        "privacy_desc": "No podemos ver, escuchar ni almacenar tus grabaciones. 5cut no tiene servidor ni crea copias en la nube. Sin cuenta, sin analítica dentro de la app y sin anuncios.",
+        "privacy_desc": "Tus grabaciones nunca salen de tu dispositivo. Cada transcripción se genera en tu iPhone: no hay servidor de 5cut, ni procesamiento en la nube, ni servicio de transcripción de terceros. Sin cuenta, sin analítica dentro de la app y sin anuncios.",
         "perfect_for": "Perfecto para",
         "perfect_for_desc1": "Estudiantes internacionales que repasan clases en un idioma extranjero, estudiantes de intercambio y expatriados. También es ideal para profesionales que desean eliminar las pausas de grabaciones de Zoom o podcasts.",
         "perfect_for_desc2": "¿Necesitas subtítulos o traducciones? 5cut admite más de 30 idiomas; los modelos descargados en el dispositivo pueden funcionar sin conexión.",
@@ -362,7 +362,7 @@ languages = {
         "footer_alternatives": "Alternativas",
         "footer_legal": "Legal y Soporte",
         "footer_study_fields": "Por área de estudio",
-        "hero_note_desc": "Graba, recorta, transcribe, traduce y exporta — sin servidor ni copia en la nube de 5cut."
+        "hero_note_desc": "Graba, recorta, transcribe, traduce y exporta — íntegramente en tu iPhone. Tus grabaciones nunca salen de él."
     }
 }
 

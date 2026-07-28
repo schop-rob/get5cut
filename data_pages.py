@@ -93,7 +93,7 @@ pages_data = {
             "desc": "Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no cloud.",
             "h1": "Transcribe Lectures on iPhone",
             "tagline": "On-device, private, and fast.",
-            "intro": "<p>Stop manually typing out lecture notes. With 5cut, you can generate lecture transcripts on your iPhone and, with Premium on iOS 26+, create AI summaries. 5cut has no server and keeps no cloud copy of your recordings; downloaded on-device engines are available for offline transcription.</p>"
+            "intro": "<p>Stop manually typing out lecture notes. With 5cut, you can generate lecture transcripts on your iPhone and, with Premium on iOS 26+, create AI summaries. Your recordings never leave your device; 5cut has no server of your recordings; downloaded on-device engines are available for offline transcription.</p>"
         },
         "de": {
             "title": "Vorlesungen auf dem iPhone transkribieren | 5cut",
@@ -313,7 +313,7 @@ pages_data = {
             "desc": "Looking for a mobile TimeBolt alternative? 5cut offers automatic silence removal, on-device transcription, and speaker identification for free on iPhone.",
             "h1": "The Best Mobile TimeBolt Alternative",
             "tagline": "Remove silence automatically from your iPhone or iPad.",
-            "intro": "<p>TimeBolt is a desktop tool for PC and Mac users. 5cut is a mobile alternative for editing video directly on an iPhone. Silence removal runs on-device, and downloaded transcription engines are available for offline use. 5cut has no server and keeps no cloud copy of your recordings.</p>"
+            "intro": "<p>TimeBolt is a desktop tool for PC and Mac users. 5cut is a mobile alternative for editing video directly on an iPhone. Silence removal runs on-device, and downloaded transcription engines are available for offline use. Your recordings never leave your device; 5cut has no server of your recordings.</p>"
         },
         "de": {
             "title": "Die beste kostenlose TimeBolt Alternative für iOS | 5cut",
@@ -463,7 +463,7 @@ pages_data = {
                                                         '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                                'tagline': 'Entferne erkannte Pausen aus Jura-Vorlesungen.',
                                                'title': 'Beste App für Jura-Vorlesungen – Aufnehmen & Transkribieren | 5cut'},
-                                        'en': {'desc': 'Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. 5cut has no server or cloud copy.',
+                                        'en': {'desc': 'Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. Your recordings never leave your device.',
                                                'h1': 'Best App for Law School Recordings',
                                                'intro': '<p>Law school lectures can contain long pauses while a professor reads from the casebook, waits between Socratic questions, or gives students time to find a page.</p>\n'
                                                         '<p>5cut detects those quiet stretches on your iPhone. Then transcribe the recording, identify speakers, and export notes.</p>\n'
@@ -489,7 +489,7 @@ pages_data = {
                                                         '</ol>\n'
                                                         '<h2>Privacy and professional responsibility</h2>\n'
                                                         '<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. 5cut processes everything locally on your '
-                                                        'iPhone. 5cut has no server and keeps no cloud copy; use a downloaded on-device engine when offline transcription is required.</p>\n'
+                                                        'iPhone. Your recordings never leave your device; every transcription engine runs on the iPhone itself.</p>\n'
                                                         '<h2>Free to start</h2>\n'
 
                                                         '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
@@ -614,7 +614,7 @@ pages_data = {
                                                           '<h2>Why med students use 5cut</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Review less dead air</strong> — remove detected silence before studying</li>\n'
-                                                          '    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; downloaded on-device engines are available for offline transcription</li>\n'
+                                                          '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>\n'
                                                           '    <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>\n'
                                                           '    <li><strong>Export to Anki</strong> — turn transcribed lecture segments into Q&A study cards</li>\n'
                                                           '    <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>\n'
@@ -820,7 +820,7 @@ pages_data = {
                                                           '</table>\n'
                                                           '<h2>Why offline matters</h2>\n'
                                                           '<ul>\n'
-                                                          '    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; choose a downloaded on-device engine for offline transcription</li>\n'
+                                                          '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>\n'
                                                           '    <li><strong>No data caps</strong> — transcribe hours of recordings without eating into your mobile data plan</li>\n'
                                                           '    <li><strong>Works everywhere</strong> — campus basements, trains, planes, libraries with blocked WiFi</li>\n'
                                                           '    <li><strong>No per-minute costs</strong> — cloud transcription services charge per minute. On-device is free after the model '
@@ -1042,7 +1042,7 @@ pages_data = {
                                                   '</ol>\n'
                                                   '<h2>Why go offline for meeting notes</h2>\n'
                                                   '<h3>Corporate security policies</h3>\n'
-                                                  '<p>Many companies prohibit uploading internal discussions to third-party services. 5cut has no server or cloud copy, and downloaded on-device engines '
+                                                  '<p>Many companies prohibit uploading internal discussions to third-party services. Your recordings never leave your device, and every transcription engine runs on the iPhone itself, which '
                                                   'can reduce third-party exposure. Always verify your organization\'s own recording and security requirements.</p>\n'
                                                   '<h3>Regulated industries</h3>\n'
                                                   '<p>Finance, healthcare, legal, defense — these sectors have strict data handling requirements. On-device processing means no vendor risk '
@@ -1226,11 +1226,11 @@ pages_data = {
                                                       '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                              'tagline': 'Meetings lokal aufnehmen und transkribieren. Kein Cloud-Upload.',
                                              'title': 'Meetings privat auf dem iPhone aufnehmen – Ohne 5cut-Cloud-Kopie | 5cut'},
-                                      'en': {'desc': 'Record meetings on iPhone. 5cut has no server or cloud copy; choose a supported downloaded on-device engine for offline transcription.',
+                                      'en': {'desc': 'Record meetings on iPhone. Your recordings never leave your device; every transcription engine runs on the iPhone itself.',
                                              'h1': 'Record Meetings Privately on iPhone',
                                              'intro': '<p>Your meeting contains proprietary strategy, client names, revenue numbers, or personnel decisions. Cloud-based meeting recorders like Otter, '
                                                       "Fireflies, or Fathom upload everything to their servers. Their AI processes your words on someone else's infrastructure.</p>\n"
-                                                      '<p>5cut has no server and keeps no cloud copy of your meetings. For offline transcription, select a downloaded on-device engine supported for '
+                                                      '<p>Your meetings never leave your device. Every transcription engine runs on the iPhone itself, offline once you have the model for '
                                                       'your language and device. Always follow your organization\'s recording and data-handling rules.</p>\n'
                                                       '<h2>The compliance problem with cloud recorders</h2>\n'
                                                       "<p>Every time you use a cloud transcription service, you're creating a data processing relationship. That means:</p>\n"
@@ -1262,7 +1262,7 @@ pages_data = {
                                                       '    <li><strong>Export</strong> — transcript as text or SRT. Everything stays in your Files app</li>\n'
                                                       '</ol>\n'
                                                       '<h2>Compared to alternatives</h2>\n'
-                                                      '<p>Unlike cloud-first meeting tools, 5cut has no server or cloud copy. Downloaded on-device engines can transcribe offline when supported for the '
+                                                      '<p>Unlike cloud-first meeting tools, Your recordings never leave your device. Downloaded on-device engines can transcribe offline when supported for the '
                                                       'selected language and device. 5cut also identifies speakers and removes silence.</p>\n'
                                                       '<h2>Free to start</h2>\n'
 
