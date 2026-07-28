@@ -29,7 +29,7 @@ def add_translations():
 </table>
 <h2>Why offline matters</h2>
 <ul>
-    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; choose a downloaded on-device engine for offline transcription</li>
+    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>
     <li><strong>No data caps</strong> — transcribe hours of recordings without eating into your mobile data plan</li>
     <li><strong>Works everywhere</strong> — campus basements, trains, planes, libraries with blocked WiFi</li>
     <li><strong>No per-minute costs</strong> — cloud transcription services charge per minute. On-device is free after the model download</li>
@@ -248,7 +248,7 @@ def add_translations():
 <h2>Why med students use 5cut</h2>
 <ul>
     <li><strong>Review less dead air</strong> — remove detected silence from lecture recordings before review</li>
-    <li><strong>No 5cut cloud copy</strong> — 5cut has no server; downloaded on-device engines are available for offline transcription</li>
+    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>
     <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>
     <li><strong>Export to Anki</strong> — turn transcribed lecture segments into flashcards</li>
     <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>
@@ -411,7 +411,7 @@ def add_translations():
         "best-app-for-law-school-recordings": {
             "en": {
                 "title": "Best App for Law School Recordings – Trim & Transcribe Lectures | 5cut",
-                "desc": "Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. 5cut has no server or cloud copy.",
+                "desc": "Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. Your recordings never leave your device.",
                 "h1": "Best App for Law School Recordings",
                 "tagline": "Condense a 90-minute law lecture into 60 minutes. On-device.",
                 "intro": """<p>Law school lectures run long. A 90-minute contracts class has 15-25 minutes of silence: the professor reading from the casebook, pausing between Socratic questions, waiting for students to flip to the right page. That silence adds up to hours every week — hours you could spend briefing cases or outlining.</p>
@@ -435,7 +435,7 @@ def add_translations():
     <li><strong>Export</strong> — save trimmed audio for commute listening, or export transcript to your outlining tool</li>
 </ol>
 <h2>Privacy and professional responsibility</h2>
-<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. 5cut has no server and keeps no cloud copy; use a downloaded on-device engine when offline transcription is required.</p>
+<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal strategies. Your recordings never leave your device; every transcription engine runs on the iPhone itself.</p>
 <h2>Free to start</h2>
 <p>5cut supports a full exam-season workflow with recording, transcription, silence removal, and batch processing.</p>"""
             },
@@ -543,11 +543,11 @@ def add_translations():
         "record-meetings-privately-iphone": {
             "en": {
                 "title": "Record Meetings Privately on iPhone – No 5cut Cloud Copy | 5cut",
-                "desc": "Record meetings on iPhone. 5cut has no server or cloud copy; choose a supported downloaded on-device engine for offline transcription.",
+                "desc": "Record meetings on iPhone. Your recordings never leave your device; every transcription engine runs on the iPhone itself.",
                 "h1": "Record Meetings Privately on iPhone",
                 "tagline": "Record and transcribe meetings on-device. No cloud upload.",
                 "intro": """<p>Your meeting contains proprietary strategy, client names, revenue numbers, or personnel decisions. Cloud-based meeting recorders like Otter, Fireflies, or Fathom upload everything to their servers. Their AI processes your words on someone else's infrastructure.</p>
-<p>5cut has no server and keeps no cloud copy of your meetings. For offline transcription, select a downloaded on-device engine supported for your language and device. Always follow your organization's recording and data-handling rules.</p>
+<p>Your meetings never leave your device — every transcription engine runs on the iPhone itself, offline once the model is downloaded. Always follow your organization's recording and data-handling rules.</p>
 <h2>The compliance problem with cloud recorders</h2>
 <p>Every time you use a cloud transcription service, you're creating a data processing relationship. That means:</p>
 <ul>
@@ -767,7 +767,7 @@ def add_translations():
 </ol>
 <h2>Why go offline for meeting notes</h2>
 <h3>Corporate security policies</h3>
-<p>Many companies prohibit uploading internal discussions to third-party services. 5cut has no server or cloud copy, and downloaded on-device engines can reduce third-party exposure. Always verify your organization's security requirements.</p>
+<p>Many companies prohibit uploading internal discussions to third-party services. Your recordings never leave your device, and no third party receives your audio. Always verify your organization's security requirements.</p>
 <h3>Regulated industries</h3>
 <p>Finance, healthcare, legal, defense — these sectors have strict data handling requirements. On-device processing means no vendor risk assessment.</p>
 <h3>Unreliable connectivity</h3>
