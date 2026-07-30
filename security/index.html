@@ -111,7 +111,9 @@
             <li><strong>Speaker identification</strong> uses a local Sortformer model.</li>
         </ul>
 
-        <p>Earlier versions could fall back to Apple's server-side speech recognition for language and device combinations without on-device support. <strong>That path was removed in version 1.2.5.</strong> The app no longer requests the iOS Speech Recognition permission at all, which is independently verifiable: the permission does not appear in the app's Info.plist, and iOS will not grant an app access to a capability it has not declared.</p>
+        <p>Earlier versions could fall back to Apple's server-side speech recognition for language and device combinations without on-device support. <strong>That path was removed in version 1.2.5.</strong> The engine that could reach a server is gone; every engine listed above runs locally.</p>
+
+        <p>The app does declare the iOS Speech Recognition permission. Apple requires that declaration from any app that links its Speech framework, which 5cut does in order to use the on-device transcriber — the declaration identifies which API an app uses, not where the audio goes. If you want to verify the destination rather than the API: put the device in airplane mode after the model has downloaded and transcribe a recording, or watch the device's traffic through a proxy while it transcribes.</p>
 
         <h2>Network activity</h2>
 
@@ -141,9 +143,10 @@
             <li><strong>Microphone</strong> — only while recording in the app.</li>
             <li><strong>Photo Library</strong> — to select videos to edit and to save exports the user requests.</li>
             <li><strong>Files</strong> — when the user imports a file.</li>
+            <li><strong>Speech Recognition</strong> — required by Apple for use of its on-device speech engine. Grants access to the local recogniser, not to a network service.</li>
         </ul>
 
-        <p>Speech Recognition is <em>not</em> requested. Contacts, location, calendar, and tracking permissions are not requested.</p>
+        <p>Contacts, location, calendar, and tracking permissions are not requested.</p>
 
         <h2>Data export is user-initiated</h2>
 
