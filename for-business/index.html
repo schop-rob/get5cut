@@ -105,14 +105,14 @@
 
         <h2>Why the claim is checkable</h2>
 
-        <p>"On-device" is easy to assert. Two things make it verifiable here:</p>
+        <p>"On-device" is easy to assert. Here you can test it in about a minute, without taking our word for anything:</p>
 
         <ul>
-            <li><strong>The app does not request the Speech Recognition permission.</strong> iOS will not grant an app a capability it has not declared, and the declaration is absent from the app bundle. An app that could send audio to a speech service would need it.</li>
-            <li><strong>Put the device in airplane mode.</strong> Once a model is downloaded, transcription still works. A cloud tool cannot do this.</li>
+            <li><strong>Put the device in airplane mode.</strong> Once a model is downloaded, record something and transcribe it. It still works, because there is nothing to reach. A cloud tool cannot do this.</li>
+            <li><strong>Watch the network.</strong> Point a proxy or a network monitor at the device and transcribe a recording. There is no upload, because there is no endpoint to upload to.</li>
         </ul>
 
-        <p>Version 1.2.4 removed the last code path that could route audio to a speech server for languages without on-device support. The full technical detail is in the <a href="/security/">security summary</a>.</p>
+        <p>Version 1.2.5 removed the last code path that could route audio to a speech server for languages without on-device support. The app does still declare the iOS Speech Recognition permission, because it uses Apple's on-device speech engine and Apple requires that declaration from any app linking its Speech framework — the declaration describes which API is used, not where audio goes. The full technical detail is in the <a href="/security/">security summary</a>.</p>
 
         <h2>Procurement</h2>
 
