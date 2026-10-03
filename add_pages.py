@@ -12,7 +12,7 @@ def add_translations():
         "offline-lecture-transcription-iphone": {
             "en": {
                 "title": "Offline Lecture Transcription on iPhone – No Internet Required | 5cut",
-                "desc": "Transcribe lecture recordings offline on iPhone. No cloud, no upload, no internet needed. On-device AI in 30+ languages. Speaker identification. Export as SRT or text. Free iOS app.",
+                "desc": "Transcribe lecture recordings offline on iPhone. No cloud, no upload — works offline after a one-time model download. On-device AI in 30+ languages. Speaker identification. Export as SRT or text. Free iOS app.",
                 "h1": "Offline Lecture Transcription on iPhone",
                 "tagline": "Transcribe offline on iPhone. No Internet Required.",
                 "intro": """<p>Most transcription apps require internet. With 5cut, you can select a downloaded on-device engine for offline transcription. Availability depends on the engine, language, device, and initial model download.</p>
@@ -272,7 +272,7 @@ def add_translations():
     <li><strong>Batch processing</strong> — drop a week of recordings in and process them in one batch (keep 5cut open while it runs)</li>
 </ul>
 <h2>Privacy matters in medicine</h2>
-<p>Medical lectures often reference patient cases, clinical scenarios, and sensitive health information. Cloud-based transcription means uploading those recordings to someone else's server. 5cut processes everything on your iPhone — no internet, no upload, no third-party access. This matters for HIPAA-adjacent content and for respecting patient privacy.</p>
+<p>Medical lectures often reference patient cases, clinical scenarios, and sensitive health information. Cloud-based transcription means uploading those recordings to someone else's server. 5cut processes everything on your iPhone — no upload and no third-party access, and after a one-time model download it works offline. That matters when lectures discuss patient cases.</p>
 <h2>The med school workflow</h2>
 <ol>
     <li><strong>Record</strong> — use 5cut's built-in recorder during the lecture, or import a recording</li>
@@ -770,7 +770,7 @@ def add_translations():
         "offline-meeting-notes-iphone": {
             "en": {
                 "title": "Offline Meeting Notes on iPhone – Transcribe Without Internet | 5cut",
-                "desc": "Generate meeting notes and transcripts offline on iPhone. No internet, no cloud, no uploads. Record meetings, identify speakers, and get a full transcript — all on-device.",
+                "desc": "Generate meeting notes and transcripts offline on iPhone. Works offline after a one-time model download — no cloud, no uploads. Record meetings, identify speakers, and get a full transcript — all on-device.",
                 "h1": "Offline Meeting Notes on iPhone",
                 "tagline": "Transcribe meetings offline. Speaker identification included.",
                 "intro": """<p>You need meeting notes, but your company's security policy won't let you use Otter, Fireflies, or any cloud transcription service. Or you're in a conference room with no WiFi. Or you simply don't trust a third party with your meeting content.</p>

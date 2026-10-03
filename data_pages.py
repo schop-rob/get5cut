@@ -802,7 +802,7 @@ pages_data = {
                                                           '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                                  'tagline': 'Offline auf dem iPhone transkribieren. Kein Internet erforderlich.',
                                                  'title': 'Offline Vorlesungen transkribieren auf dem iPhone – Kein Internet nötig | 5cut'},
-                                          'en': {'desc': 'Transcribe lecture recordings offline on iPhone. No cloud, no upload, no internet needed. On-device AI in 30+ languages. Speaker '
+                                          'en': {'desc': 'Transcribe lecture recordings offline on iPhone. No cloud, no upload — works offline after a one-time model download. On-device AI in 30+ languages. Speaker '
                                                          'identification. Export as SRT or text. Free iOS app.',
                                                  'h1': 'Offline Lecture Transcription on iPhone',
                                                  'intro': '<p>Most transcription apps require internet. You upload your lecture to a server, wait for processing, and hope the cloud service handles '
@@ -1044,7 +1044,7 @@ pages_data = {
                                                   '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                          'tagline': 'Meetings offline transkribieren. Inklusive Sprechererkennung.',
                                          'title': 'Offline Meeting-Notizen auf dem iPhone – Transkribieren ohne Internet | 5cut'},
-                                  'en': {'desc': 'Generate meeting notes and transcripts offline on iPhone. No internet, no cloud, no uploads. Record meetings, identify speakers, and get a full '
+                                  'en': {'desc': 'Generate meeting notes and transcripts offline on iPhone. Works offline after a one-time model download — no cloud, no uploads. Record meetings, identify speakers, and get a full '
                                                  'transcript — all on-device.',
                                          'h1': 'Offline Meeting Notes on iPhone',
                                          'intro': "<p>You need meeting notes, but your company's security policy won't let you use Otter, Fireflies, or any cloud transcription service. Or you're in "
