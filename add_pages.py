@@ -18,15 +18,18 @@ def add_translations():
                 "intro": """<p>Most transcription apps require internet. With 5cut, you can select a downloaded on-device engine for offline transcription. Availability depends on the engine, language, device, and initial model download.</p>
 <h2>How offline transcription works</h2>
 <p>5cut uses on-device AI models that run directly on your iPhone's Neural Engine. The first time you select a language, the model downloads (typically 40-600 MB depending on the engine). After that, transcription works in airplane mode, on the subway, in a lecture hall with terrible WiFi — anywhere.</p>
-<h2>Four transcription engines</h2>
+<h2>Six transcription engines</h2>
 <p>5cut offers multiple AI engines so you can choose the right balance of speed, accuracy, and model size:</p>
 <table class="engine-table">
     <tr><th>Engine</th><th>Languages</th><th>Model size</th><th>Best for</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Built-in</td><td>Quick transcription, broadest language support</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>High accuracy, word-level timestamps</td></tr>
-    <tr><td>Parakeet</td><td>25 European</td><td>~200 MB</td><td>European languages, auto-detection</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, large vocabulary</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Built-in</td><td>Quick transcription, broadest language support</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>High accuracy, word-level timestamps — imported files only, not available in the live recorder</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 European</td><td>~600 MB</td><td>European languages, auto-detection</td></tr>
+    <tr><td>Parakeet Lite</td><td>English</td><td>~220 MB</td><td>Faster and lighter — good for older iPhones</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>English</td><td>~49 MB</td><td>Low-latency streaming transcription</td></tr>
+    <tr><td>Phonon-2</td><td>English</td><td>~360 MB</td><td>Compact English model tuned for iPhone, requires iOS 18+</td></tr>
 </table>
+<p>WhisperKit is available for imported files only — it isn't offered in the live recorder.</p>
 <h2>Why offline matters</h2>
 <ul>
     <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>
@@ -36,7 +39,7 @@ def add_translations():
     <li><strong>Speed</strong> — no upload/download wait. Transcription starts immediately</li>
 </ul>
 <h2>Supported languages</h2>
-<p>Between all four engines, 5cut supports transcription in over 40 languages. The exact list depends on which engine you choose and the language models available for your device.</p>
+<p>Between all six engines, 5cut supports transcription in over 40 languages. The exact list depends on which engine you choose and the language models available for your device.</p>
 <h2>Beyond transcription: remove silence too</h2>
 <p>5cut is primarily a silence removal tool. The typical workflow is:</p>
 <ol>
@@ -59,15 +62,18 @@ def add_translations():
                 "intro": """<p>Die meisten Transkriptions-Apps brauchen Internet. Du lädst deine Vorlesung auf einen Server hoch, wartest auf die Verarbeitung und hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. 5cut funktioniert anders: Es transkribiert vollständig auf deinem iPhone, ohne Internetverbindung nach dem einmaligen Modell-Download.</p>
 <h2>Wie Offline-Transkription funktioniert</h2>
 <p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, in der U-Bahn, in einem Hörsaal mit schlechtem WLAN – überall.</p>
-<h2>Vier Transkriptions-Engines</h2>
+<h2>Sechs Transkriptions-Engines</h2>
 <p>5cut bietet mehrere KI-Engines, damit du die richtige Balance aus Geschwindigkeit, Genauigkeit und Modellgröße wählen kannst:</p>
 <table class="engine-table">
     <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Ideal für</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel</td></tr>
-    <tr><td>Parakeet</td><td>25 europäische</td><td>~200 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, großes Vokabular</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel — nur für importierte Dateien, nicht im Live-Rekorder verfügbar</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 europäische</td><td>~600 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
+    <tr><td>Parakeet Lite</td><td>Englisch</td><td>~220 MB</td><td>Schneller und leichter — für ältere iPhones</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Englisch</td><td>~49 MB</td><td>Latenzarme Streaming-Transkription</td></tr>
+    <tr><td>Phonon-2</td><td>Englisch</td><td>~360 MB</td><td>Kompaktes Englisch-Modell, für das iPhone optimiert, benötigt iOS 18+</td></tr>
 </table>
+<p>WhisperKit steht nur für importierte Dateien zur Verfügung — nicht im Live-Rekorder.</p>
 <h2>Warum Offline wichtig ist</h2>
 <ul>
     <li><strong>Keine 5cut-Cloud-Kopie</strong> – 5cut hat keinen Server; nutze eine heruntergeladene On-Device-Engine für Offline-Transkription</li>
@@ -100,14 +106,17 @@ def add_translations():
                 "intro": """<p>La plupart des applications de transcription nécessitent internet. 5cut fonctionne différemment : il transcrit entièrement sur votre iPhone, sans connexion requise après le téléchargement initial du modèle.</p>
 <h2>Comment fonctionne la transcription hors ligne</h2>
 <p>5cut utilise des modèles d'IA locaux qui s'exécutent sur le Neural Engine de votre iPhone. La transcription fonctionne en mode avion, dans le métro, n'importe où.</p>
-<h2>Quatre moteurs de transcription</h2>
+<h2>Six moteurs de transcription</h2>
 <table class="engine-table">
     <tr><th>Moteur</th><th>Langues</th><th>Taille</th><th>Idéal pour</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage</td></tr>
-    <tr><td>Parakeet</td><td>25 européennes</td><td>~200 MB</td><td>Détection automatique</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingue, grand vocabulaire</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage — fichiers importés uniquement, indisponible dans l'enregistreur en direct</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 européennes</td><td>~600 MB</td><td>Détection automatique</td></tr>
+    <tr><td>Parakeet Lite</td><td>Anglais</td><td>~220 MB</td><td>Plus rapide et léger — pour les iPhones plus anciens</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Anglais</td><td>~49 MB</td><td>Transcription en streaming à faible latence</td></tr>
+    <tr><td>Phonon-2</td><td>Anglais</td><td>~360 MB</td><td>Modèle anglais compact optimisé pour l'iPhone, nécessite iOS 18+</td></tr>
 </table>
+<p>WhisperKit est disponible uniquement pour les fichiers importés — il n'est pas proposé dans l'enregistreur en direct.</p>
 <h2>Pourquoi le hors ligne est important</h2>
 <ul>
     <li><strong>Aucune copie cloud 5cut</strong> – 5cut n'a pas de serveur ; choisissez un moteur téléchargé pour transcrire hors ligne</li>
@@ -136,14 +145,17 @@ def add_translations():
                 "intro": """<p>大多数转写应用都需要连接互联网。5cut 与众不同：它完全在您的 iPhone 上进行转写，在初始模型下载之后无需任何网络连接。</p>
 <h2>离线转写的工作原理</h2>
 <p>5cut 使用直接在 iPhone 神经网络引擎上运行的设备端 AI 模型。转写功能可以在飞行模式、地铁或没有 WiFi 的教室中完美运行。</p>
-<h2>四种转写引擎</h2>
+<h2>六种转写引擎</h2>
 <table class="engine-table">
     <tr><th>引擎</th><th>语言</th><th>模型大小</th><th>最佳用途</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>内置</td><td>快速转写，支持最广泛</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>高精度，词级时间戳</td></tr>
-    <tr><td>Parakeet</td><td>25 种欧洲语言</td><td>~200 MB</td><td>自动检测</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>多语言，大词汇量</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>内置</td><td>快速转写，支持最广泛</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>高精度，词级时间戳 — 仅支持导入文件，实时录音器中不可用</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 种欧洲语言</td><td>~600 MB</td><td>自动检测</td></tr>
+    <tr><td>Parakeet Lite</td><td>英语</td><td>~220 MB</td><td>更快更轻量 — 适合旧款 iPhone</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>英语</td><td>~49 MB</td><td>低延迟流式转写</td></tr>
+    <tr><td>Phonon-2</td><td>英语</td><td>~360 MB</td><td>为 iPhone 优化的紧凑英语模型，需要 iOS 18+</td></tr>
 </table>
+<p>WhisperKit 仅支持导入文件 — 实时录音器中不提供此引擎。</p>
 <h2>为什么离线很重要</h2>
 <ul>
     <li><strong>无 5cut 云端副本</strong> – 如需离线转写，请选择受支持的已下载模型</li>
@@ -172,14 +184,17 @@ def add_translations():
                 "intro": """<p>Hầu hết các ứng dụng phiên âm đều yêu cầu internet. 5cut hoạt động khác biệt: nó phiên âm hoàn toàn trên iPhone của bạn, không cần kết nối internet sau lần tải mô hình ban đầu.</p>
 <h2>Phiên âm ngoại tuyến hoạt động như thế nào</h2>
 <p>5cut sử dụng các mô hình AI chạy trực tiếp trên iPhone. Phiên âm hoạt động ngay cả ở chế độ trên máy bay, dưới tầng hầm hoặc trên tàu.</p>
-<h2>Bốn công cụ phiên âm</h2>
+<h2>Sáu công cụ phiên âm</h2>
 <table class="engine-table">
     <tr><th>Công cụ</th><th>Ngôn ngữ</th><th>Kích thước</th><th>Tốt nhất cho</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao</td></tr>
-    <tr><td>Parakeet</td><td>25 ngôn ngữ Âu</td><td>~200 MB</td><td>Tự động phát hiện</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Đa ngôn ngữ, từ vựng lớn</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao — chỉ dùng cho tệp nhập, không có trong máy ghi âm trực tiếp</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 ngôn ngữ Âu</td><td>~600 MB</td><td>Tự động phát hiện</td></tr>
+    <tr><td>Parakeet Lite</td><td>Tiếng Anh</td><td>~220 MB</td><td>Nhanh và nhẹ hơn — phù hợp iPhone đời cũ</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Tiếng Anh</td><td>~49 MB</td><td>Phiên âm trực tuyến, độ trễ thấp</td></tr>
+    <tr><td>Phonon-2</td><td>Tiếng Anh</td><td>~360 MB</td><td>Mô hình tiếng Anh gọn nhẹ, tối ưu cho iPhone, yêu cầu iOS 18+</td></tr>
 </table>
+<p>WhisperKit chỉ khả dụng cho tệp nhập — không có trong máy ghi âm trực tiếp.</p>
 <h2>Tại sao ngoại tuyến lại quan trọng</h2>
 <ul>
     <li><strong>Không có bản sao đám mây của 5cut</strong> – 5cut không có máy chủ; chọn mô hình đã tải xuống để phiên âm ngoại tuyến</li>
@@ -208,14 +223,17 @@ def add_translations():
                 "intro": """<p>La mayoría de las apps de transcripción requieren internet. 5cut funciona de manera diferente: transcribe completamente en tu iPhone, sin conexión a internet después de descargar el modelo inicial.</p>
 <h2>Cómo funciona la transcripción offline</h2>
 <p>5cut utiliza modelos de IA locales que se ejecutan directamente en tu iPhone. La transcripción funciona en modo avión, en el metro o en cualquier lugar.</p>
-<h2>Cuatro motores de transcripción</h2>
+<h2>Seis motores de transcripción</h2>
 <table class="engine-table">
     <tr><th>Motor</th><th>Idiomas</th><th>Tamaño</th><th>Ideal para</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Integrado</td><td>Transcripción rápida</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Alta precisión, marcas de tiempo</td></tr>
-    <tr><td>Parakeet</td><td>25 europeos</td><td>~200 MB</td><td>Detección automática</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingüe, gran vocabulario</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Integrado</td><td>Transcripción rápida</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Alta precisión, marcas de tiempo — solo archivos importados, no disponible en la grabadora en vivo</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 europeos</td><td>~600 MB</td><td>Detección automática</td></tr>
+    <tr><td>Parakeet Lite</td><td>Inglés</td><td>~220 MB</td><td>Más rápido y ligero — ideal para iPhones antiguos</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Inglés</td><td>~49 MB</td><td>Transcripción en streaming de baja latencia</td></tr>
+    <tr><td>Phonon-2</td><td>Inglés</td><td>~360 MB</td><td>Modelo compacto de inglés optimizado para iPhone, requiere iOS 18+</td></tr>
 </table>
+<p>WhisperKit solo está disponible para archivos importados — no se ofrece en la grabadora en vivo.</p>
 <h2>Por qué importa que sea offline</h2>
 <ul>
     <li><strong>Sin copia de 5cut en la nube</strong> – 5cut no tiene servidor; elige un modelo descargado para transcribir sin conexión</li>
@@ -251,7 +269,7 @@ def add_translations():
     <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>
     <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>
     <li><strong>Export to Anki</strong> — turn transcribed lecture segments into flashcards</li>
-    <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>
+    <li><strong>Batch processing</strong> — drop a week of recordings in and process them in one batch (keep 5cut open while it runs)</li>
 </ul>
 <h2>Privacy matters in medicine</h2>
 <p>Medical lectures often reference patient cases, clinical scenarios, and sensitive health information. Cloud-based transcription means uploading those recordings to someone else's server. 5cut processes everything on your iPhone — no internet, no upload, no third-party access. This matters for HIPAA-adjacent content and for respecting patient privacy.</p>
@@ -285,7 +303,7 @@ def add_translations():
     <li><strong>Keine 5cut-Cloud-Kopie</strong> — 5cut hat keinen Server; heruntergeladene On-Device-Engines stehen für Offline-Transkription bereit</li>
     <li><strong>In 30+ Sprachen transkribieren</strong> — Untertitel in der Muttersprache generieren</li>
     <li><strong>Export zu Anki</strong> — Transkribierte Segmente in Karteikarten umwandeln</li>
-    <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche über Nacht verarbeiten</li>
+    <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche in einem Durchgang verarbeiten (5cut dabei geöffnet lassen)</li>
 </ul>
 <h2>Datenschutz in der Medizin ist wichtig</h2>
 <p>Medizinische Vorlesungen beziehen sich oft auf Patientenfälle und sensible Gesundheitsdaten. 5cut verarbeitet alles auf deinem iPhone — kein Upload auf fremde Server.</p>
@@ -312,7 +330,7 @@ def add_translations():
     <li><strong>Traitement local</strong> — les cas cliniques des patients restent sur votre téléphone</li>
     <li><strong>Transcrivez en 30+ langues</strong> — créez des sous-titres dans votre langue maternelle</li>
     <li><strong>Export vers Anki</strong> — transformez les transcriptions en flashcards</li>
-    <li><strong>Traitement par lots</strong> — traitez une semaine de cours pendant la nuit</li>
+    <li><strong>Traitement par lots</strong> — traitez une semaine de cours en une seule fois (en gardant 5cut ouvert)</li>
 </ul>
 <h2>La confidentialité compte en médecine</h2>
 <p>Les cours de médecine abordent des cas cliniques et des données de santé sensibles. 5cut traite tout localement — pas de cloud, pas de téléversement.</p>
@@ -393,7 +411,7 @@ def add_translations():
     <li><strong>Sin copia de 5cut en la nube</strong> — 5cut no tiene servidor; los modelos descargados permiten transcribir sin conexión</li>
     <li><strong>Transcribe en 30+ idiomas</strong> — genera subtítulos en tu idioma nativo</li>
     <li><strong>Exporta a Anki</strong> — convierte transcripciones en tarjetas de estudio</li>
-    <li><strong>Procesamiento por lotes</strong> — procesa grabaciones de toda la semana durante la noche</li>
+    <li><strong>Procesamiento por lotes</strong> — procesa las grabaciones de toda la semana de una vez (con 5cut abierto mientras trabaja)</li>
 </ul>
 <h2>La privacidad importa en medicina</h2>
 <p>Las clases de medicina suelen discutir casos de pacientes y datos sensibles. 5cut procesa todo en tu iPhone — sin nubes ni subidas.</p>

@@ -310,7 +310,7 @@ pages_data = {
     "alternatives/timebolt-alternative": {
         "en": {
             "title": "The Best Free Mobile TimeBolt Alternative for iOS | 5cut",
-            "desc": "Looking for a mobile TimeBolt alternative? 5cut offers automatic silence removal, on-device transcription, and speaker identification for free on iPhone.",
+            "desc": "Looking for a mobile TimeBolt alternative? 5cut offers free automatic silence removal and on-device transcription previews on iPhone, with speaker identification in Premium.",
             "h1": "The Best Mobile TimeBolt Alternative",
             "tagline": "Remove silence automatically from your iPhone or iPad.",
             "intro": "<p>TimeBolt is a desktop tool for PC and Mac users. 5cut is a mobile alternative for editing video directly on an iPhone. Silence removal runs on-device, and downloaded transcription engines are available for offline use. Your recordings never leave your device; 5cut has no server of your recordings.</p>"
@@ -324,7 +324,7 @@ pages_data = {
         },
         "zh": {
             "title": "适用于 iOS 的最佳免费 TimeBolt 替代方案 | 5cut",
-            "desc": "寻找移动版 TimeBolt 替代方案？5cut 在 iPhone 上免费提供自动静音消除和转写功能。",
+            "desc": "寻找移动版 TimeBolt 替代方案？5cut 在 iPhone 上免费提供自动静音消除和转写预览。",
             "h1": "最佳移动端 TimeBolt 替代方案",
             "tagline": "在您的 iPhone 或 iPad 上自动去除静音。",
             "intro": "<p>TimeBolt 是一款出色的桌面工具。但是，如果您正在寻找一种可以直接在 iPhone 上编辑视频的移动替代方案，5cut 是您的最佳选择。5cut 完全在设备端处理视频，保护隐私。</p>"
@@ -460,7 +460,7 @@ pages_data = {
                                                         'Uploads.</p>\n'
                                                         '<h2>Kostenlos starten</h2>\n'
 
-                                                        '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
+                                                        '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                                'tagline': 'Entferne erkannte Pausen aus Jura-Vorlesungen.',
                                                'title': 'Beste App für Jura-Vorlesungen – Aufnehmen & Transkribieren | 5cut'},
                                         'en': {'desc': 'Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and export notes. Your recordings never leave your device.',
@@ -492,7 +492,7 @@ pages_data = {
                                                         'iPhone. Your recordings never leave your device; every transcription engine runs on the iPhone itself.</p>\n'
                                                         '<h2>Free to start</h2>\n'
 
-                                                        '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
+                                                        '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                                'tagline': 'Remove detected pauses from law-school recordings.',
                                                'title': 'Best App for Law School Recordings – Trim & Transcribe Lectures | 5cut'},
                                         'es': {'desc': 'Condensa clases de derecho en iPhone. Elimina silencios, transcribe debates, exporta apuntes. Procesamiento local para máxima '
@@ -513,7 +513,7 @@ pages_data = {
                                                         '<p>Las clases de derecho discuten estrategias legales y hechos de casos reales. 5cut procesa todo localmente en tu iPhone.</p>\n'
                                                         '<h2>Comienza gratis</h2>\n'
 
-                                                        '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
+                                                        '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                                'tagline': 'Elimina pausas detectadas de las grabaciones de derecho.',
                                                'title': 'Mejor App para Clases de Derecho – Grabar y Transcribir | 5cut'},
                                         'fr': {'desc': 'Condensez les cours de droit sur iPhone. Supprimez les silences, transcrivez les débats, exportez vos notes. Traitement local pour la '
@@ -534,7 +534,7 @@ pages_data = {
                                                         '<p>Les cours de droit discutent de stratégies légales. 5cut traite tout localement sur votre iPhone.</p>\n'
                                                         '<h2>Gratuit pour commencer</h2>\n'
 
-                                                        '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
+                                                        '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                                'tagline': 'Supprimez les pauses détectées des cours de droit.',
                                                'title': 'Meilleure Application pour les Cours de Droit | 5cut'},
                                         'vi': {'desc': 'Rút gọn các bài giảng luật trên iPhone. Xóa khoảng lặng, phiên âm thảo luận tình huống, xuất ghi chú. Xử lý trên thiết bị đảm bảo tính bảo '
@@ -554,7 +554,7 @@ pages_data = {
                                                         '<p>Các lớp học luật thường thảo luận về các chiến lược pháp lý. 5cut xử lý mọi thứ cục bộ trên iPhone của bạn.</p>\n'
                                                         '<h2>Bắt đầu miễn phí</h2>\n'
 
-                                                        '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
+                                                        '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                                'tagline': 'Xóa khoảng dừng đã phát hiện khỏi bản ghi bài giảng luật.',
                                                'title': 'Ứng Dụng Tốt Nhất Cho Bài Giảng Luật – Ghi Âm & Phiên Âm | 5cut'},
                                         'zh': {'desc': '在 iPhone 上精简法学院讲座。去除静音、转写案例讨论、导出笔记。全部在设备端处理，确保机密性。',
@@ -573,7 +573,7 @@ pages_data = {
                                                         '<p>法学院课程经常讨论案件细节和法律策略。5cut 没有服务器或录音云端副本；如需离线转写，请选择受支持的已下载模型。</p>\n'
                                                         '<h2>免费开始使用</h2>\n'
 
-                                                        '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
+                                                        '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                                'tagline': '去除法学讲座录音中检测到的停顿。',
                                                'title': '法学院讲座最佳录音应用 – 剪切与转写 | 5cut'}},
  'best-app-for-medical-school-lectures': {'de': {'desc': 'Nehmen Sie Medizin-Vorlesungen auf dem iPhone auf und kürzen Sie sie. Stille entfernen, transkribieren, in Anki exportieren. '
@@ -588,7 +588,7 @@ pages_data = {
                                                           '    <li><strong>Keine 5cut-Cloud-Kopie</strong> — 5cut hat keinen Server; heruntergeladene On-Device-Engines stehen für Offline-Transkription bereit</li>\n'
                                                           '    <li><strong>In 30+ Sprachen transkribieren</strong> — Untertitel in der Muttersprache generieren</li>\n'
                                                           '    <li><strong>Export zu Anki</strong> — Transkribierte Segmente in Q&A-Lernkarten umwandeln</li>\n'
-                                                          '    <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche über Nacht verarbeiten</li>\n'
+                                                          '    <li><strong>Stapelverarbeitung</strong> — Aufnahmen einer ganzen Woche in einem Durchgang verarbeiten (5cut dabei geöffnet lassen)</li>\n'
                                                           '</ul>\n'
                                                           '<h2>Datenschutz in der Medizin ist wichtig</h2>\n'
                                                           '<p>Medizinische Vorlesungen beziehen sich oft auf Patientenfälle und sensible Gesundheitsdaten. 5cut verarbeitet alles auf deinem iPhone — '
@@ -602,7 +602,7 @@ pages_data = {
                                                           '</ol>\n'
                                                           '<h2>Kostenlos starten</h2>\n'
 
-                                                          '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
+                                                          '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                                  'tagline': 'Entferne Leerlauf vor der Wiederholung einer Anatomie-Vorlesung.',
                                                  'title': 'Beste App für Medizin-Vorlesungen – Aufnehmen, Schneiden & Transkribieren | 5cut'},
                                           'en': {'desc': 'Record and condense medical school lectures on iPhone. Remove silence, transcribe in 30+ languages, export to Anki. On-device processing '
@@ -617,7 +617,7 @@ pages_data = {
                                                           '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>\n'
                                                           '    <li><strong>Transcribe in 30+ languages</strong> — international med students can generate subtitles in their native language</li>\n'
                                                           '    <li><strong>Export to Anki</strong> — turn transcribed lecture segments into Q&A study cards</li>\n'
-                                                          '    <li><strong>Batch processing</strong> — drop a week of recordings in and process them all overnight</li>\n'
+                                                          '    <li><strong>Batch processing</strong> — drop a week of recordings in and process them in one batch (keep 5cut open while it runs)</li>\n'
                                                           '</ul>\n'
                                                           '<h2>Privacy matters in medicine</h2>\n'
                                                           '<p>Medical lectures often reference patient cases, clinical scenarios, and sensitive health information. Cloud-based transcription means '
@@ -642,7 +642,7 @@ pages_data = {
                                                           '<p>Multiple speakers — attending, residents, students. Speaker identification color-codes up to 4 speakers.</p>\n'
                                                           '<h2>Free to start</h2>\n'
 
-                                                          '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
+                                                          '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                                  'tagline': 'Remove dead air before reviewing an anatomy lecture.',
                                                  'title': 'Best App for Medical School Lectures – Record, Trim & Transcribe | 5cut'},
                                           'es': {'desc': 'Graba y condensa clases de medicina en iPhone. Elimina silencios, transcribe en 30+ idiomas, exporta a Anki. El procesamiento local protege '
@@ -656,7 +656,7 @@ pages_data = {
                                                           '    <li><strong>Sin copia de 5cut en la nube</strong> — 5cut no tiene servidor; los modelos descargados permiten transcribir sin conexión</li>\n'
                                                           '    <li><strong>Transcribe en 30+ idiomas</strong> — genera subtítulos en tu idioma nativo</li>\n'
                                                           '    <li><strong>Exporta a Anki</strong> — convierte transcripciones en tarjetas de estudio Q&A</li>\n'
-                                                          '    <li><strong>Procesamiento por lotes</strong> — procesa grabaciones de toda la semana durante la noche</li>\n'
+                                                          '    <li><strong>Procesamiento por lotes</strong> — procesa las grabaciones de toda la semana de una vez (con 5cut abierto mientras trabaja)</li>\n'
                                                           '</ul>\n'
                                                           '<h2>La privacidad importa en medicina</h2>\n'
                                                           '<p>Las clases de medicina suelen discutir casos de pacientes y datos sensibles. 5cut procesa todo en tu iPhone — sin nubes ni subidas.</p>\n'
@@ -669,7 +669,7 @@ pages_data = {
                                                           '</ol>\n'
                                                           '<h2>Comienza gratis</h2>\n'
 
-                                                          '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
+                                                          '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                                  'tagline': 'Elimina tiempos muertos antes de repasar una clase de anatomía.',
                                                  'title': 'Mejor App para Clases de Medicina – Grabar y Transcribir | 5cut'},
                                           'fr': {'desc': 'Enregistrez et condensez vos cours de médecine sur iPhone. Supprimez les silences, transcrivez et exportez vers Anki. Le traitement local '
@@ -684,7 +684,7 @@ pages_data = {
                                                           '    <li><strong>Traitement local</strong> — les cas cliniques des patients restent sur votre téléphone</li>\n'
                                                           '    <li><strong>Transcrivez en 30+ langues</strong> — créez des sous-titres dans votre langue maternelle</li>\n'
                                                           '    <li><strong>Export vers Anki</strong> — transformez les transcriptions en cartes d\'étude Q&A</li>\n'
-                                                          '    <li><strong>Traitement par lots</strong> — traitez une semaine de cours pendant la nuit</li>\n'
+                                                          '    <li><strong>Traitement par lots</strong> — traitez une semaine de cours en une seule fois (en gardant 5cut ouvert)</li>\n'
                                                           '</ul>\n'
                                                           '<h2>La confidentialité compte en médecine</h2>\n'
                                                           '<p>Les cours de médecine abordent des cas cliniques et des données de santé sensibles. 5cut traite tout localement — pas de cloud, pas de '
@@ -698,7 +698,7 @@ pages_data = {
                                                           '</ol>\n'
                                                           '<h2>Gratuit pour commencer</h2>\n'
 
-                                                          '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
+                                                          '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                                  'tagline': "Supprimez les temps morts avant de réviser un cours d'anatomie.",
                                                  'title': 'Meilleure Application pour les Cours de Médecine – Enregistrez et Transcrivez | 5cut'},
                                           'vi': {'desc': 'Ghi âm và rút gọn các bài giảng y khoa trên iPhone. Xóa khoảng lặng, phiên âm 30+ ngôn ngữ, xuất sang Anki. Xử lý trên thiết bị bảo vệ thông '
@@ -725,7 +725,7 @@ pages_data = {
                                                           '</ol>\n'
                                                           '<h2>Bắt đầu miễn phí</h2>\n'
 
-                                                          '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
+                                                          '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                                  'tagline': 'Xóa khoảng trống trước khi ôn lại bài giảng giải phẫu.',
                                                  'title': 'Ứng Dụng Tốt Nhất Cho Sinh Viên Y Khoa – Ghi Âm & Phiên Âm | 5cut'},
                                           'zh': {'desc': '在 iPhone 上录制并精简医学院讲座。去除静音、30多种语言转写、导出至 Anki。设备端处理保护患者案例讨论隐私。',
@@ -751,7 +751,7 @@ pages_data = {
                                                           '</ol>\n'
                                                           '<h2>免费开始使用</h2>\n'
 
-                                                          '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
+                                                          '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                                  'tagline': '复习解剖学讲座前去除空白片段。',
                                                  'title': '医学生最佳讲座应用 – 录制、剪切与转写 | 5cut'}},
  'offline-lecture-transcription-iphone': {'de': {'desc': 'Vorlesungsaufnahmen offline auf dem iPhone transkribieren. Keine Cloud, kein Upload, kein Internet nötig. On-Device-KI in 30+ Sprachen. '
@@ -764,15 +764,18 @@ pages_data = {
                                                           '<p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache '
                                                           'auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, '
                                                           'in der U-Bahn, in einem Hörsaal mit schlechtem WLAN – überall.</p>\n'
-                                                          '<h2>Vier Transkriptions-Engines</h2>\n'
+                                                          '<h2>Sechs Transkriptions-Engines</h2>\n'
                                                           '<p>5cut bietet mehrere KI-Engines, damit du die richtige Balance aus Geschwindigkeit, Genauigkeit und Modellgröße wählen kannst:</p>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Ideal für</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 europäische</td><td>~200 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, großes Vokabular</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>\n'
+                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel — nur für importierte Dateien, nicht im Live-Rekorder verfügbar</td></tr>\n'
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 europäische</td><td>~600 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>Englisch</td><td>~220 MB</td><td>Schneller und leichter — für ältere iPhones</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>Englisch</td><td>~49 MB</td><td>Latenzarme Streaming-Transkription</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>Englisch</td><td>~360 MB</td><td>Kompaktes Englisch-Modell, für das iPhone optimiert, benötigt iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          '<p>WhisperKit steht nur für importierte Dateien zur Verfügung — nicht im Live-Rekorder.</p>\n'
                                                           '<h2>Warum Offline wichtig ist</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Keine 5cut-Cloud-Kopie</strong> – 5cut hat keinen Server; nutze für Offline-Transkription eine heruntergeladene On-Device-Engine</li>\n'
@@ -796,7 +799,7 @@ pages_data = {
                                                           '<p>5cut kann bis zu 4 Sprecher identifizieren und im Transkript farblich markieren. Dies funktioniert ebenfalls offline.</p>\n'
                                                           '<h2>Kostenlos starten</h2>\n'
 
-                                                          '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
+                                                          '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                                  'tagline': 'Offline auf dem iPhone transkribieren. Kein Internet erforderlich.',
                                                  'title': 'Offline Vorlesungen transkribieren auf dem iPhone – Kein Internet nötig | 5cut'},
                                           'en': {'desc': 'Transcribe lecture recordings offline on iPhone. No cloud, no upload, no internet needed. On-device AI in 30+ languages. Speaker '
@@ -809,15 +812,18 @@ pages_data = {
                                                           "<p>5cut uses on-device AI models that run directly on your iPhone's Neural Engine. The first time you select a language, the model "
                                                           'downloads (typically 40-600 MB depending on the engine). After that, transcription works in airplane mode, on the subway, in a lecture hall '
                                                           'with terrible WiFi — anywhere.</p>\n'
-                                                          '<h2>Four transcription engines</h2>\n'
+                                                          '<h2>Six transcription engines</h2>\n'
                                                           '<p>5cut offers multiple AI engines so you can choose the right balance of speed, accuracy, and model size:</p>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>Engine</th><th>Languages</th><th>Model size</th><th>Best for</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>Built-in</td><td>Quick transcription, broadest language support</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>High accuracy, word-level timestamps</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 European</td><td>~200 MB</td><td>European languages, auto-detection</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, large vocabulary</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Built-in</td><td>Quick transcription, broadest language support</td></tr>\n'
+                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>High accuracy, word-level timestamps — imported files only, not available in the live recorder</td></tr>\n'
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 European</td><td>~600 MB</td><td>European languages, auto-detection</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>English</td><td>~220 MB</td><td>Faster and lighter — good for older iPhones</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>English</td><td>~49 MB</td><td>Low-latency streaming transcription</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>English</td><td>~360 MB</td><td>Compact English model tuned for iPhone, requires iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          "<p>WhisperKit is available for imported files only — it isn't offered in the live recorder.</p>\n"
                                                           '<h2>Why offline matters</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never leave your device; every engine runs on the iPhone itself</li>\n'
@@ -828,7 +834,7 @@ pages_data = {
                                                           '    <li><strong>Speed</strong> — no upload/download wait. Transcription starts immediately</li>\n'
                                                           '</ul>\n'
                                                           '<h2>Supported languages</h2>\n'
-                                                          '<p>Between all four engines, 5cut supports transcription in over 40 languages. The exact list depends on which engine you choose and the '
+                                                          '<p>Between all six engines, 5cut supports transcription in over 40 languages. The exact list depends on which engine you choose and the '
                                                           'language models available for your device.</p>\n'
                                                           '<h2>Beyond transcription: remove silence too</h2>\n'
                                                           '<p>5cut is primarily a silence removal tool. The typical workflow is:</p>\n'
@@ -844,7 +850,7 @@ pages_data = {
                                                           'with Q&A, seminars, or group presentations.</p>\n'
                                                           '<h2>Free to start</h2>\n'
 
-                                                          '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
+                                                          '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                                  'tagline': 'Transcribe offline on iPhone. No Internet Required.',
                                                  'title': 'Offline Lecture Transcription on iPhone – No Internet Required | 5cut'},
                                           'es': {'desc': 'Transcribe grabaciones de clases offline en iPhone. Sin nube, sin subidas, sin internet. IA local en 30+ idiomas. App iOS gratuita.',
@@ -854,14 +860,17 @@ pages_data = {
                                                           '<h2>Cómo funciona la transcripción offline</h2>\n'
                                                           '<p>5cut utiliza modelos de IA locales que se ejecutan directamente en tu iPhone. La transcripción funciona en modo avión, en el metro o en '
                                                           'cualquier lugar.</p>\n'
-                                                          '<h2>Cuatro motores de transcripción</h2>\n'
+                                                          '<h2>Seis motores de transcripción</h2>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>Motor</th><th>Idiomas</th><th>Tamaño</th><th>Ideal para</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>Integrado</td><td>Transcripción rápida</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Alta precisión, marcas de tiempo</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 europeos</td><td>~200 MB</td><td>Detección automática</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingüe, gran vocabulario</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Integrado</td><td>Transcripción rápida, amplio soporte de idiomas</td></tr>\n'
+                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Alta precisión, marcas de tiempo — solo archivos importados, no disponible en la grabadora en vivo</td></tr>\n'
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 europeos</td><td>~600 MB</td><td>Idiomas europeos, detección automática</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>Inglés</td><td>~220 MB</td><td>Más rápido y ligero — ideal para iPhones antiguos</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>Inglés</td><td>~49 MB</td><td>Transcripción en streaming de baja latencia</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>Inglés</td><td>~360 MB</td><td>Modelo compacto de inglés optimizado para iPhone, requiere iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          '<p>WhisperKit solo está disponible para archivos importados — no se ofrece en la grabadora en vivo.</p>\n'
                                                           '<h2>Por qué importa que sea offline</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Sin copia de 5cut en la nube</strong> – 5cut no tiene servidor; elige un modelo descargado para transcribir sin conexión</li>\n'
@@ -881,7 +890,7 @@ pages_data = {
                                                           '<p>5cut identifica hasta 4 hablantes en una grabación y los diferencia por colores. Todo offline.</p>\n'
                                                           '<h2>Comienza gratis</h2>\n'
 
-                                                          '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
+                                                          '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                                  'tagline': 'Transcribe offline en iPhone. Sin internet.',
                                                  'title': 'Transcripción de Clases Offline en iPhone – Sin Internet | 5cut'},
                                           'fr': {'desc': "Transcrivez vos cours hors ligne sur iPhone. Pas de cloud, pas de téléversement, pas d'internet. IA locale en 30+ langues. App iOS gratuite.",
@@ -891,14 +900,17 @@ pages_data = {
                                                           '<h2>Comment fonctionne la transcription hors ligne</h2>\n'
                                                           "<p>5cut utilise des modèles d'IA locaux qui s'exécutent sur le Neural Engine de votre iPhone. La transcription fonctionne en mode avion, "
                                                           "dans le métro, n'importe où.</p>\n"
-                                                          '<h2>Quatre moteurs de transcription</h2>\n'
+                                                          '<h2>Six moteurs de transcription</h2>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>Moteur</th><th>Langues</th><th>Taille</th><th>Idéal pour</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 européennes</td><td>~200 MB</td><td>Détection automatique</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingue, grand vocabulaire</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>\n'
+                                                          "    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage — fichiers importés uniquement, indisponible dans l'enregistreur en direct</td></tr>\n"
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 européennes</td><td>~600 MB</td><td>Langues européennes, détection automatique</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>Anglais</td><td>~220 MB</td><td>Plus rapide et léger — pour les iPhones plus anciens</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>Anglais</td><td>~49 MB</td><td>Transcription en streaming à faible latence</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>Anglais</td><td>~360 MB</td><td>Modèle anglais compact optimisé pour l'iPhone, nécessite iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          "<p>WhisperKit est disponible uniquement pour les fichiers importés — il n'est pas proposé dans l'enregistreur en direct.</p>\n"
                                                           '<h2>Pourquoi le hors ligne est important</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Aucune copie cloud 5cut</strong> – 5cut n’a pas de serveur ; choisissez un moteur téléchargé pour transcrire hors ligne</li>\n'
@@ -918,7 +930,7 @@ pages_data = {
                                                           "<p>5cut identifie jusqu'à 4 locuteurs. Utile pour les questions/réponses et séminaires.</p>\n"
                                                           '<h2>Gratuit pour commencer</h2>\n'
 
-                                                          '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
+                                                          '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                                  'tagline': 'Transcrivez hors ligne. Sans internet.',
                                                  'title': 'Transcription de Cours Hors Ligne sur iPhone – Sans Internet | 5cut'},
                                           'vi': {'desc': 'Phiên âm bản ghi bài giảng ngoại tuyến trên iPhone. Không cần đám mây, không tải lên, không cần internet. Ứng dụng iOS miễn phí.',
@@ -928,14 +940,17 @@ pages_data = {
                                                           '<h2>Phiên âm ngoại tuyến hoạt động như thế nào</h2>\n'
                                                           '<p>5cut sử dụng các mô hình AI chạy trực tiếp trên iPhone. Phiên âm hoạt động ngay cả ở chế độ trên máy bay, dưới tầng hầm hoặc trên '
                                                           'tàu.</p>\n'
-                                                          '<h2>Bốn công cụ phiên âm</h2>\n'
+                                                          '<h2>Sáu công cụ phiên âm</h2>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>Công cụ</th><th>Ngôn ngữ</th><th>Kích thước</th><th>Tốt nhất cho</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 ngôn ngữ Âu</td><td>~200 MB</td><td>Tự động phát hiện</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Đa ngôn ngữ, từ vựng lớn</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh, hỗ trợ ngôn ngữ rộng nhất</td></tr>\n'
+                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao — chỉ dùng cho tệp nhập, không có trong máy ghi âm trực tiếp</td></tr>\n'
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 ngôn ngữ Âu</td><td>~600 MB</td><td>Tự động phát hiện ngôn ngữ châu Âu</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>Tiếng Anh</td><td>~220 MB</td><td>Nhanh và nhẹ hơn — phù hợp iPhone đời cũ</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>Tiếng Anh</td><td>~49 MB</td><td>Phiên âm trực tuyến, độ trễ thấp</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>Tiếng Anh</td><td>~360 MB</td><td>Mô hình tiếng Anh gọn nhẹ, tối ưu cho iPhone, yêu cầu iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          '<p>WhisperKit chỉ khả dụng cho tệp nhập — không có trong máy ghi âm trực tiếp.</p>\n'
                                                           '<h2>Tại sao ngoại tuyến lại quan trọng</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>Không có bản sao đám mây của 5cut</strong> – 5cut không có máy chủ; chọn mô hình đã tải xuống để phiên âm ngoại tuyến</li>\n'
@@ -955,7 +970,7 @@ pages_data = {
                                                           '<p>5cut nhận diện tối đa 4 người nói trong một bản ghi và đánh dấu bằng màu sắc.</p>\n'
                                                           '<h2>Bắt đầu miễn phí</h2>\n'
 
-                                                          '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
+                                                          '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                                  'tagline': 'Phiên âm ngoại tuyến trên iPhone. Không cần Internet.',
                                                  'title': 'Phiên Âm Bài Giảng Ngoại Tuyến Trên iPhone – Không Cần Internet | 5cut'},
                                           'zh': {'desc': '在 iPhone 上离线转写讲座录音。无云端，无上传，无需网络。支持 30+ 种语言的设备端 AI。免费 iOS 应用。',
@@ -963,14 +978,17 @@ pages_data = {
                                                  'intro': '<p>大多数转写应用都需要连接互联网。5cut 与众不同：它完全在您的 iPhone 上进行转写，在初始模型下载之后无需任何网络连接。</p>\n'
                                                           '<h2>离线转写的工作原理</h2>\n'
                                                           '<p>5cut 使用直接在 iPhone 神经网络引擎上运行的设备端 AI 模型。转写功能可以在飞行模式、地铁或没有 WiFi 的教室中完美运行。</p>\n'
-                                                          '<h2>四种转写引擎</h2>\n'
+                                                          '<h2>六种转写引擎</h2>\n'
                                                           '<table class="engine-table">\n'
                                                           '    <tr><th>引擎</th><th>语言</th><th>模型大小</th><th>最佳用途</th></tr>\n'
-                                                          '    <tr><td>Apple Speech</td><td>40+</td><td>内置</td><td>快速转写，支持最广泛</td></tr>\n'
-                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>高精度，词级时间戳</td></tr>\n'
-                                                          '    <tr><td>Parakeet</td><td>25 种欧洲语言</td><td>~200 MB</td><td>自动检测</td></tr>\n'
-                                                          '    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>多语言，大词汇量</td></tr>\n'
+                                                          '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>内置</td><td>快速转写，支持语言最广泛</td></tr>\n'
+                                                          '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>高精度，词级时间戳 — 仅支持导入文件，实时录音器中不可用</td></tr>\n'
+                                                          '    <tr><td>Parakeet Ultra</td><td>25 种欧洲语言</td><td>~600 MB</td><td>欧洲语言，自动检测</td></tr>\n'
+                                                          '    <tr><td>Parakeet Lite</td><td>英语</td><td>~220 MB</td><td>更快更轻量 — 适合旧款 iPhone</td></tr>\n'
+                                                          '    <tr><td>Moonshine Tiny Streaming</td><td>英语</td><td>~49 MB</td><td>低延迟流式转写</td></tr>\n'
+                                                          '    <tr><td>Phonon-2</td><td>英语</td><td>~360 MB</td><td>为 iPhone 优化的紧凑英语模型，需要 iOS 18+</td></tr>\n'
                                                           '</table>\n'
+                                                          '<p>WhisperKit 仅支持导入文件 — 实时录音器中不提供此引擎。</p>\n'
                                                           '<h2>为什么离线很重要</h2>\n'
                                                           '<ul>\n'
                                                           '    <li><strong>无 5cut 云端副本</strong> – 如需离线转写，请选择受支持的已下载模型</li>\n'
@@ -990,7 +1008,7 @@ pages_data = {
                                                           '<p>5cut 可识别多达 4 位说话人并在转写中标记。这同样在离线状态下运行。</p>\n'
                                                           '<h2>免费开始使用</h2>\n'
 
-                                                          '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
+                                                          '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                                  'tagline': '在 iPhone 上离线转写。无需互联网。',
                                                  'title': '在 iPhone 上离线转写讲座 – 无需互联网 | 5cut'}},
  'offline-meeting-notes-iphone': {'de': {'desc': 'Erstellen Sie Meeting-Notizen offline auf dem iPhone. Kein Internet, keine Cloud. Nehmen Sie Meetings auf, identifizieren Sie Sprecher – alles '
@@ -1023,7 +1041,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>Kostenlos starten</h2>\n'
 
-                                                  '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
+                                                  '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                          'tagline': 'Meetings offline transkribieren. Inklusive Sprechererkennung.',
                                          'title': 'Offline Meeting-Notizen auf dem iPhone – Transkribieren ohne Internet | 5cut'},
                                   'en': {'desc': 'Generate meeting notes and transcripts offline on iPhone. No internet, no cloud, no uploads. Record meetings, identify speakers, and get a full '
@@ -1060,7 +1078,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>Free to start</h2>\n'
 
-                                                  '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
+                                                  '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                          'tagline': 'Transcribe meetings offline. Speaker identification included.',
                                          'title': 'Offline Meeting Notes on iPhone – Transcribe Without Internet | 5cut'},
                                   'es': {'desc': 'Genera notas de reuniones offline en iPhone. Sin internet, sin nubes. Graba, identifica hablantes y obtén una transcripción local completa.',
@@ -1091,7 +1109,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>Comienza gratis</h2>\n'
 
-                                                  '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
+                                                  '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                          'tagline': 'Transcribe reuniones offline. Identificación de hablantes incluida.',
                                          'title': 'Notas de Reuniones Offline en iPhone – Sin Internet | 5cut'},
                                   'fr': {'desc': 'Générez des notes de réunion hors ligne sur iPhone. Sans internet, ni cloud. Enregistrez, identifiez les locuteurs, et obtenez une transcription '
@@ -1124,7 +1142,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>Gratuit pour commencer</h2>\n'
 
-                                                  '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
+                                                  '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                          'tagline': 'Transcrivez hors ligne. Identification des locuteurs incluse.',
                                          'title': 'Notes de Réunion Hors Ligne sur iPhone – Sans Internet | 5cut'},
                                   'vi': {'desc': 'Tạo ghi chú cuộc họp ngoại tuyến trên iPhone. Không cần internet, không đám mây. Ghi âm, nhận diện người nói và nhận bản ghi cục bộ.',
@@ -1155,7 +1173,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>Bắt đầu miễn phí</h2>\n'
 
-                                                  '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
+                                                  '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                          'tagline': 'Phiên âm cuộc họp ngoại tuyến. Bao gồm nhận diện người nói.',
                                          'title': 'Ghi Chú Cuộc Họp Ngoại Tuyến Trên iPhone – Không Cần Internet | 5cut'},
                                   'zh': {'desc': '在 iPhone 上离线生成会议笔记。无需网络，无需云端。录制会议、识别说话人，并获得完整的设备端转写文本。',
@@ -1186,7 +1204,7 @@ pages_data = {
                                                   '</ul>\n'
                                                   '<h2>免费开始使用</h2>\n'
 
-                                                  '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
+                                                  '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                          'tagline': '离线转写会议。包含说话人识别功能。',
                                          'title': 'iPhone 上的离线会议笔记 – 无需网络即可转写 | 5cut'}},
  'record-meetings-privately-iphone': {'de': {'desc': 'Meetings auf dem iPhone aufnehmen. 5cut hat keinen Server und speichert keine Cloud-Kopie; für Offline-Transkription eine unterstützte On-Device-Engine wählen.',
@@ -1223,7 +1241,7 @@ pages_data = {
                                                       '</ol>\n'
                                                       '<h2>Kostenlos starten</h2>\n'
 
-                                                      '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
+                                                      '<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>',
                                              'tagline': 'Meetings lokal aufnehmen und transkribieren. Kein Cloud-Upload.',
                                              'title': 'Meetings privat auf dem iPhone aufnehmen – Ohne 5cut-Cloud-Kopie | 5cut'},
                                       'en': {'desc': 'Record meetings on iPhone. Your recordings never leave your device; every transcription engine runs on the iPhone itself.',
@@ -1266,7 +1284,7 @@ pages_data = {
                                                       'selected language and device. 5cut also identifies speakers and removes silence.</p>\n'
                                                       '<h2>Free to start</h2>\n'
 
-                                                      '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium (with a 3-day free trial available) to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
+                                                      '<p>5cut is free to download and includes in-app recording, silence removal, and transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length transcripts, speaker identification, and batch processing.</p>',
                                              'tagline': 'Record and transcribe meetings on-device. No cloud upload.',
                                              'title': 'Record Meetings Privately on iPhone – No 5cut Cloud Copy | 5cut'},
                                       'es': {'desc': 'Graba reuniones en iPhone. 5cut no tiene servidor ni copia en la nube; elige un modelo descargado compatible para transcribir sin conexión.',
@@ -1301,7 +1319,7 @@ pages_data = {
                                                       '</ol>\n'
                                                       '<h2>Comienza gratis</h2>\n'
 
-                                                      '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium (con una prueba gratuita de 3 días disponible) para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
+                                                      '<p>5cut se puede descargar gratis e incluye grabación en la aplicación, eliminación de silencios y vistas previas de transcripción. Actualiza a Premium para desbloquear exportaciones ilimitadas, transcripciones completas, identificación de hablantes y procesamiento por lotes.</p>',
                                              'tagline': 'Graba y transcribe localmente. Sin nube.',
                                              'title': 'Grabar Reuniones en Privado en iPhone – Sin Copia Cloud de 5cut | 5cut'},
                                       'fr': {'desc': "Enregistrez des réunions sur iPhone. 5cut n'a pas de serveur ni de copie cloud ; choisissez un moteur téléchargé compatible pour transcrire hors ligne.",
@@ -1335,7 +1353,7 @@ pages_data = {
                                                       '</ol>\n'
                                                       '<h2>Gratuit pour commencer</h2>\n'
 
-                                                      '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
+                                                      '<p>5cut est téléchargeable gratuitement et inclut l\'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l\'identification des locuteurs et le traitement par lot.</p>',
                                              'tagline': 'Enregistrez et transcrivez localement. Aucun téléchargement cloud.',
                                              'title': 'Enregistrez vos Réunions en Privé sur iPhone – Sans Cloud | 5cut'},
                                       'vi': {'desc': 'Ghi âm cuộc họp trên iPhone. 5cut không có máy chủ hoặc bản sao đám mây; chọn mô hình đã tải xuống được hỗ trợ để phiên âm ngoại tuyến.',
@@ -1368,7 +1386,7 @@ pages_data = {
                                                       '</ol>\n'
                                                       '<h2>Bắt đầu miễn phí</h2>\n'
 
-                                                      '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
+                                                      '<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>',
                                              'tagline': 'Ghi âm và phiên âm trên thiết bị. Không tải lên đám mây.',
                                              'title': 'Ghi Âm Cuộc Họp Riêng Tư Trên iPhone – Không Có Bản Sao Đám Mây 5cut | 5cut'},
                                       'zh': {'desc': '在 iPhone 上录制会议。5cut 没有服务器或云端副本；如需离线转写，请选择受支持的已下载模型。',
@@ -1400,7 +1418,7 @@ pages_data = {
                                                       '</ol>\n'
                                                       '<h2>免费开始使用</h2>\n'
 
-                                                      '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版（提供 3 天免费试用）即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
+                                                      '<p>5cut 可免费下载，包含应用内录音、静音裁剪和转写预览功能。升级至 Premium 尊享版即可解锁无限次导出、完整长度转写、说话人识别以及批量处理功能。</p>',
                                              'tagline': '在设备端录制和转写会议。无云端上传。',
                                              'title': '在 iPhone 上私密录制会议 – 无 5cut 云端副本 | 5cut'}
     }

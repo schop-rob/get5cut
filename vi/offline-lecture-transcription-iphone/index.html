@@ -358,14 +358,17 @@
             <p>Hầu hết các ứng dụng phiên âm đều yêu cầu internet. 5cut hoạt động khác biệt: nó phiên âm hoàn toàn trên iPhone của bạn, không cần kết nối internet sau lần tải mô hình ban đầu.</p>
 <h2>Phiên âm ngoại tuyến hoạt động như thế nào</h2>
 <p>5cut sử dụng các mô hình AI chạy trực tiếp trên iPhone. Phiên âm hoạt động ngay cả ở chế độ trên máy bay, dưới tầng hầm hoặc trên tàu.</p>
-<h2>Bốn công cụ phiên âm</h2>
+<h2>Sáu công cụ phiên âm</h2>
 <table class="engine-table">
     <tr><th>Công cụ</th><th>Ngôn ngữ</th><th>Kích thước</th><th>Tốt nhất cho</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao</td></tr>
-    <tr><td>Parakeet</td><td>25 ngôn ngữ Âu</td><td>~200 MB</td><td>Tự động phát hiện</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Đa ngôn ngữ, từ vựng lớn</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Tích hợp</td><td>Phiên âm nhanh, hỗ trợ ngôn ngữ rộng nhất</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>Độ chính xác cao — chỉ dùng cho tệp nhập, không có trong máy ghi âm trực tiếp</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 ngôn ngữ Âu</td><td>~600 MB</td><td>Tự động phát hiện ngôn ngữ châu Âu</td></tr>
+    <tr><td>Parakeet Lite</td><td>Tiếng Anh</td><td>~220 MB</td><td>Nhanh và nhẹ hơn — phù hợp iPhone đời cũ</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Tiếng Anh</td><td>~49 MB</td><td>Phiên âm trực tuyến, độ trễ thấp</td></tr>
+    <tr><td>Phonon-2</td><td>Tiếng Anh</td><td>~360 MB</td><td>Mô hình tiếng Anh gọn nhẹ, tối ưu cho iPhone, yêu cầu iOS 18+</td></tr>
 </table>
+<p>WhisperKit chỉ khả dụng cho tệp nhập — không có trong máy ghi âm trực tiếp.</p>
 <h2>Tại sao ngoại tuyến lại quan trọng</h2>
 <ul>
     <li><strong>Không có bản sao đám mây của 5cut</strong> – 5cut không có máy chủ; chọn mô hình đã tải xuống để phiên âm ngoại tuyến</li>
@@ -384,7 +387,7 @@
 <h2>Nhận diện người nói</h2>
 <p>5cut nhận diện tối đa 4 người nói trong một bản ghi và đánh dấu bằng màu sắc.</p>
 <h2>Bắt đầu miễn phí</h2>
-<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium (có bản dùng thử miễn phí 3 ngày) để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>
+<p>5cut được tải xuống miễn phí và bao gồm tính năng ghi âm trong ứng dụng, xóa khoảng lặng và xem trước bản ghi chép. Nâng cấp lên Premium để mở khóa xuất không giới hạn, bản ghi chép đầy đủ, nhận diện người nói và xử lý hàng loạt.</p>
         </section>
 
         <article class="features">
@@ -419,7 +422,7 @@
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Nhận Diện Nhiều Người Nói</h3>
+                    <h3>Nhận Diện Nhiều Người Nói (Premium)</h3>
                     <p>Tự động nhận diện tối đa 4 người nói trong một bản ghi âm với mã màu và nhãn có thể chỉnh sửa — hoàn hảo cho các hội thảo.</p>
                 </div>
             </div>
@@ -447,11 +450,11 @@
 
         <section class="privacy-box">
             <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Không có máy chủ 5cut. Không có bản sao đám mây.</h2>
-            <p>Chúng tôi không thể xem, nghe hoặc lưu trữ bản ghi âm của bạn. 5cut không có máy chủ và không tạo bản sao trên đám mây. Không cần tài khoản, không phân tích trong ứng dụng, không quảng cáo.</p>
+            <p>Bản ghi của bạn không bao giờ rời khỏi thiết bị. Mọi bản chép lời đều được tạo trên iPhone của bạn — không có máy chủ 5cut, không xử lý đám mây, không có dịch vụ chép lời bên thứ ba. Không cần tài khoản, không phân tích trong ứng dụng, không quảng cáo.</p>
         </section>
 
         <div class="cta-container">
-            <p class="cta-subtext">Tải xuống miễn phí · Dùng thử Premium 3 ngày · 5 xuất miễn phí/tháng · Không cần tài khoản</p>
+            <p class="cta-subtext">Tải xuống miễn phí · 5 xuất miễn phí/tháng · Không cần tài khoản</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
             </a>

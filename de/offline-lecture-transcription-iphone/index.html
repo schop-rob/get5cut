@@ -358,15 +358,18 @@
             <p>Die meisten Transkriptions-Apps brauchen Internet. Du lädst deine Vorlesung auf einen Server hoch, wartest auf die Verarbeitung und hoffst, dass der Cloud-Dienst verantwortungsvoll mit deinen Daten umgeht. Mit 5cut kannst du eine heruntergeladene On-Device-Engine für Offline-Transkription wählen. Die Verfügbarkeit hängt von Engine, Sprache, Gerät und Modell-Download ab.</p>
 <h2>Wie Offline-Transkription funktioniert</h2>
 <p>5cut nutzt On-Device-KI-Modelle, die direkt auf der Neural Engine deines iPhones laufen. Beim ersten Mal, wenn du eine Sprache auswählst, wird das Modell heruntergeladen (typischerweise 40-600 MB je nach Engine). Danach funktioniert die Transkription im Flugmodus, in der U-Bahn, in einem Hörsaal mit schlechtem WLAN – überall.</p>
-<h2>Vier Transkriptions-Engines</h2>
+<h2>Sechs Transkriptions-Engines</h2>
 <p>5cut bietet mehrere KI-Engines, damit du die richtige Balance aus Geschwindigkeit, Genauigkeit und Modellgröße wählen kannst:</p>
 <table class="engine-table">
     <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Ideal für</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel</td></tr>
-    <tr><td>Parakeet</td><td>25 europäische</td><td>~200 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingual, großes Vokabular</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Integriert</td><td>Schnelle Transkription, breiteste Sprachunterstützung</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, Wort-Level-Zeitstempel — nur für importierte Dateien, nicht im Live-Rekorder verfügbar</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 europäische</td><td>~600 MB</td><td>Europäische Sprachen, Auto-Erkennung</td></tr>
+    <tr><td>Parakeet Lite</td><td>Englisch</td><td>~220 MB</td><td>Schneller und leichter — für ältere iPhones</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Englisch</td><td>~49 MB</td><td>Latenzarme Streaming-Transkription</td></tr>
+    <tr><td>Phonon-2</td><td>Englisch</td><td>~360 MB</td><td>Kompaktes Englisch-Modell, für das iPhone optimiert, benötigt iOS 18+</td></tr>
 </table>
+<p>WhisperKit steht nur für importierte Dateien zur Verfügung — nicht im Live-Rekorder.</p>
 <h2>Warum Offline wichtig ist</h2>
 <ul>
     <li><strong>Keine 5cut-Cloud-Kopie</strong> – 5cut hat keinen Server; nutze für Offline-Transkription eine heruntergeladene On-Device-Engine</li>
@@ -389,7 +392,7 @@
 <h2>Sprechererkennung</h2>
 <p>5cut kann bis zu 4 Sprecher identifizieren und im Transkript farblich markieren. Dies funktioniert ebenfalls offline.</p>
 <h2>Kostenlos starten</h2>
-<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium (mit einer 3-tägigen kostenlosen Testversion), um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>
+<p>5cut kann kostenlos heruntergeladen werden und umfasst In-App-Aufnahme, Stille-Entfernung und Transkriptionsvorschauen. Aktualisieren Sie auf Premium, um unbegrenzte Exporte, vollständige Transkripte, Sprechererkennung und Batch-Verarbeitung freizuschalten.</p>
         </section>
 
         <article class="features">
@@ -424,7 +427,7 @@
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Sprechererkennung für Gruppen</h3>
+                    <h3>Sprechererkennung für Gruppen (Premium)</h3>
                     <p>Erkennt automatisch bis zu 4 Sprecher. Farbcodiert und umbenennbar – perfekt für Seminare, Interviews und Gruppengespräche.</p>
                 </div>
             </div>
@@ -452,11 +455,11 @@
 
         <section class="privacy-box">
             <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Kein 5cut-Server. Keine Cloud-Kopie.</h2>
-            <p>Wir können deine Aufnahmen weder sehen, hören noch speichern. 5cut hat keinen Server und legt keine Cloud-Kopie an. Kein Konto, keine In-App-Analyse, keine Werbung.</p>
+            <p>Deine Aufnahmen verlassen dein Gerät nie. Jedes Transkript entsteht auf deinem iPhone – es gibt keinen 5cut-Server, keine Cloud-Verarbeitung und keinen Transkriptionsdienst von Drittanbietern. Kein Konto, keine In-App-Analyse, keine Werbung.</p>
         </section>
 
         <div class="cta-container">
-            <p class="cta-subtext">Kostenloser Download · 3 Tage Premium-Test · 5 kostenlose Exporte/Monat · Kein Konto</p>
+            <p class="cta-subtext">Kostenloser Download · 5 kostenlose Exporte/Monat · Kein Konto</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
             </a>

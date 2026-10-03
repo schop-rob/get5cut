@@ -358,14 +358,17 @@
             <p>La plupart des applications de transcription nécessitent internet. Avec 5cut, vous pouvez choisir un moteur téléchargé sur l’appareil pour transcrire hors ligne. La disponibilité dépend du moteur, de la langue, de l’appareil et du téléchargement initial.</p>
 <h2>Comment fonctionne la transcription hors ligne</h2>
 <p>5cut utilise des modèles d'IA locaux qui s'exécutent sur le Neural Engine de votre iPhone. La transcription fonctionne en mode avion, dans le métro, n'importe où.</p>
-<h2>Quatre moteurs de transcription</h2>
+<h2>Six moteurs de transcription</h2>
 <table class="engine-table">
     <tr><th>Moteur</th><th>Langues</th><th>Taille</th><th>Idéal pour</th></tr>
-    <tr><td>Apple Speech</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>
-    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage</td></tr>
-    <tr><td>Parakeet</td><td>25 européennes</td><td>~200 MB</td><td>Détection automatique</td></tr>
-    <tr><td>Qwen3-ASR</td><td>30+</td><td>~700 MB</td><td>Multilingue, grand vocabulaire</td></tr>
+    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Intégré</td><td>Transcription rapide, large choix de langues</td></tr>
+    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Haute précision, horodatage — fichiers importés uniquement, indisponible dans l'enregistreur en direct</td></tr>
+    <tr><td>Parakeet Ultra</td><td>25 européennes</td><td>~600 MB</td><td>Langues européennes, détection automatique</td></tr>
+    <tr><td>Parakeet Lite</td><td>Anglais</td><td>~220 MB</td><td>Plus rapide et léger — pour les iPhones plus anciens</td></tr>
+    <tr><td>Moonshine Tiny Streaming</td><td>Anglais</td><td>~49 MB</td><td>Transcription en streaming à faible latence</td></tr>
+    <tr><td>Phonon-2</td><td>Anglais</td><td>~360 MB</td><td>Modèle anglais compact optimisé pour l'iPhone, nécessite iOS 18+</td></tr>
 </table>
+<p>WhisperKit est disponible uniquement pour les fichiers importés — il n'est pas proposé dans l'enregistreur en direct.</p>
 <h2>Pourquoi le hors ligne est important</h2>
 <ul>
     <li><strong>Aucune copie cloud 5cut</strong> – 5cut n’a pas de serveur ; choisissez un moteur téléchargé pour transcrire hors ligne</li>
@@ -384,7 +387,7 @@
 <h2>Identification des locuteurs</h2>
 <p>5cut identifie jusqu'à 4 locuteurs. Utile pour les questions/réponses et séminaires.</p>
 <h2>Gratuit pour commencer</h2>
-<p>5cut est téléchargeable gratuitement et inclut l'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium (avec un essai gratuit de 3 jours disponible) pour débloquer les exports illimités, les transcriptions complètes, l'identification des locuteurs et le traitement par lot.</p>
+<p>5cut est téléchargeable gratuitement et inclut l'enregistrement intégré, la suppression des silences et les aperçus de transcription. Passez à la version Premium pour débloquer les exports illimités, les transcriptions complètes, l'identification des locuteurs et le traitement par lot.</p>
         </section>
 
         <article class="features">
@@ -419,7 +422,7 @@
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Identification Multi-Locuteurs</h3>
+                    <h3>Identification Multi-Locuteurs (Premium)</h3>
                     <p>Identifiez automatiquement jusqu'à 4 locuteurs dans un enregistrement. Codes couleurs et étiquettes renommables — idéal pour les séminaires.</p>
                 </div>
             </div>
@@ -447,11 +450,11 @@
 
         <section class="privacy-box">
             <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Aucun serveur 5cut. Aucune copie cloud.</h2>
-            <p>Nous ne pouvons ni voir, ni écouter, ni stocker vos enregistrements. 5cut n'a aucun serveur et ne crée aucune copie cloud. Sans compte, sans analyse dans l'app, sans publicité.</p>
+            <p>Vos enregistrements ne quittent jamais votre appareil. Chaque transcription est générée sur votre iPhone — pas de serveur 5cut, pas de traitement dans le cloud, aucun service de transcription tiers. Sans compte, sans analyse dans l'app, sans publicité.</p>
         </section>
 
         <div class="cta-container">
-            <p class="cta-subtext">Téléchargement gratuit · Essai Premium de 3 jours · 5 exports/mois gratuits · Sans compte</p>
+            <p class="cta-subtext">Téléchargement gratuit · 5 exports/mois gratuits · Sans compte</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
             </a>
