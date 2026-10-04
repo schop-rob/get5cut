@@ -1,5 +1,5 @@
 # Simplified Chinese text for get5cut.com.
-# English is the source: write it in ASD-STE100 (.claude/skills/ste100-writing).
+# English is the source: write it in ASD-STE100 (.claude/skills/asd-ste100-skill).
 # Translations follow the English meaning, with the same short, plain sentences.
 # HOME fills the homepage; PAGES fills each inner page (a missing page falls back to English).
 
