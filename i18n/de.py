@@ -17,14 +17,14 @@ HOME = {'dir': 'de',
  'subhead_features': 'Nimm Vorlesungen auf, entferne die Stille, transkribiere in 30+ Sprachen, übersetze live und exportiere Lernnotizen. '
                      'Alles passiert auf deinem iPhone.',
  'proof1': 'Kein 5cut-Server',
- 'proof2': '5 kostenlose Exporte pro Monat',
+ 'proof2': 'In 5cut aufnehmen: ganzes Transkript gratis',
  'proof3': 'Kein Konto',
  'stat1_value': '5 kostenlose Exporte',
  'stat1_label': 'pro Monat',
  'cta_pill1': '5 kostenlose Exporte pro Monat',
  'cta_pill2': '5 kostenlose Exporte/Monat',
  'cta_pill3': 'Kein Konto',
- 'cta_subtext': 'Kostenloser Download · 5 kostenlose Exporte pro Monat · Kein Konto',
+ 'cta_subtext': 'Kostenloser Download · Premium: Abo oder Einmalkauf · Kein Konto',
  'creator_promise': 'Ich habe 5cut entwickelt, weil ich lange Vorlesungen in einer Fremdsprache immer wieder angehört habe. Die Pausen '
                     'haben viel von meiner Lernzeit gekostet. Übersetzung und Stilleentfernung auf dem Gerät haben mein Lernen verändert. '
                     'Meine Aufnahmen verlassen mein iPhone nie.',

@@ -17,14 +17,14 @@ HOME = {'dir': 'pt-br',
  'subhead_features': 'Grave aulas, corte o silêncio, transcreva em 30+ idiomas, traduza ao vivo e exporte anotações de estudo. Tudo isso '
                      'acontece no seu iPhone.',
  'proof1': 'Sem servidor do 5cut',
- 'proof2': '5 exportações grátis por mês',
+ 'proof2': 'Grave no 5cut: transcrição completa grátis',
  'proof3': 'Sem conta',
  'stat1_value': '5 exportações grátis',
  'stat1_label': 'todo mês',
  'cta_pill1': '5 exportações grátis por mês',
  'cta_pill2': '5 Exportações Grátis/Mês',
  'cta_pill3': 'Sem Conta',
- 'cta_subtext': 'Download grátis · 5 exportações grátis por mês · Sem conta',
+ 'cta_subtext': 'Download grátis · Premium: mensal ou compra única · Sem conta',
  'creator_promise': 'Criei o 5cut porque eu ouvia aulas longas em um idioma estrangeiro, de novo e de novo. As pausas consumiam muito do meu '
                     'tempo de estudo. A tradução e a remoção de silêncio no aparelho mudaram a forma como eu aprendo. Minhas gravações '
                     'nunca saem do meu iPhone.',

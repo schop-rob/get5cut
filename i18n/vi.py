@@ -17,14 +17,14 @@ HOME = {'dir': 'vi',
  'subhead_features': 'Ghi âm bài giảng, cắt khoảng lặng, chép lời hơn 30 ngôn ngữ, dịch trực tiếp và xuất ghi chú học tập. Tất cả diễn ra '
                      'trên iPhone của bạn.',
  'proof1': 'Không có máy chủ 5cut',
- 'proof2': '5 lượt xuất miễn phí mỗi tháng',
+ 'proof2': 'Ghi âm trong 5cut: chép lời đầy đủ miễn phí',
  'proof3': 'Không cần tài khoản',
  'stat1_value': '5 lượt xuất miễn phí',
  'stat1_label': 'mỗi tháng',
  'cta_pill1': '5 lượt xuất miễn phí mỗi tháng',
  'cta_pill2': '5 Lượt Xuất Miễn Phí/Tháng',
  'cta_pill3': 'Không Cần Tài Khoản',
- 'cta_subtext': 'Tải miễn phí · 5 lượt xuất miễn phí mỗi tháng · Không cần tài khoản',
+ 'cta_subtext': 'Tải miễn phí · Premium: theo tháng hoặc mua một lần · Không cần tài khoản',
  'creator_promise': 'Tôi tạo ra 5cut vì tôi đã nghe đi nghe lại những bài giảng dài bằng tiếng nước ngoài. Các khoảng lặng chiếm nhiều thời '
                     'gian học của tôi. Dịch và cắt khoảng lặng trên thiết bị đã thay đổi cách tôi học. Bản ghi của tôi không bao giờ rời '
                     'khỏi iPhone.',

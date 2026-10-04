@@ -17,14 +17,14 @@ HOME = {'dir': 'fr',
  'subhead_features': 'Enregistrez vos cours, supprimez les silences, transcrivez en 30+ langues, traduisez en direct et exportez des notes '
                      'd’étude. Tout se passe sur votre iPhone.',
  'proof1': 'Aucun serveur 5cut',
- 'proof2': '5 exports gratuits par mois',
+ 'proof2': 'Enregistrer dans 5cut : transcription complète gratuite',
  'proof3': 'Sans compte',
  'stat1_value': '5 exports gratuits',
  'stat1_label': 'chaque mois',
  'cta_pill1': '5 exports gratuits par mois',
  'cta_pill2': '5 exports gratuits/mois',
  'cta_pill3': 'Sans compte',
- 'cta_subtext': 'Téléchargement gratuit · 5 exports gratuits par mois · Sans compte',
+ 'cta_subtext': 'Téléchargement gratuit · Premium : mensuel ou achat unique · Sans compte',
  'creator_promise': 'J’ai créé 5cut parce que j’écoutais encore et encore de longs cours dans une langue étrangère. Les pauses prenaient '
                     'beaucoup de mon temps d’étude. La traduction et la suppression des silences sur l’appareil ont changé ma façon '
                     'd’apprendre. Mes enregistrements ne quittent jamais mon iPhone.',

@@ -17,14 +17,14 @@ HOME = {'dir': 'it',
  'subhead_features': 'Registra le lezioni, taglia i silenzi, trascrivi in oltre 30 lingue, traduci dal vivo ed esporta appunti di studio. '
                      'Tutto avviene sul tuo iPhone.',
  'proof1': 'Nessun server 5cut',
- 'proof2': '5 esportazioni gratuite al mese',
+ 'proof2': 'Registra in 5cut: trascrizione completa gratis',
  'proof3': 'Nessun account',
  'stat1_value': '5 esportazioni gratuite',
  'stat1_label': 'ogni mese',
  'cta_pill1': '5 esportazioni gratuite al mese',
  'cta_pill2': '5 esportazioni gratuite/mese',
  'cta_pill3': 'Nessun account',
- 'cta_subtext': 'Download gratuito · 5 esportazioni gratuite al mese · Nessun account',
+ 'cta_subtext': 'Download gratuito · Premium: mensile o acquisto unico · Nessun account',
  'creator_promise': 'Ho creato 5cut perché riascoltavo più volte lunghe lezioni in una lingua straniera. Le pause occupavano molto del mio '
                     'tempo di studio. La traduzione e la rimozione dei silenzi sul dispositivo hanno cambiato il mio modo di imparare. Le '
                     'mie registrazioni non lasciano mai il mio iPhone.',
