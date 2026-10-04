@@ -31,6 +31,8 @@ html_template = """<!DOCTYPE html>
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "5cut",
+        "alternateName": "5cut app",
+        "publisher": {{ "@id": "https://get5cut.com/#organization" }},
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
         "description": "{description}",
@@ -49,6 +51,30 @@ html_template = """<!DOCTYPE html>
             "price": "0",
             "priceCurrency": "USD"
         }}
+    }}
+    </script>
+    <script type="application/ld+json">
+    {{
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://get5cut.com/#organization",
+        "name": "5cut",
+        "alternateName": ["5cut app", "5 cut"],
+        "url": "https://get5cut.com/",
+        "logo": "https://get5cut.com/apple-touch-icon.png",
+        "email": "support@get5cut.com",
+        "sameAs": ["https://apps.apple.com/app/5cut/id6758529319"]
+    }}
+    </script>
+    <script type="application/ld+json">
+    {{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "5cut",
+        "alternateName": ["5cut app", "get5cut"],
+        "url": "https://get5cut.com/",
+        "inLanguage": "{lang_code}",
+        "publisher": {{ "@id": "https://get5cut.com/#organization" }}
     }}
     </script>
     <style>
