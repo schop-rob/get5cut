@@ -6,285 +6,393 @@
 HOME = {'dir': '.',
  'lang_code': 'en',
  'title': '5cut – Record & Trim Lectures, Export Study Notes | iOS App',
- 'description': 'Record lectures in any language on your iPhone. 5cut removes silence, transcribes and live-translates in 30+ languages, '
-                'and exports clean study notes to Anki, Notion, and Obsidian. Private, on-device.',
+ 'description': 'Record lectures on your iPhone. 5cut cuts the silence, transcribes in 30+ languages, translates live and exports study notes to '
+                'Anki, Notion and Obsidian.',
  'og_title': '5cut – Record & Trim Lectures, Export Study Notes',
- 'og_description': 'Record lectures. Trim silence. Translate live. Get a clean transcript and study notes. Private on iPhone.',
+ 'og_description': 'Record lectures. Cut the silence. Translate live. Get a transcript and study notes. Your recordings never leave your '
+                   'iPhone.',
  'brand': '5cut',
  'brand_suffix': ' — AI Lecture Recorder & Silence Trimmer',
- 'tagline': 'Keep up with lectures — in your language, at your pace.',
- 'subhead_features': 'Record lectures, trim silence automatically, translate live in 30+ languages, and export study notes on-device.',
+ 'tagline': 'Follow every lecture in your language, at your speed.',
+ 'subhead_features': 'Record lectures, cut the silence, transcribe in 30+ languages, translate live and export study notes. All of it '
+                     'happens on your iPhone.',
  'proof1': 'No 5cut server',
- 'proof2': '5 exports/month free',
- 'proof3': 'No account required',
+ 'proof2': '5 free exports each month',
+ 'proof3': 'No account',
  'stat1_value': '5 free exports',
  'stat1_label': 'every month',
- 'cta_pill1': '5 free exports a month',
- 'cta_pill2': '5 Free Exports/Mo',
- 'cta_pill3': 'No Account Required',
- 'cta_subtext': 'Free download · 5 exports/month free · No account',
- 'creator_promise': 'I built 5cut because re-listening to long, pause-filled lectures in a foreign language was eating up my study time. '
-                    'On-device translation and silence-trimming changed how I learn, and everything stays on the phone — my coursework '
-                    'never leaves it.',
+ 'cta_pill1': '5 free exports each month',
+ 'cta_pill2': '5 Free Exports/Month',
+ 'cta_pill3': 'No Account',
+ 'cta_subtext': 'Free download · 5 free exports each month · No account',
+ 'creator_promise': 'I made 5cut because I listened to long lectures in a foreign language again and again. The pauses took a lot of my '
+                    'study time. Translation and silence removal on the device changed how I learn. My recordings never leave my iPhone.',
  'creator_signature': 'Creator of 5cut',
- 'feat1_title': 'In-App Recorder & Bookmarks',
- 'feat1_desc': 'Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording so important moments '
-               'are easier to find later.',
+ 'feat1_title': 'Recorder with Chapter Bookmarks',
+ 'feat1_desc': 'Record lectures, meetings and interviews in the app. Tap to add a chapter bookmark while you record. Later, the bookmark '
+               'takes you to that moment.',
  'feat2_title': 'Smart Silence Removal',
- 'feat2_desc': 'Automatically detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or '
-               'customize thresholds manually.',
- 'feat3_title': 'On-Device Translation & AI summaries',
- 'feat3_desc': 'Follow lectures in your native tongue with live translation. Premium users on iOS 26+ can generate AI summaries, key '
-               'points, and study questions using on-device models after the required model and language downloads.',
+ 'feat2_desc': '5cut finds the silence in lectures and podcasts and cuts it. Choose Gentle, Moderate or Aggressive, or set the threshold '
+               'yourself.',
+ 'feat3_title': 'On-Device Translation & AI Summaries',
+ 'feat3_desc': 'Read the lecture in your language with live translation. With Premium, 5cut also makes AI summaries, key points and '
+               'flashcards on your iPhone. For this, it uses Apple Intelligence or an AI model that you download one time.',
  'feat4_title': 'Export to Notion, Anki & Obsidian',
- 'feat4_desc': 'Export your trimmed transcripts with speaker labels directly to your favorite study tools, including Obsidian and '
-               'auto-generated Anki study cards.',
- 'feat5_title': 'Multi-Speaker Identification (Premium)',
- 'feat5_desc': 'Automatically identify up to 4 speakers in a single recording with color-coded, renamable labels — perfect for group '
-               'discussions and seminars.',
+ 'feat4_desc': 'Send the transcript and your notes to Apple Notes, Markdown, Anki, Notion or Obsidian. 5cut also makes Anki study cards '
+               'from the transcript.',
+ 'feat5_title': 'Speaker Identification (Premium)',
+ 'feat5_desc': '5cut finds up to 4 speakers in one recording. Each speaker gets a color and a name that you can change. This helps with '
+               'seminars and group discussions.',
  'how_it_works': 'How it works',
- 'step1': '<strong>Record or Import</strong> any audio or video directly on your iPhone',
- 'step2': '<strong>Auto-detect silence</strong> — see speech in green and gaps in red',
- 'step3': '<strong>Translate & summarize</strong> on-device using local AI models (AI summaries require Premium and iOS 26+)',
- 'step4': '<strong>Export to study tools</strong> — send clean files to Anki, Notion, or Obsidian',
- 'privacy_title': 'No 5cut Server. No Cloud Copy.',
- 'privacy_desc': 'Your recordings never leave your device. Every transcript is generated on your iPhone — there is no 5cut server, no '
-                 'cloud processing, and no third-party transcription service. No account, no analytics, no ads.',
- 'perfect_for': 'Perfect for',
- 'perfect_for_desc1': 'International students attending lectures in a second language, study abroad participants, and expats watching '
-                      'local media. Also perfect for professionals who want to skip awkward pauses in Zoom recordings or speed up '
-                      'podcasts.',
- 'perfect_for_desc2': 'Need live translations? 5cut transcribes and translates lectures in 30+ languages, with downloaded on-device '
-                      'engines available for offline use.',
+ 'step1': '<strong>Record or import</strong> audio or video on your iPhone.',
+ 'step2': '<strong>Cut the silence</strong>. 5cut shows speech in green and silence in red.',
+ 'step3': '<strong>Transcribe and translate</strong> on your iPhone. With Premium, 5cut also makes AI summaries.',
+ 'step4': '<strong>Export to your study tools</strong>: Anki, Notion, Obsidian or Apple Notes.',
+ 'privacy_title': 'Your recordings never leave your iPhone',
+ 'privacy_desc': '5cut cuts, transcribes and makes notes on the device. There is no 5cut server. Test it yourself: download a '
+                 'transcription model one time, then turn on Airplane Mode. 5cut works the same. The app has no account, no analytics '
+                 'and no ads.',
+ 'perfect_for': 'Made for',
+ 'perfect_for_desc1': '5cut is for international students who attend lectures in a second language, and for students who study abroad. '
+                      'It also helps professionals who want shorter Zoom recordings and podcasts without long pauses.',
+ 'perfect_for_desc2': 'Do you need live translation? 5cut transcribes lectures in more than 30 languages and translates them live. Each '
+                      'engine downloads its model one time and then works offline.',
  'faq': 'Frequently asked questions',
  'faq_items': [{'q': 'How does silence detection work?',
-                'a': '5cut analyzes the audio waveform of your video on-device. Segments below the silence threshold are color-coded red. '
-                     'You can drag a slider to adjust what counts as "silence," or use one of three Smart Mode presets.'},
+                'a': '5cut measures the loudness of each recording on your iPhone. It sets a threshold between the background noise and '
+                     'the voice. A small voice detector in the app also marks where someone speaks. 5cut shows the silence in red. You '
+                     'can move the threshold or choose Gentle, Moderate or Aggressive.'},
+               {'q': 'Does 5cut cut background noise?',
+                'a': 'Yes, but only between the words. A small voice detector in the app marks where someone speaks. 5cut cuts the parts '
+                     'where nobody speaks, also when they are loud, for example traffic or a train. 5cut does not filter the noise under '
+                     'a voice. When someone speaks, the background noise stays. '
+                     '<a href="/cut-background-noise-from-recordings/">Read more about noisy recordings</a>.'},
                {'q': 'Can I add subtitles and translations to lectures?',
-                'a': 'Yes. 5cut includes transcription and live translation supporting over 30 languages. You can burn subtitles into the '
-                     'video or export an SRT file. Offline availability depends on the selected engine, language, and required model '
-                     'download.'},
+                'a': 'Yes. 5cut transcribes in more than 30 languages and can translate the transcript. You can burn the subtitles into '
+                     'the video or export an SRT file. The languages depend on the engine that you choose.'},
                {'q': 'Does it work with Zoom and online course recordings?',
-                'a': 'Yes. Import any MP4, MOV, or HEVC video. 5cut works with Zoom recordings, Microsoft Teams meetings, screen '
-                     'recordings, and any video file with an audio track.'},
+                'a': 'Yes. Import an MP4, MOV or HEVC video. 5cut works with Zoom and Microsoft Teams recordings, screen recordings and '
+                     'any video file with an audio track. You can also import audio files.'},
                {'q': 'Can I process a whole semester of lectures at once?',
-                'a': 'Yes. You can queue up multiple recordings and process them with individual or shared settings.'},
+                'a': 'Yes. Add many recordings to one batch, with the same settings for all or with settings for each video. 5cut '
+                     'processes them one after the other. Keep 5cut open while the batch runs. In the free version, each export from a '
+                     'batch counts toward the 5 free exports each month.'},
+               {'q': 'Can I search my old lectures?',
+                'a': 'Yes. In Recents, search finds your lectures by title. With Premium, search also finds words in every line of every '
+                     'saved transcript. Tap a result, and 5cut opens the lecture at that moment.'},
                {'q': 'Is my data private?',
-                'a': 'Your recordings never leave your device. 5cut has no server and no account system, so there is nothing for us to '
-                     'see, hear, or store, and no third party receives your audio either. Every transcription engine runs on the device; '
-                     'models download once, then work offline.'},
+                'a': 'Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut '
+                     'server. Test it yourself: download a transcription model one time, then turn on Airplane Mode. 5cut works the '
+                     'same.'},
+               {'q': 'Can I check that my recordings stay on my iPhone?',
+                'a': 'Yes. Download a transcription model one time. Turn on Airplane Mode. Then record and transcribe a lecture. 5cut '
+                     'works the same, because it sends your recordings nowhere. There is no 5cut server that can receive them.'},
                {'q': 'Is there a premium plan?',
-                'a': 'Yes. Recording, silence removal, and transcript previews (up to 5 minutes) are free. You can upgrade to 5cut Premium '
-                     'for unlimited exports, speaker identification, full-length transcripts, and AI summaries on iOS 26+. Premium is a '
-                     'monthly subscription or a one-time lifetime purchase — prices are shown in the App Store and adjusted for your '
-                     'region.'},
+                'a': 'Yes. The free version includes the recorder, silence removal and 5 exports each month. Recordings that you make '
+                     'in 5cut get a full transcript. Imported files get a transcript of the first 5 minutes. Premium adds unlimited '
+                     'exports without a watermark, full transcripts of imported files, speaker identification, AI notes and flashcards, '
+                     'and search in all transcripts. Premium is a monthly subscription or a one-time lifetime purchase, and the App '
+                     'Store shows the price for your region.'},
                {'q': 'What languages is the app available in?',
-                'a': 'The app interface is available in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), '
-                     'Vietnamese, and Simplified Chinese.'}],
+                'a': 'The app interface is in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), '
+                     'Vietnamese and Simplified Chinese. Transcription works in more than 30 languages.'}],
  'footer_use_cases': 'Use Cases',
  'footer_alternatives': 'Alternatives',
  'footer_legal': 'Legal & Support',
  'footer_study_fields': 'By Field of Study',
- 'hero_note_desc': 'Record, trim, transcribe, translate, and export — entirely on your iPhone. Your recordings never leave it.'}
+ 'hero_note_desc': 'Record, cut, transcribe, translate and export on your iPhone. Your recordings never leave it.',
+ "footer_zoom": "Zoom Recordings",
+ "footer_obs": "OBS & Twitch VODs",
+ "footer_lectures": "University Lectures",
+ "footer_podcasts": "Podcasts",
+ "footer_jumpcut": "Jumpcut App",
+ "footer_editor": "Smartphone Editor",
+ "footer_timebolt": "TimeBolt Alternative",
+ "footer_otter": "Otter.ai Alternative",
+ "footer_medical": "Medical School Lectures",
+ "footer_law": "Law School Recordings",
+ "footer_support": "Support & Contact",
+ "footer_privacy": "Privacy Policy",
+ "footer_terms": "Terms of Service",
+ "footer_noise": "Background Noise",
+ "alt_icon": "5cut app icon",
+ "alt_badge": "Download 5cut on the App Store",
+ "alt_recorder": "5cut recorder screen",
+ "alt_transcript": "5cut transcript screen",
+ "alt_editor": "5cut silence cutting editor",
+ "aria_screens": "5cut iPhone screenshots of the recorder, the editor and the transcript"
+}
 
-PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Remove Dead Air | 5cut',
-                              'desc': 'Remove awkward pauses and dead air from Zoom, Teams, and online course recordings. On-device '
-                                      'processing for iOS.',
+PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Cut Silence and Dead Air | 5cut',
+                              'desc': 'Cut the silence and long pauses from Zoom, Teams and online course recordings on your iPhone. '
+                                      'The speech stays at normal speed.',
                               'h1': 'Speed Up Zoom Recordings',
-                              'tagline': 'Cut out the dead air automatically.',
-                              'intro': '<p>Long Zoom lectures often include dead air while the professor fixes a microphone or waits for '
-                                       'students to answer. 5cut detects those quiet stretches so you can review the recording without '
-                                       'speeding up speech.</p>'},
- 'study-abroad': {'title': 'Essential Apps for Studying Abroad – Tools for Foreign Language Lectures | 5cut',
-                  'desc': 'Essential iPhone app for international students. Remove silence from foreign language lectures, add subtitles '
-                          'in 30+ languages, identify speakers.',
-                  'h1': 'Essential Tool for Studying Abroad',
-                  'tagline': 'Record, translate, and conquer your courses.',
-                  'intro': '<p>Studying abroad is challenging, especially when lectures are in a foreign language. Record your lectures '
-                           'with 5cut, generate transcripts in over 30 languages, and, with Premium on iOS 26+, create AI study notes on '
-                           'your iPhone.</p>'},
- 'transcribe-lectures': {'title': 'Transcribe Lectures on iPhone – Subtitles in 30+ Languages | 5cut',
-                         'desc': 'Generate subtitles for lecture recordings in over 30 languages. On-device transcription — no uploads, no '
-                                 'cloud.',
+                              'tagline': 'Cut the silence, keep the speech.',
+                              'intro': '<p>Long Zoom lectures have silent parts. The professor has a problem with the microphone, or '
+                                       'waits for answers from students. 5cut finds these silent parts and cuts them. The speech stays at '
+                                       'normal speed, so you review the lecture in less time.</p>'},
+ 'study-abroad': {'title': 'Study Abroad App for Foreign-Language Lectures | 5cut',
+                  'desc': 'An iPhone app for international students. Record lectures in a foreign language, cut the silence, transcribe '
+                          'in 30+ languages and translate live.',
+                  'h1': 'Your Lecture App for Study Abroad',
+                  'tagline': 'Record the lecture. Read it in your language.',
+                  'intro': '<p>Lectures in a foreign language are hard to follow. Record each lecture with 5cut. 5cut transcribes it in '
+                           'more than 30 languages and can translate it live. With Premium, 5cut also makes AI study notes on your '
+                           'iPhone.</p>\n'
+                           '<p>5cut also cuts the silence from each recording, so you review the lecture in less time. Your recordings '
+                           'never leave your iPhone.</p>',
+                  'faq': [{'q': 'Can 5cut translate a lecture while I listen?',
+                           'a': 'Yes. Turn on live translation in the recorder. 5cut shows the translated text while it records. The '
+                                'translation uses Apple Translation on your iPhone and needs iOS 18 or later.'},
+                          {'q': 'Which languages can 5cut transcribe?',
+                           'a': 'More than 30 languages. The list depends on the engine. Apple SpeechAnalyzer (iOS 26 or later) and '
+                                'WhisperKit cover the most languages. Parakeet Ultra covers 25 European languages.'},
+                          {'q': 'Can I follow a lecture without a recording?',
+                           'a': 'Yes. On iOS 26 or later, Live Captions shows a live transcript and a translation. 5cut saves no audio, '
+                                'and the captions disappear after about one minute. Live Captions is free.'},
+                          {'q': 'Is 5cut free for students?',
+                           'a': 'You can start for free. The free version includes the recorder, silence removal, full transcripts of '
+                                'your own recordings and 5 exports each month. Premium adds more, for example full transcripts of '
+                                'imported files and AI notes.'}]},
+ 'transcribe-lectures': {'title': 'Transcribe Lectures on iPhone – Subtitles, 30+ Languages | 5cut',
+                         'desc': 'Transcribe lecture recordings on your iPhone in more than 30 languages and export subtitles as SRT. '
+                                 'Every engine runs on the device.',
                          'h1': 'Transcribe Lectures on iPhone',
-                         'tagline': 'On-device, private, and fast.',
-                         'intro': '<p>Stop manually typing out lecture notes. With 5cut, you can generate lecture transcripts on your '
-                                  'iPhone and, with Premium on iOS 26+, create AI summaries. Your recordings never leave your device; 5cut '
-                                  'has no server of your recordings; downloaded on-device engines are available for offline '
-                                  'transcription.</p>'},
+                         'tagline': 'Your lecture as text, made on your iPhone.',
+                         'intro': '<p>Do not type your lecture notes by hand. 5cut makes a transcript of each lecture recording on your '
+                                  'iPhone. With Premium, 5cut also makes AI summaries.</p>\n'
+                                  '<p>Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. '
+                                  'There is no 5cut server. Each engine downloads its model one time and then works offline.</p>',
+                         'faq': [{'q': 'Is lecture transcription free?',
+                                  'a': 'Recordings that you make in 5cut get a full transcript for free. For imported files, the free '
+                                       'version transcribes the first 5 minutes. Premium transcribes imported files of any length.'},
+                                 {'q': 'Which engine do I choose?',
+                                  'a': 'It depends on the language. Parakeet Ultra covers 25 European languages and finds the language '
+                                       'itself. Apple SpeechAnalyzer (iOS 26 or later) and WhisperKit cover the most languages. Parakeet '
+                                       'Lite and Moonshine are smaller English engines for older iPhones.'},
+                                 {'q': 'Can I export the transcript as subtitles?',
+                                  'a': 'Yes. Export an SRT file, or burn the subtitles into the video. You can also send the transcript '
+                                       'to Apple Notes, Markdown, Anki, Notion or Obsidian.'},
+                                 {'q': 'Does transcription work without a connection?',
+                                  'a': 'Yes, after a one-time download. Each engine downloads its model the first time you use it. '
+                                       'Then turn on Airplane Mode. 5cut transcribes the same.'}]},
  'remove-silence-from-lectures': {'title': 'Remove Silence from Lecture Recordings – 5cut for iOS',
-                                  'desc': 'Automatically detect and remove silence and dead air from recorded university lectures while '
-                                          'keeping speech at natural speed.',
+                                  'desc': 'Cut the silence and dead air from recorded university lectures on your iPhone. The speech stays '
+                                          'at normal speed. Your recordings never leave your iPhone.',
                                   'h1': 'Remove Silence from Lectures',
-                                  'tagline': 'Review the lecture, not the dead air.',
-                                  'intro': '<p>Recorded lectures can contain silent gaps while professors pause, write on the board, or '
-                                           'wait for responses. 5cut detects those quiet stretches and lets you remove them while keeping '
-                                           'speech at natural speed.</p>'},
- 'podcast-silence-remover': {'title': 'Remove Silence from Podcasts on iPhone – Edit Podcast Audio | 5cut',
-                             'desc': 'Tighten podcast episodes by removing dead air and awkward pauses. On-device processing on iPhone.',
+                                  'tagline': 'Review the lecture, not the silence.',
+                                  'intro': '<p>Lecture recordings have silent parts. The professor writes on the board, changes the slide '
+                                           'or waits for answers. 5cut finds these silent parts and cuts them. The speech stays at normal '
+                                           'speed.</p>\n'
+                                           '<h2>How 5cut finds the silence</h2>\n'
+                                           '<p>5cut measures the loudness of each recording. It sets its threshold between the background '
+                                           'noise and the voice. A small voice detector in the app marks where someone speaks, so 5cut also '
+                                           'cuts loud parts without a voice. Short pauses stay, so the speech sounds natural. Read more '
+                                           'about <a href="/cut-background-noise-from-recordings/">noisy recordings</a>.</p>\n'
+                                           '<h2>Gentle, Moderate or Aggressive</h2>\n'
+                                           '<p>You choose how much 5cut cuts. Gentle cuts only long pauses. Aggressive cuts most of them. On '
+                                           'a typical phone recording, Gentle keeps about 80% of the time, Moderate about 70% and Aggressive '
+                                           'about 60%. A dense lecture keeps more, because it has fewer pauses.</p>',
+                                  'faq': [{'q': 'Does 5cut make the speech faster?',
+                                           'a': 'No. 5cut cuts the silence and keeps the speech at normal speed. You can also change the '
+                                                'Playback Speed in Advanced Settings.'},
+                                          {'q': 'How much time does 5cut save?',
+                                           'a': 'It depends on the lecture. On a typical phone recording, Moderate keeps about 70% of the '
+                                                'time. A dense lecture with few pauses keeps more.'},
+                                          {'q': 'Can I undo a cut?',
+                                           'a': 'Yes. 5cut does not change your original file. Move the threshold or choose another '
+                                                'intensity, and 5cut shows the new result.'},
+                                          {'q': 'Does silence removal work offline?',
+                                           'a': 'Yes. Silence removal needs no download. The voice detector is in the app, so it also '
+                                                'works in Airplane Mode.'}]},
+ 'podcast-silence-remover': {'title': 'Podcast Silence Remover for iPhone – Edit Podcast Audio | 5cut',
+                             'desc': 'Cut the silence and long pauses from podcast episodes on your iPhone. 5cut finds them on the device, '
+                                     'and the speech stays at normal speed.',
                              'h1': 'Remove Silence from Podcasts',
-                             'tagline': 'Tighten your podcast episodes effortlessly.',
-                             'intro': "<p>Dead air kills pacing. Whether you're editing your own podcast or listening to one, those 2–3 "
-                                      'second pauses between sentences add up fast. A 45-minute episode might have 8–10 minutes of '
-                                      'silence. 5cut removes it in one tap directly on your iPhone.</p>'},
+                             'tagline': 'Shorter podcast episodes, without long pauses.',
+                             'intro': '<p>Long pauses make a podcast slow. Many short pauses between sentences also take time. 5cut finds '
+                                      'the silence on your iPhone and cuts it, in your own podcast or in an episode that you import. The '
+                                      'result depends on the recording. On a typical phone recording, Moderate keeps about 70% of the '
+                                      'time.</p>'},
  'use-cases/remove-silence-from-zoom': {'title': 'How to Remove Silence from Zoom Recordings Automatically | 5cut',
-                                        'desc': 'Learn how to instantly cut silence from long Zoom meeting recordings using 5cut on your '
-                                                'iPhone and iPad.',
+                                        'desc': 'Cut the silence from long Zoom meeting recordings on your iPhone and iPad. 5cut finds the '
+                                                'pauses on the device and keeps the speech.',
                                         'h1': 'Remove Silence from Zoom Meetings',
-                                        'tagline': 'Get straight to the point.',
-                                        'intro': '<p>Zoom recordings are full of awkward pauses, waiting for attendees to join, and '
-                                                 "microphone troubleshooting. 5cut's intelligent audio analysis instantly trims away the "
-                                                 'silent gaps in your imported Zoom MP4 or MOV files, giving you a dense, actionable '
-                                                 'recording.</p>'},
+                                        'tagline': 'Hear only the parts where people speak.',
+                                        'intro': '<p>Zoom recordings have long pauses. People wait for others to join, or they have problems '
+                                                 'with the microphone. 5cut finds these silent parts in your Zoom MP4 or MOV file and cuts '
+                                                 'them. The result is a shorter recording.</p>\n'
+                                                 '<ol>\n'
+                                                 '    <li>Save the Zoom recording to Files or Photos on your iPhone.</li>\n'
+                                                 '    <li>In 5cut, tap Import or Record.</li>\n'
+                                                 '    <li>Choose From Files or From Photos, and select the recording.</li>\n'
+                                                 '    <li>Choose Gentle, Moderate or Aggressive.</li>\n'
+                                                 '    <li>Export the shorter video.</li>\n'
+                                                 '</ol>'},
  'use-cases/remove-silence-from-obs': {'title': 'Remove Silence from OBS Streams & Recordings | 5cut',
-                                       'desc': 'Edit your OBS Studio VODs faster. Automatically cut silence from your recordings on your '
-                                               'iPhone.',
+                                       'desc': 'Edit your OBS Studio recordings in less time. Move them to your iPhone, and 5cut cuts the '
+                                               'silence on the device.',
                                        'h1': 'Remove Silence from OBS VODs',
-                                       'tagline': 'Speed up your editing workflow.',
-                                       'intro': '<p>Streaming VODs recorded via OBS Studio often contain long stretches of silence during '
-                                                'breaks or matchmaking queues. Transfer your OBS files to your iPhone and let 5cut '
-                                                'automatically trim the dead air so your YouTube highlights are ready to post faster.</p>'},
- 'alternatives/timebolt-alternative': {'title': 'The Best Free Mobile TimeBolt Alternative for iOS | 5cut',
-                                       'desc': 'Looking for a mobile TimeBolt alternative? 5cut offers free automatic silence removal and '
-                                               'on-device transcription previews on iPhone, with speaker identification in Premium.',
-                                       'h1': 'The Best Mobile TimeBolt Alternative',
-                                       'tagline': 'Remove silence automatically from your iPhone or iPad.',
-                                       'intro': '<p>TimeBolt is a desktop tool for PC and Mac users. 5cut is a mobile alternative for '
-                                                'editing video directly on an iPhone. Silence removal runs on-device, and downloaded '
-                                                'transcription engines are available for offline use. Your recordings never leave your '
-                                                'device; 5cut has no server of your recordings.</p>'},
+                                       'tagline': 'Edit your stream recordings in less time.',
+                                       'intro': '<p>Stream recordings from OBS Studio often have long silent parts, for example during '
+                                                'breaks or while you wait for a match. Move your OBS files to your iPhone. 5cut cuts the '
+                                                'silence, so your YouTube highlights are ready sooner.</p>'},
+ 'alternatives/timebolt-alternative': {'title': 'Free Mobile TimeBolt Alternative for iPhone | 5cut',
+                                       'desc': 'A mobile TimeBolt alternative: 5cut cuts silence on iPhone for free and transcribes on the '
+                                               'device. Speaker identification comes with Premium.',
+                                       'h1': 'A Mobile TimeBolt Alternative',
+                                       'tagline': 'Cut the silence on your iPhone or iPad.',
+                                       'intro': '<p>TimeBolt is a desktop tool for PC and Mac. 5cut is a mobile alternative that edits '
+                                                'video on your iPhone. 5cut cuts the silence on the device. Its transcription engines '
+                                                'download one time and then work offline.</p>\n'
+                                                '<p>Your recordings never leave your iPhone. There is no 5cut server.</p>'},
  'free-jumpcut-app': {'title': 'Free Jumpcut App for iPhone – Auto Silence Remover | 5cut',
-                      'desc': 'Download a jumpcut app for iOS. Automatically remove silence from videos, add subtitles, and export '
-                              'directly from your iPhone.',
+                      'desc': 'A jumpcut app for iOS. 5cut cuts the silence from your videos, adds subtitles and exports from your '
+                              'iPhone. 5 free exports each month.',
                       'h1': 'Free Jumpcut App for iPhone',
-                      'tagline': 'Automatically cut silence on iPhone.',
-                      'intro': '<p>Looking for a fast, automated jumpcutter? 5cut trims dead air from talking-head videos and vlogs, '
-                               'creates subtitles, and keeps processing on your iPhone.</p>'},
+                      'tagline': 'Cut the silence on your iPhone, automatically.',
+                      'intro': '<p>Do you want an automatic jumpcut tool? 5cut cuts the silence from talking-head videos and vlogs and '
+                               'makes subtitles. All of this happens on your iPhone. The free version gives you 5 exports each month, '
+                               'with a small watermark.</p>'},
  'smartphone-video-editor': {'title': 'Smartphone Video Editor for Talking Heads – AI Editor | 5cut',
-                             'desc': 'Edit videos directly on your smartphone. The best iPhone editor for talking heads, vlogs, and '
-                                     'TikToks. Record, cut silence, and export on-device.',
+                             'desc': 'Edit talking-head videos, vlogs and TikToks on your iPhone. 5cut cuts the silence, adds subtitles '
+                                     'and exports on the device.',
                              'h1': 'Smartphone Video Editor for Talking Heads',
-                             'tagline': 'Record and edit directly on your iPhone.',
-                             'intro': '<p>Transferring large video files to your PC to edit is slow and annoying. 5cut is the ultimate '
-                                      'smartphone video editor for creators. Record your talking head or vlog, let AI automatically remove '
-                                      'the silence, add subtitles, and export directly from your phone in seconds.</p>'},
- 'best-app-for-law-school-recordings': {'desc': 'Condense law school lectures on iPhone. Remove silence, transcribe case discussions, and '
-                                                'export notes. Your recordings never leave your device.',
+                             'tagline': 'Edit talking-head videos on your iPhone.',
+                             'intro': '<p>It is slow to move large video files to a computer and edit them there. With 5cut, you edit on '
+                                      'your iPhone. Film your talking-head video or vlog with the Camera app. Then import it into 5cut. '
+                                      '5cut cuts the silence and adds subtitles. Then export the video from your phone.</p>'},
+ 'best-app-for-law-school-recordings': {'desc': 'Shorter law school lecture recordings on iPhone. Cut the silence, transcribe case '
+                                                'discussions and export notes. Your recordings never leave your iPhone.',
                                         'h1': 'Best App for Law School Recordings',
-                                        'intro': '<p>Law school lectures can contain long pauses while a professor reads from the '
-                                                 'casebook, waits between Socratic questions, or gives students time to find a page.</p>\n'
-                                                 '<p>5cut detects those quiet stretches on your iPhone. Then transcribe the recording, '
-                                                 'identify speakers, and export notes.</p>\n'
-                                                 '<h2>Why law students use 5cut</h2>\n'
+                                        'intro': '<p>Law school lectures can have long pauses. The professor reads from the casebook, waits '
+                                                 'between Socratic questions or gives students time to find a page.</p>\n'
+                                                 '<p>5cut finds these silent parts on your iPhone and cuts them. Then transcribe the '
+                                                 'recording, identify the speakers and export your notes.</p>\n'
+                                                 '<h2>What 5cut does for law students</h2>\n'
                                                  '<ul>\n'
-                                                 '    <li><strong>Trim detected silence</strong> — speech stays at natural speed</li>\n'
-                                                 '    <li><strong>Socratic method tracking</strong> — speaker identification separates the '
-                                                 'professor from student responses</li>\n'
-                                                 '    <li><strong>Case name search</strong> — transcribe the lecture, then search the text '
-                                                 'for specific case citations</li>\n'
-                                                 '    <li><strong>On-device privacy</strong> — hypothetical client scenarios and case '
-                                                 'discussions stay on your phone</li>\n'
-                                                 "    <li><strong>Exam prep</strong> — batch-process a semester's lectures before "
-                                                 'finals</li>\n'
+                                                 '    <li><strong>Cut the silence</strong>: the speech stays at normal speed.</li>\n'
+                                                 '    <li><strong>Follow the Socratic method</strong>: with Premium, speaker identification '
+                                                 'separates the professor from the students.</li>\n'
+                                                 '    <li><strong>Find case names</strong>: transcribe the lecture, then search the '
+                                                 'transcript for a case citation.</li>\n'
+                                                 '    <li><strong>Keep discussions private</strong>: hypothetical client cases and case '
+                                                 'discussions stay on your iPhone.</li>\n'
+                                                 '    <li><strong>Prepare for exams</strong>: process the lectures of a semester in one '
+                                                 'batch before finals.</li>\n'
                                                  '</ul>\n'
                                                  '<h2>The Socratic method problem</h2>\n'
-                                                 '<p>In law school, the most important content is often buried in dialogue. The professor '
-                                                 "asks a question, waits 10 seconds, a student responds, there's a 5-second pause, then "
-                                                 'the professor unpacks the legal principle.</p>\n'
-                                                 "<p>5cut's adjustable threshold lets you keep brief dramatic pauses while cutting the "
-                                                 'longer dead air. You control exactly how aggressive the trimming is.</p>\n'
+                                                 '<p>In law school, the most important content often comes in dialogue. The professor asks a '
+                                                 'question and waits 10 seconds. A student answers, and there is a 5-second pause. Then the '
+                                                 'professor explains the legal principle.</p>\n'
+                                                 '<p>5cut leaves short pauses alone and cuts the long ones. You choose how much it cuts: '
+                                                 'Gentle, Moderate or Aggressive.</p>\n'
                                                  '<h2>The law school workflow</h2>\n'
                                                  '<ol>\n'
-                                                 "    <li><strong>Record in class</strong> — use 5cut's built-in recorder or import from "
-                                                 'Voice Memos</li>\n'
-                                                 '    <li><strong>Auto-trim silence</strong> — Smart Mode "Moderate" works well for '
-                                                 'Socratic-style classes.</li>\n'
-                                                 '    <li><strong>Transcribe</strong> — generate a full transcript with timestamps and '
-                                                 'speaker labels.</li>\n'
-                                                 '    <li><strong>Export</strong> — save trimmed audio for commute listening, or export '
-                                                 'transcript to your outlining tool</li>\n'
+                                                 '    <li><strong>Record in class</strong>: use the recorder in 5cut, or import an audio file '
+                                                 'from Files.</li>\n'
+                                                 '    <li><strong>Cut the silence</strong>: start with Moderate. If 5cut cuts too much, '
+                                                 'choose Gentle.</li>\n'
+                                                 '    <li><strong>Transcribe</strong>: make a full transcript with timestamps. With Premium, '
+                                                 'add speaker labels.</li>\n'
+                                                 '    <li><strong>Export</strong>: save the shorter recording for your trip to campus, or '
+                                                 'send the transcript to your outline tool.</li>\n'
                                                  '</ol>\n'
                                                  '<h2>Privacy and professional responsibility</h2>\n'
-                                                 '<p>Law school classes discuss hypothetical client scenarios, real case facts, and legal '
-                                                 'strategies. 5cut processes everything locally on your iPhone. Your recordings never '
-                                                 'leave your device; every transcription engine runs on the iPhone itself.</p>\n'
+                                                 '<p>Law school classes discuss hypothetical client cases, real case facts and legal '
+                                                 'strategy. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes '
+                                                 'on the device. There is no 5cut server.</p>\n'
                                                  '<h2>Free to start</h2>\n'
-                                                 '<p>5cut is free to download and includes in-app recording, silence removal, and '
-                                                 'transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited '
-                                                 'exports, full-length transcripts, speaker identification, and batch processing.</p>',
-                                        'tagline': 'Remove detected pauses from law-school recordings.',
-                                        'title': 'Best App for Law School Recordings – Trim & Transcribe Lectures | 5cut'},
- 'best-app-for-medical-school-lectures': {'desc': 'Record and condense medical school lectures on iPhone. Remove silence, transcribe in '
-                                                  '30+ languages, export to Anki. On-device processing keeps patient case discussions '
-                                                  'private.',
+                                                 '<p>5cut is free to download. The free version includes the recorder, silence removal and 5 '
+                                                 'exports each month. Recordings that you make in 5cut get a full transcript. Imported files '
+                                                 'get a transcript of the first 5 minutes. Premium adds unlimited exports, full transcripts '
+                                                 'of imported files, speaker identification, AI notes and search in all transcripts.</p>',
+                                        'tagline': 'Cut the pauses from your law school recordings.',
+                                        'title': 'Best App for Law School Recordings – Trim & Transcribe | 5cut'},
+ 'best-app-for-medical-school-lectures': {'desc': 'Record medical school lectures on iPhone. Cut the silence, transcribe in 30+ languages '
+                                                  'and export to Anki. Patient case discussions stay on your iPhone.',
                                           'h1': 'Best App for Medical School Lectures',
-                                          'intro': '<p>Medical lectures can contain long stretches of dead air between explanations, '
-                                                   'demonstrations, and questions.</p>\n'
-                                                   '<p>5cut removes silence from lecture recordings automatically on your iPhone. A 2-hour '
-                                                   'anatomy lecture becomes 80 minutes of actual content. Then you can transcribe it, '
-                                                   'export notes to Anki, and review faster.</p>\n'
-                                                   '<h2>Why med students use 5cut</h2>\n'
+                                          'intro': '<p>Medical lectures can have long silent parts between explanations, demonstrations and '
+                                                   'questions.</p>\n'
+                                                   '<p>5cut cuts the silence from lecture recordings on your iPhone. Then transcribe the '
+                                                   'recording, export notes to Anki and review in less time. A dense lecture has fewer '
+                                                   'pauses, so 5cut cuts less from it.</p>\n'
+                                                   '<h2>What 5cut does for medical students</h2>\n'
                                                    '<ul>\n'
-                                                   '    <li><strong>Review less dead air</strong> — remove detected silence before '
-                                                   'studying</li>\n'
-                                                   '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never '
-                                                   'leave your device; every engine runs on the iPhone itself</li>\n'
-                                                   '    <li><strong>Transcribe in 30+ languages</strong> — international med students can '
-                                                   'generate subtitles in their native language</li>\n'
-                                                   '    <li><strong>Export to Anki</strong> — turn transcribed lecture segments into Q&A '
-                                                   'study cards</li>\n'
-                                                   '    <li><strong>Batch processing</strong> — drop a week of recordings in and process '
-                                                   'them in one batch (keep 5cut open while it runs)</li>\n'
+                                                   '    <li><strong>Less silence to review</strong>: 5cut cuts the silence before you '
+                                                   'study.</li>\n'
+                                                   '    <li><strong>Your recordings stay on your iPhone</strong>: every engine runs on the '
+                                                   'device.</li>\n'
+                                                   '    <li><strong>Transcripts in 30+ languages</strong>: international medical students can '
+                                                   'transcribe the lecture and translate the transcript into their language.</li>\n'
+                                                   '    <li><strong>Export to Anki</strong>: make study cards from the transcript.</li>\n'
+                                                   '    <li><strong>Batches</strong>: add the recordings of one week to a batch and process '
+                                                   'them together. Keep 5cut open while the batch runs.</li>\n'
                                                    '</ul>\n'
                                                    '<h2>Privacy matters in medicine</h2>\n'
-                                                   '<p>Medical lectures often reference patient cases, clinical scenarios, and sensitive '
-                                                   'health information. Cloud-based transcription means uploading those recordings to '
-                                                   "someone else's server. 5cut processes everything on your iPhone — no upload and no "
-                                                   'third-party access, and after a one-time model download it works offline. That matters '
-                                                   'when lectures discuss patient cases.</p>\n'
-                                                   '<h2>The med school workflow</h2>\n'
+                                                   '<p>Medical lectures often discuss patient cases, clinical scenarios and sensitive health '
+                                                   'information. Cloud transcription uploads these recordings to the server of another '
+                                                   'company. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes '
+                                                   'on the device. There is no 5cut server.</p>\n'
+                                                   '<p>Test it yourself: download a transcription model one time, then turn on Airplane Mode. '
+                                                   '5cut works the same.</p>\n'
+                                                   '<h2>The medical school workflow</h2>\n'
                                                    '<ol>\n'
-                                                   "    <li><strong>Record</strong> — use 5cut's built-in recorder during the lecture, or "
-                                                   'import a recording</li>\n'
-                                                   '    <li><strong>Trim silence</strong> — 5cut analyzes the audio and removes dead air '
-                                                   'automatically.</li>\n'
-                                                   '    <li><strong>Transcribe</strong> — generate word-level subtitles. Speaker '
-                                                   'identification separates the professor from student Q&A</li>\n'
-                                                   '    <li><strong>Export</strong> — save the condensed video, export subtitles, or send '
-                                                   'transcript segments to Anki for spaced repetition</li>\n'
+                                                   '    <li><strong>Record</strong>: use the recorder in 5cut during the lecture, or import a '
+                                                   'recording.</li>\n'
+                                                   '    <li><strong>Cut the silence</strong>: 5cut finds the silence and cuts it.</li>\n'
+                                                   '    <li><strong>Transcribe</strong>: make a transcript with timestamps. With Premium, '
+                                                   'speaker identification separates the professor from student questions.</li>\n'
+                                                   '    <li><strong>Export</strong>: save the shorter video, export subtitles, or send the '
+                                                   'transcript to Anki for spaced repetition.</li>\n'
                                                    '</ol>\n'
                                                    '<h2>Anatomy, pharmacology, pathology</h2>\n'
                                                    '<h3>Anatomy lectures</h3>\n'
-                                                   '<p>Long pauses while the professor points at dissection specimens or rotates 3D '
-                                                   'models. These silences are prime candidates for removal.</p>\n'
+                                                   '<p>The professor stops to point at specimens or to turn 3D models. 5cut can cut these '
+                                                   'long pauses.</p>\n'
                                                    '<h3>Pharmacology</h3>\n'
-                                                   '<p>Fast-paced drug mechanism explanations with occasional pauses for slide '
-                                                   "transitions. 5cut's adjustable threshold lets you keep brief natural pauses.</p>\n"
+                                                   '<p>Fast explanations of drug mechanisms, with short pauses at slide changes. 5cut leaves '
+                                                   'short pauses alone, so the speech sounds natural.</p>\n'
                                                    '<h3>Clinical case discussions</h3>\n'
-                                                   '<p>Multiple speakers — attending, residents, students. Speaker identification '
-                                                   'color-codes up to 4 speakers.</p>\n'
+                                                   '<p>Many speakers: attending physicians, residents and students. With Premium, speaker '
+                                                   'identification gives up to 4 speakers a color each.</p>\n'
                                                    '<h2>Free to start</h2>\n'
-                                                   '<p>5cut is free to download and includes in-app recording, silence removal, and '
-                                                   'transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited '
-                                                   'exports, full-length transcripts, speaker identification, and batch processing.</p>',
-                                          'tagline': 'Remove dead air before reviewing an anatomy lecture.',
-                                          'title': 'Best App for Medical School Lectures – Record, Trim & Transcribe | 5cut'},
- 'offline-lecture-transcription-iphone': {'desc': 'Transcribe lecture recordings offline on iPhone. No cloud, no upload — works offline '
-                                                  'after a one-time model download. On-device AI in 30+ languages. Speaker identification. '
-                                                  'Export as SRT or text. Free iOS app.',
+                                                   '<p>5cut is free to download. The free version includes the recorder, silence removal and '
+                                                   '5 exports each month. Recordings that you make in 5cut get a full transcript. Imported '
+                                                   'files get a transcript of the first 5 minutes. Premium adds unlimited exports, full '
+                                                   'transcripts of imported files, speaker identification, AI notes and search in all '
+                                                   'transcripts.</p>',
+                                          'tagline': 'Cut the silence before you review an anatomy lecture.',
+                                          'title': 'Best App for Medical School Lectures – Trim & Transcribe | 5cut',
+                                          'faq': [{'q': 'Can I make Anki cards from a lecture?',
+                                                   'a': 'Yes. Export the transcript to Anki. In the free version, 5cut makes fill-in-the-blank '
+                                                        'cards from sentences of the lecture. With Premium, AI makes flashcards on your '
+                                                        'iPhone.'},
+                                                  {'q': 'How much shorter does a lecture get?',
+                                                   'a': 'It depends on the lecture. A dense lecture has few pauses, so 5cut keeps most of it. '
+                                                        'On a typical phone recording, Gentle keeps about 80% of the time, Moderate about '
+                                                        '70% and Aggressive about 60%.'},
+                                                  {'q': 'Do patient cases in my recordings leave my iPhone?',
+                                                   'a': 'No. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes '
+                                                        'on the device. There is no 5cut server. Always follow the recording rules of your '
+                                                        'school.'},
+                                                  {'q': 'Can I process a week of lectures at once?',
+                                                   'a': 'Yes. Add the recordings of one week to a batch. 5cut processes them one after the '
+                                                        'other. Keep 5cut open while the batch runs.'}]},
+ 'offline-lecture-transcription-iphone': {'desc': 'Transcribe lecture recordings offline on iPhone. Download a model one time, then '
+                                                  'transcribe in Airplane Mode. 30+ languages, SRT export, free app.',
                                           'h1': 'Offline Lecture Transcription on iPhone',
-                                          'intro': '<p>Most transcription apps require internet. You upload your lecture to a server, wait '
-                                                   'for processing, and hope the cloud service handles your data responsibly. With 5cut, '
-                                                   'you can select a downloaded on-device engine for offline transcription. Availability '
-                                                   'depends on the engine, language, device, and initial model download.</p>\n'
+                                          'intro': '<p>Many transcription apps upload your lecture to a server. You wait for the result and '
+                                                   'trust the service with your data. 5cut transcribes on your iPhone. Your recordings never '
+                                                   'leave your iPhone.</p>\n'
                                                    '<h2>How offline transcription works</h2>\n'
-                                                   "<p>5cut uses on-device AI models that run directly on your iPhone's Neural Engine. The "
-                                                   'first time you select a language, the model downloads (typically 40-600 MB depending '
-                                                   'on the engine). After that, transcription works in airplane mode, on the subway, in a '
-                                                   'lecture hall with terrible WiFi — anywhere.</p>\n'
+                                                   '<p>5cut uses AI models that run on the Neural Engine of your iPhone. The first time you '
+                                                   'use an engine, its model downloads one time. The size is from about 40 MB to 1.5 GB, by '
+                                                   'engine. After that, transcription works in Airplane Mode, on the subway or in a lecture '
+                                                   'hall with bad Wi-Fi.</p>\n'
                                                    '<h2>Six transcription engines</h2>\n'
-                                                   '<p>5cut offers multiple AI engines so you can choose the right balance of speed, '
-                                                   'accuracy, and model size:</p>\n'
+                                                   '<p>5cut has six engines. Each engine has a different balance of speed, accuracy and '
+                                                   'model size:</p>\n'
                                                    '<table class="engine-table">\n'
                                                    '    <tr><th>Engine</th><th>Languages</th><th>Model size</th><th>Best for</th></tr>\n'
                                                    '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Built-in</td><td>Quick '
@@ -301,147 +409,218 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Rem
                                                    '    <tr><td>Phonon-2</td><td>English</td><td>~360 MB</td><td>Compact English model '
                                                    'tuned for iPhone, requires iOS 18+</td></tr>\n'
                                                    '</table>\n'
-                                                   "<p>WhisperKit is available for imported files only — it isn't offered in the live "
-                                                   'recorder.</p>\n'
+                                                   '<p>WhisperKit is for imported files only. The live recorder does not offer it.</p>\n'
                                                    '<h2>Why offline matters</h2>\n'
                                                    '<ul>\n'
-                                                   '    <li><strong>Nothing you record leaves your device</strong> — Your recordings never '
-                                                   'leave your device; every engine runs on the iPhone itself</li>\n'
-                                                   '    <li><strong>No data caps</strong> — transcribe hours of recordings without eating '
-                                                   'into your mobile data plan</li>\n'
-                                                   '    <li><strong>Works everywhere</strong> — campus basements, trains, planes, '
-                                                   'libraries with blocked WiFi</li>\n'
-                                                   '    <li><strong>No per-minute costs</strong> — cloud transcription services charge per '
-                                                   'minute. On-device is free after the model download</li>\n'
-                                                   '    <li><strong>Speed</strong> — no upload/download wait. Transcription starts '
-                                                   'immediately</li>\n'
+                                                   '    <li><strong>Your recordings never leave your iPhone</strong>: every engine runs on the '
+                                                   'device.</li>\n'
+                                                   '    <li><strong>No mobile data</strong>: after the model download, hours of transcription '
+                                                   'use no mobile data.</li>\n'
+                                                   '    <li><strong>Works with a bad connection</strong>: in campus basements, on trains, on '
+                                                   'planes and in libraries with blocked Wi-Fi.</li>\n'
+                                                   '    <li><strong>No cost per minute</strong>: many cloud services charge for each minute. '
+                                                   '5cut does not.</li>\n'
+                                                   '    <li><strong>No upload wait</strong>: transcription starts on the iPhone, with no upload '
+                                                   'first.</li>\n'
                                                    '</ul>\n'
                                                    '<h2>Supported languages</h2>\n'
-                                                   '<p>Between all six engines, 5cut supports transcription in over 40 languages. The '
-                                                   'exact list depends on which engine you choose and the language models available for '
-                                                   'your device.</p>\n'
-                                                   '<h2>Beyond transcription: remove silence too</h2>\n'
-                                                   '<p>5cut is primarily a silence removal tool. The typical workflow is:</p>\n'
+                                                   '<p>Together, the six engines transcribe more than 30 languages. The exact list depends on '
+                                                   'the engine and on the language models for your iPhone.</p>\n'
+                                                   '<h2>Remove the silence too</h2>\n'
+                                                   '<p>5cut also cuts the silence. A typical workflow is:</p>\n'
                                                    '<ol>\n'
-                                                   '    <li>Import or record a lecture</li>\n'
-                                                   '    <li>Remove detected silence automatically</li>\n'
-                                                   '    <li>Transcribe the condensed version offline</li>\n'
-                                                   '    <li>Export: video with burned-in subtitles, SRT file, or plain text '
-                                                   'transcript</li>\n'
+                                                   '    <li>Record or import a lecture.</li>\n'
+                                                   '    <li>Cut the silence.</li>\n'
+                                                   '    <li>Transcribe the shorter version offline.</li>\n'
+                                                   '    <li>Export a video with subtitles, an SRT file or a text transcript.</li>\n'
                                                    '</ol>\n'
-                                                   "<p>Silence removal also works fully offline — it's a waveform analysis that never "
-                                                   'needs internet.</p>\n'
+                                                   '<p>Silence removal also works in Airplane Mode. It needs no download, because its voice '
+                                                   'detector is in the app.</p>\n'
                                                    '<h2>Speaker identification</h2>\n'
-                                                   '<p>5cut can identify up to 4 speakers in a recording and color-code them in the '
-                                                   'transcript. This works offline too. Useful for lectures with Q&A, seminars, or group '
-                                                   'presentations.</p>\n'
+                                                   '<p>With Premium, 5cut finds up to 4 speakers in a recording and gives each a color in the '
+                                                   'transcript. The speaker model downloads one time, and then this also works offline. It '
+                                                   'helps with lectures with questions, seminars and group presentations.</p>\n'
                                                    '<h2>Free to start</h2>\n'
-                                                   '<p>5cut is free to download and includes in-app recording, silence removal, and '
-                                                   'transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited '
-                                                   'exports, full-length transcripts, speaker identification, and batch processing.</p>',
-                                          'tagline': 'Transcribe offline on iPhone. No Internet Required.',
-                                          'title': 'Offline Lecture Transcription on iPhone – No Internet Required | 5cut'},
- 'offline-meeting-notes-iphone': {'desc': 'Generate meeting notes and transcripts offline on iPhone. Works offline after a one-time model '
-                                          'download — no cloud, no uploads. Record meetings, identify speakers, and get a full transcript '
-                                          '— all on-device.',
+                                                   '<p>5cut is free to download. The free version includes the recorder, silence removal and '
+                                                   '5 exports each month. Recordings that you make in 5cut get a full transcript. Imported '
+                                                   'files get a transcript of the first 5 minutes. Premium adds unlimited exports, full '
+                                                   'transcripts of imported files, speaker identification, AI notes and search in all '
+                                                   'transcripts.</p>',
+                                          'tagline': 'Download a model one time. Then transcribe in Airplane Mode.',
+                                          'title': 'Offline Lecture Transcription on iPhone – Airplane Mode | 5cut',
+                                          'faq': [{'q': 'Does 5cut need the internet to transcribe?',
+                                                   'a': 'Only for the first model download. Each engine downloads its model the first time '
+                                                        'you use it. After that, transcription works in Airplane Mode.'},
+                                                  {'q': 'How can I check that transcription is offline?',
+                                                   'a': 'Download a transcription model one time. Then turn on Airplane Mode and transcribe '
+                                                        'a recording. 5cut works the same.'},
+                                                  {'q': 'Which engines work offline?',
+                                                   'a': 'All six engines run on the iPhone. Each one works offline after its first download. '
+                                                        'Apple SpeechAnalyzer needs iOS 26 or later and downloads its language files from '
+                                                        'Apple.'},
+                                                  {'q': 'How much storage do the models need?',
+                                                   'a': 'From about 40 MB to 1.5 GB for each engine. You can see and delete each model in '
+                                                        'Settings › Storage.'}]},
+ 'offline-meeting-notes-iphone': {'desc': 'Make meeting notes and transcripts offline on iPhone. Download a model one time, then record '
+                                          'and transcribe in Airplane Mode. No cloud upload.',
                                   'h1': 'Offline Meeting Notes on iPhone',
-                                  'intro': "<p>You need meeting notes, but your company's security policy won't let you use Otter, "
-                                           "Fireflies, or any cloud transcription service. Or you're in a conference room with no WiFi. Or "
-                                           "you simply don't trust a third party with your meeting content.</p>\n"
-                                           '<p>5cut generates meeting transcripts entirely offline on your iPhone. Record, transcribe, '
-                                           'identify speakers — no internet connection required after the initial model download.</p>\n'
+                                  'intro': '<p>You need meeting notes, but the security rules of your company do not permit Otter, '
+                                           'Fireflies or other cloud transcription services. Or the conference room has no Wi-Fi. Or you do '
+                                           'not want to give your meetings to a third party.</p>\n'
+                                           '<p>5cut makes meeting transcripts offline on your iPhone. Record, transcribe and identify the '
+                                           'speakers. After the first model download, all of this works in Airplane Mode.</p>\n'
                                            '<h2>How offline meeting notes work</h2>\n'
                                            '<ol>\n'
-                                           '    <li><strong>Download a language model once</strong> — this is the only step that needs '
-                                           'internet (40-700 MB)</li>\n'
-                                           '    <li><strong>Record the meeting</strong> — tap record. Works in airplane mode, underground, '
-                                           'anywhere</li>\n'
-                                           "    <li><strong>Transcribe on-device</strong> — the AI runs on your iPhone's Neural "
-                                           'Engine.</li>\n'
-                                           '    <li><strong>Speaker separation</strong> — up to 4 speakers are automatically identified '
-                                           'and labeled.</li>\n'
-                                           '    <li><strong>Export</strong> — copy the transcript, share as text, or export with '
-                                           'timestamps</li>\n'
+                                           '    <li><strong>Download a language model one time</strong>: only this step needs the '
+                                           'internet (about 40 MB to 1.5 GB).</li>\n'
+                                           '    <li><strong>Record the meeting</strong>: tap Record. This works in Airplane Mode, '
+                                           'underground and in any other place.</li>\n'
+                                           '    <li><strong>Transcribe on the device</strong>: the AI runs on the Neural Engine of your '
+                                           'iPhone.</li>\n'
+                                           '    <li><strong>Separate the speakers</strong>: with Premium, 5cut finds up to 4 speakers and '
+                                           'labels them.</li>\n'
+                                           '    <li><strong>Export</strong>: copy the transcript, share it as text, or export it with '
+                                           'timestamps.</li>\n'
                                            '</ol>\n'
-                                           '<h2>Why go offline for meeting notes</h2>\n'
-                                           '<h3>Corporate security policies</h3>\n'
-                                           '<p>Many companies prohibit uploading internal discussions to third-party services. Your '
-                                           'recordings never leave your device, and every transcription engine runs on the iPhone itself, '
-                                           "which can reduce third-party exposure. Always verify your organization's own recording and "
-                                           'security requirements.</p>\n'
+                                           '<h2>Why offline meeting notes</h2>\n'
+                                           '<h3>Company security rules</h3>\n'
+                                           '<p>Many companies do not permit uploads of internal discussions to third-party services. Your '
+                                           'recordings never leave your iPhone, and every transcription engine runs on the device. This can '
+                                           'reduce third-party exposure. Always check the recording and security rules of your '
+                                           'organization.</p>\n'
                                            '<h3>Regulated industries</h3>\n'
-                                           '<p>Finance, healthcare, legal, defense — these sectors have strict data handling requirements. '
-                                           'On-device processing means no vendor risk assessment.</p>\n'
-                                           '<h3>Unreliable connectivity</h3>\n'
-                                           '<p>Conference rooms in basements, meetings during travel, offsite retreats with spotty WiFi. '
-                                           'Offline transcription just works regardless of your connection.</p>\n'
+                                           '<p>Finance, healthcare, legal and defense have strict rules for data. 5cut sends no recording to '
+                                           'a vendor, so no vendor keeps your audio. Check your own rules before you record.</p>\n'
+                                           '<h3>Bad connections</h3>\n'
+                                           '<p>Conference rooms in basements, meetings on trips and offsite events often have weak Wi-Fi. '
+                                           'Offline transcription works with a bad connection or with no connection.</p>\n'
                                            '<h2>What you get</h2>\n'
                                            '<ul>\n'
                                            '    <li><strong>Full transcript</strong> with timestamps</li>\n'
-                                           '    <li><strong>Speaker labels</strong> — color-coded, renameable</li>\n'
-                                           '    <li><strong>Silence removal</strong> — strip the "ums" and long pauses</li>\n'
-                                           '    <li><strong>Multiple export formats</strong> — plain text, SRT subtitles, or video</li>\n'
-                                           "    <li><strong>30+ languages</strong> — multilingual teams can transcribe in the meeting's "
-                                           'language</li>\n'
+                                           '    <li><strong>Speaker labels</strong> (Premium): each speaker has a color, and you can '
+                                           'change the names</li>\n'
+                                           '    <li><strong>Silence removal</strong>: 5cut cuts the long pauses</li>\n'
+                                           '    <li><strong>Export formats</strong>: plain text, SRT subtitles or video</li>\n'
+                                           '    <li><strong>30+ languages</strong>: teams with many languages can transcribe in the '
+                                           'language of the meeting</li>\n'
                                            '</ul>\n'
                                            '<h2>Free to start</h2>\n'
-                                           '<p>5cut is free to download and includes in-app recording, silence removal, and transcription '
-                                           'previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, full-length '
-                                           'transcripts, speaker identification, and batch processing.</p>',
-                                  'tagline': 'Transcribe meetings offline. Speaker identification included.',
-                                  'title': 'Offline Meeting Notes on iPhone – Transcribe Without Internet | 5cut'},
- 'record-meetings-privately-iphone': {'desc': 'Record meetings on iPhone. Your recordings never leave your device; every transcription '
-                                              'engine runs on the iPhone itself.',
+                                           '<p>5cut is free to download. The free version includes the recorder, silence removal and 5 '
+                                           'exports each month. Recordings that you make in 5cut get a full transcript. Imported files get '
+                                           'a transcript of the first 5 minutes. Premium adds unlimited exports, full transcripts of '
+                                           'imported files, speaker identification, AI notes and search in all transcripts.</p>',
+                                  'tagline': 'Transcribe meetings offline. Speaker identification with Premium.',
+                                  'title': 'Offline Meeting Notes on iPhone – On-Device Transcripts | 5cut'},
+ 'record-meetings-privately-iphone': {'desc': 'Record meetings on iPhone. Your recordings never leave your iPhone. 5cut transcribes and '
+                                              'identifies speakers on the device. There is no 5cut server.',
                                       'h1': 'Record Meetings Privately on iPhone',
-                                      'intro': '<p>Your meeting contains proprietary strategy, client names, revenue numbers, or personnel '
-                                               'decisions. Cloud-based meeting recorders like Otter, Fireflies, or Fathom upload '
-                                               "everything to their servers. Their AI processes your words on someone else's "
-                                               'infrastructure.</p>\n'
-                                               '<p>Your meetings never leave your device. Every transcription engine runs on the iPhone '
-                                               'itself, offline once you have the model for your language and device. Always follow your '
-                                               "organization's recording and data-handling rules.</p>\n"
+                                      'intro': '<p>Your meeting has confidential strategy, client names, revenue numbers or personnel '
+                                               'decisions. Cloud meeting recorders like Otter, Fireflies or Fathom upload the audio to their '
+                                               'servers. Their AI processes your words on the computers of another company.</p>\n'
+                                               '<p>Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the '
+                                               'device. There is no 5cut server. Test it yourself: download a transcription model one '
+                                               'time, then turn on Airplane Mode. 5cut works the same.</p>\n'
+                                               '<p>Always follow the recording and data rules of your organization.</p>\n'
                                                '<h2>The compliance problem with cloud recorders</h2>\n'
-                                               "<p>Every time you use a cloud transcription service, you're creating a data processing "
-                                               'relationship. That means:</p>\n'
+                                               '<p>Each time you use a cloud transcription service, you start a data processing '
+                                               'relationship. This means:</p>\n'
                                                '<ul>\n'
-                                               '    <li>A third party now holds recordings of confidential discussions</li>\n'
-                                               '    <li>You need a Data Processing Agreement (DPA) under GDPR</li>\n'
-                                               '    <li>SOC 2 auditors will ask about it</li>\n'
-                                               '    <li>If the service is breached, your meeting content is exposed</li>\n'
-                                               '    <li>Client NDAs may prohibit sharing recordings with third parties</li>\n'
+                                               '    <li>A third party now keeps recordings of confidential discussions.</li>\n'
+                                               '    <li>Under GDPR, you need a Data Processing Agreement (DPA).</li>\n'
+                                               '    <li>SOC 2 auditors can ask about it.</li>\n'
+                                               '    <li>If attackers break into the service, they can get your meeting content.</li>\n'
+                                               '    <li>Client NDAs can prohibit the transfer of recordings to third parties.</li>\n'
                                                '</ul>\n'
-                                               '<p>On-device processing can reduce third-party exposure, but you must still follow your '
-                                               "organization's recording and data-handling rules.</p>\n"
-                                               '<h2>Who needs private meeting recording</h2>\n'
+                                               '<p>On-device transcription can reduce third-party exposure. But you must still follow the '
+                                               'recording and data rules of your organization.</p>\n'
+                                               '<h2>Who needs private meeting recordings</h2>\n'
                                                '<h3>Legal professionals</h3>\n'
-                                               '<p>Client meetings, case strategy discussions, settlement negotiations. Attorney-client '
-                                               "privilege doesn't mix well with third-party cloud processing.</p>\n"
+                                               '<p>Client meetings, case strategy discussions and settlement negotiations. Cloud transcription '
+                                               'by a third party can put attorney-client privilege at risk.</p>\n'
                                                '<h3>Healthcare</h3>\n'
-                                               '<p>Clinical team meetings and patient case reviews are sensitive. Confirm authorization '
-                                               'and applicable healthcare rules before recording.</p>\n'
+                                               '<p>Clinical team meetings and patient case reviews are sensitive. Before you record, make '
+                                               'sure that you have permission and that you follow the healthcare rules that apply.</p>\n'
                                                '<h3>Finance and banking</h3>\n'
-                                               '<p>Investment discussions, client advisory meetings, compliance reviews. Material '
-                                               "non-public information shouldn't exist on a transcription startup's servers.</p>\n"
+                                               '<p>Investment discussions, client advisory meetings and compliance reviews. Material '
+                                               'non-public information does not belong on the servers of a transcription startup.</p>\n'
                                                '<h3>HR and people operations</h3>\n'
-                                               '<p>Performance reviews, disciplinary meetings, compensation discussions.</p>\n'
+                                               '<p>Performance reviews, disciplinary meetings and compensation discussions.</p>\n'
                                                '<h2>The 5cut workflow for meetings</h2>\n'
                                                '<ol>\n'
-                                               '    <li><strong>Open the recorder</strong> — tap record when the meeting starts.</li>\n'
-                                               '    <li><strong>Transcribe after recording</strong> — choose a supported downloaded '
-                                               'on-device engine</li>\n'
-                                               '    <li><strong>Speaker identification</strong> — up to 4 speakers are automatically '
-                                               'identified</li>\n'
-                                               '    <li><strong>Trim silence</strong> — remove the gaps between agenda items</li>\n'
-                                               '    <li><strong>Export</strong> — transcript as text or SRT. Everything stays in your '
-                                               'Files app</li>\n'
+                                               '    <li><strong>Open the recorder</strong>: tap Record when the meeting starts.</li>\n'
+                                               '    <li><strong>Transcribe after the meeting</strong>: choose an engine that you downloaded '
+                                               'to your iPhone.</li>\n'
+                                               '    <li><strong>Identify the speakers</strong>: with Premium, 5cut finds up to 4 '
+                                               'speakers.</li>\n'
+                                               '    <li><strong>Cut the silence</strong>: remove the pauses between agenda items.</li>\n'
+                                               '    <li><strong>Export</strong>: save the transcript as text or SRT to a place that you '
+                                               'choose.</li>\n'
                                                '</ol>\n'
                                                '<h2>Compared to alternatives</h2>\n'
-                                               '<p>Unlike cloud-first meeting tools, Your recordings never leave your device. Downloaded '
-                                               'on-device engines can transcribe offline when supported for the selected language and '
-                                               'device. 5cut also identifies speakers and removes silence.</p>\n'
+                                               '<p>Cloud meeting tools upload your audio. With 5cut, your recordings never leave your '
+                                               'iPhone. After a one-time model download, the engines transcribe offline. 5cut also '
+                                               'identifies speakers and cuts the silence.</p>\n'
                                                '<h2>Free to start</h2>\n'
-                                               '<p>5cut is free to download and includes in-app recording, silence removal, and '
-                                               'transcription previews (first 5 minutes). Upgrade to Premium to unlock unlimited exports, '
-                                               'full-length transcripts, speaker identification, and batch processing.</p>',
-                                      'tagline': 'Record and transcribe meetings on-device. No cloud upload.',
-                                      'title': 'Record Meetings Privately on iPhone – No 5cut Cloud Copy | 5cut'}}
+                                               '<p>5cut is free to download. The free version includes the recorder, silence removal and 5 '
+                                               'exports each month. Recordings that you make in 5cut get a full transcript. Imported files '
+                                               'get a transcript of the first 5 minutes. Premium adds unlimited exports, full transcripts '
+                                               'of imported files, speaker identification, AI notes and search in all transcripts.</p>',
+                                      'tagline': 'Record and transcribe meetings on the device. No cloud upload.',
+                                      'title': 'Record Meetings Privately on iPhone – No Cloud Upload | 5cut',
+                                      'faq': [{'q': 'Does 5cut upload my meeting recordings?',
+                                               'a': 'No. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on '
+                                                    'the device. There is no 5cut server.'},
+                                              {'q': 'How can I check this?',
+                                               'a': 'Test it yourself: download a transcription model one time, then turn on Airplane Mode. '
+                                                    '5cut works the same.'},
+                                              {'q': 'Does 5cut join my video calls?',
+                                               'a': 'No. 5cut has no meeting bot. Record the meeting with the recorder in 5cut, or import a '
+                                                    'recording from Zoom or Teams.'},
+                                              {'q': 'Do I need an account?',
+                                               'a': 'No. 5cut has no account system. You buy Premium in the App Store with your Apple '
+                                                    'ID.'}]},
+ 'cut-background-noise-from-recordings': {'title': 'Cut Background Noise from Recordings – Voice Detection | 5cut',
+                                          'desc': 'On noisy phone recordings, 5cut cuts the parts where nobody speaks, also when they '
+                                                  'are loud. It does not filter the noise under a voice.',
+                                          'h1': 'Cut Background Noise from Recordings',
+                                          'tagline': 'Keep the voice. Cut the noise between the words.',
+                                          'intro': '<p>You record on the street, in a train station or while you walk. The recording has '
+                                                   'traffic, footsteps and announcements between the sentences. These parts are loud, so a '
+                                                   'cutter that only measures loudness keeps them. 5cut cuts them, because nobody speaks in '
+                                                   'them.</p>\n'
+                                                   '<h2>How 5cut finds the voice</h2>\n'
+                                                   '<p>A small voice detector is built into the app. It is about 1 MB and needs no download. '
+                                                   'It marks each part of the recording where someone speaks. 5cut cuts the parts without a '
+                                                   'voice, also when they are as loud as the speaker.</p>\n'
+                                                   '<p>5cut also measures the loudness of each recording. It sets its threshold between the '
+                                                   'background noise and the voice.</p>\n'
+                                                   '<h2>What 5cut does not do</h2>\n'
+                                                   '<p>5cut does not reduce or filter noise under speech. When someone speaks, 5cut keeps all '
+                                                   'the sound of that part, also the noise behind the voice. 5cut removes only the parts '
+                                                   'without a voice.</p>\n'
+                                                   '<h2>Gentle, Moderate or Aggressive</h2>\n'
+                                                   '<p>The more you cut, the more sure 5cut must be that someone speaks. On a typical phone '
+                                                   'recording, the three intensities keep this much of the time:</p>\n'
+                                                   '<ul>\n'
+                                                   '    <li><strong>Gentle</strong>: about 80%</li>\n'
+                                                   '    <li><strong>Moderate</strong>: about 70%</li>\n'
+                                                   '    <li><strong>Aggressive</strong>: about 60%</li>\n'
+                                                   '</ul>\n'
+                                                   '<p>A dense lecture keeps more, because it has fewer pauses.</p>\n'
+                                                   '<h2>Works in Airplane Mode</h2>\n'
+                                                   '<p>The voice detector runs on your iPhone, so it also works in Airplane Mode. Your '
+                                                   'recordings never leave your iPhone. There is no 5cut server.</p>\n'
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Download 5cut on '
+                                                   'the App Store</a></p>',
+                                          'faq': [{'q': 'Does 5cut remove noise while someone speaks?',
+                                                   'a': 'No. 5cut does not filter the noise under a voice. It cuts only the parts where '
+                                                        'nobody speaks.'},
+                                                  {'q': 'Which noise does 5cut cut?',
+                                                   'a': 'Noise in parts without a voice, for example traffic, footsteps, rustling or a train. '
+                                                        '5cut cuts these parts also when they are loud.'},
+                                                  {'q': 'Do I need to download the voice detector?',
+                                                   'a': 'No. The voice detector is in the app. It is about 1 MB and works in Airplane '
+                                                        'Mode.'},
+                                                  {'q': 'Is this free?',
+                                                   'a': 'Yes. Silence removal and the voice detector are free. The free version gives you 5 '
+                                                        'exports each month.'}]}}

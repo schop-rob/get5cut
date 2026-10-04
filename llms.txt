@@ -1,32 +1,51 @@
 # 5cut
 
-5cut is an iOS app for recording lectures and meetings, removing silence, generating on-device transcripts and subtitles, live-translating in 30+ languages, and exporting study notes.
+> 5cut is an iPhone app for students. It records or imports lectures, cuts the silence, transcribes the speech on the device in 30+ languages, and exports study notes to Anki, Notion and Obsidian. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server.
 
-Key pages:
-- https://get5cut.com/
-- https://get5cut.com/transcribe-lectures/
-- https://get5cut.com/offline-lecture-transcription-iphone/
-- https://get5cut.com/remove-silence-from-lectures/
-- https://get5cut.com/record-meetings-privately-iphone/
-- https://get5cut.com/offline-meeting-notes-iphone/
-- https://get5cut.com/podcast-silence-remover/
-- https://get5cut.com/smartphone-video-editor/
-- https://get5cut.com/best-app-for-law-school-recordings/
-- https://get5cut.com/best-app-for-medical-school-lectures/
-- https://get5cut.com/free-jumpcut-app/
-- https://get5cut.com/use-cases/remove-silence-from-zoom/
-- https://get5cut.com/use-cases/remove-silence-from-obs/
-- https://get5cut.com/alternatives/timebolt-alternative/
-- https://get5cut.com/alternatives/otter-alternative/
-- https://get5cut.com/privacy/
-- https://get5cut.com/support/
+Facts:
 
-Product:
-- Record or import lectures, meetings, interviews, podcasts, and talking-head videos.
-- Remove silence, create transcripts and subtitles, label speakers, batch process recordings, and export study notes.
-- Current purchase options and regional pricing are shown in the App Store.
+- Platform: iPhone and iPad (iOS). Download: https://apps.apple.com/app/5cut/id6758529319
+- Free: in-app recording, silence cutting, Live Captions, a 5-minute transcription preview for imported files (full transcription for in-app recordings), and 5 exports each month.
+- Premium (monthly subscription or one-time lifetime purchase; the App Store shows the prices for your region): unlimited exports without a watermark, full-length transcripts of imported files, speaker identification, on-device AI notes and flashcards, and search across all saved transcripts. There is no free trial.
+- Offline: each transcription model downloads one time. Test it yourself: download a transcription model, then turn on Airplane Mode. 5cut works the same.
+- Silence cutting: 5cut measures the loudness of each recording, and a small voice detector built into the app finds where someone speaks. Gentle, Moderate and Aggressive keep about 80, 70 and 60 percent of a typical phone recording. Dense lectures keep more.
+- 5cut does not filter noise under speech. It removes the parts without a voice.
+- App languages: English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese and Simplified Chinese.
 
-Privacy and offline use:
-- 5cut has no server, account system, or cloud copy of recordings.
-- 5cut cannot see, hear, or store recordings.
-- For offline transcription, choose a supported downloaded on-device engine. Engine, model, language, and device support vary.
+## Product
+
+- [Home](https://get5cut.com/): what 5cut does, the free version and Premium, FAQ
+- [Transcribe lectures](https://get5cut.com/transcribe-lectures/): on-device transcription and subtitles
+- [Offline lecture transcription](https://get5cut.com/offline-lecture-transcription-iphone/): the engines, their languages and download sizes
+- [Remove silence from lectures](https://get5cut.com/remove-silence-from-lectures/): how silence cutting works
+- [Cut background noise from recordings](https://get5cut.com/cut-background-noise-from-recordings/): voice detection for noisy phone recordings
+- [Study abroad](https://get5cut.com/study-abroad/): lectures in a second language, live translation
+
+## Use cases
+
+- [Record meetings privately](https://get5cut.com/record-meetings-privately-iphone/)
+- [Offline meeting notes](https://get5cut.com/offline-meeting-notes-iphone/)
+- [Medical school lectures](https://get5cut.com/best-app-for-medical-school-lectures/)
+- [Law school recordings](https://get5cut.com/best-app-for-law-school-recordings/)
+- [Speed up Zoom recordings](https://get5cut.com/speed-up-zoom-recordings/)
+- [Remove silence from Zoom recordings](https://get5cut.com/use-cases/remove-silence-from-zoom/)
+- [Remove silence from OBS recordings](https://get5cut.com/use-cases/remove-silence-from-obs/)
+- [Podcast silence remover](https://get5cut.com/podcast-silence-remover/)
+- [Free jumpcut app](https://get5cut.com/free-jumpcut-app/)
+- [Smartphone video editor](https://get5cut.com/smartphone-video-editor/)
+- [For business](https://get5cut.com/for-business/)
+
+## Comparisons
+
+- [Otter.ai alternative](https://get5cut.com/alternatives/otter-alternative/)
+- [TimeBolt alternative](https://get5cut.com/alternatives/timebolt-alternative/)
+
+## Trust
+
+- [Privacy policy](https://get5cut.com/privacy/)
+- [Security](https://get5cut.com/security/): where data is stored and which third-party code the app uses
+- [Support](https://get5cut.com/support/)
+
+## Optional
+
+- Other languages of this site: /de/, /es/, /fr/, /it/, /ja/, /ko/, /pt-br/, /vi/, /zh/

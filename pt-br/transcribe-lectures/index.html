@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcrever Aula no iPhone – Legendas, 30+ Idiomas | 5cut</title>
+    <meta name="description" content="Transcreva gravações de aula no iPhone em mais de 30 idiomas e exporte legendas em SRT. Todos os motores rodam no aparelho.">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/pt-br/transcribe-lectures/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/transcribe-lectures/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/transcribe-lectures/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/transcribe-lectures/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/transcribe-lectures/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/transcribe-lectures/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/transcribe-lectures/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/transcribe-lectures/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/transcribe-lectures/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/transcribe-lectures/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/transcribe-lectures/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/transcribe-lectures/">
+    <meta property="og:title" content="Transcrever Aula no iPhone – Legendas, 30+ Idiomas | 5cut">
+    <meta property="og:description" content="Transcreva gravações de aula no iPhone em mais de 30 idiomas e exporte legendas em SRT. Todos os motores rodam no aparelho.">
+    <meta property="og:url" content="https://get5cut.com/pt-br/transcribe-lectures/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Transcrever Aula no iPhone – Legendas, 30+ Idiomas | 5cut">
+    <meta name="twitter:description" content="Transcreva gravações de aula no iPhone em mais de 30 idiomas e exporte legendas em SRT. Todos os motores rodam no aparelho.">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Transcrever Aula no iPhone – Legendas, 30+ Idiomas | 5cut",
+        "description": "Transcreva gravações de aula no iPhone em mais de 30 idiomas e exporte legendas em SRT. Todos os motores rodam no aparelho.",
+        "image": "https://get5cut.com/assets/og-card.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }
+        },
+        "mainEntityOfPage": "https://get5cut.com/pt-br/transcribe-lectures/",
+        "dateModified": "2026-10-04"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+        .engine-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .engine-table th, .engine-table td {
+            text-align: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .engine-table th {
+            font-weight: 700;
+            background: #eee;
+        }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="/transcribe-lectures/" class="">EN</a> | 
+        <a href="/de/transcribe-lectures/" class="">DE</a> | 
+        <a href="/zh/transcribe-lectures/" class="">ZH</a> | 
+        <a href="/fr/transcribe-lectures/" class="">FR</a> | 
+        <a href="/vi/transcribe-lectures/" class="">VI</a> | 
+        <a href="/es/transcribe-lectures/" class="">ES</a> | 
+        <a href="/it/transcribe-lectures/" class="">IT</a> | 
+        <a href="/ja/transcribe-lectures/" class="">JA</a> | 
+        <a href="/ko/transcribe-lectures/" class="">KO</a> | 
+        <a href="/pt-br/transcribe-lectures/" class="active">PT</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="Ícone do app 5cut" class="app-icon">
+        <h1 class="brand"><span class="highlight">Transcrever Aulas no iPhone</span></h1>
+        <h2 class="tagline">Sua aula em texto, criada no seu iPhone.</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">5 exportações grátis</div>
+            <div class="stat-label">todo mês</div>
+        </div>
+
+        <section class="intro-text">
+            <p>Não digite suas anotações de aula à mão. 5cut cria a transcrição de cada gravação de aula no seu iPhone. Com o Premium, 5cut também cria resumos com IA.</p>
+<p>Suas gravações nunca saem do seu iPhone. 5cut corta, transcreve e cria notas no aparelho. Não existe servidor do 5cut. Cada motor baixa o modelo uma única vez e depois funciona offline.</p>
+<h2>Perguntas frequentes</h2>
+<div class="faq">
+            <details>
+                <summary>A transcrição de aulas é grátis?</summary>
+                <p>As gravações que você faz no 5cut recebem a transcrição completa de graça. Para arquivos importados, a versão grátis transcreve os primeiros 5 minutos. O Premium transcreve arquivos importados de qualquer duração.</p>
+            </details>
+            <details>
+                <summary>Qual motor devo escolher?</summary>
+                <p>Depende do idioma. O Parakeet Ultra cobre 25 idiomas europeus e identifica o idioma sozinho. O Apple SpeechAnalyzer (iOS 26 ou posterior) e o WhisperKit cobrem o maior número de idiomas. O Parakeet Lite e o Moonshine são motores menores, só para inglês, para iPhones mais antigos.</p>
+            </details>
+            <details>
+                <summary>Posso exportar a transcrição como legendas?</summary>
+                <p>Sim. Exporte um arquivo SRT ou grave as legendas no vídeo. Você também pode enviar a transcrição para Apple Notas, Markdown, Anki, Notion ou Obsidian.</p>
+            </details>
+            <details>
+                <summary>A transcrição funciona sem conexão?</summary>
+                <p>Sim, depois de um download único. Cada motor baixa o modelo na primeira vez que você o usa. Depois ative o Modo Avião. 5cut transcreve do mesmo jeito.</p>
+            </details>
+</div>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>Gravador com Marcadores de Capítulo</h3>
+                    <p>Grave aulas, reuniões e entrevistas no app. Toque para adicionar um marcador de capítulo enquanto você grava. Depois, o marcador leva você até aquele momento.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Remoção Inteligente de Silêncio</h3>
+                    <p>5cut encontra o silêncio em aulas e podcasts e o corta. Escolha Suave, Moderado ou Agressivo, ou defina o limite você mesmo.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>Tradução e Resumos com IA no Aparelho</h3>
+                    <p>Leia a aula no seu idioma com tradução ao vivo. Com o Premium, 5cut também cria resumos com IA, pontos principais e flashcards no seu iPhone. Para isso, usa o Apple Intelligence ou um modelo de IA que você baixa uma única vez.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Exportar para Notion, Anki e Obsidian</h3>
+                    <p>Envie a transcrição e suas anotações para Apple Notas, Markdown, Anki, Notion ou Obsidian. 5cut também cria cartões de estudo do Anki a partir da transcrição.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Identificação de Falantes (Premium)</h3>
+                    <p>5cut identifica até 4 falantes em uma gravação. Cada falante recebe uma cor e um nome que você pode mudar. Isso ajuda em seminários e discussões em grupo.</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h2>Como funciona</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Grave ou importe</strong> áudio ou vídeo no seu iPhone.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>Corte o silêncio</strong>. 5cut mostra a fala em verde e o silêncio em vermelho.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Transcreva e traduza</strong> no seu iPhone. Com o Premium, 5cut também cria resumos com IA.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Exporte para suas ferramentas de estudo</strong>: Anki, Notion, Obsidian ou Apple Notas.</p>
+            </div>
+        </section>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Suas gravações nunca saem do seu iPhone</h2>
+            <p>5cut corta, transcreve e cria notas no aparelho. Não existe servidor do 5cut. Teste você mesmo: baixe um modelo de transcrição uma única vez e ative o Modo Avião. 5cut funciona do mesmo jeito. O app não tem conta, não tem análise de uso e não tem anúncios.</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">Download grátis · 5 exportações grátis por mês · Sem conta</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Baixe o 5cut na App Store">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Casos de Uso</h4>
+                <a href="/pt-br/use-cases/remove-silence-from-zoom/">Gravações do Zoom</a>
+                <a href="/pt-br/use-cases/remove-silence-from-obs/">OBS e VODs da Twitch</a>
+                <a href="/pt-br/remove-silence-from-lectures/">Aulas Universitárias</a>
+                <a href="/pt-br/cut-background-noise-from-recordings/">Ruído de Fundo</a>
+                <a href="/pt-br/podcast-silence-remover/">Podcasts</a>
+                <a href="/pt-br/free-jumpcut-app/">App de Jump Cut</a>
+                <a href="/pt-br/smartphone-video-editor/">Editor de Vídeo para Celular</a>
+            </div>
+            <div class="footer-col">
+                <h4>Alternativas</h4>
+                <a href="/pt-br/alternatives/timebolt-alternative/">Alternativa ao TimeBolt</a>
+                <a href="/alternatives/otter-alternative/">Alternativa ao Otter.ai</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal e Suporte</h4>
+                <a href="/support/">Suporte e Contato</a>
+                <a href="/privacy/">Política de Privacidade</a>
+                <a href="/terms/">Termos de Uso</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
+</body>
+</html>

@@ -41,7 +41,14 @@ html_template = """<!DOCTYPE html>
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         }},
-        "softwareVersion": "1.2.5"
+        "softwareVersion": "1.2.5",
+        "url": "https://get5cut.com{canonical_path}",
+        "sameAs": "https://apps.apple.com/app/5cut/id6758529319",
+        "offers": {{
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }}
     }}
     </script>
     <style>
@@ -98,6 +105,13 @@ html_template = """<!DOCTYPE html>
             color: #555;
             margin-bottom: 28px;
             letter-spacing: 0;
+        }}
+        .hero-facts {{
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            margin: -12px 0 24px;
+            max-width: 34em;
         }}
         .hero-proof {{
             display: flex;
@@ -278,6 +292,15 @@ html_template = """<!DOCTYPE html>
         .lang-switch a:hover {{
             text-decoration: underline;
         }}
+        @media (max-width: 600px) {{
+            .lang-switch {{
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }}
+        }}
         footer {{
             margin: 64px auto 0;
             font-size: 13px;
@@ -438,9 +461,10 @@ html_template = """<!DOCTYPE html>
     <main class="container">
         <section class="hero">
             <div class="hero-copy">
-                <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+                <img src="/icon.svg" alt="{alt_icon}" class="app-icon">
                 <h1 class="brand"><span class="highlight">{brand}</span>{brand_suffix}</h1>
                 <h2 class="tagline">{tagline}</h2>
+                <p class="hero-facts">{subhead_features}</p>
                 <div class="hero-proof">
                     <span class="proof-pill">{proof1}</span>
                     <span class="proof-pill">{proof2}</span>
@@ -449,14 +473,14 @@ html_template = """<!DOCTYPE html>
                 <div class="cta-container">
                     <p class="cta-subtext">{cta_subtext}</p>
                     <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
                     </a>
                 </div>
             </div>
-            <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
-                <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
-                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot editor">
-                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot transcript">
+            <div class="hero-visual" aria-label="{aria_screens}">
+                <img src="/assets/iphone-recorder.png" alt="{alt_recorder}" class="phone-shot recorder">
+                <img src="/assets/iphone-transcript.png" alt="{alt_transcript}" class="phone-shot editor">
+                <img src="/assets/iphone-editor.png" alt="{alt_editor}" class="phone-shot transcript">
                 <p class="hero-note">{hero_note_desc}</p>
             </div>
         </section>
@@ -538,7 +562,7 @@ html_template = """<!DOCTYPE html>
         <div class="cta-container" style="text-align: center;">
             <p class="cta-subtext">{cta_subtext}</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
             </a>
         </div>
 
@@ -552,28 +576,29 @@ html_template = """<!DOCTYPE html>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>{footer_use_cases}</h4>
-                <a href="{prefix}/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
-                <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
-                <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
-                <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
-                <a href="{prefix}/free-jumpcut-app/">Jumpcut App</a>
-                <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
+                <a href="{prefix}/use-cases/remove-silence-from-zoom/">{footer_zoom}</a>
+                <a href="{prefix}/use-cases/remove-silence-from-obs/">{footer_obs}</a>
+                <a href="{prefix}/remove-silence-from-lectures/">{footer_lectures}</a>
+                <a href="{prefix}/cut-background-noise-from-recordings/">{footer_noise}</a>
+                <a href="{prefix}/podcast-silence-remover/">{footer_podcasts}</a>
+                <a href="{prefix}/free-jumpcut-app/">{footer_jumpcut}</a>
+                <a href="{prefix}/smartphone-video-editor/">{footer_editor}</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_alternatives}</h4>
-                <a href="{prefix}/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
-                <a href="/alternatives/otter-alternative/">Otter.ai Alternative</a>
+                <a href="{prefix}/alternatives/timebolt-alternative/">{footer_timebolt}</a>
+                <a href="/alternatives/otter-alternative/">{footer_otter}</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_study_fields}</h4>
-                <a href="{prefix}/best-app-for-medical-school-lectures/">Medical School Lectures</a>
-                <a href="{prefix}/best-app-for-law-school-recordings/">Law School Recordings</a>
+                <a href="{prefix}/best-app-for-medical-school-lectures/">{footer_medical}</a>
+                <a href="{prefix}/best-app-for-law-school-recordings/">{footer_law}</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_legal}</h4>
-                <a href="/support/">Support & Contact</a>
-                <a href="/privacy/">Privacy Policy</a>
-                <a href="/terms/">Terms of Service</a>
+                <a href="/support/">{footer_support}</a>
+                <a href="/privacy/">{footer_privacy}</a>
+                <a href="/terms/">{footer_terms}</a>
                 <a href="/impressum/">Impressum</a>
             </div>
         </div>

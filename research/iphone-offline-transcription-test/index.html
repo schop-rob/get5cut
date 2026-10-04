@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>5cut iPhone Offline Transcription Test — Protocol</title>
-  <meta name="description" content="Pre-registered protocol for comparing 5cut's four iPhone transcription engines on English and German lecture-style recordings.">
+  <meta name="description" content="Pre-registered protocol that compares four 5cut transcription engines on English and German recordings in lecture style.">
   <meta name="robots" content="noindex, nofollow">
   <link rel="canonical" href="https://get5cut.com/research/iphone-offline-transcription-test/">
   <link rel="icon" href="/favicon.png">
@@ -52,35 +52,35 @@
     <article>
       <p class="eyebrow">Pre-registered product test</p>
       <h1>Which 5cut engine handles accented lecture speech offline?</h1>
-      <p class="lede">This page is the publication scaffold for a repeatable comparison of Apple Speech, WhisperKit, Parakeet, and Phonon-2 inside 5cut on one iPhone.</p>
+      <p class="lede">This page holds the protocol for a repeatable test. The test compares Apple Speech, WhisperKit, Parakeet and Phonon-2 in 5cut on one iPhone.</p>
 
       <div class="status">
-        <strong>Status: protocol ready; recordings and results pending.</strong><br>
-        This page is intentionally excluded from search while it contains no measurements. It must not be added to the sitemap or <code>llms.txt</code> until the audio, reference transcripts, raw outputs, and computed results are published together.
+        <strong>Status: the protocol is ready. Recordings and results are pending.</strong><br>
+        This page is not in search on purpose, because it contains no measurements yet. Do not add it to the sitemap or <code>llms.txt</code> until we publish the audio, reference transcripts, raw outputs and results together.
       </div>
 
-      <p class="question"><strong>Pre-registered question:</strong> Which of 5cut's four iPhone transcription engines can handle accented lecture speech without a network connection, and how accurate are they?</p>
+      <p class="question"><strong>Pre-registered question:</strong> Which of these four 5cut engines can transcribe accented lecture speech without a network connection, and how accurate are they?</p>
 
       <h2>Test material</h2>
-      <p>The developer records two original, lecture-style samples with the same iPhone microphone and ordinary indoor conditions. Each sample is approximately five minutes and is released with a manually checked reference transcript.</p>
+      <p>The developer records two original samples in lecture style, with the same iPhone microphone in normal indoor conditions. Each sample is about five minutes long. Each sample comes with a reference transcript that the developer checked by hand.</p>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Sample</th><th>Speaker and language</th><th>Audio</th><th>Reference transcript</th></tr></thead>
           <tbody>
-            <tr><td>EN-01</td><td>Robin speaking non-native English</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
-            <tr><td>DE-01</td><td>Robin speaking native German</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>EN-01</td><td>Robin, non-native English speaker</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
+            <tr><td>DE-01</td><td>Robin, native German speaker</td><td class="pending">Pending</td><td class="pending">Pending</td></tr>
           </tbody>
         </table>
       </div>
 
       <h2>Controls</h2>
       <ol>
-        <li>Use one iPhone, one iOS build, the same microphone position, and the same source files for every engine.</li>
-        <li>Download required models before the test. Record device, iOS, 5cut, engine, and model versions.</li>
-        <li>Enable Airplane Mode before each transcription run and confirm Wi-Fi and Bluetooth are off.</li>
-        <li>Start from a fresh import for each run. Do not manually correct an engine output.</li>
-        <li>Export the raw text and measure elapsed transcription time with the same timing rule.</li>
-        <li>Publish failures and weak results. A network-dependent or failed run is a result, not a reason to omit the engine.</li>
+        <li>Use one iPhone, one iOS build, the same microphone position and the same source files for every engine.</li>
+        <li>Download the necessary models before the test. Write down the device, iOS, 5cut, engine and model versions.</li>
+        <li>Turn on Airplane Mode before each transcription run. Make sure that Wi-Fi and Bluetooth are off.</li>
+        <li>Start each run from a new import. Do not correct an engine output by hand.</li>
+        <li>Export the raw text. Measure the transcription time with the same timing rule each time.</li>
+        <li>Publish failures and weak results. A failed run, or a run that needs the network, is a result. It is not a reason to omit the engine.</li>
       </ol>
 
       <h2>Engines and results</h2>
@@ -97,25 +97,25 @@
       </div>
 
       <h2>How word error rate is calculated</h2>
-      <p>Word error rate (WER) is the minimum number of substitutions, deletions, and insertions required to transform the engine output into the reference transcript, divided by the number of words in the reference.</p>
+      <p>Word error rate (WER) measures the errors in a transcript. It is the minimum number of substitutions, deletions and insertions that change the engine output into the reference transcript. Divide this number by the number of words in the reference.</p>
       <pre aria-label="Word error rate formula">WER = (substitutions + deletions + insertions) / reference words</pre>
-      <p>The repository contains a dependency-free calculator at <code>growth_engine/benchmark/compute_wer.py</code>. Before publication, the normalization rules and exact command must be listed here so another person can reproduce each number.</p>
+      <p>The repository contains a calculator with no dependencies at <code>growth_engine/benchmark/compute_wer.py</code>. Before we publish, we must list the normalization rules and the exact command here. Then another person can reproduce each number.</p>
 
       <h2>Required publication bundle</h2>
       <ul>
-        <li>Both original audio files and manually checked reference transcripts.</li>
+        <li>Both original audio files and the reference transcripts that the developer checked by hand.</li>
         <li>All eight raw engine outputs: four engines × two samples.</li>
-        <li>WER results, edit counts, elapsed times, and any failed runs.</li>
-        <li>Device, iOS, 5cut, engine, and model versions plus the test date.</li>
+        <li>WER results, edit counts, elapsed times and all failed runs.</li>
+        <li>Device, iOS, 5cut, engine and model versions, and the test date.</li>
         <li>Normalization rules and the exact calculator command.</li>
-        <li>A limitations section that distinguishes this small, single-speaker test from a general accuracy claim.</li>
+        <li>A section about the limits of the test. It must separate this small test with one speaker from a general claim about accuracy.</li>
       </ul>
 
       <h2>Limitations to publish with the results</h2>
-      <p>This will be a two-sample test recorded by one speaker on one device, not a population benchmark. WER can change with microphones, background noise, technical vocabulary, accents, languages, segmentation, punctuation normalization, model versions, and device hardware. The results will describe these files and this setup only.</p>
+      <p>This test has two samples, one speaker and one device. It is not a population benchmark. WER can change with the microphone, background noise, technical words, accents, languages, segmentation, normalization of punctuation, model versions and device hardware. The results will describe these files and this setup only.</p>
 
       <h2>Publication gate</h2>
-      <p>Remove <code>noindex</code> and add this page to the sitemap and <code>llms.txt</code> only after every required artifact is linked and every pending cell is replaced. Re-run after a material engine change or six months, whichever is later.</p>
+      <p>Remove <code>noindex</code> and add this page to the sitemap and <code>llms.txt</code> only when the page links every required file and no cell says Pending. Run the test again after a large engine change or after six months, whichever comes later.</p>
 
       <a class="button" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_engine_test">View 5cut on the App Store</a>
     </article>

@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rimuovi i silenzi da stream e registrazioni OBS | 5cut</title>
+    <meta name="description" content="Modifica le tue registrazioni OBS Studio in meno tempo. Sposta i file sul tuo iPhone e 5cut taglia i silenzi sul dispositivo.">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/it/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/use-cases/remove-silence-from-obs/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/use-cases/remove-silence-from-obs/">
+    <meta property="og:title" content="Rimuovi i silenzi da stream e registrazioni OBS | 5cut">
+    <meta property="og:description" content="Modifica le tue registrazioni OBS Studio in meno tempo. Sposta i file sul tuo iPhone e 5cut taglia i silenzi sul dispositivo.">
+    <meta property="og:url" content="https://get5cut.com/it/use-cases/remove-silence-from-obs/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rimuovi i silenzi da stream e registrazioni OBS | 5cut">
+    <meta name="twitter:description" content="Modifica le tue registrazioni OBS Studio in meno tempo. Sposta i file sul tuo iPhone e 5cut taglia i silenzi sul dispositivo.">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Rimuovi i silenzi da stream e registrazioni OBS | 5cut",
+        "description": "Modifica le tue registrazioni OBS Studio in meno tempo. Sposta i file sul tuo iPhone e 5cut taglia i silenzi sul dispositivo.",
+        "image": "https://get5cut.com/assets/og-card.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }
+        },
+        "mainEntityOfPage": "https://get5cut.com/it/use-cases/remove-silence-from-obs/",
+        "dateModified": "2026-10-04"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+        .engine-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .engine-table th, .engine-table td {
+            text-align: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .engine-table th {
+            font-weight: 700;
+            background: #eee;
+        }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="/use-cases/remove-silence-from-obs/" class="">EN</a> | 
+        <a href="/de/use-cases/remove-silence-from-obs/" class="">DE</a> | 
+        <a href="/zh/use-cases/remove-silence-from-obs/" class="">ZH</a> | 
+        <a href="/fr/use-cases/remove-silence-from-obs/" class="">FR</a> | 
+        <a href="/vi/use-cases/remove-silence-from-obs/" class="">VI</a> | 
+        <a href="/es/use-cases/remove-silence-from-obs/" class="">ES</a> | 
+        <a href="/it/use-cases/remove-silence-from-obs/" class="active">IT</a> | 
+        <a href="/ja/use-cases/remove-silence-from-obs/" class="">JA</a> | 
+        <a href="/ko/use-cases/remove-silence-from-obs/" class="">KO</a> | 
+        <a href="/pt-br/use-cases/remove-silence-from-obs/" class="">PT</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="Icona dell’app 5cut" class="app-icon">
+        <h1 class="brand"><span class="highlight">Rimuovi i silenzi dai VOD di OBS</span></h1>
+        <h2 class="tagline">Modifica le registrazioni dei tuoi stream in meno tempo.</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">5 esportazioni gratuite</div>
+            <div class="stat-label">ogni mese</div>
+        </div>
+
+        <section class="intro-text">
+            <p>Le registrazioni degli stream di OBS Studio hanno spesso lunghe parti silenziose, per esempio durante le pause o mentre aspetti una partita. Sposta i tuoi file OBS sul tuo iPhone. 5cut taglia i silenzi, così i tuoi highlight per YouTube sono pronti prima.</p>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>Registratore con segnalibri di capitolo</h3>
+                    <p>Registra lezioni, riunioni e interviste nell’app. Tocca per aggiungere un segnalibro di capitolo mentre registri. Più tardi, il segnalibro ti porta a quel momento.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Rimozione intelligente dei silenzi</h3>
+                    <p>5cut trova i silenzi nelle lezioni e nei podcast e li taglia. Scegli Leggero, Moderato o Aggressivo, oppure imposta la soglia tu stesso.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>Traduzione sul dispositivo e riassunti IA</h3>
+                    <p>Leggi la lezione nella tua lingua con la traduzione dal vivo. Con Premium, 5cut crea anche riassunti IA, punti chiave e flashcard sul tuo iPhone. Per questo usa Apple Intelligence o un modello IA che scarichi una sola volta.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Esporta in Notion, Anki e Obsidian</h3>
+                    <p>Invia la trascrizione e i tuoi appunti ad Apple Note, Markdown, Anki, Notion o Obsidian. 5cut crea anche schede Anki dalla trascrizione.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Identificazione dei parlanti (Premium)</h3>
+                    <p>5cut trova fino a 4 parlanti in una registrazione. Ogni parlante riceve un colore e un nome che puoi cambiare. Questo aiuta nei seminari e nelle discussioni di gruppo.</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h2>Come funziona</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Registra o importa</strong> audio o video sul tuo iPhone.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>Taglia i silenzi</strong>. 5cut mostra il parlato in verde e il silenzio in rosso.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Trascrivi e traduci</strong> sul tuo iPhone. Con Premium, 5cut crea anche riassunti IA.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Esporta nei tuoi strumenti di studio</strong>: Anki, Notion, Obsidian o Apple Note.</p>
+            </div>
+        </section>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Le tue registrazioni non lasciano mai il tuo iPhone</h2>
+            <p>5cut taglia, trascrive e crea appunti sul dispositivo. Non esiste alcun server 5cut. Provalo tu stesso: scarica un modello di trascrizione una sola volta, poi attiva la modalità aereo. 5cut funziona allo stesso modo. Nell’app non ci sono account, analisi o pubblicità.</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">Download gratuito · 5 esportazioni gratuite al mese · Nessun account</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Scarica 5cut su App Store">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Casi d’uso</h4>
+                <a href="/it/use-cases/remove-silence-from-zoom/">Registrazioni Zoom</a>
+                <a href="/it/use-cases/remove-silence-from-obs/">OBS e VOD di Twitch</a>
+                <a href="/it/remove-silence-from-lectures/">Lezioni universitarie</a>
+                <a href="/it/cut-background-noise-from-recordings/">Rumore di fondo</a>
+                <a href="/it/podcast-silence-remover/">Podcast</a>
+                <a href="/it/free-jumpcut-app/">App jumpcut</a>
+                <a href="/it/smartphone-video-editor/">Editor per smartphone</a>
+            </div>
+            <div class="footer-col">
+                <h4>Alternative</h4>
+                <a href="/it/alternatives/timebolt-alternative/">Alternativa a TimeBolt</a>
+                <a href="/alternatives/otter-alternative/">Alternativa a Otter.ai</a>
+            </div>
+            <div class="footer-col">
+                <h4>Note legali e supporto</h4>
+                <a href="/support/">Supporto e contatti</a>
+                <a href="/privacy/">Informativa sulla privacy</a>
+                <a href="/terms/">Condizioni d’uso</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
+</body>
+</html>

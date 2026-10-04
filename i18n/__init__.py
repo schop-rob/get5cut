@@ -2,7 +2,7 @@
 import importlib
 
 # (code, directory, hreflang, label in the language menu). The code is also
-# the module name in this package, with "-" written as "_".
+# the module name in this package, lower case, with "-" written as "_".
 LANGS = [
     ("en", ".", "en", "EN"),
     ("de", "de", "de", "DE"),
@@ -10,11 +10,15 @@ LANGS = [
     ("fr", "fr", "fr", "FR"),
     ("vi", "vi", "vi", "VI"),
     ("es", "es", "es", "ES"),
+    ("it", "it", "it", "IT"),
+    ("ja", "ja", "ja", "JA"),
+    ("ko", "ko", "ko", "KO"),
+    ("pt-BR", "pt-br", "pt-BR", "PT"),
 ]
 
 
 def module(code):
-    return importlib.import_module(f"i18n.{code.replace('-', '_')}")
+    return importlib.import_module(f"i18n.{code.replace('-', '_').lower()}")
 
 
 def site_url(directory, page_path=""):

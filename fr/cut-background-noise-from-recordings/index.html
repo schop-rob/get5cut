@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couper le bruit de fond – Détection de voix | 5cut</title>
+    <meta name="description" content="Sur les enregistrements bruyants, 5cut coupe les passages où personne ne parle, même s’ils sont forts. Il ne filtre pas le bruit sous une voix.">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/fr/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/cut-background-noise-from-recordings/">
+    <meta property="og:title" content="Couper le bruit de fond – Détection de voix | 5cut">
+    <meta property="og:description" content="Sur les enregistrements bruyants, 5cut coupe les passages où personne ne parle, même s’ils sont forts. Il ne filtre pas le bruit sous une voix.">
+    <meta property="og:url" content="https://get5cut.com/fr/cut-background-noise-from-recordings/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Couper le bruit de fond – Détection de voix | 5cut">
+    <meta name="twitter:description" content="Sur les enregistrements bruyants, 5cut coupe les passages où personne ne parle, même s’ils sont forts. Il ne filtre pas le bruit sous une voix.">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Couper le bruit de fond – Détection de voix | 5cut",
+        "description": "Sur les enregistrements bruyants, 5cut coupe les passages où personne ne parle, même s’ils sont forts. Il ne filtre pas le bruit sous une voix.",
+        "image": "https://get5cut.com/assets/og-card.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }
+        },
+        "mainEntityOfPage": "https://get5cut.com/fr/cut-background-noise-from-recordings/",
+        "dateModified": "2026-10-04"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+        .engine-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .engine-table th, .engine-table td {
+            text-align: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .engine-table th {
+            font-weight: 700;
+            background: #eee;
+        }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="/cut-background-noise-from-recordings/" class="">EN</a> | 
+        <a href="/de/cut-background-noise-from-recordings/" class="">DE</a> | 
+        <a href="/zh/cut-background-noise-from-recordings/" class="">ZH</a> | 
+        <a href="/fr/cut-background-noise-from-recordings/" class="active">FR</a> | 
+        <a href="/vi/cut-background-noise-from-recordings/" class="">VI</a> | 
+        <a href="/es/cut-background-noise-from-recordings/" class="">ES</a> | 
+        <a href="/it/cut-background-noise-from-recordings/" class="">IT</a> | 
+        <a href="/ja/cut-background-noise-from-recordings/" class="">JA</a> | 
+        <a href="/ko/cut-background-noise-from-recordings/" class="">KO</a> | 
+        <a href="/pt-br/cut-background-noise-from-recordings/" class="">PT</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="Icône de l’app 5cut" class="app-icon">
+        <h1 class="brand"><span class="highlight">Couper le bruit de fond des enregistrements</span></h1>
+        <h2 class="tagline">Gardez la voix. Coupez le bruit entre les mots.</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">5 exports gratuits</div>
+            <div class="stat-label">chaque mois</div>
+        </div>
+
+        <section class="intro-text">
+            <p>Vous enregistrez dans la rue, dans une gare ou en marchant. L’enregistrement a de la circulation, des pas et des annonces entre les phrases. Ces passages sont bruyants, donc un outil de coupe qui mesure seulement le volume les garde. 5cut les coupe, parce que personne ne parle dedans.</p>
+<h2>Comment 5cut trouve la voix</h2>
+<p>Un petit détecteur de voix est intégré à l’app. Il fait environ 1 Mo et ne demande aucun téléchargement. Il marque chaque partie de l’enregistrement où quelqu’un parle. 5cut coupe les parties sans voix, même quand elles sont aussi bruyantes que la personne qui parle.</p>
+<p>5cut mesure aussi le volume de chaque enregistrement. Il fixe son seuil entre le bruit de fond et la voix.</p>
+<h2>Ce que 5cut ne fait pas</h2>
+<p>5cut ne réduit pas et ne filtre pas le bruit sous la parole. Quand quelqu’un parle, 5cut garde tout le son de ce passage, aussi le bruit derrière la voix. 5cut retire seulement les parties sans voix.</p>
+<h2>Léger, Modéré ou Agressif</h2>
+<p>Plus vous coupez, plus 5cut doit être sûr que quelqu’un parle. Sur un enregistrement de téléphone typique, les trois intensités gardent cette part du temps :</p>
+<ul>
+    <li><strong>Léger</strong> : environ 80 %</li>
+    <li><strong>Modéré</strong> : environ 70 %</li>
+    <li><strong>Agressif</strong> : environ 60 %</li>
+</ul>
+<p>Un cours dense garde plus, parce qu’il a moins de pauses.</p>
+<h2>Fonctionne en mode avion</h2>
+<p>Le détecteur de voix tourne sur votre iPhone, donc il fonctionne aussi en mode avion. Vos enregistrements ne quittent jamais votre iPhone. Il n’y a aucun serveur 5cut.</p>
+<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Télécharger 5cut sur l’App Store</a></p>
+<h2>Questions fréquentes</h2>
+<div class="faq">
+            <details>
+                <summary>Est-ce que 5cut retire le bruit pendant que quelqu’un parle ?</summary>
+                <p>Non. 5cut ne filtre pas le bruit sous une voix. Il coupe seulement les parties où personne ne parle.</p>
+            </details>
+            <details>
+                <summary>Quel bruit 5cut coupe-t-il ?</summary>
+                <p>Le bruit dans les parties sans voix, par exemple la circulation, des pas, des froissements ou un train. 5cut coupe ces parties aussi quand elles sont bruyantes.</p>
+            </details>
+            <details>
+                <summary>Dois-je télécharger le détecteur de voix ?</summary>
+                <p>Non. Le détecteur de voix est dans l’app. Il fait environ 1 Mo et fonctionne en mode avion.</p>
+            </details>
+            <details>
+                <summary>Est-ce gratuit ?</summary>
+                <p>Oui. La suppression des silences et le détecteur de voix sont gratuits. La version gratuite vous donne 5 exports par mois.</p>
+            </details>
+</div>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>Enregistreur avec signets de chapitre</h3>
+                    <p>Enregistrez des cours, des réunions et des entretiens dans l’app. Touchez pour ajouter un signet de chapitre pendant l’enregistrement. Plus tard, le signet vous mène à ce moment.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>Suppression intelligente des silences</h3>
+                    <p>5cut trouve les silences des cours et des podcasts et les coupe. Choisissez Léger, Modéré ou Agressif, ou réglez vous-même le seuil.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>Traduction sur l’appareil et résumés IA</h3>
+                    <p>Lisez le cours dans votre langue grâce à la traduction en direct. Avec Premium, 5cut crée aussi des résumés IA, des points clés et des fiches de révision sur votre iPhone. Pour cela, il utilise Apple Intelligence ou un modèle d’IA que vous téléchargez une seule fois.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>Export vers Notion, Anki et Obsidian</h3>
+                    <p>Envoyez la transcription et vos notes vers Apple Notes, Markdown, Anki, Notion ou Obsidian. 5cut crée aussi des fiches Anki à partir de la transcription.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>Identification des intervenants (Premium)</h3>
+                    <p>5cut trouve jusqu’à 4 intervenants dans un enregistrement. Chaque intervenant reçoit une couleur et un nom que vous pouvez changer. Cela aide pour les séminaires et les discussions de groupe.</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h2>Comment ça marche</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>Enregistrez ou importez</strong> de l’audio ou de la vidéo sur votre iPhone.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>Coupez les silences</strong>. 5cut affiche la parole en vert et les silences en rouge.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>Transcrivez et traduisez</strong> sur votre iPhone. Avec Premium, 5cut crée aussi des résumés IA.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>Exportez vers vos outils d’étude</strong> : Anki, Notion, Obsidian ou Apple Notes.</p>
+            </div>
+        </section>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Vos enregistrements ne quittent jamais votre iPhone</h2>
+            <p>5cut coupe, transcrit et crée des notes sur l’appareil. Il n’y a aucun serveur 5cut. Testez-le vous-même : téléchargez une fois un modèle de transcription, puis activez le mode avion. 5cut fonctionne de la même façon. L’app n’a ni compte, ni analyse, ni publicité.</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">Téléchargement gratuit · 5 exports gratuits par mois · Sans compte</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Télécharger 5cut sur l’App Store">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Cas d’usage</h4>
+                <a href="/fr/use-cases/remove-silence-from-zoom/">Enregistrements Zoom</a>
+                <a href="/fr/use-cases/remove-silence-from-obs/">VODs OBS et Twitch</a>
+                <a href="/fr/remove-silence-from-lectures/">Cours universitaires</a>
+                <a href="/fr/cut-background-noise-from-recordings/">Bruit de fond</a>
+                <a href="/fr/podcast-silence-remover/">Podcasts</a>
+                <a href="/fr/free-jumpcut-app/">App Jumpcut</a>
+                <a href="/fr/smartphone-video-editor/">Éditeur sur smartphone</a>
+            </div>
+            <div class="footer-col">
+                <h4>Alternatives</h4>
+                <a href="/fr/alternatives/timebolt-alternative/">Alternative à TimeBolt</a>
+                <a href="/alternatives/otter-alternative/">Alternative à Otter.ai</a>
+            </div>
+            <div class="footer-col">
+                <h4>Mentions légales et support</h4>
+                <a href="/support/">Support et contact</a>
+                <a href="/privacy/">Politique de confidentialité</a>
+                <a href="/terms/">Conditions d’utilisation</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
+</body>
+</html>

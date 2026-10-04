@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5cut – Ghi Âm, Cắt Bỏ Khoảng Lặng & Xuất Ghi Chú | Ứng Dụng iOS</title>
-    <meta name="description" content="Ghi âm bài giảng trực tiếp trên iPhone. 5cut tự động cắt khoảng lặng, tạo phụ đề 30+ ngôn ngữ và xuất ghi chú học tập sạch sẽ sang Anki, Notion, và Obsidian. Riêng tư, trên thiết bị.">
+    <title>5cut – Ghi Âm, Chép Lời Bài Giảng, Cắt Khoảng Lặng | iOS</title>
+    <meta name="description" content="Ghi âm bài giảng trên iPhone. 5cut cắt khoảng lặng, chép lời hơn 30 ngôn ngữ, dịch trực tiếp và xuất ghi chú học tập sang Anki, Notion, Obsidian.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -15,15 +15,19 @@
     <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/">
     <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/">
     <link rel="alternate" hreflang="es" href="https://get5cut.com/es/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
-    <meta property="og:title" content="5cut – Ghi Âm & Cắt Khoảng Lặng, Xuất Ghi Chú Học Tập">
-    <meta property="og:description" content="Ghi âm bài giảng. Cắt bỏ khoảng lặng. Dịch trực tiếp. Nhận bản ghi chép và ghi chú học tập. Riêng tư trên iPhone.">
+    <meta property="og:title" content="5cut – Ghi Âm Bài Giảng, Cắt Khoảng Lặng, Xuất Ghi Chú">
+    <meta property="og:description" content="Ghi âm bài giảng. Cắt khoảng lặng. Dịch trực tiếp. Nhận bản chép lời và ghi chú học tập. Bản ghi của bạn không bao giờ rời khỏi iPhone.">
     <meta property="og:url" content="https://get5cut.com/vi/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="5cut – Ghi Âm & Cắt Khoảng Lặng, Xuất Ghi Chú Học Tập">
-    <meta name="twitter:description" content="Ghi âm bài giảng. Cắt bỏ khoảng lặng. Dịch trực tiếp. Nhận bản ghi chép và ghi chú học tập. Riêng tư trên iPhone.">
+    <meta name="twitter:title" content="5cut – Ghi Âm Bài Giảng, Cắt Khoảng Lặng, Xuất Ghi Chú">
+    <meta name="twitter:description" content="Ghi âm bài giảng. Cắt khoảng lặng. Dịch trực tiếp. Nhận bản chép lời và ghi chú học tập. Bản ghi của bạn không bao giờ rời khỏi iPhone.">
     <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
@@ -32,7 +36,7 @@
         "name": "5cut",
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
-        "description": "Ghi âm bài giảng trực tiếp trên iPhone. 5cut tự động cắt khoảng lặng, tạo phụ đề 30+ ngôn ngữ và xuất ghi chú học tập sạch sẽ sang Anki, Notion, và Obsidian. Riêng tư, trên thiết bị.",
+        "description": "Ghi âm bài giảng trên iPhone. 5cut cắt khoảng lặng, chép lời hơn 30 ngôn ngữ, dịch trực tiếp và xuất ghi chú học tập sang Anki, Notion, Obsidian.",
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
         "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
         "author": {
@@ -40,7 +44,14 @@
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         },
-        "softwareVersion": "1.2.5"
+        "softwareVersion": "1.2.5",
+        "url": "https://get5cut.com/vi/",
+        "sameAs": "https://apps.apple.com/app/5cut/id6758529319",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
     }
     </script>
     <style>
@@ -97,6 +108,13 @@
             color: #555;
             margin-bottom: 28px;
             letter-spacing: 0;
+        }
+        .hero-facts {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            margin: -12px 0 24px;
+            max-width: 34em;
         }
         .hero-proof {
             display: flex;
@@ -277,6 +295,15 @@
         .lang-switch a:hover {
             text-decoration: underline;
         }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
         footer {
             margin: 64px auto 0;
             font-size: 13px;
@@ -437,31 +464,36 @@
         <a href="/zh/" class="">ZH</a> | 
         <a href="/fr/" class="">FR</a> | 
         <a href="/vi/" class="active">VI</a> | 
-        <a href="/es/" class="">ES</a>
+        <a href="/es/" class="">ES</a> | 
+        <a href="/it/" class="">IT</a> | 
+        <a href="/ja/" class="">JA</a> | 
+        <a href="/ko/" class="">KO</a> | 
+        <a href="/pt-br/" class="">PT</a>
     </div>
     <main class="container">
         <section class="hero">
             <div class="hero-copy">
-                <img src="/icon.svg" alt="5cut app icon" class="app-icon">
-                <h1 class="brand"><span class="highlight">5cut</span> – Máy ghi âm bài giảng AI & Cắt khoảng lặng</h1>
-                <h2 class="tagline">Không còn tốn hàng giờ nghe lại. Tự động cắt khoảng lặng, dịch trực tiếp và tạo ghi chú học tập.</h2>
+                <img src="/icon.svg" alt="Biểu tượng ứng dụng 5cut" class="app-icon">
+                <h1 class="brand"><span class="highlight">5cut</span> — Máy ghi âm bài giảng AI & Cắt khoảng lặng</h1>
+                <h2 class="tagline">Theo dõi mọi bài giảng bằng ngôn ngữ của bạn, theo tốc độ của bạn.</h2>
+                <p class="hero-facts">Ghi âm bài giảng, cắt khoảng lặng, chép lời hơn 30 ngôn ngữ, dịch trực tiếp và xuất ghi chú học tập. Tất cả diễn ra trên iPhone của bạn.</p>
                 <div class="hero-proof">
                     <span class="proof-pill">Không có máy chủ 5cut</span>
-                    <span class="proof-pill">Không cần đăng ký tài khoản</span>
-                    <span class="proof-pill">Dịch trực tiếp 30+ ngôn ngữ</span>
+                    <span class="proof-pill">5 lượt xuất miễn phí mỗi tháng</span>
+                    <span class="proof-pill">Không cần tài khoản</span>
                 </div>
                 <div class="cta-container">
-                    <p class="cta-subtext">Tải xuống miễn phí · 5 xuất miễn phí/tháng · Không cần tài khoản</p>
+                    <p class="cta-subtext">Tải miễn phí · 5 lượt xuất miễn phí mỗi tháng · Không cần tài khoản</p>
                     <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
-                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Tải 5cut trên App Store">
                     </a>
                 </div>
             </div>
-            <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
-                <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
-                <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot editor">
-                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot transcript">
-                <p class="hero-note">Ghi âm, cắt khoảng lặng, chuyển ngữ, dịch thuật và xuất — hoàn toàn trên iPhone của bạn. Bản ghi không bao giờ rời khỏi thiết bị.</p>
+            <div class="hero-visual" aria-label="Ảnh chụp màn hình iPhone của 5cut: máy ghi âm, trình chỉnh sửa và bản chép lời">
+                <img src="/assets/iphone-recorder.png" alt="Màn hình máy ghi âm của 5cut" class="phone-shot recorder">
+                <img src="/assets/iphone-transcript.png" alt="Màn hình bản chép lời của 5cut" class="phone-shot editor">
+                <img src="/assets/iphone-editor.png" alt="Trình chỉnh sửa cắt khoảng lặng của 5cut" class="phone-shot transcript">
+                <p class="hero-note">Ghi âm, cắt, chép lời, dịch và xuất ngay trên iPhone. Bản ghi của bạn không bao giờ rời khỏi máy.</p>
             </div>
         </section>
 
@@ -471,36 +503,36 @@
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>Máy Ghi Âm & Dấu Trang</h3>
-                    <p>Ghi âm bài giảng và cuộc họp trực tiếp. Thêm dấu trang trong khi ghi để dễ dàng tìm lại những khoảnh khắc quan trọng.</p>
+                    <h3>Ghi âm với dấu chương</h3>
+                    <p>Ghi âm bài giảng, cuộc họp và buổi phỏng vấn ngay trong ứng dụng. Nhấn để thêm dấu chương khi bạn ghi âm. Sau đó, dấu chương đưa bạn đến đúng khoảnh khắc đó.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
-                    <h3>Tự Động Xóa Khoảng Lặng Thông Minh</h3>
-                    <p>Phát hiện và cắt bỏ những khoảng trống từ bài giảng và podcast. Sử dụng các chế độ thông minh hoặc tự điều chỉnh thủ công.</p>
+                    <h3>Cắt khoảng lặng thông minh</h3>
+                    <p>5cut tìm khoảng lặng trong bài giảng và podcast rồi cắt đi. Chọn Nhẹ, Vừa hoặc Mạnh, hoặc tự đặt ngưỡng.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>Dịch Thuật & Tóm Tắt AI Trên Thiết Bị</h3>
-                    <p>Theo dõi bài giảng bằng ngôn ngữ mẹ đẻ của bạn nhờ dịch trực tiếp. Với Premium và iOS 26+, bạn có thể tạo tóm tắt AI và Q&A cục bộ trên iPhone.</p>
+                    <h3>Dịch & tóm tắt AI trên thiết bị</h3>
+                    <p>Đọc bài giảng bằng ngôn ngữ của bạn nhờ dịch trực tiếp. Với Premium, 5cut cũng tạo tóm tắt AI, điểm chính và thẻ ghi nhớ trên iPhone. Để làm việc này, 5cut dùng Apple Intelligence hoặc một mô hình AI mà bạn tải một lần.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
-                    <h3>Xuất Sang Notion, Anki & Obsidian</h3>
-                    <p>Xuất bản ghi chép sạch sẽ với nhãn người nói trực tiếp sang các công cụ học tập yêu thích của bạn, bao gồm các thẻ ghi nhớ Anki.</p>
+                    <h3>Xuất sang Notion, Anki & Obsidian</h3>
+                    <p>Gửi bản chép lời và ghi chú của bạn sang Apple Ghi chú, Markdown, Anki, Notion hoặc Obsidian. 5cut cũng tạo thẻ học Anki từ bản chép lời.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Nhận Diện Nhiều Người Nói (Premium)</h3>
-                    <p>Tự động nhận diện tối đa 4 người nói trong một bản ghi âm với mã màu và nhãn có thể chỉnh sửa — hoàn hảo cho các hội thảo.</p>
+                    <h3>Nhận diện người nói (Premium)</h3>
+                    <p>5cut tìm tối đa 4 người nói trong một bản ghi. Mỗi người nói có một màu và một tên mà bạn có thể đổi. Tính năng này hữu ích cho hội thảo và thảo luận nhóm.</p>
                 </div>
             </div>
         </article>
@@ -509,72 +541,84 @@
             <h2>Cách hoạt động</h2>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Ghi âm hoặc Nhập</strong> âm thanh hoặc video trực tiếp trên iPhone</p>
+                <p><strong>Ghi âm hoặc nhập</strong> âm thanh hoặc video trên iPhone của bạn.</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>Tự động phát hiện khoảng lặng</strong> — giọng nói màu xanh, khoảng lặng màu đỏ</p>
+                <p><strong>Cắt khoảng lặng</strong>. 5cut hiển thị lời nói màu xanh và khoảng lặng màu đỏ.</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>Dịch thuật & tóm tắt</strong> trên thiết bị bằng AI cục bộ (tóm tắt AI cần Premium và iOS 26+)</p>
+                <p><strong>Chép lời và dịch</strong> trên iPhone của bạn. Với Premium, 5cut cũng tạo tóm tắt AI.</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Xuất sang công cụ học tập</strong> — gửi ghi chú sạch sang Anki, Notion, hoặc Obsidian</p>
+                <p><strong>Xuất sang công cụ học tập</strong>: Anki, Notion, Obsidian hoặc Apple Ghi chú.</p>
             </div>
         </section>
 
         <section class="use-cases">
-            <h2>Hoàn hảo cho</h2>
-            <p>Du học sinh và sinh viên quốc tế học tập bằng ngoại ngữ, người định cư ở nước ngoài. Cũng rất phù hợp cho các chuyên gia muốn cắt bỏ khoảng lặng từ các bản ghi cuộc họp Zoom hoặc đẩy nhanh tốc độ nghe podcast.</p>
-            <p>Cần phụ đề hay dịch thuật? 5cut hỗ trợ hơn 30 ngôn ngữ; các mô hình đã tải xuống có thể xử lý ngoại tuyến trên thiết bị.</p>
+            <h2>Dành cho</h2>
+            <p>5cut dành cho sinh viên quốc tế học bằng ngôn ngữ thứ hai và cho sinh viên du học. Ứng dụng cũng giúp người đi làm muốn có bản ghi Zoom và podcast ngắn hơn, không còn các khoảng lặng dài.</p>
+            <p>Bạn cần dịch trực tiếp? 5cut chép lời bài giảng bằng hơn 30 ngôn ngữ và dịch trực tiếp. Mỗi công cụ chỉ tải mô hình của nó một lần, sau đó hoạt động ngoại tuyến.</p>
         </section>
 
 
 
 
         <section class="privacy-box">
-            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Không có máy chủ 5cut. Không có bản sao đám mây.</h2>
-            <p>Bản ghi của bạn không bao giờ rời khỏi thiết bị. Mọi bản chép lời đều được tạo trên iPhone của bạn — không có máy chủ 5cut, không xử lý đám mây, không có dịch vụ chép lời bên thứ ba. Không cần tài khoản, không phân tích trong ứng dụng, không quảng cáo.</p>
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Bản ghi của bạn không bao giờ rời khỏi iPhone</h2>
+            <p>5cut cắt, chép lời và tạo ghi chú trên thiết bị. Không có máy chủ 5cut. Hãy tự kiểm tra: tải một mô hình chép lời một lần, rồi bật Chế độ máy bay. 5cut hoạt động giống hệt như trước. Ứng dụng không có tài khoản, không có phân tích và không có quảng cáo.</p>
         </section>
 
         <div class="cta-container" style="text-align: center;">
-            <p class="cta-subtext">Tải xuống miễn phí · 5 xuất miễn phí/tháng · Không cần tài khoản</p>
+            <p class="cta-subtext">Tải miễn phí · 5 lượt xuất miễn phí mỗi tháng · Không cần tài khoản</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Tải 5cut trên App Store">
             </a>
         </div>
 
         <section class="faq">
             <h2>Câu hỏi thường gặp</h2>
             <details>
-                <summary>Tính năng phát hiện khoảng lặng hoạt động như thế nào?</summary>
-                <p>5cut phân tích biểu đồ âm thanh trên thiết bị. Các phân đoạn dưới ngưỡng im lặng được tô màu đỏ. Bạn có thể kéo thanh trượt để điều chỉnh.</p>
+                <summary>Tính năng cắt khoảng lặng hoạt động như thế nào?</summary>
+                <p>5cut đo độ lớn âm thanh của từng bản ghi trên iPhone của bạn. 5cut đặt một ngưỡng giữa tiếng ồn nền và giọng nói. Một bộ phát hiện giọng nói nhỏ có sẵn trong ứng dụng cũng đánh dấu nơi có người nói. 5cut hiển thị khoảng lặng màu đỏ. Bạn có thể di chuyển ngưỡng hoặc chọn Nhẹ, Vừa hoặc Mạnh.</p>
             </details>
             <details>
-                <summary>Tôi có thể tạo phụ đề và dịch thuật cho bài giảng không?</summary>
-                <p>Có. 5cut bao gồm khả năng tạo phụ đề và dịch trực tiếp trên thiết bị hỗ trợ hơn 30 ngôn ngữ. Bạn có thể xuất dưới dạng tệp SRT.</p>
+                <summary>5cut có cắt tiếng ồn nền không?</summary>
+                <p>Có, nhưng chỉ ở giữa các từ. Một bộ phát hiện giọng nói nhỏ có sẵn trong ứng dụng đánh dấu nơi có người nói. 5cut cắt các đoạn không có ai nói, kể cả khi chúng ồn, ví dụ tiếng xe cộ hoặc tàu hỏa. 5cut không lọc tiếng ồn dưới giọng nói. Khi có người nói, tiếng ồn nền vẫn còn. <a href="/vi/cut-background-noise-from-recordings/">Đọc thêm về bản ghi nhiều tiếng ồn</a>.</p>
             </details>
             <details>
-                <summary>Ứng dụng có hoạt động với các bản ghi Zoom không?</summary>
-                <p>Có. Nhập bất kỳ video MP4, MOV hoặc HEVC nào. 5cut hoạt động với các bản ghi Zoom, Microsoft Teams và bất kỳ tệp video nào có rãnh âm thanh.</p>
+                <summary>Tôi có thể thêm phụ đề và bản dịch cho bài giảng không?</summary>
+                <p>Có. 5cut chép lời bằng hơn 30 ngôn ngữ và có thể dịch bản chép lời. Bạn có thể ghi phụ đề vào video hoặc xuất tệp SRT. Các ngôn ngữ phụ thuộc vào công cụ bạn chọn.</p>
             </details>
             <details>
-                <summary>Tôi có thể xử lý toàn bộ bài giảng của một học kỳ cùng lúc không?</summary>
-                <p>Có. Bạn có thể xếp hàng nhiều bản ghi âm và xử lý bằng cài đặt riêng hoặc cài đặt chung.</p>
+                <summary>Ứng dụng có hoạt động với bản ghi Zoom và khóa học trực tuyến không?</summary>
+                <p>Có. Nhập video MP4, MOV hoặc HEVC. 5cut hoạt động với bản ghi Zoom và Microsoft Teams, bản ghi màn hình và mọi tệp video có rãnh âm thanh. Bạn cũng có thể nhập tệp âm thanh.</p>
+            </details>
+            <details>
+                <summary>Tôi có thể xử lý bài giảng của cả học kỳ cùng lúc không?</summary>
+                <p>Có. Thêm nhiều bản ghi vào một lô, với cùng cài đặt cho tất cả hoặc cài đặt riêng cho từng video. 5cut xử lý lần lượt từng video. Hãy để 5cut mở khi lô đang chạy. Ở bản miễn phí, mỗi lần xuất từ một lô được tính vào 5 lượt xuất miễn phí mỗi tháng.</p>
+            </details>
+            <details>
+                <summary>Tôi có thể tìm kiếm các bài giảng cũ không?</summary>
+                <p>Có. Trong Gần đây, tìm kiếm tìm bài giảng theo tiêu đề. Với Premium, tìm kiếm cũng tìm các từ trong mọi dòng của mọi bản chép lời đã lưu. Nhấn vào một kết quả, và 5cut mở bài giảng tại đúng thời điểm đó.</p>
             </details>
             <details>
                 <summary>Dữ liệu của tôi có riêng tư không?</summary>
-                <p>5cut không có máy chủ, hệ thống tài khoản hay bản sao đám mây cho bản ghi của bạn. Vì vậy chúng tôi không thể xem, nghe hoặc lưu trữ chúng. Các mô hình đã tải xuống hỗ trợ phiên âm ngoại tuyến.</p>
+                <p>Bản ghi của bạn không bao giờ rời khỏi iPhone. 5cut cắt, chép lời và tạo ghi chú trên thiết bị. Không có máy chủ 5cut. Hãy tự kiểm tra: tải một mô hình chép lời một lần, rồi bật Chế độ máy bay. 5cut hoạt động giống hệt như trước.</p>
+            </details>
+            <details>
+                <summary>Tôi có thể kiểm tra rằng bản ghi của tôi ở lại trên iPhone không?</summary>
+                <p>Có. Tải một mô hình chép lời một lần. Bật Chế độ máy bay. Sau đó ghi âm và chép lời một bài giảng. 5cut hoạt động giống hệt như trước, vì 5cut không gửi bản ghi của bạn đi đâu cả. Không có máy chủ 5cut nào có thể nhận chúng.</p>
             </details>
             <details>
                 <summary>Có gói Premium không?</summary>
-                <p>Có. Các tính năng ghi âm, cắt khoảng lặng và xem trước bản chép lời (5 phút đầu) đều miễn phí. Bạn có thể nâng cấp lên 5cut Premium để xuất không giới hạn, nhận diện người nói, dịch toàn bộ bài giảng và tạo tóm tắt AI trên iOS 26+. Premium là gói đăng ký hằng tháng hoặc nâng cấp trọn đời một lần — giá hiển thị trong App Store và điều chỉnh theo khu vực.</p>
+                <p>Có. Bản miễn phí gồm máy ghi âm, cắt khoảng lặng và 5 lượt xuất mỗi tháng. Bản ghi bạn tạo trong 5cut có bản chép lời đầy đủ. Tệp đã nhập có bản chép lời của 5 phút đầu. Premium thêm lượt xuất không giới hạn và không có hình mờ, bản chép lời đầy đủ của tệp đã nhập, nhận diện người nói, ghi chú AI và thẻ ghi nhớ, và tìm kiếm trong mọi bản chép lời. Premium là gói đăng ký hằng tháng hoặc mua trọn đời một lần, và App Store hiển thị giá theo khu vực của bạn.</p>
             </details>
             <details>
-                <summary>Ứng dụng có sẵn bằng những ngôn ngữ nào?</summary>
-                <p>Giao diện ứng dụng có sẵn bằng tiếng Anh, Đức, Tây Ban Nha, Pháp, Ý, Nhật Bản, Hàn Quốc, Bồ Đào Nha, Tiếng Việt và Tiếng Trung.</p>
+                <summary>Ứng dụng có những ngôn ngữ nào?</summary>
+                <p>Giao diện ứng dụng có tiếng Anh, tiếng Đức, tiếng Tây Ban Nha, tiếng Pháp, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng Bồ Đào Nha (Brazil), tiếng Việt và tiếng Trung giản thể. Chép lời hoạt động với hơn 30 ngôn ngữ.</p>
             </details>
         </section>
     </main>
@@ -583,28 +627,29 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>Trường hợp sử dụng</h4>
-                <a href="/vi/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
-                <a href="/vi/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
-                <a href="/vi/remove-silence-from-lectures/">University Lectures</a>
-                <a href="/vi/podcast-silence-remover/">Podcasts</a>
-                <a href="/vi/free-jumpcut-app/">Jumpcut App</a>
-                <a href="/vi/smartphone-video-editor/">Smartphone Editor</a>
+                <a href="/vi/use-cases/remove-silence-from-zoom/">Bản ghi Zoom</a>
+                <a href="/vi/use-cases/remove-silence-from-obs/">VOD OBS & Twitch</a>
+                <a href="/vi/remove-silence-from-lectures/">Bài giảng đại học</a>
+                <a href="/vi/cut-background-noise-from-recordings/">Tiếng ồn nền</a>
+                <a href="/vi/podcast-silence-remover/">Podcast</a>
+                <a href="/vi/free-jumpcut-app/">Ứng dụng Jumpcut</a>
+                <a href="/vi/smartphone-video-editor/">Trình chỉnh sửa trên điện thoại</a>
             </div>
             <div class="footer-col">
-                <h4>Các lựa chọn thay thế</h4>
-                <a href="/vi/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
-                <a href="/alternatives/otter-alternative/">Otter.ai Alternative</a>
+                <h4>Lựa chọn thay thế</h4>
+                <a href="/vi/alternatives/timebolt-alternative/">Thay thế TimeBolt</a>
+                <a href="/alternatives/otter-alternative/">Thay thế Otter.ai</a>
             </div>
             <div class="footer-col">
-                <h4>Theo lĩnh vực học tập</h4>
-                <a href="/vi/best-app-for-medical-school-lectures/">Medical School Lectures</a>
-                <a href="/vi/best-app-for-law-school-recordings/">Law School Recordings</a>
+                <h4>Theo ngành học</h4>
+                <a href="/vi/best-app-for-medical-school-lectures/">Bài giảng y khoa</a>
+                <a href="/vi/best-app-for-law-school-recordings/">Bản ghi bài giảng luật</a>
             </div>
             <div class="footer-col">
                 <h4>Pháp lý & Hỗ trợ</h4>
-                <a href="/support/">Support & Contact</a>
-                <a href="/privacy/">Privacy Policy</a>
-                <a href="/terms/">Terms of Service</a>
+                <a href="/support/">Hỗ trợ & Liên hệ</a>
+                <a href="/privacy/">Chính sách bảo mật</a>
+                <a href="/terms/">Điều khoản sử dụng</a>
                 <a href="/impressum/">Impressum</a>
             </div>
         </div>

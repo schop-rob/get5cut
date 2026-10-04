@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>剪掉录音中的背景噪音 – 人声检测 | 5cut</title>
+    <meta name="description" content="在嘈杂的手机录音中，5cut 剪掉无人说话的部分，即使这些部分很响。它不会过滤人声下面的噪音。">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://get5cut.com/zh/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="en" href="https://get5cut.com/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/cut-background-noise-from-recordings/">
+    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/cut-background-noise-from-recordings/">
+    <meta property="og:title" content="剪掉录音中的背景噪音 – 人声检测 | 5cut">
+    <meta property="og:description" content="在嘈杂的手机录音中，5cut 剪掉无人说话的部分，即使这些部分很响。它不会过滤人声下面的噪音。">
+    <meta property="og:url" content="https://get5cut.com/zh/cut-background-noise-from-recordings/">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="剪掉录音中的背景噪音 – 人声检测 | 5cut">
+    <meta name="twitter:description" content="在嘈杂的手机录音中，5cut 剪掉无人说话的部分，即使这些部分很响。它不会过滤人声下面的噪音。">
+    <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "剪掉录音中的背景噪音 – 人声检测 | 5cut",
+        "description": "在嘈杂的手机录音中，5cut 剪掉无人说话的部分，即使这些部分很响。它不会过滤人声下面的噪音。",
+        "image": "https://get5cut.com/assets/og-card.png",
+        "author": {
+            "@type": "Person",
+            "name": "Robin Schöppner",
+            "url": "https://get5cut.com/"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "5cut",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://get5cut.com/apple-touch-icon.png"
+            }
+        },
+        "mainEntityOfPage": "https://get5cut.com/zh/cut-background-noise-from-recordings/",
+        "dateModified": "2026-10-04"
+    }
+    </script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+            background: #F5F5F5;
+            color: #111;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 24px;
+        }
+        .container {
+            max-width: 640px;
+            width: 100%;
+            text-align: center;
+        }
+        .brand {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .highlight {
+            position: relative;
+            display: inline;
+        }
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0.05em;
+            left: -0.05em;
+            right: -0.05em;
+            height: 0.3em;
+            background: #FFCC00;
+            z-index: -1;
+        }
+        .tagline {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 48px;
+            letter-spacing: 0.02em;
+        }
+        .intro-text {
+            text-align: left;
+            margin-bottom: 48px;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .intro-text p {
+            margin-bottom: 16px;
+        }
+        .features {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            width: 32px;
+            height: 32px;
+            background: #111;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 16px;
+        }
+        .feature-text h3 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 22.37%;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+            margin-bottom: 24px;
+        }
+        .use-cases {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .use-cases h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .use-cases p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .privacy-box {
+            background: #E8F5E9;
+            border: 1px solid #4CAF50;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: left;
+        }
+        .privacy-box h2 {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2E7D32;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .privacy-box p {
+            font-size: 13px;
+            color: #388E3C;
+            line-height: 1.5;
+        }
+        .cta-container {
+            margin: 24px 0 32px 0;
+            text-align: center;
+        }
+        .cta-subtext {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .app-store-badge {
+            display: inline-block;
+            margin-bottom: 32px;
+        }
+        .app-store-badge img {
+            height: 54px;
+        }
+        .divider {
+            width: 120px;
+            height: 6px;
+            background: #FFCC00;
+            margin: 0 auto 32px;
+        }
+        .lang-switch {
+            position: absolute;
+            top: 16px;
+            right: 24px;
+            font-size: 13px;
+            background: #fff;
+            padding: 4px 12px;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .lang-switch a {
+            color: #666;
+            text-decoration: none;
+            margin: 0 4px;
+        }
+        .lang-switch a.active {
+            font-weight: 700;
+            color: #111;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
+        footer {
+            margin-top: 64px;
+            font-size: 13px;
+            color: #777;
+            text-align: left;
+            width: 100%;
+            max-width: 800px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-col h4 {
+            font-size: 14px;
+            color: #111;
+            margin-bottom: 16px;
+        }
+        .footer-col a {
+            display: block;
+            color: #666;
+            text-decoration: none;
+            margin-bottom: 8px;
+        }
+        .footer-col a:hover {
+            text-decoration: underline;
+            color: #111;
+        }
+        .copyright {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            padding-top: 24px;
+        }
+        .how-it-works {
+            text-align: left;
+            margin-bottom: 48px;
+        }
+        .how-it-works h2 {
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .step-number {
+            width: 24px;
+            height: 24px;
+            background: #FFCC00;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .step strong {
+            color: #111;
+        }
+        .callout {
+            background: #111;
+            color: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 48px;
+            text-align: center;
+        }
+        .callout .stat {
+            font-family: Impact, 'Arial Black', sans-serif;
+            font-size: 48px;
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+        .callout .stat-label {
+            font-size: 14px;
+            color: #999;
+        }
+        .engine-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+        .engine-table th, .engine-table td {
+            text-align: center;
+            padding: 10px 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        .engine-table th {
+            font-weight: 700;
+            background: #eee;
+        }
+    </style>
+    <script defer data-domain="get5cut.com" src="https://plausible.io/js/script.js"></script>
+</head>
+<body>
+    <div class="lang-switch">
+        <a href="/cut-background-noise-from-recordings/" class="">EN</a> | 
+        <a href="/de/cut-background-noise-from-recordings/" class="">DE</a> | 
+        <a href="/zh/cut-background-noise-from-recordings/" class="active">ZH</a> | 
+        <a href="/fr/cut-background-noise-from-recordings/" class="">FR</a> | 
+        <a href="/vi/cut-background-noise-from-recordings/" class="">VI</a> | 
+        <a href="/es/cut-background-noise-from-recordings/" class="">ES</a> | 
+        <a href="/it/cut-background-noise-from-recordings/" class="">IT</a> | 
+        <a href="/ja/cut-background-noise-from-recordings/" class="">JA</a> | 
+        <a href="/ko/cut-background-noise-from-recordings/" class="">KO</a> | 
+        <a href="/pt-br/cut-background-noise-from-recordings/" class="">PT</a>
+    </div>
+    <main class="container">
+        <img src="/icon.svg" alt="5cut 应用图标" class="app-icon">
+        <h1 class="brand"><span class="highlight">剪掉录音中的背景噪音</span></h1>
+        <h2 class="tagline">保留人声。剪掉词语之间的噪音。</h2>
+
+        <div class="divider"></div>
+
+        <div class="callout">
+            <div class="stat">5 次免费导出</div>
+            <div class="stat-label">每月</div>
+        </div>
+
+        <section class="intro-text">
+            <p>你在街上、火车站或边走边录音。录音里，句子之间有车流声、脚步声和广播声。这些部分很响，所以只测量响度的剪辑工具会保留它们。5cut 会剪掉它们，因为这些部分没人说话。</p>
+<h2>5cut 如何找出人声</h2>
+<p>应用内置了一个小型人声检测器。它约 1 MB，不需要下载。它会标出录音中有人说话的每个部分。5cut 剪掉没有人声的部分，即使这些部分和说话人一样响。</p>
+<p>5cut 还会测量每段录音的响度。它在背景噪音和人声之间设定阈值。</p>
+<h2>5cut 不做什么</h2>
+<p>5cut 不会降低或过滤语音下面的噪音。有人说话时，5cut 保留那一部分的所有声音，也包括人声背后的噪音。5cut 只移除没有人声的部分。</p>
+<h2>轻度、适中或强力</h2>
+<p>你剪得越多，5cut 就越需要确定有人在说话。在典型的手机录音上，三种强度保留的时间比例如下：</p>
+<ul>
+    <li><strong>轻度</strong>：约 80%</li>
+    <li><strong>适中</strong>：约 70%</li>
+    <li><strong>强力</strong>：约 60%</li>
+</ul>
+<p>内容密集的讲座保留得更多，因为停顿更少。</p>
+<h2>在飞行模式下也能使用</h2>
+<p>人声检测器在你的 iPhone 上运行，所以在飞行模式下也能使用。你的录音绝不会离开 iPhone。没有 5cut 服务器。</p>
+<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">在 App Store 下载 5cut</a></p>
+<h2>常见问题</h2>
+<div class="faq">
+            <details>
+                <summary>有人说话时，5cut 会去掉噪音吗？</summary>
+                <p>不会。5cut 不会过滤人声下面的噪音。它只剪掉无人说话的部分。</p>
+            </details>
+            <details>
+                <summary>5cut 剪掉哪些噪音？</summary>
+                <p>无人声部分中的噪音，例如车流声、脚步声、沙沙声或火车声。这些部分即使很响，5cut 也会剪掉。</p>
+            </details>
+            <details>
+                <summary>我需要下载人声检测器吗？</summary>
+                <p>不需要。人声检测器就在应用内。它约 1 MB，在飞行模式下也能使用。</p>
+            </details>
+            <details>
+                <summary>这个功能免费吗？</summary>
+                <p>是的。去除静音和人声检测器都免费。免费版每月提供 5 次导出。</p>
+            </details>
+</div>
+        </section>
+
+        <article class="features">
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
+                <div class="feature-text">
+                    <h3>录音机与章节标记</h3>
+                    <p>在应用内录制讲座、会议和访谈。录音时点按即可添加章节标记。之后，点按标记就能跳到那一刻。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
+                <div class="feature-text">
+                    <h3>智能去除静音</h3>
+                    <p>5cut 找出讲座和播客中的静音并剪掉。选择轻度、适中或强力，也可以自己设定阈值。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
+                <div class="feature-text">
+                    <h3>设备端翻译与 AI 摘要</h3>
+                    <p>通过实时翻译，用你的语言阅读讲座。使用高级版时，5cut 还会在你的 iPhone 上生成 AI 摘要、要点和抽认卡。为此，它使用 Apple 智能，或你只下载一次的 AI 模型。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
+                <div class="feature-text">
+                    <h3>导出到 Notion、Anki 和 Obsidian</h3>
+                    <p>把转录文本和你的笔记发送到 Apple 备忘录、Markdown、Anki、Notion 或 Obsidian。5cut 还会用转录文本生成 Anki 学习卡片。</p>
+                </div>
+            </div>
+            <div class="feature">
+                <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
+                <div class="feature-text">
+                    <h3>说话人识别（高级版）</h3>
+                    <p>5cut 能在一段录音中识别最多 4 位说话人。每位说话人有一种颜色和一个可修改的名称。这对研讨课和小组讨论有帮助。</p>
+                </div>
+            </div>
+        </article>
+
+        <section class="how-it-works">
+            <h2>使用方法</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p><strong>录制或导入</strong> iPhone 上的音频或视频。</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p><strong>去除静音</strong>。5cut 用绿色显示语音，用红色显示静音。</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p><strong>在 iPhone 上转录和翻译</strong>。使用高级版时，5cut 还会生成 AI 摘要。</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p><strong>导出到你的学习工具</strong>：Anki、Notion、Obsidian 或 Apple 备忘录。</p>
+            </div>
+        </section>
+
+        <section class="privacy-box">
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>你的录音绝不会离开 iPhone</h2>
+            <p>5cut 在设备上完成剪辑、转录和笔记生成。没有 5cut 服务器。亲自验证：只需下载一次转录模型，然后开启飞行模式。5cut 的运行完全一样。应用没有账户、没有分析、没有广告。</p>
+        </section>
+
+        <div class="cta-container">
+            <p class="cta-subtext">免费下载 · 每月 5 次免费导出 · 无需账户</p>
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="在 App Store 下载 5cut">
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>使用场景</h4>
+                <a href="/zh/use-cases/remove-silence-from-zoom/">Zoom 录像</a>
+                <a href="/zh/use-cases/remove-silence-from-obs/">OBS 与 Twitch 直播回放</a>
+                <a href="/zh/remove-silence-from-lectures/">大学讲座</a>
+                <a href="/zh/cut-background-noise-from-recordings/">背景噪音</a>
+                <a href="/zh/podcast-silence-remover/">播客</a>
+                <a href="/zh/free-jumpcut-app/">跳切应用</a>
+                <a href="/zh/smartphone-video-editor/">手机视频编辑器</a>
+            </div>
+            <div class="footer-col">
+                <h4>替代方案</h4>
+                <a href="/zh/alternatives/timebolt-alternative/">TimeBolt 替代方案</a>
+                <a href="/alternatives/otter-alternative/">Otter.ai 替代方案</a>
+            </div>
+            <div class="footer-col">
+                <h4>法律与支持</h4>
+                <a href="/support/">支持与联系</a>
+                <a href="/privacy/">隐私政策</a>
+                <a href="/terms/">使用条款</a>
+                <a href="/impressum/">Impressum</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Robin Sch&ouml;ppner</p>
+    </footer>
+</body>
+</html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5cut – Record & Trim Lectures, Export Study Notes | iOS App</title>
-    <meta name="description" content="Record lectures in any language on your iPhone. 5cut removes silence, transcribes and live-translates in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Private, on-device.">
+    <meta name="description" content="Record lectures on your iPhone. 5cut cuts the silence, transcribes in 30+ languages, translates live and exports study notes to Anki, Notion and Obsidian.">
     <link rel="icon" type="image/svg+xml" href="/icon.svg">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -15,15 +15,19 @@
     <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/">
     <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/">
     <link rel="alternate" hreflang="es" href="https://get5cut.com/es/">
+    <link rel="alternate" hreflang="it" href="https://get5cut.com/it/">
+    <link rel="alternate" hreflang="ja" href="https://get5cut.com/ja/">
+    <link rel="alternate" hreflang="ko" href="https://get5cut.com/ko/">
+    <link rel="alternate" hreflang="pt-BR" href="https://get5cut.com/pt-br/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/">
     <meta property="og:title" content="5cut – Record & Trim Lectures, Export Study Notes">
-    <meta property="og:description" content="Record lectures. Trim silence. Translate live. Get a clean transcript and study notes. Private on iPhone.">
+    <meta property="og:description" content="Record lectures. Cut the silence. Translate live. Get a transcript and study notes. Your recordings never leave your iPhone.">
     <meta property="og:url" content="https://get5cut.com/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://get5cut.com/assets/og-card.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="5cut – Record & Trim Lectures, Export Study Notes">
-    <meta name="twitter:description" content="Record lectures. Trim silence. Translate live. Get a clean transcript and study notes. Private on iPhone.">
+    <meta name="twitter:description" content="Record lectures. Cut the silence. Translate live. Get a transcript and study notes. Your recordings never leave your iPhone.">
     <meta name="twitter:image" content="https://get5cut.com/assets/og-card.png">
     <script type="application/ld+json">
     {
@@ -32,7 +36,7 @@
         "name": "5cut",
         "operatingSystem": "iOS",
         "applicationCategory": "MultimediaApplication",
-        "description": "Record lectures in any language on your iPhone. 5cut removes silence, transcribes and live-translates in 30+ languages, and exports clean study notes to Anki, Notion, and Obsidian. Private, on-device.",
+        "description": "Record lectures on your iPhone. 5cut cuts the silence, transcribes in 30+ languages, translates live and exports study notes to Anki, Notion and Obsidian.",
         "featureList": "In-app recorder, AI summaries, Export to Apple Notes/Anki/Notion/Obsidian, Silence removal, on-device transcription in 30+ languages, speaker identification",
         "screenshot": "https://get5cut.com/assets/iphone-transcript.png",
         "author": {
@@ -40,7 +44,14 @@
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         },
-        "softwareVersion": "1.2.5"
+        "softwareVersion": "1.2.5",
+        "url": "https://get5cut.com/",
+        "sameAs": "https://apps.apple.com/app/5cut/id6758529319",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
     }
     </script>
     <style>
@@ -97,6 +108,13 @@
             color: #555;
             margin-bottom: 28px;
             letter-spacing: 0;
+        }
+        .hero-facts {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #333;
+            margin: -12px 0 24px;
+            max-width: 34em;
         }
         .hero-proof {
             display: flex;
@@ -277,6 +295,15 @@
         .lang-switch a:hover {
             text-decoration: underline;
         }
+        @media (max-width: 600px) {
+            .lang-switch {
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }
+        }
         footer {
             margin: 64px auto 0;
             font-size: 13px;
@@ -437,31 +464,36 @@
         <a href="/zh/" class="">ZH</a> | 
         <a href="/fr/" class="">FR</a> | 
         <a href="/vi/" class="">VI</a> | 
-        <a href="/es/" class="">ES</a>
+        <a href="/es/" class="">ES</a> | 
+        <a href="/it/" class="">IT</a> | 
+        <a href="/ja/" class="">JA</a> | 
+        <a href="/ko/" class="">KO</a> | 
+        <a href="/pt-br/" class="">PT</a>
     </div>
     <main class="container">
         <section class="hero">
             <div class="hero-copy">
                 <img src="/icon.svg" alt="5cut app icon" class="app-icon">
                 <h1 class="brand"><span class="highlight">5cut</span> — AI Lecture Recorder & Silence Trimmer</h1>
-                <h2 class="tagline">Keep up with lectures — in your language, at your pace.</h2>
+                <h2 class="tagline">Follow every lecture in your language, at your speed.</h2>
+                <p class="hero-facts">Record lectures, cut the silence, transcribe in 30+ languages, translate live and export study notes. All of it happens on your iPhone.</p>
                 <div class="hero-proof">
                     <span class="proof-pill">No 5cut server</span>
-                    <span class="proof-pill">5 exports/month free</span>
-                    <span class="proof-pill">No account required</span>
+                    <span class="proof-pill">5 free exports each month</span>
+                    <span class="proof-pill">No account</span>
                 </div>
                 <div class="cta-container">
-                    <p class="cta-subtext">Free download · 5 exports/month free · No account</p>
+                    <p class="cta-subtext">Free download · 5 free exports each month · No account</p>
                     <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
                         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
                     </a>
                 </div>
             </div>
-            <div class="hero-visual" aria-label="5cut iPhone screenshots showing recording, editing, and transcript views">
+            <div class="hero-visual" aria-label="5cut iPhone screenshots of the recorder, the editor and the transcript">
                 <img src="/assets/iphone-recorder.png" alt="5cut recorder screen" class="phone-shot recorder">
                 <img src="/assets/iphone-transcript.png" alt="5cut transcript screen" class="phone-shot editor">
-                <img src="/assets/iphone-editor.png" alt="5cut silence trimming editor" class="phone-shot transcript">
-                <p class="hero-note">Record, trim, transcribe, translate, and export — entirely on your iPhone. Your recordings never leave it.</p>
+                <img src="/assets/iphone-editor.png" alt="5cut silence cutting editor" class="phone-shot transcript">
+                <p class="hero-note">Record, cut, transcribe, translate and export on your iPhone. Your recordings never leave it.</p>
             </div>
         </section>
 
@@ -471,36 +503,36 @@
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="8" cy="8" r="4"/><path d="M14 8a6 6 0 11-12 0 6 6 0 0112 0z"/></svg></div>
                 <div class="feature-text">
-                    <h3>In-App Recorder & Bookmarks</h3>
-                    <p>Record lectures, meetings, and interviews directly in the app. Add chapter bookmarks while recording so important moments are easier to find later.</p>
+                    <h3>Recorder with Chapter Bookmarks</h3>
+                    <p>Record lectures, meetings and interviews in the app. Tap to add a chapter bookmark while you record. Later, the bookmark takes you to that moment.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M4 2v12M12 2v12M1 8h14"/></svg></div>
                 <div class="feature-text">
                     <h3>Smart Silence Removal</h3>
-                    <p>Automatically detect and cut dead air from lectures and podcasts. Use Smart Mode presets (Gentle, Moderate, Aggressive) or customize thresholds manually.</p>
+                    <p>5cut finds the silence in lectures and podcasts and cuts it. Choose Gentle, Moderate or Aggressive, or set the threshold yourself.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 3h12v10H2z"/><path d="M5 7h6M5 9h4"/></svg></div>
                 <div class="feature-text">
-                    <h3>On-Device Translation & AI summaries</h3>
-                    <p>Follow lectures in your native tongue with live translation. Premium users on iOS 26+ can generate AI summaries, key points, and study questions using on-device models after the required model and language downloads.</p>
+                    <h3>On-Device Translation & AI Summaries</h3>
+                    <p>Read the lecture in your language with live translation. With Premium, 5cut also makes AI summaries, key points and flashcards on your iPhone. For this, it uses Apple Intelligence or an AI model that you download one time.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M2 4h12M2 8h8M2 12h10"/></svg></div>
                 <div class="feature-text">
                     <h3>Export to Notion, Anki & Obsidian</h3>
-                    <p>Export your trimmed transcripts with speaker labels directly to your favorite study tools, including Obsidian and auto-generated Anki study cards.</p>
+                    <p>Send the transcript and your notes to Apple Notes, Markdown, Anki, Notion or Obsidian. 5cut also makes Anki study cards from the transcript.</p>
                 </div>
             </div>
             <div class="feature">
                 <div class="feature-icon"><svg width="16" height="16" fill="none" stroke="white" stroke-width="2"><circle cx="5" cy="6" r="3"/><circle cx="11" cy="6" r="3"/><path d="M2 14c0-2 2-3 3-3s3 1 3 3M8 14c0-2 2-3 3-3s3 1 3 3"/></svg></div>
                 <div class="feature-text">
-                    <h3>Multi-Speaker Identification (Premium)</h3>
-                    <p>Automatically identify up to 4 speakers in a single recording with color-coded, renamable labels — perfect for group discussions and seminars.</p>
+                    <h3>Speaker Identification (Premium)</h3>
+                    <p>5cut finds up to 4 speakers in one recording. Each speaker gets a color and a name that you can change. This helps with seminars and group discussions.</p>
                 </div>
             </div>
         </article>
@@ -509,38 +541,38 @@
             <h2>How it works</h2>
             <div class="step">
                 <div class="step-number">1</div>
-                <p><strong>Record or Import</strong> any audio or video directly on your iPhone</p>
+                <p><strong>Record or import</strong> audio or video on your iPhone.</p>
             </div>
             <div class="step">
                 <div class="step-number">2</div>
-                <p><strong>Auto-detect silence</strong> — see speech in green and gaps in red</p>
+                <p><strong>Cut the silence</strong>. 5cut shows speech in green and silence in red.</p>
             </div>
             <div class="step">
                 <div class="step-number">3</div>
-                <p><strong>Translate & summarize</strong> on-device using local AI models (AI summaries require Premium and iOS 26+)</p>
+                <p><strong>Transcribe and translate</strong> on your iPhone. With Premium, 5cut also makes AI summaries.</p>
             </div>
             <div class="step">
                 <div class="step-number">4</div>
-                <p><strong>Export to study tools</strong> — send clean files to Anki, Notion, or Obsidian</p>
+                <p><strong>Export to your study tools</strong>: Anki, Notion, Obsidian or Apple Notes.</p>
             </div>
         </section>
 
         <section class="use-cases">
-            <h2>Perfect for</h2>
-            <p>International students attending lectures in a second language, study abroad participants, and expats watching local media. Also perfect for professionals who want to skip awkward pauses in Zoom recordings or speed up podcasts.</p>
-            <p>Need live translations? 5cut transcribes and translates lectures in 30+ languages, with downloaded on-device engines available for offline use.</p>
+            <h2>Made for</h2>
+            <p>5cut is for international students who attend lectures in a second language, and for students who study abroad. It also helps professionals who want shorter Zoom recordings and podcasts without long pauses.</p>
+            <p>Do you need live translation? 5cut transcribes lectures in more than 30 languages and translates them live. Each engine downloads its model one time and then works offline.</p>
         </section>
 
 
 
 
         <section class="privacy-box">
-            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>No 5cut Server. No Cloud Copy.</h2>
-            <p>Your recordings never leave your device. Every transcript is generated on your iPhone — there is no 5cut server, no cloud processing, and no third-party transcription service. No account, no analytics, no ads.</p>
+            <h2><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Your recordings never leave your iPhone</h2>
+            <p>5cut cuts, transcribes and makes notes on the device. There is no 5cut server. Test it yourself: download a transcription model one time, then turn on Airplane Mode. 5cut works the same. The app has no account, no analytics and no ads.</p>
         </section>
 
         <div class="cta-container" style="text-align: center;">
-            <p class="cta-subtext">Free download · 5 exports/month free · No account</p>
+            <p class="cta-subtext">Free download · 5 free exports each month · No account</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
             </a>
@@ -550,31 +582,43 @@
             <h2>Frequently asked questions</h2>
             <details>
                 <summary>How does silence detection work?</summary>
-                <p>5cut analyzes the audio waveform of your video on-device. Segments below the silence threshold are color-coded red. You can drag a slider to adjust what counts as "silence," or use one of three Smart Mode presets.</p>
+                <p>5cut measures the loudness of each recording on your iPhone. It sets a threshold between the background noise and the voice. A small voice detector in the app also marks where someone speaks. 5cut shows the silence in red. You can move the threshold or choose Gentle, Moderate or Aggressive.</p>
+            </details>
+            <details>
+                <summary>Does 5cut cut background noise?</summary>
+                <p>Yes, but only between the words. A small voice detector in the app marks where someone speaks. 5cut cuts the parts where nobody speaks, also when they are loud, for example traffic or a train. 5cut does not filter the noise under a voice. When someone speaks, the background noise stays. <a href="/cut-background-noise-from-recordings/">Read more about noisy recordings</a>.</p>
             </details>
             <details>
                 <summary>Can I add subtitles and translations to lectures?</summary>
-                <p>Yes. 5cut includes transcription and live translation supporting over 30 languages. You can burn subtitles into the video or export an SRT file. Offline availability depends on the selected engine, language, and required model download.</p>
+                <p>Yes. 5cut transcribes in more than 30 languages and can translate the transcript. You can burn the subtitles into the video or export an SRT file. The languages depend on the engine that you choose.</p>
             </details>
             <details>
                 <summary>Does it work with Zoom and online course recordings?</summary>
-                <p>Yes. Import any MP4, MOV, or HEVC video. 5cut works with Zoom recordings, Microsoft Teams meetings, screen recordings, and any video file with an audio track.</p>
+                <p>Yes. Import an MP4, MOV or HEVC video. 5cut works with Zoom and Microsoft Teams recordings, screen recordings and any video file with an audio track. You can also import audio files.</p>
             </details>
             <details>
                 <summary>Can I process a whole semester of lectures at once?</summary>
-                <p>Yes. You can queue up multiple recordings and process them with individual or shared settings.</p>
+                <p>Yes. Add many recordings to one batch, with the same settings for all or with settings for each video. 5cut processes them one after the other. Keep 5cut open while the batch runs. In the free version, each export from a batch counts toward the 5 free exports each month.</p>
+            </details>
+            <details>
+                <summary>Can I search my old lectures?</summary>
+                <p>Yes. In Recents, search finds your lectures by title. With Premium, search also finds words in every line of every saved transcript. Tap a result, and 5cut opens the lecture at that moment.</p>
             </details>
             <details>
                 <summary>Is my data private?</summary>
-                <p>Your recordings never leave your device. 5cut has no server and no account system, so there is nothing for us to see, hear, or store, and no third party receives your audio either. Every transcription engine runs on the device; models download once, then work offline.</p>
+                <p>Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server. Test it yourself: download a transcription model one time, then turn on Airplane Mode. 5cut works the same.</p>
+            </details>
+            <details>
+                <summary>Can I check that my recordings stay on my iPhone?</summary>
+                <p>Yes. Download a transcription model one time. Turn on Airplane Mode. Then record and transcribe a lecture. 5cut works the same, because it sends your recordings nowhere. There is no 5cut server that can receive them.</p>
             </details>
             <details>
                 <summary>Is there a premium plan?</summary>
-                <p>Yes. Recording, silence removal, and transcript previews (up to 5 minutes) are free. You can upgrade to 5cut Premium for unlimited exports, speaker identification, full-length transcripts, and AI summaries on iOS 26+. Premium is a monthly subscription or a one-time lifetime purchase — prices are shown in the App Store and adjusted for your region.</p>
+                <p>Yes. The free version includes the recorder, silence removal and 5 exports each month. Recordings that you make in 5cut get a full transcript. Imported files get a transcript of the first 5 minutes. Premium adds unlimited exports without a watermark, full transcripts of imported files, speaker identification, AI notes and flashcards, and search in all transcripts. Premium is a monthly subscription or a one-time lifetime purchase, and the App Store shows the price for your region.</p>
             </details>
             <details>
                 <summary>What languages is the app available in?</summary>
-                <p>The app interface is available in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese, and Simplified Chinese.</p>
+                <p>The app interface is in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), Vietnamese and Simplified Chinese. Transcription works in more than 30 languages.</p>
             </details>
         </section>
     </main>
@@ -586,6 +630,7 @@
                 <a href="/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
                 <a href="/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
                 <a href="/remove-silence-from-lectures/">University Lectures</a>
+                <a href="/cut-background-noise-from-recordings/">Background Noise</a>
                 <a href="/podcast-silence-remover/">Podcasts</a>
                 <a href="/free-jumpcut-app/">Jumpcut App</a>
                 <a href="/smartphone-video-editor/">Smartphone Editor</a>

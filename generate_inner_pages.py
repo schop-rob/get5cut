@@ -5,6 +5,9 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from i18n import LANGS, faq_details, hreflang_links, lang_switch, module
 
 languages = {code: module(code).HOME for code, *_ in LANGS}
+
+# Day the page text last changed. Set it when you change the text, not on every run.
+DATE_MODIFIED = "2026-10-04"
 pages_data = {}
 for code, *_ in LANGS:
     for page_path, texts in module(code).PAGES.items():
@@ -51,7 +54,8 @@ inner_page_template = """<!DOCTYPE html>
                 "url": "https://get5cut.com/apple-touch-icon.png"
             }}
         }},
-        "mainEntityOfPage": "https://get5cut.com{prefix}/{page_path}/"
+        "mainEntityOfPage": "https://get5cut.com{prefix}/{page_path}/",
+        "dateModified": "{date_modified}"
     }}
     </script>
     <style>
@@ -231,6 +235,15 @@ inner_page_template = """<!DOCTYPE html>
         .lang-switch a:hover {{
             text-decoration: underline;
         }}
+        @media (max-width: 600px) {{
+            .lang-switch {{
+                position: static;
+                display: block;
+                margin: 12px 16px 0;
+                text-align: center;
+                line-height: 1.8;
+            }}
+        }}
         footer {{
             margin-top: 64px;
             font-size: 13px;
@@ -344,7 +357,7 @@ inner_page_template = """<!DOCTYPE html>
 {lang_switch}
     </div>
     <main class="container">
-        <img src="/icon.svg" alt="5cut app icon" class="app-icon">
+        <img src="/icon.svg" alt="{alt_icon}" class="app-icon">
         <h1 class="brand"><span class="highlight">{page_h1}</span></h1>
         <h2 class="tagline">{page_tagline}</h2>
 
@@ -425,7 +438,7 @@ inner_page_template = """<!DOCTYPE html>
         <div class="cta-container">
             <p class="cta-subtext">{cta_subtext}</p>
             <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download 5cut on the App Store">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
             </a>
         </div>
     </main>
@@ -434,23 +447,24 @@ inner_page_template = """<!DOCTYPE html>
         <div class="footer-grid">
             <div class="footer-col">
                 <h4>{footer_use_cases}</h4>
-                <a href="{prefix}/use-cases/remove-silence-from-zoom/">Zoom Recordings</a>
-                <a href="{prefix}/use-cases/remove-silence-from-obs/">OBS & Twitch VODs</a>
-                <a href="{prefix}/remove-silence-from-lectures/">University Lectures</a>
-                <a href="{prefix}/podcast-silence-remover/">Podcasts</a>
-                <a href="{prefix}/free-jumpcut-app/">Jumpcut App</a>
-                <a href="{prefix}/smartphone-video-editor/">Smartphone Editor</a>
+                <a href="{prefix}/use-cases/remove-silence-from-zoom/">{footer_zoom}</a>
+                <a href="{prefix}/use-cases/remove-silence-from-obs/">{footer_obs}</a>
+                <a href="{prefix}/remove-silence-from-lectures/">{footer_lectures}</a>
+                <a href="{prefix}/cut-background-noise-from-recordings/">{footer_noise}</a>
+                <a href="{prefix}/podcast-silence-remover/">{footer_podcasts}</a>
+                <a href="{prefix}/free-jumpcut-app/">{footer_jumpcut}</a>
+                <a href="{prefix}/smartphone-video-editor/">{footer_editor}</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_alternatives}</h4>
-                <a href="{prefix}/alternatives/timebolt-alternative/">TimeBolt Alternative</a>
-                <a href="/alternatives/otter-alternative/">Otter.ai Alternative</a>
+                <a href="{prefix}/alternatives/timebolt-alternative/">{footer_timebolt}</a>
+                <a href="/alternatives/otter-alternative/">{footer_otter}</a>
             </div>
             <div class="footer-col">
                 <h4>{footer_legal}</h4>
-                <a href="/support/">Support & Contact</a>
-                <a href="/privacy/">Privacy Policy</a>
-                <a href="/terms/">Terms of Service</a>
+                <a href="/support/">{footer_support}</a>
+                <a href="/privacy/">{footer_privacy}</a>
+                <a href="/terms/">{footer_terms}</a>
                 <a href="/impressum/">Impressum</a>
             </div>
         </div>
@@ -476,6 +490,7 @@ for page_path, translations in pages_data.items():
         context["page_tagline"] = page_lang_data["tagline"]
         context["page_intro"] = page_lang_data["intro"]
         context["page_path"] = page_lang_data.get("path", page_path)
+        context["date_modified"] = DATE_MODIFIED
         faq = page_lang_data.get("faq")
         context["page_faq"] = (
             f'\n<h2>{base_lang_data["faq"]}</h2>\n<div class="faq">\n{faq_details(faq)}\n</div>' if faq else ""

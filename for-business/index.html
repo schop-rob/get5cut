@@ -10,7 +10,7 @@
     <link rel="canonical" href="https://get5cut.com/for-business/">
     <link rel="alternate" hreflang="en" href="https://get5cut.com/for-business/">
     <link rel="alternate" hreflang="x-default" href="https://get5cut.com/for-business/">
-    <meta name="description" content="Transcribe meetings and interviews on iPhone without uploading audio anywhere. No server, no account, no telemetry — for teams that cannot send recordings to a cloud service.">
+    <meta name="description" content="Transcribe meetings and interviews on iPhone. Your recordings never leave the device. No server, no account, no telemetry. For teams that cannot use cloud services.">
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -67,72 +67,72 @@
         <h1>Transcription that never uploads</h1>
         <div class="divider"></div>
 
-        <p class="lede">Most transcription tools work by sending your audio to their servers. If your recordings contain client matters, patient information, personnel discussions or unreleased work, that upload is the problem — not the transcript.</p>
+        <p class="lede">Most transcription tools send your audio to their servers. If your recordings contain client matters, patient information, personnel discussions or unreleased work, the upload is the problem, not the transcript.</p>
 
-        <p>5cut records and transcribes on the iPhone itself. There is no 5cut server to send anything to, no account to create, and no third-party transcription service in the path. The recording stays on the device it was made on.</p>
+        <p>Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server. You need no account, and no third-party transcription service gets the audio.</p>
 
         <h2>Who this is for</h2>
 
         <div class="card">
             <h3>Legal and professional services</h3>
-            <p>Client interviews and case discussions where uploading audio to a third-party processor would need its own justification.</p>
+            <p>Client interviews and case discussions. An upload of this audio to a third-party processor needs its own justification.</p>
         </div>
 
         <div class="card">
             <h3>Healthcare and research</h3>
-            <p>Interviews and consultations involving patient or subject data, where the simplest compliant answer is that the audio never left the device.</p>
+            <p>Interviews and consultations with patient or subject data. Here, the simplest compliant answer is that the audio never left the device.</p>
         </div>
 
         <div class="card">
             <h3>HR, works councils and internal investigations</h3>
-            <p>Conversations that cannot be routed through an external service, regardless of that service's own assurances.</p>
+            <p>Conversations that an external service must not receive, whatever that service promises.</p>
         </div>
 
         <div class="card">
             <h3>Teams under a no-cloud-upload policy</h3>
-            <p>Organisations whose security policy prohibits uploading internal discussions to external SaaS, which rules out most transcription tools by default.</p>
+            <p>Organizations with a security policy that prohibits uploads of internal discussions to external SaaS. By default, this policy excludes most transcription tools.</p>
         </div>
 
         <h2>What it does</h2>
 
         <ul>
             <li>Records or imports audio and video on iPhone and iPad.</li>
-            <li>Produces a searchable transcript, with automatic speaker labels for up to four speakers.</li>
-            <li>Removes silence, so a long recording becomes a shorter one to review.</li>
+            <li>Makes a searchable transcript. With Premium, it labels up to four speakers automatically.</li>
+            <li>Removes the silence, so a long recording becomes shorter to review.</li>
             <li>Exports transcripts, subtitles and notes to Files, Apple Notes, Markdown, Notion, Obsidian or Anki.</li>
-            <li>Works with no network connection once the language model has been downloaded.</li>
+            <li>Works with no network connection after the one-time model download.</li>
         </ul>
 
-        <h2>Why the claim is checkable</h2>
+        <h2>Why you can check the claim</h2>
 
-        <p>"On-device" is easy to assert. Here you can test it in about a minute, without taking our word for anything:</p>
+        <p>It is easy to say "on-device". Here you can test it in about a minute. You do not need to trust us:</p>
 
         <ul>
-            <li><strong>Put the device in airplane mode.</strong> Once a model is downloaded, record something and transcribe it. It still works, because there is nothing to reach. A cloud tool cannot do this.</li>
-            <li><strong>Watch the network.</strong> Point a proxy or a network monitor at the device and transcribe a recording. There is no upload, because there is no endpoint to upload to.</li>
+            <li><strong>Turn on Airplane Mode.</strong> Download a transcription model one time first. Then record something and transcribe it. 5cut works the same, because there is no server to reach. A cloud tool cannot do this.</li>
+            <li><strong>Watch the network.</strong> Connect a proxy or a network monitor to the device and transcribe a recording. There is no upload, because there is no endpoint for an upload.</li>
         </ul>
 
-        <p>Version 1.2.5 removed the last code path that could route audio to a speech server for languages without on-device support. The app does still declare the iOS Speech Recognition permission, because it uses Apple's on-device speech engine and Apple requires that declaration from any app linking its Speech framework — the declaration describes which API is used, not where audio goes. The full technical detail is in the <a href="/security/">security summary</a>.</p>
+        <p>Version 1.2.5 removed the last code path that was able to send audio to a speech server, for languages without on-device support. The app still declares the iOS Speech Recognition permission. Apple requires this declaration from each app that links its Speech framework, and 5cut uses the on-device speech engine of Apple. The declaration shows which API the app uses, not where the audio goes. The <a href="/security/">security summary</a> has all the technical details.</p>
 
         <h2>Procurement</h2>
 
-        <p>No data processing agreement is required, because no data is processed on your behalf — there is no system that could receive it. The <a href="/security/">security summary</a> is written to answer a standard vendor questionnaire, and states plainly what 5cut does <em>not</em> have as well as what it does.</p>
+        <p>You do not need a data processing agreement, because nobody processes data for you. No system exists that can receive it. The <a href="/security/">security summary</a> answers a standard vendor questionnaire. It also states clearly what 5cut does <em>not</em> have.</p>
 
         <div class="note">
-            <p style="margin-bottom:8px;"><strong>Being straight about the size of this.</strong></p>
-            <p style="margin-bottom:0;">5cut is an independent app, not an enterprise platform. There is no admin console, no SSO and no audit log, because there is no account system. Deployment and control run through Apple Business Manager and your existing MDM. If you need central policy enforcement inside the app, 5cut is not the right tool and we would rather say so now.</p>
+            <p style="margin-bottom:8px;"><strong>A clear statement about the size of 5cut.</strong></p>
+            <p style="margin-bottom:0;">5cut is an independent app, not an enterprise platform. It has no admin console, no SSO and no audit log, because it has no account system. Apple Business Manager and your MDM handle deployment and control. If you need central policy enforcement in the app, 5cut is not the right tool. We prefer to tell you this now.</p>
         </div>
 
         <h2>Deployment and licensing</h2>
 
-        <p>5cut can be deployed to managed devices through Apple Business Manager and your MDM. Apple does not allow in-app purchases to be bought in volume, so for a team-wide licence the route is a custom build with the paid features already enabled, distributed privately to your organisation. Get in touch and we will walk through it.</p>
+        <p>You can deploy 5cut to managed devices through Apple Business Manager and your MDM. Apple does not sell in-app purchases in volume. For a license for your whole team, we make a custom build with the paid features already active. We distribute it privately to your organization. Contact us, and we will explain the steps.</p>
 
         <div class="contact-box">
             <p style="margin-bottom: 8px; color: #666; font-size: 13px;">Talk to the developer directly</p>
             <a href="mailto:support@get5cut.com">support@get5cut.com</a>
         </div>
 
-        <p><a href="https://apps.apple.com/app/id6758529319" class="cta">Download 5cut on the App Store</a></p>
+        <p><a href="https://apps.apple.com/app/id6758529319?ct=web_business" class="cta">Download 5cut on the App Store</a></p>
 
         <a href="/" class="back">← Back to 5cut</a>
     </div>

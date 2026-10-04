@@ -59,117 +59,131 @@
     <div class="container">
         <h1>Security</h1>
         <div class="divider"></div>
-        <p class="updated">Data handling summary for IT and procurement review. Last updated 28 July 2026, app version 1.2.5.</p>
+        <p class="updated">Data handling summary for IT and procurement review. Last updated 4 October 2026, app version 1.2.5.</p>
 
-        <p class="lede">5cut records and transcribes audio and video entirely on the user's device. There is no 5cut server, no account system, and no cloud processing. Recordings, transcripts and exports never leave the device unless the user exports them somewhere themselves.</p>
+        <p class="lede">Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server, no account system and no cloud processing. A recording, transcript or export leaves the device only when the user exports it to a place that the user chooses.</p>
 
         <h2>The short version</h2>
 
         <table>
             <tr><th>Question</th><th>Answer</th></tr>
-            <tr><td>Is customer audio uploaded anywhere?</td><td class="answer">No</td></tr>
-            <tr><td>Is a third-party transcription service used?</td><td class="answer">No</td></tr>
-            <tr><td>Are accounts or logins required?</td><td class="answer">No</td></tr>
-            <tr><td>Is there analytics or telemetry?</td><td class="answer">No</td></tr>
-            <tr><td>Is a Data Processing Agreement required?</td><td class="answer">No — see below</td></tr>
-            <tr><td>Is data encrypted at rest?</td><td class="answer">Yes — see below</td></tr>
-            <tr><td>Can it run without network access?</td><td class="answer">Yes, after model download</td></tr>
+            <tr><td>Does 5cut upload customer audio?</td><td class="answer">No</td></tr>
+            <tr><td>Does 5cut use a third-party transcription service?</td><td class="answer">No</td></tr>
+            <tr><td>Does 5cut need accounts or logins?</td><td class="answer">No</td></tr>
+            <tr><td>Does the app have analytics or telemetry?</td><td class="answer">No</td></tr>
+            <tr><td>Do you need a Data Processing Agreement?</td><td class="answer">No. See below.</td></tr>
+            <tr><td>Does iOS encrypt the data at rest?</td><td class="answer">Yes. See below.</td></tr>
+            <tr><td>Can the app work without network access?</td><td class="answer">Yes, after the model download</td></tr>
         </table>
 
-        <h2>Why no DPA is needed</h2>
+        <h2>Why you do not need a DPA</h2>
 
-        <p>A data processing agreement governs a processor handling personal data on a controller's behalf. 5cut never receives your data, so there is no processing relationship to govern. The developer has no technical ability to access, view, or retain any recording, transcript, or export — not because of a policy commitment, but because no system exists that could receive them.</p>
+        <p>A data processing agreement controls how a processor handles personal data for a controller. 5cut never receives your data, so there is no processing relationship to control. The developer cannot access, see or keep any recording, transcript or export. This is not a policy promise. No system exists that can receive the data.</p>
 
-        <p>If your process requires a signed statement to that effect rather than a policy page, contact us and we will provide one.</p>
+        <p>If your process needs a signed statement instead of a policy page, contact us. We will send you one.</p>
 
-        <h2>Where data lives</h2>
+        <h2>Where the data is</h2>
 
         <ul>
-            <li>Imported and recorded media, drafts, and transcripts are stored inside the app's iOS sandbox container on the device.</li>
-            <li>Nothing is written to shared storage unless the user explicitly exports it.</li>
-            <li>The container is covered by your device's MDM policy, remote wipe, and encryption posture like any other app.</li>
+            <li>The app keeps imported and recorded media, drafts and transcripts in its iOS sandbox container on the device.</li>
+            <li>The app writes nothing to shared storage until the user exports it.</li>
+            <li>5cut excludes imported files and the recordings that it makes from iCloud device backups.</li>
+            <li>Your MDM policy, remote wipe and device encryption apply to this container, as to any other app.</li>
         </ul>
 
-        <h2>Encryption at rest, precisely</h2>
+        <h2>Encryption at rest, in detail</h2>
 
-        <p>Two layers apply. Every modern iPhone encrypts its storage in hardware with a key fused into the silicon, which defeats physically extracting the flash. On top of that, iOS Data Protection gives each file a key wrapped by a class key derived in part from the user's device passcode. 5cut's files use:</p>
+        <p>Two layers apply. First, every modern iPhone encrypts its storage in hardware, with a key that is part of the chip. This protects the data if someone removes the flash memory from the device. Second, iOS Data Protection gives each file its own key. A class key wraps this file key, and iOS makes the class key partly from the device passcode. 5cut uses these classes:</p>
 
         <ul>
-            <li><strong>Complete protection</strong> for the project database — unreadable whenever the device is locked.</li>
-            <li><strong>Complete until first user authentication</strong> for imported and recorded media — unreadable until the user unlocks the device once after a restart. This is also the iOS default for app data.</li>
+            <li><strong>Complete protection</strong> for the project database. The database is unreadable while the device is locked.</li>
+            <li><strong>Complete until first user authentication</strong> for imported and recorded media. The media is unreadable until the user unlocks the device one time after a restart. This is also the iOS default for app data.</li>
         </ul>
 
-        <p>Two limits worth stating plainly. Data Protection derives its strength from the user having a device passcode; without one, protection falls back to the hardware layer alone — which is why a passcode policy enforced through MDM matters. And it protects a lost or stolen device, not a device that is unlocked in an attacker's hands. Once a user exports a file to Photos or Files, it is governed by that destination's protection, not by 5cut's.</p>
+        <p>There are two limits. First, Data Protection gets its strength from the device passcode. Without a passcode, only the hardware layer protects the data. For this reason, enforce a passcode policy through MDM.</p>
 
-        <h2>Transcription and speaker identification</h2>
+        <p>Second, Data Protection protects a lost or stolen device. It does not protect a device that an attacker holds while it is unlocked. When a user exports a file to Photos or Files, the protection of that destination applies, not the protection of 5cut.</p>
 
-        <p>All speech processing runs locally using on-device models:</p>
+        <h2>Speech, voice detection and AI notes</h2>
+
+        <p>Every speech engine runs on the device, with local models:</p>
 
         <ul>
-            <li><strong>Apple SpeechAnalyzer</strong> (iOS 26+), using Apple's on-device speech assets.</li>
-            <li><strong>WhisperKit</strong>, <strong>Parakeet</strong> (Ultra, Lite, Phonon-2) and <strong>Moonshine</strong>, running as local Core ML models.</li>
+            <li><strong>Apple SpeechAnalyzer</strong> (iOS 26 or later), with the on-device speech assets of Apple.</li>
+            <li><strong>WhisperKit</strong>, <strong>Parakeet</strong> (Ultra, Lite, Phonon-2) and <strong>Moonshine</strong>, as local models.</li>
             <li><strong>Speaker identification</strong> uses a local Sortformer model.</li>
+            <li><strong>Voice detection</strong> for silence removal uses Silero VAD. This model is part of the app and never downloads.</li>
+            <li><strong>AI notes</strong> use Apple Intelligence on the device, or an optional local model (Qwen3 0.6B or Gemma 4 E2B) that runs with LiteRT-LM.</li>
         </ul>
 
-        <p>Earlier versions could fall back to Apple's server-side speech recognition for language and device combinations without on-device support. <strong>That path was removed in version 1.2.5.</strong> The engine that could reach a server is gone; every engine listed above runs locally.</p>
+        <p>Earlier versions had a fallback to the server-side speech recognition of Apple, for languages and devices without on-device support. <strong>Version 1.2.5 removed that path.</strong> The engine that was able to reach a server is gone. Every engine above runs on the device.</p>
 
-        <p>The app does declare the iOS Speech Recognition permission. Apple requires that declaration from any app that links its Speech framework, which 5cut does in order to use the on-device transcriber — the declaration identifies which API an app uses, not where the audio goes. If you want to verify the destination rather than the API: put the device in airplane mode after the model has downloaded and transcribe a recording, or watch the device's traffic through a proxy while it transcribes.</p>
+        <p>The app declares the iOS Speech Recognition permission. Apple requires this declaration from each app that links its Speech framework. 5cut links the framework to use the on-device transcriber. The declaration shows which API an app uses. It does not show where the audio goes.</p>
+
+        <p>To check where the audio goes, do one of these tests:</p>
+
+        <ul>
+            <li>Download a transcription model one time, then turn on Airplane Mode. Transcribe a recording. 5cut works the same.</li>
+            <li>Watch the traffic of the device through a proxy while 5cut transcribes.</li>
+        </ul>
 
         <h2>Network activity</h2>
 
-        <p>The app makes outbound requests in exactly two situations, and neither transmits user content:</p>
+        <p>The app sends requests to the network in two cases only. Neither case sends user content:</p>
 
         <ul>
-            <li><strong>Model downloads.</strong> The first time a user selects an engine, its model is downloaded from Hugging Face (or its mirror) or, for Apple's engine, from Apple. This is a one-time download <em>to</em> the device.</li>
-            <li><strong>User-initiated video import.</strong> If a user chooses to import a video from a URL, the app fetches that URL.</li>
+            <li><strong>Model downloads.</strong> The first time a user selects an engine or an optional AI model, the app downloads the model from Hugging Face or its mirror. Apple SpeechAnalyzer gets its assets from Apple. Each download comes <em>to</em> the device one time.</li>
+            <li><strong>Video import from a URL.</strong> When a user imports a video from a URL, the app downloads that URL.</li>
         </ul>
 
-        <p>There are no analytics, crash-reporting, attribution, or advertising SDKs. The app's internal analytics helper compiles to debug-build logging only and is inert in App Store builds.</p>
+        <p>The app has no SDKs for analytics, crash reports, attribution or ads. The internal analytics helper of the app writes logs in debug builds only. In App Store builds, it does nothing.</p>
 
         <h2>Third-party components</h2>
 
-        <p>All are open-source, run locally, and perform inference or utility work only. None transmit user data:</p>
+        <p>All components are open source and run on the device. They do inference or utility work only. None of them sends user data:</p>
 
         <ul>
-            <li>WhisperKit (argmaxinc) — local speech recognition</li>
-            <li>FluidAudio (FluidInference) — local speech recognition and speaker diarization</li>
-            <li>swift-transformers, swift-jinja (Hugging Face) — local model tokenisation and templating</li>
-            <li>swift-collections, swift-argument-parser (Apple) — data structures and utilities</li>
+            <li>WhisperKit (Argmax): local speech recognition</li>
+            <li>FluidAudio (FluidInference): local speech recognition and speaker identification</li>
+            <li>Moonshine (Moonshine AI): local streaming speech recognition</li>
+            <li>LiteRT-LM (Google): runs the optional local AI models for notes</li>
+            <li>Silero VAD: local voice detection, part of the app</li>
+            <li>swift-argument-parser (Apple): utilities</li>
         </ul>
 
-        <h2>Permissions requested</h2>
+        <h2>Permissions that the app requests</h2>
 
         <ul>
-            <li><strong>Microphone</strong> — only while recording in the app.</li>
-            <li><strong>Photo Library</strong> — to select videos to edit and to save exports the user requests.</li>
-            <li><strong>Files</strong> — when the user imports a file.</li>
-            <li><strong>Speech Recognition</strong> — required by Apple for use of its on-device speech engine. Grants access to the local recogniser, not to a network service.</li>
+            <li><strong>Microphone</strong>: only while the user records in the app.</li>
+            <li><strong>Photo Library</strong>: to select videos to edit and to save the exports that the user requests.</li>
+            <li><strong>Files</strong>: when the user imports a file.</li>
+            <li><strong>Speech Recognition</strong>: Apple requires it for its on-device speech engine. It gives access to the local recognizer, not to a network service.</li>
         </ul>
 
-        <p>Contacts, location, calendar, and tracking permissions are not requested.</p>
+        <p>The app does not request contacts, location, calendar or tracking permissions.</p>
 
-        <h2>Data export is user-initiated</h2>
+        <h2>Only the user exports data</h2>
 
-        <p>Users can export transcripts and notes to Apple Notes, Markdown, Anki, Notion or Obsidian, and video to Photos or Files. These are deliberate user actions with a normal iOS share sheet. If your organisation restricts destinations, this is governed by your existing MDM and Managed Open In policies — 5cut adds no independent channel.</p>
+        <p>Users can export transcripts and notes to Apple Notes, Markdown, Anki, Notion or Obsidian, and video to Photos or Files. Each export is a user action with the normal iOS share sheet. If your organization limits destinations, your MDM and Managed Open In policies control this. 5cut adds no separate channel.</p>
 
         <h2>What we do not claim</h2>
 
         <div class="note">
-            <p style="margin-bottom:8px;"><strong>5cut is a small independent app, and it is worth being precise about the limits.</strong></p>
-            <p style="margin-bottom:8px;">There is no SOC 2 report, no ISO 27001 certification, and no third-party penetration test. Those attest to organisational controls around handling customer data — controls that exist to manage a risk 5cut does not create, because no customer data is received.</p>
-            <p style="margin-bottom:0;">There is also no admin console, no central policy enforcement, and no audit log, because there is no account system to attach them to. Deployment and control are handled entirely through Apple Business Manager and your MDM.</p>
+            <p style="margin-bottom:8px;"><strong>5cut is a small independent app. These are its limits.</strong></p>
+            <p style="margin-bottom:8px;">There is no SOC 2 report, no ISO 27001 certification and no third-party penetration test. These reports show how an organization controls the customer data that it receives. 5cut receives no customer data, so it does not create this risk.</p>
+            <p style="margin-bottom:0;">There is also no admin console, no central policy enforcement and no audit log, because there is no account system for them. Apple Business Manager and your MDM handle all deployment and control.</p>
         </div>
 
         <h2>Deployment</h2>
 
-        <p>5cut is distributed through the App Store and can be deployed to managed devices via Apple Business Manager and your MDM. Note that Apple does not permit in-app purchases to be bought in volume — for an organisation-wide licence, contact us about a custom build with the paid features already enabled.</p>
+        <p>5cut is in the App Store. You can deploy it to managed devices through Apple Business Manager and your MDM. Apple does not sell in-app purchases in volume. For a license for your whole organization, contact us about a custom build with the paid features already active.</p>
 
         <div class="contact-box">
             <p style="margin-bottom: 8px; color: #666; font-size: 13px;">Security or procurement questions</p>
             <a href="mailto:support@get5cut.com">support@get5cut.com</a>
         </div>
 
-        <p style="font-size:14px;color:#666;">See also the <a href="/privacy/">privacy policy</a> and <a href="/for-business/">5cut for organisations</a>.</p>
+        <p style="font-size:14px;color:#666;">See also the <a href="/privacy/">privacy policy</a> and <a href="/for-business/">5cut for organizations</a>.</p>
 
         <a href="/" class="back">← Back to 5cut</a>
     </div>
