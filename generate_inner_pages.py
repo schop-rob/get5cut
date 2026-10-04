@@ -1,19 +1,14 @@
 import os
 import sys
 
-# We need to import the data from generate_pages.py and data_pages.py
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from data_pages import pages_data
+from i18n import LANGS, faq_details, hreflang_links, lang_switch, module
 
-# Since generate_pages executes immediately, we will read it as a string to extract the `languages` dict.
-def get_languages():
-    import ast
-    with open('generate_pages.py', 'r', encoding='utf-8') as f:
-        content = f.read()
-        dict_str = content.split("languages = ")[1].split("\n\nhtml_template")[0]
-        return ast.literal_eval(dict_str)
-
-languages = get_languages()
+languages = {code: module(code).HOME for code, *_ in LANGS}
+pages_data = {}
+for code, *_ in LANGS:
+    for page_path, texts in module(code).PAGES.items():
+        pages_data.setdefault(page_path, {})[code] = texts
 
 inner_page_template = """<!DOCTYPE html>
 <html lang="{lang_code}">
@@ -26,13 +21,7 @@ inner_page_template = """<!DOCTYPE html>
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="canonical" href="https://get5cut.com{prefix}/{page_path}/">
-    <link rel="alternate" hreflang="en" href="https://get5cut.com/{page_path}/">
-    <link rel="alternate" hreflang="de" href="https://get5cut.com/de/{page_path}/">
-    <link rel="alternate" hreflang="zh-Hans" href="https://get5cut.com/zh/{page_path}/">
-    <link rel="alternate" hreflang="fr" href="https://get5cut.com/fr/{page_path}/">
-    <link rel="alternate" hreflang="vi" href="https://get5cut.com/vi/{page_path}/">
-    <link rel="alternate" hreflang="es" href="https://get5cut.com/es/{page_path}/">
-    <link rel="alternate" hreflang="x-default" href="https://get5cut.com/{page_path}/">
+{hreflang_links}
     <meta property="og:title" content="{page_title}">
     <meta property="og:description" content="{page_desc}">
     <meta property="og:url" content="https://get5cut.com{prefix}/{page_path}/">
@@ -352,12 +341,7 @@ inner_page_template = """<!DOCTYPE html>
 </head>
 <body>
     <div class="lang-switch">
-        <a href="/{page_path}/" class="{en_active}">EN</a> | 
-        <a href="/de/{page_path}/" class="{de_active}">DE</a> | 
-        <a href="/zh/{page_path}/" class="{zh_active}">ZH</a> | 
-        <a href="/fr/{page_path}/" class="{fr_active}">FR</a> | 
-        <a href="/vi/{page_path}/" class="{vi_active}">VI</a> | 
-        <a href="/es/{page_path}/" class="{es_active}">ES</a>
+{lang_switch}
     </div>
     <main class="container">
         <img src="/icon.svg" alt="5cut app icon" class="app-icon">
@@ -372,7 +356,7 @@ inner_page_template = """<!DOCTYPE html>
         </div>
 
         <section class="intro-text">
-            {page_intro}
+            {page_intro}{page_faq}
         </section>
 
         <article class="features">
@@ -477,7 +461,7 @@ inner_page_template = """<!DOCTYPE html>
 """
 
 for page_path, translations in pages_data.items():
-    for lang in ["en", "de", "zh", "fr", "vi", "es"]:
+    for lang, lang_dir, _, _ in LANGS:
         # Ensure we have data for this language, fallback to EN if missing
         page_lang_data = translations.get(lang, translations["en"])
         
@@ -492,23 +476,22 @@ for page_path, translations in pages_data.items():
         context["page_tagline"] = page_lang_data["tagline"]
         context["page_intro"] = page_lang_data["intro"]
         context["page_path"] = page_lang_data.get("path", page_path)
+        faq = page_lang_data.get("faq")
+        context["page_faq"] = (
+            f'\n<h2>{base_lang_data["faq"]}</h2>\n<div class="faq">\n{faq_details(faq)}\n</div>' if faq else ""
+        )
         
         # Determine prefix for footer links
-        prefix = "" if lang == "en" else f"/{lang}"
+        prefix = "" if lang_dir == "." else f"/{lang_dir}"
         context["prefix"] = prefix
+        context["hreflang_links"] = hreflang_links(context["page_path"])
+        context["lang_switch"] = lang_switch(lang, context["page_path"])
         
         # Determine directory path
-        if lang == "en":
-            directory = page_path
-        else:
-            directory = os.path.join(lang, page_path)
+        directory = page_path if lang_dir == "." else os.path.join(lang_dir, page_path)
             
         if not os.path.exists(directory):
             os.makedirs(directory)
-            
-        # Setup active classes
-        for l in ["en", "de", "zh", "fr", "vi", "es"]:
-            context[f"{l}_active"] = "active" if l == lang else ""
             
         output_html = inner_page_template.format(**context)
         
