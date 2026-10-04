@@ -682,7 +682,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Acelerar Grabaciones de Zoom –
                                                    'modo avión. Tus grabaciones nunca salen de tu iPhone. No hay ningún servidor '
                                                    'de 5cut.</p>\n'
                                                    '<p><a '
-                                                   'href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Descarga '
+                                                   'href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Descarga '
                                                    '5cut en la App Store</a></p>',
                                           'faq': [{'q': '¿5cut elimina el ruido mientras alguien habla?',
                                                    'a': 'No. 5cut no filtra el ruido bajo una voz. Corta solo las partes donde '

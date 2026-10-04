@@ -397,7 +397,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom録画の無音をカット�
                                                    '<p>内容が詰まった講義は、無音が少ないので、より多く残ります。</p>\n'
                                                    '<h2>機内モードでも動作</h2>\n'
                                                    '<p>音声検出機能はiPhone上で動作するので、機内モードでも動作します。録音がiPhoneから出ることはありません。5cutのサーバーはありません。</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">App Storeで5cutをダウンロード</a></p>',
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">App Storeで5cutをダウンロード</a></p>',
                                           'faq': [{'q': '誰かが話している間のノイズも除去しますか？',
                                                    'a': 'いいえ。5cutは、声に重なるノイズをフィルターしません。誰も話していない部分だけをカットします。'},
                                                   {'q': '5cutはどのノイズをカットしますか？',

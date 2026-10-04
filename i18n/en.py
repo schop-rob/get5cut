@@ -610,7 +610,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Cut
                                                    '<h2>Works in Airplane Mode</h2>\n'
                                                    '<p>The voice detector runs on your iPhone, so it also works in Airplane Mode. Your '
                                                    'recordings never leave your iPhone. There is no 5cut server.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Download 5cut on '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Download 5cut on '
                                                    'the App Store</a></p>',
                                           'faq': [{'q': 'Does 5cut remove noise while someone speaks?',
                                                    'a': 'No. 5cut does not filter the noise under a voice. It cuts only the parts where '

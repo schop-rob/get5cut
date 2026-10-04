@@ -545,7 +545,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom 녹화 무음 제거로 단
                                                    '<h2>에어플레인 모드에서 작동</h2>\n'
                                                    '<p>음성 감지기는 iPhone에서 실행되므로 에어플레인 모드에서도 작동합니다. 녹음은 '
                                                    'iPhone을 벗어나지 않습니다. 5cut 서버는 없습니다.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">App Store에서 5cut '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">App Store에서 5cut '
                                                    '다운로드</a></p>',
                                           'faq': [{'q': '누군가 말하는 동안의 소음도 5cut이 제거하나요?',
                                                    'a': '아니요. 5cut은 목소리 아래의 소음을 걸러내지 않습니다. 아무도 말하지 않는 '

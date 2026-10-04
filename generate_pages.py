@@ -472,7 +472,7 @@ html_template = """<!DOCTYPE html>
                 </div>
                 <div class="cta-container">
                     <p class="cta-subtext">{cta_subtext}</p>
-                    <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_home">
+                    <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_home&mt=8">
                         <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
                     </a>
                 </div>
@@ -561,7 +561,7 @@ html_template = """<!DOCTYPE html>
 
         <div class="cta-container" style="text-align: center;">
             <p class="cta-subtext">{cta_subtext}</p>
-            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_footer">
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_footer&mt=8">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
             </a>
         </div>

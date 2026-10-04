@@ -1,12 +1,13 @@
 # 5cut
 
-> 5cut is an iPhone app for students. It records or imports lectures, cuts the silence, transcribes the speech on the device in 30+ languages, and exports study notes to Anki, Notion and Obsidian. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server.
+> 5cut is an iPhone app for students. It records or imports lectures and cuts the silence. It transcribes the speech on the device in 30+ languages and exports study notes to Anki, Notion and Obsidian. Your recordings never leave your iPhone. 5cut cuts, transcribes and makes notes on the device. There is no 5cut server.
 
 Facts:
 
-- Platform: iPhone and iPad (iOS). Download: https://apps.apple.com/app/5cut/id6758529319
+- Platform: iPhone and iPad (iOS). Download: https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_llms&mt=8
 - Free: in-app recording, silence cutting, Live Captions, a 5-minute transcription preview for imported files (full transcription for in-app recordings), and 5 exports each month.
-- Premium (monthly subscription or one-time lifetime purchase; the App Store shows the prices for your region): unlimited exports without a watermark, full-length transcripts of imported files, speaker identification, on-device AI notes and flashcards, and search across all saved transcripts. There is no free trial.
+- Premium: unlimited exports without a watermark, full-length transcripts of imported files, speaker identification, on-device AI notes and flashcards, and search across all saved transcripts. Premium is a monthly subscription or a one-time lifetime purchase. The App Store shows the prices for your region. There is no free trial.
+- Batch: free users can process many recordings in one batch. Each video that produces an export uses one of the 5 monthly exports. Premium adds speaker labels and AI notes to a batch, with no export limit. Keep 5cut open while a batch runs.
 - Offline: each transcription model downloads one time. Test it yourself: download a transcription model, then turn on Airplane Mode. 5cut works the same.
 - Silence cutting: 5cut measures the loudness of each recording, and a small voice detector built into the app finds where someone speaks. Gentle, Moderate and Aggressive keep about 80, 70 and 60 percent of a typical phone recording. Dense lectures keep more.
 - 5cut does not filter noise under speech. It removes the parts without a voice.

@@ -649,7 +649,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom-Aufnahmen kürzen – Still
                                                    '<h2>Funktioniert im Flugmodus</h2>\n'
                                                    '<p>Der Stimmdetektor läuft auf deinem iPhone, also funktioniert er auch im Flugmodus. '
                                                    'Deine Aufnahmen verlassen dein iPhone nie. Es gibt keinen 5cut-Server.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">5cut im App '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">5cut im App '
                                                    'Store laden</a></p>',
                                           'faq': [{'q': 'Entfernt 5cut Geräusche, während jemand spricht?',
                                                    'a': 'Nein. 5cut filtert das Geräusch unter einer Stimme nicht. Es schneidet nur die '

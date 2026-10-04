@@ -636,7 +636,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Acelerar Gravações do Zoom –
                                                    '<h2>Funciona no Modo Avião</h2>\n'
                                                    '<p>O detector de voz roda no seu iPhone, e por isso também funciona no Modo Avião. '
                                                    'Suas gravações nunca saem do seu iPhone. Não existe servidor do 5cut.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Baixe o 5cut '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Baixe o 5cut '
                                                    'na App Store</a></p>',
                                           'faq': [{'q': 'O 5cut remove ruído enquanto alguém fala?',
                                                    'a': 'Não. 5cut não filtra o ruído por baixo de uma voz. 5cut corta só as partes em '

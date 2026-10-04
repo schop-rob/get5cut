@@ -662,7 +662,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Accélérer un enregistrement Zo
                                                    '<p>Le détecteur de voix tourne sur votre iPhone, donc il fonctionne aussi en mode '
                                                    'avion. Vos enregistrements ne quittent jamais votre iPhone. Il n’y a aucun serveur '
                                                    '5cut.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Télécharger 5cut '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Télécharger 5cut '
                                                    'sur l’App Store</a></p>',
                                           'faq': [{'q': 'Est-ce que 5cut retire le bruit pendant que quelqu’un parle\u00a0?',
                                                    'a': 'Non. 5cut ne filtre pas le bruit sous une voix. Il coupe seulement les parties où '

@@ -653,7 +653,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Velocizza le registrazioni Zoom 
                                                    '<p>Il rilevatore di voce funziona sul tuo iPhone, quindi funziona anche in modalità '
                                                    'aereo. Le tue registrazioni non lasciano mai il tuo iPhone. Non esiste alcun server '
                                                    '5cut.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Scarica 5cut '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Scarica 5cut '
                                                    'su App Store</a></p>',
                                           'faq': [{'q': '5cut rimuove il rumore mentre qualcuno parla?',
                                                    'a': 'No. 5cut non filtra il rumore sotto una voce. Taglia solo le parti in cui '

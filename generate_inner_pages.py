@@ -437,7 +437,7 @@ inner_page_template = """<!DOCTYPE html>
 
         <div class="cta-container">
             <p class="cta-subtext">{cta_subtext}</p>
-            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?ct=web_inner">
+            <a class="app-store-badge" href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_inner&mt=8">
                 <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="{alt_badge}">
             </a>
         </div>

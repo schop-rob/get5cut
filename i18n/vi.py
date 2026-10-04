@@ -618,7 +618,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Tăng Tốc Bản Ghi Zoom – C
                                                    '<h2>Hoạt động ở Chế độ máy bay</h2>\n'
                                                    '<p>Bộ phát hiện giọng nói chạy trên iPhone của bạn, nên nó cũng hoạt động ở Chế độ '
                                                    'máy bay. Bản ghi của bạn không bao giờ rời khỏi iPhone. Không có máy chủ 5cut.</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">Tải 5cut trên '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">Tải 5cut trên '
                                                    'App Store</a></p>',
                                           'faq': [{'q': '5cut có loại bỏ tiếng ồn khi có người đang nói không?',
                                                    'a': 'Không. 5cut không lọc tiếng ồn dưới giọng nói. 5cut chỉ cắt các đoạn không có '

@@ -403,7 +403,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': '加速 Zoom 网课录像 – 去
                                                    '<p>内容密集的讲座保留得更多，因为停顿更少。</p>\n'
                                                    '<h2>在飞行模式下也能使用</h2>\n'
                                                    '<p>人声检测器在你的 iPhone 上运行，所以在飞行模式下也能使用。你的录音绝不会离开 iPhone。没有 5cut 服务器。</p>\n'
-                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?ct=web_noise">在 App Store 下载 '
+                                                   '<p><a href="https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_noise&mt=8">在 App Store 下载 '
                                                    '5cut</a></p>',
                                           'faq': [{'q': '有人说话时，5cut 会去掉噪音吗？', 'a': '不会。5cut 不会过滤人声下面的噪音。它只剪掉无人说话的部分。'},
                                                   {'q': '5cut 剪掉哪些噪音？', 'a': '无人声部分中的噪音，例如车流声、脚步声、沙沙声或火车声。这些部分即使很响，5cut 也会剪掉。'},
