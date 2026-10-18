@@ -24,7 +24,7 @@ HOME = {'dir': '.',
  'cta_pill1': '5 free exports each month',
  'cta_pill2': '5 Free Exports/Month',
  'cta_pill3': 'No Account',
- 'cta_subtext': 'Free download · Premium: monthly or one-time · No account',
+ 'cta_subtext': 'Free download · Premium: monthly with 7 days free, or one-time · No account',
  'creator_promise': 'I made 5cut because I listened to long lectures in a foreign language again and again. The pauses took a lot of my '
                     'study time. Translation and silence removal on the device changed how I learn. My recordings never leave my iPhone.',
  'creator_signature': 'Creator of 5cut',
@@ -91,8 +91,8 @@ HOME = {'dir': '.',
                 'a': 'Yes. The free version includes the recorder, silence removal and 5 exports each month. Recordings that you make '
                      'in 5cut get a full transcript. Imported files get a transcript of the first 5 minutes. Premium adds unlimited '
                      'exports without a watermark, full transcripts of imported files, speaker identification, AI notes and flashcards, '
-                     'and search in all transcripts. Premium is a monthly subscription or a one-time lifetime purchase, and the App '
-                     'Store shows the price for your region.'},
+                     'and search in all transcripts. Premium is a monthly subscription, which new subscribers can try free for 7 '
+                     'days, or a one-time lifetime purchase. The App Store shows the price for your region.'},
                {'q': 'What languages is the app available in?',
                 'a': 'The app interface is in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), '
                      'Vietnamese and Simplified Chinese. Transcription works in more than 30 languages.'}],
@@ -145,8 +145,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Cut
                            'a': 'Yes. Turn on live translation in the recorder. 5cut shows the translated text while it records. The '
                                 'translation uses Apple Translation on your iPhone and needs iOS 18 or later.'},
                           {'q': 'Which languages can 5cut transcribe?',
-                           'a': 'More than 30 languages. The list depends on the engine. Apple SpeechAnalyzer (iOS 26 or later) and '
-                                'WhisperKit cover the most languages. Parakeet Ultra covers 25 European languages.'},
+                           'a': 'More than 30 languages. The list depends on the engine. '
+                                'WhisperKit covers the most languages. Parakeet Ultra covers 25 European languages.'},
                           {'q': 'Can I follow a lecture without a recording?',
                            'a': 'Yes. On iOS 26 or later, Live Captions shows a live transcript and a translation. 5cut saves no audio, '
                                 'and the captions disappear after about one minute. Live Captions is free.'},
@@ -168,7 +168,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Cut
                                        'version transcribes the first 5 minutes. Premium transcribes imported files of any length.'},
                                  {'q': 'Which engine do I choose?',
                                   'a': 'It depends on the language. Parakeet Ultra covers 25 European languages and finds the language '
-                                       'itself. Apple SpeechAnalyzer (iOS 26 or later) and WhisperKit cover the most languages. Parakeet '
+                                       'itself. WhisperKit covers the most languages. Parakeet '
                                        'Lite and Moonshine are smaller English engines for older iPhones.'},
                                  {'q': 'Can I export the transcript as subtitles?',
                                   'a': 'Yes. Export an SRT file, or burn the subtitles into the video. You can also send the transcript '
@@ -395,8 +395,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Speed Up Zoom Recordings – Cut
                                                    'model size:</p>\n'
                                                    '<table class="engine-table">\n'
                                                    '    <tr><th>Engine</th><th>Languages</th><th>Model size</th><th>Best for</th></tr>\n'
-                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Built-in</td><td>Quick '
-                                                   'transcription, broadest language support</td></tr>\n'
+                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+ locales</td><td>Built-in</td><td>Quick '
+                                                   'transcription, many regional variants</td></tr>\n'
                                                    '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1.5 GB</td><td>High accuracy, '
                                                    'word-level timestamps — imported files only, not available in the live '
                                                    'recorder</td></tr>\n'

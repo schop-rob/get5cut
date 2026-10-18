@@ -43,7 +43,7 @@ html_template = """<!DOCTYPE html>
             "name": "Robin Schöppner",
             "url": "https://get5cut.com/"
         }},
-        "softwareVersion": "1.2.5",
+        "softwareVersion": "1.2.9",
         "url": "https://get5cut.com{canonical_path}",
         "sameAs": "https://apps.apple.com/app/5cut/id6758529319",
         "offers": {{

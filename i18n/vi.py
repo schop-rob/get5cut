@@ -24,7 +24,7 @@ HOME = {'dir': 'vi',
  'cta_pill1': '5 lượt xuất miễn phí mỗi tháng',
  'cta_pill2': '5 Lượt Xuất Miễn Phí/Tháng',
  'cta_pill3': 'Không Cần Tài Khoản',
- 'cta_subtext': 'Tải miễn phí · Premium: theo tháng hoặc mua một lần · Không cần tài khoản',
+ 'cta_subtext': 'Tải miễn phí · Premium: theo tháng với 7 ngày dùng thử miễn phí, hoặc mua một lần · Không cần tài khoản',
  'creator_promise': 'Tôi tạo ra 5cut vì tôi đã nghe đi nghe lại những bài giảng dài bằng tiếng nước ngoài. Các khoảng lặng chiếm nhiều thời '
                     'gian học của tôi. Dịch và cắt khoảng lặng trên thiết bị đã thay đổi cách tôi học. Bản ghi của tôi không bao giờ rời '
                     'khỏi iPhone.',
@@ -91,8 +91,8 @@ HOME = {'dir': 'vi',
                 'a': 'Có. Bản miễn phí gồm máy ghi âm, cắt khoảng lặng và 5 lượt xuất mỗi tháng. Bản ghi bạn tạo trong 5cut có bản chép '
                      'lời đầy đủ. Tệp đã nhập có bản chép lời của 5 phút đầu. Premium thêm lượt xuất không giới hạn và không có hình '
                      'mờ, bản chép lời đầy đủ của tệp đã nhập, nhận diện người nói, ghi chú AI và thẻ ghi nhớ, và tìm kiếm trong mọi bản '
-                     'chép lời. Premium là gói đăng ký hằng tháng hoặc mua trọn đời một lần, và App Store hiển thị giá theo khu vực của '
-                     'bạn.'},
+                     'chép lời. Premium là gói đăng ký hằng tháng (người đăng ký mới được dùng thử miễn phí 7 ngày) hoặc mua trọn đời '
+                     'một lần. App Store hiển thị giá theo khu vực của bạn.'},
                {'q': 'Ứng dụng có những ngôn ngữ nào?',
                 'a': 'Giao diện ứng dụng có tiếng Anh, tiếng Đức, tiếng Tây Ban Nha, tiếng Pháp, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng '
                      'Bồ Đào Nha (Brazil), tiếng Việt và tiếng Trung giản thể. Chép lời hoạt động với hơn 30 ngôn ngữ.'}],
@@ -145,7 +145,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Tăng Tốc Bản Ghi Zoom – C
                            'a': 'Có. Bật dịch trực tiếp trong máy ghi âm. 5cut hiển thị văn bản đã dịch trong khi ghi âm. Bản dịch dùng '
                                 'Apple Translation trên iPhone của bạn và cần iOS 18 trở lên.'},
                           {'q': '5cut có thể chép lời những ngôn ngữ nào?',
-                           'a': 'Hơn 30 ngôn ngữ. Danh sách phụ thuộc vào công cụ. Apple SpeechAnalyzer (iOS 26 trở lên) và '
+                           'a': 'Hơn 30 ngôn ngữ. Danh sách phụ thuộc vào công cụ. '
                                 'WhisperKit hỗ trợ nhiều ngôn ngữ nhất. Parakeet Ultra hỗ trợ 25 ngôn ngữ châu Âu.'},
                           {'q': 'Tôi có thể theo dõi bài giảng mà không cần ghi âm không?',
                            'a': 'Có. Trên iOS 26 trở lên, Phụ đề trực tiếp hiển thị bản chép lời trực tiếp và bản dịch. 5cut không lưu '
@@ -168,8 +168,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Tăng Tốc Bản Ghi Zoom – C
                                   'a': 'Bản ghi bạn tạo trong 5cut có bản chép lời đầy đủ miễn phí. Với tệp đã nhập, bản miễn phí chép '
                                        'lời 5 phút đầu. Premium chép lời tệp đã nhập ở mọi độ dài.'},
                                  {'q': 'Tôi nên chọn công cụ nào?',
-                                  'a': 'Tùy ngôn ngữ. Parakeet Ultra hỗ trợ 25 ngôn ngữ châu Âu và tự nhận ra ngôn ngữ. Apple '
-                                       'SpeechAnalyzer (iOS 26 trở lên) và WhisperKit hỗ trợ nhiều ngôn ngữ nhất. Parakeet Lite và '
+                                  'a': 'Tùy ngôn ngữ. Parakeet Ultra hỗ trợ 25 ngôn ngữ châu Âu và tự nhận ra ngôn ngữ. '
+                                       'WhisperKit hỗ trợ nhiều ngôn ngữ nhất. Parakeet Lite và '
                                        'Moonshine là các công cụ tiếng Anh nhỏ hơn cho iPhone đời cũ.'},
                                  {'q': 'Tôi có thể xuất bản chép lời thành phụ đề không?',
                                   'a': 'Có. Xuất tệp SRT, hoặc ghi phụ đề vào video. Bạn cũng có thể gửi bản chép lời sang Apple Ghi chú, '
@@ -398,8 +398,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Tăng Tốc Bản Ghi Zoom – C
                                                    '<table class="engine-table">\n'
                                                    '    <tr><th>Công cụ</th><th>Ngôn ngữ</th><th>Kích thước mô hình</th><th>Phù hợp '
                                                    'nhất cho</th></tr>\n'
-                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Tích hợp sẵn</td><td>Chép lời '
-                                                   'nhanh, hỗ trợ nhiều ngôn ngữ nhất</td></tr>\n'
+                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+ biến thể vùng</td><td>Tích hợp sẵn</td><td>Chép lời '
+                                                   'nhanh, nhiều biến thể vùng</td></tr>\n'
                                                    '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Độ chính xác cao, '
                                                    'dấu thời gian từng từ — chỉ cho tệp đã nhập, không có trong máy ghi âm trực '
                                                    'tiếp</td></tr>\n'

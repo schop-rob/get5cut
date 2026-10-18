@@ -24,7 +24,7 @@ HOME = {'dir': 'es',
  'cta_pill1': '5 exportaciones gratis al mes',
  'cta_pill2': '5 exportaciones gratis/mes',
  'cta_pill3': 'Sin cuenta',
- 'cta_subtext': 'Descarga gratis · Premium: mensual o compra única · Sin cuenta',
+ 'cta_subtext': 'Descarga gratis · Premium: mensual con 7 días gratis, o compra única · Sin cuenta',
  'creator_promise': 'Creé 5cut porque escuchaba una y otra vez clases largas en un idioma extranjero. Las pausas me quitaban '
                     'mucho tiempo de estudio. La traducción y la eliminación de silencios en el dispositivo cambiaron mi forma '
                     'de aprender. Mis grabaciones nunca salen de mi iPhone.',
@@ -97,8 +97,9 @@ HOME = {'dir': 'es',
                      'grabaciones que haces en 5cut tienen una transcripción completa. Los archivos importados tienen una '
                      'transcripción de los primeros 5 minutos. Premium añade exportaciones ilimitadas sin marca de agua, '
                      'transcripciones completas de archivos importados, identificación de hablantes, notas y tarjetas con IA, y '
-                     'búsqueda en todas las transcripciones. Premium es una suscripción mensual o una compra única de por vida, '
-                     'y la App Store muestra el precio para tu región.'},
+                     'búsqueda en todas las transcripciones. Premium es una suscripción mensual, que los nuevos suscriptores '
+                     'pueden probar gratis durante 7 días, o una compra única de por vida. La App Store muestra el precio '
+                     'para tu región.'},
                {'q': '¿En qué idiomas está disponible la app?',
                 'a': 'La interfaz de la app está en inglés, alemán, español, francés, italiano, japonés, coreano, portugués '
                      '(Brasil), vietnamita y chino simplificado. La transcripción funciona en más de 30 idiomas.'}],
@@ -151,8 +152,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Acelerar Grabaciones de Zoom –
                            'a': 'Sí. Activa la traducción en vivo en la grabadora. 5cut muestra el texto traducido mientras '
                                 'graba. La traducción usa Apple Translation en tu iPhone y necesita iOS 18 o posterior.'},
                           {'q': '¿Qué idiomas puede transcribir 5cut?',
-                           'a': 'Más de 30 idiomas. La lista depende del motor. Apple SpeechAnalyzer (iOS 26 o posterior) y '
-                                'WhisperKit cubren la mayor cantidad de idiomas. Parakeet Ultra cubre 25 idiomas europeos.'},
+                           'a': 'Más de 30 idiomas. La lista depende del motor. '
+                                'WhisperKit cubre la mayor cantidad de idiomas. Parakeet Ultra cubre 25 idiomas europeos.'},
                           {'q': '¿Puedo seguir una clase sin grabarla?',
                            'a': 'Sí. En iOS 26 o posterior, Subtítulos en vivo muestra una transcripción y una traducción en '
                                 'vivo. 5cut no guarda audio y los subtítulos desaparecen después de aproximadamente un minuto. '
@@ -177,7 +178,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Acelerar Grabaciones de Zoom –
                                        'transcribe archivos importados de cualquier duración.'},
                                  {'q': '¿Qué motor elijo?',
                                   'a': 'Depende del idioma. Parakeet Ultra cubre 25 idiomas europeos y detecta el idioma por sí '
-                                       'mismo. Apple SpeechAnalyzer (iOS 26 o posterior) y WhisperKit cubren la mayor cantidad '
+                                       'mismo. WhisperKit cubre la mayor cantidad '
                                        'de idiomas. Parakeet Lite y Moonshine son motores más pequeños, solo en inglés, para '
                                        'iPhones más antiguos.'},
                                  {'q': '¿Puedo exportar la transcripción como subtítulos?',
@@ -435,8 +436,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Acelerar Grabaciones de Zoom –
                                                    '    <tr><th>Motor</th><th>Idiomas</th><th>Tamaño del modelo</th><th>Ideal '
                                                    'para</th></tr>\n'
                                                    '    <tr><td>Apple '
-                                                   'SpeechAnalyzer</td><td>40+</td><td>Integrado</td><td>Transcripción rápida, '
-                                                   'la mayor cantidad de idiomas</td></tr>\n'
+                                                   'SpeechAnalyzer</td><td>40+ variantes regionales</td><td>Integrado</td><td>Transcripción rápida, '
+                                                   'muchas variantes regionales</td></tr>\n'
                                                    '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Alta '
                                                    'precisión, marcas de tiempo por palabra — solo archivos importados, no '
                                                    'disponible en la grabadora en vivo</td></tr>\n'

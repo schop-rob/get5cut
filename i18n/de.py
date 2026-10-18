@@ -24,7 +24,7 @@ HOME = {'dir': 'de',
  'cta_pill1': '5 kostenlose Exporte pro Monat',
  'cta_pill2': '5 kostenlose Exporte/Monat',
  'cta_pill3': 'Kein Konto',
- 'cta_subtext': 'Kostenloser Download · Premium: Abo oder Einmalkauf · Kein Konto',
+ 'cta_subtext': 'Kostenloser Download · Premium: Monatsabo mit 7 Tagen gratis oder Einmalkauf · Kein Konto',
  'creator_promise': 'Ich habe 5cut entwickelt, weil ich lange Vorlesungen in einer Fremdsprache immer wieder angehört habe. Die Pausen '
                     'haben viel von meiner Lernzeit gekostet. Übersetzung und Stilleentfernung auf dem Gerät haben mein Lernen verändert. '
                     'Meine Aufnahmen verlassen mein iPhone nie.',
@@ -96,7 +96,8 @@ HOME = {'dir': 'de',
                      '5cut machst, erhalten ein vollständiges Transkript. Importierte Dateien erhalten ein Transkript der ersten 5 '
                      'Minuten. Premium bietet zusätzlich unbegrenzte Exporte ohne Wasserzeichen, vollständige Transkripte importierter '
                      'Dateien, Sprechererkennung, KI-Notizen und Lernkarten sowie die Suche in allen Transkripten. Premium ist ein '
-                     'Monatsabo oder ein einmaliger Lifetime-Kauf. Der App Store zeigt den Preis für deine Region.'},
+                     'Monatsabo, das du beim ersten Abschluss 7 Tage kostenlos testen kannst, oder ein einmaliger Lifetime-Kauf. Der App Store '
+                     'zeigt den Preis für deine Region.'},
                {'q': 'In welchen Sprachen gibt es die App?',
                 'a': 'Die App-Oberfläche gibt es auf Englisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, '
                      'Portugiesisch (Brasilien), Vietnamesisch und Chinesisch (vereinfacht). Die Transkription funktioniert in mehr als 30 '
@@ -150,8 +151,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom-Aufnahmen kürzen – Still
                            'a': 'Ja. Schalte die Live-Übersetzung im Recorder ein. 5cut zeigt den übersetzten Text während der Aufnahme. '
                                 'Die Übersetzung nutzt Apple Translation auf deinem iPhone und braucht iOS 18 oder neuer.'},
                           {'q': 'Welche Sprachen kann 5cut transkribieren?',
-                           'a': 'Mehr als 30 Sprachen. Die Liste hängt von der Engine ab. Apple SpeechAnalyzer (ab iOS 26) und WhisperKit '
-                                'decken die meisten Sprachen ab. Parakeet Ultra deckt 25 europäische Sprachen ab.'},
+                           'a': 'Mehr als 30 Sprachen. Die Liste hängt von der Engine ab. WhisperKit '
+                                'deckt die meisten Sprachen ab. Parakeet Ultra deckt 25 europäische Sprachen ab.'},
                           {'q': 'Kann ich einer Vorlesung ohne Aufnahme folgen?',
                            'a': 'Ja. Ab iOS 26 zeigen die Live-Untertitel ein Live-Transkript und eine Übersetzung. 5cut speichert kein '
                                 'Audio, und die Untertitel verschwinden nach etwa einer Minute. Die Live-Untertitel sind kostenlos.'},
@@ -175,7 +176,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom-Aufnahmen kürzen – Still
                                        'transkribiert importierte Dateien in jeder Länge.'},
                                  {'q': 'Welche Engine wähle ich?',
                                   'a': 'Das hängt von der Sprache ab. Parakeet Ultra deckt 25 europäische Sprachen ab und erkennt die '
-                                       'Sprache selbst. Apple SpeechAnalyzer (ab iOS 26) und WhisperKit decken die meisten Sprachen ab. '
+                                       'Sprache selbst. WhisperKit deckt die meisten Sprachen ab. '
                                        'Parakeet Lite und Moonshine sind kleinere Engines für Englisch, für ältere iPhones.'},
                                  {'q': 'Kann ich das Transkript als Untertitel exportieren?',
                                   'a': 'Ja. Exportiere eine SRT-Datei oder brenne die Untertitel ins Video ein. Du kannst das Transkript '
@@ -418,8 +419,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Zoom-Aufnahmen kürzen – Still
                                                    '<table class="engine-table">\n'
                                                    '    <tr><th>Engine</th><th>Sprachen</th><th>Modellgröße</th><th>Am besten '
                                                    'für</th></tr>\n'
-                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Eingebaut</td><td>Schnelle '
-                                                   'Transkription, breiteste Sprachunterstützung</td></tr>\n'
+                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+ Sprachvarianten</td><td>Eingebaut</td><td>Schnelle '
+                                                   'Transkription, viele regionale Varianten</td></tr>\n'
                                                    '    <tr><td>WhisperKit</td><td>30+</td><td>39 MB – 1,5 GB</td><td>Hohe Genauigkeit, '
                                                    'Zeitstempel auf Wortebene — nur für importierte Dateien, nicht im Live-Recorder '
                                                    'verfügbar</td></tr>\n'

@@ -24,7 +24,7 @@ HOME = {'dir': 'fr',
  'cta_pill1': '5 exports gratuits par mois',
  'cta_pill2': '5 exports gratuits/mois',
  'cta_pill3': 'Sans compte',
- 'cta_subtext': 'Téléchargement gratuit · Premium : mensuel ou achat unique · Sans compte',
+ 'cta_subtext': 'Téléchargement gratuit · Premium : mensuel avec 7 jours gratuits, ou achat unique · Sans compte',
  'creator_promise': 'J’ai créé 5cut parce que j’écoutais encore et encore de longs cours dans une langue étrangère. Les pauses prenaient '
                     'beaucoup de mon temps d’étude. La traduction et la suppression des silences sur l’appareil ont changé ma façon '
                     'd’apprendre. Mes enregistrements ne quittent jamais mon iPhone.',
@@ -97,8 +97,8 @@ HOME = {'dir': 'fr',
                      'enregistrements que vous faites dans 5cut reçoivent une transcription complète. Les fichiers importés reçoivent '
                      'une transcription des 5 premières minutes. Premium ajoute des exports illimités sans filigrane, des transcriptions '
                      'complètes des fichiers importés, l’identification des intervenants, des notes IA et des fiches de révision, et la '
-                     'recherche dans toutes les transcriptions. Premium est un abonnement mensuel ou un achat à vie unique, et l’App '
-                     'Store affiche le prix pour votre région.'},
+                     'recherche dans toutes les transcriptions. Premium est un abonnement mensuel, que les nouveaux abonnés peuvent '
+                     'essayer gratuitement pendant 7 jours, ou un achat à vie unique. L’App Store affiche le prix pour votre région.'},
                {'q': 'Dans quelles langues l’app est-elle disponible\u00a0?',
                 'a': 'L’interface de l’app est en anglais, allemand, espagnol, français, italien, japonais, coréen, portugais (Brésil), '
                      'vietnamien et chinois simplifié. La transcription fonctionne dans plus de 30 langues.'}],
@@ -151,8 +151,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Accélérer un enregistrement Zo
                                 'l’enregistrement. La traduction utilise Apple Translation sur votre iPhone et nécessite iOS 18 ou une '
                                 'version ultérieure.'},
                           {'q': 'Quelles langues 5cut peut-il transcrire\u00a0?',
-                           'a': 'Plus de 30 langues. La liste dépend du moteur. Apple SpeechAnalyzer (iOS 26 ou version ultérieure) et '
-                                'WhisperKit couvrent le plus de langues. Parakeet Ultra couvre 25 langues européennes.'},
+                           'a': 'Plus de 30 langues. La liste dépend du moteur. '
+                                'WhisperKit couvre le plus de langues. Parakeet Ultra couvre 25 langues européennes.'},
                           {'q': 'Puis-je suivre un cours sans enregistrement\u00a0?',
                            'a': 'Oui. Sur iOS 26 ou version ultérieure, Sous-titres en direct affiche une transcription et une '
                                 'traduction en direct. 5cut n’enregistre aucun son, et les sous-titres disparaissent après environ une '
@@ -178,7 +178,7 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Accélérer un enregistrement Zo
                                        'les fichiers importés de toute durée.'},
                                  {'q': 'Quel moteur choisir\u00a0?',
                                   'a': 'Cela dépend de la langue. Parakeet Ultra couvre 25 langues européennes et détecte lui-même la '
-                                       'langue. Apple SpeechAnalyzer (iOS 26 ou version ultérieure) et WhisperKit couvrent le plus de '
+                                       'langue. WhisperKit couvre le plus de '
                                        'langues. Parakeet Lite et Moonshine sont des moteurs anglais plus petits pour les iPhone plus '
                                        'anciens.'},
                                  {'q': 'Puis-je exporter la transcription en sous-titres\u00a0?',
@@ -423,8 +423,8 @@ PAGES = {'speed-up-zoom-recordings': {'title': 'Accélérer un enregistrement Zo
                                                    '<table class="engine-table">\n'
                                                    '    <tr><th>Moteur</th><th>Langues</th><th>Taille du modèle</th><th>Idéal '
                                                    'pour</th></tr>\n'
-                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+</td><td>Intégré</td><td>Transcription '
-                                                   'rapide, large choix de langues</td></tr>\n'
+                                                   '    <tr><td>Apple SpeechAnalyzer</td><td>40+ variantes régionales</td><td>Intégré</td><td>Transcription '
+                                                   'rapide, nombreuses variantes régionales</td></tr>\n'
                                                    '    <tr><td>WhisperKit</td><td>30+</td><td>39 Mo – 1,5 Go</td><td>Grande '
                                                    'précision, horodatage mot par mot — fichiers importés seulement, indisponible dans '
                                                    'l’enregistreur en direct</td></tr>\n'
