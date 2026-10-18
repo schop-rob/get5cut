@@ -6,7 +6,7 @@ Facts:
 
 - Platform: iPhone and iPad (iOS). Download: https://apps.apple.com/app/5cut/id6758529319?pt=128495158&ct=web_llms&mt=8
 - Free: in-app recording, silence cutting, Live Captions, a 5-minute transcription preview for imported files (full transcription for in-app recordings), and 5 exports each month.
-- Premium: unlimited exports without a watermark, full-length transcripts of imported files, speaker identification, on-device AI notes and flashcards, and search across all saved transcripts. Premium is a monthly subscription or a one-time lifetime purchase. The App Store shows the prices for your region. There is no free trial.
+- Premium: unlimited exports without a watermark, full-length transcripts of imported files, speaker identification, on-device AI notes and flashcards, and search across all saved transcripts. Premium is a monthly subscription (new subscribers get a 7-day free trial) or a one-time lifetime purchase. The App Store shows the prices for your region.
 - Batch: free users can process many recordings in one batch. Each video that produces an export uses one of the 5 monthly exports. Premium adds speaker labels and AI notes to a batch, with no export limit. Keep 5cut open while a batch runs.
 - Offline: each transcription model downloads one time. Test it yourself: download a transcription model, then turn on Airplane Mode. 5cut works the same.
 - Silence cutting: 5cut measures the loudness of each recording, and a small voice detector built into the app finds where someone speaks. Gentle, Moderate and Aggressive keep about 80, 70 and 60 percent of a typical phone recording. Dense lectures keep more.
