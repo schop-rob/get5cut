@@ -24,7 +24,7 @@ HOME = {'dir': 'it',
  'cta_pill1': '5 esportazioni gratuite al mese',
  'cta_pill2': '5 esportazioni gratuite/mese',
  'cta_pill3': 'Nessun account',
- 'cta_subtext': 'Download gratuito · Premium: mensile con 7 giorni gratis o acquisto unico · Nessun account',
+ 'cta_subtext': 'Download gratuito · Premium: mensile con 7 giorni gratis, Semestre (6 mesi) o acquisto unico · Nessun account',
  'creator_promise': 'Ho creato 5cut perché riascoltavo più volte lunghe lezioni in una lingua straniera. Le pause occupavano molto del mio '
                     'tempo di studio. La traduzione e la rimozione dei silenzi sul dispositivo hanno cambiato il mio modo di imparare. Le '
                     'mie registrazioni non lasciano mai il mio iPhone.',
@@ -94,8 +94,9 @@ HOME = {'dir': 'it',
                      'registrazioni che fai in 5cut hanno una trascrizione completa. I file importati hanno una trascrizione dei primi 5 '
                      'minuti. Premium aggiunge esportazioni illimitate senza filigrana, trascrizioni complete dei file importati, '
                      'identificazione dei parlanti, note IA e flashcard e ricerca in tutte le trascrizioni. Premium è un abbonamento '
-                     'mensile, che i nuovi abbonati possono provare gratis per 7 giorni, oppure un acquisto a vita una tantum. '
-                     'App Store mostra il prezzo per la tua regione.'},
+                     'mensile, un abbonamento Semestre di 6 mesi oppure un acquisto a vita una tantum. I nuovi abbonati possono '
+                     'provare gratis il piano mensile per 7 giorni. L’abbonamento Semestre si rinnova ogni 6 mesi, finché non lo '
+                     'disdici. App Store mostra i prezzi per la tua regione.'},
                {'q': 'In quali lingue è disponibile l’app?',
                 'a': 'L’interfaccia dell’app è in inglese, tedesco, spagnolo, francese, italiano, giapponese, coreano, portoghese '
                      '(Brasile), vietnamita e cinese semplificato. La trascrizione funziona in più di 30 lingue.'}],

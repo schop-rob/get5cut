@@ -24,7 +24,7 @@ HOME = {'dir': 'pt-br',
  'cta_pill1': '5 exportações grátis por mês',
  'cta_pill2': '5 Exportações Grátis/Mês',
  'cta_pill3': 'Sem Conta',
- 'cta_subtext': 'Download grátis · Premium: mensal com 7 dias grátis ou compra única · Sem conta',
+ 'cta_subtext': 'Download grátis · Premium: mensal com 7 dias grátis, Semestral (6 meses) ou compra única · Sem conta',
  'creator_promise': 'Criei o 5cut porque eu ouvia aulas longas em um idioma estrangeiro, de novo e de novo. As pausas consumiam muito do meu '
                     'tempo de estudo. A tradução e a remoção de silêncio no aparelho mudaram a forma como eu aprendo. Minhas gravações '
                     'nunca saem do meu iPhone.',
@@ -94,8 +94,9 @@ HOME = {'dir': 'pt-br',
                      'no 5cut recebem a transcrição completa. Os arquivos importados recebem a transcrição dos primeiros 5 minutos. O '
                      'Premium adiciona exportações ilimitadas sem marca d\'água, transcrição completa de arquivos importados, '
                      'identificação de falantes, notas e flashcards com IA e busca em todas as transcrições. O Premium é uma assinatura '
-                     'mensal, que novos assinantes podem testar grátis por 7 dias, ou uma compra única vitalícia. A App Store '
-                     'mostra o preço para a sua região.'},
+                     'mensal, uma assinatura Semestral de 6 meses ou uma compra única vitalícia. Novos assinantes podem testar o plano '
+                     'mensal grátis por 7 dias. A assinatura Semestral é renovada a cada 6 meses, até você cancelar. A App Store '
+                     'mostra os preços para a sua região.'},
                {'q': 'Em quais idiomas o app está disponível?',
                 'a': 'A interface do app está em inglês, alemão, espanhol, francês, italiano, japonês, coreano, português (Brasil), '
                      'vietnamita e chinês simplificado. A transcrição funciona em mais de 30 idiomas.'}],

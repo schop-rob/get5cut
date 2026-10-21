@@ -24,7 +24,7 @@ HOME = {'dir': 'fr',
  'cta_pill1': '5 exports gratuits par mois',
  'cta_pill2': '5 exports gratuits/mois',
  'cta_pill3': 'Sans compte',
- 'cta_subtext': 'Téléchargement gratuit · Premium : mensuel avec 7 jours gratuits, ou achat unique · Sans compte',
+ 'cta_subtext': 'Téléchargement gratuit · Premium : mensuel avec 7 jours gratuits, Semestre (6 mois) ou achat unique · Sans compte',
  'creator_promise': 'J’ai créé 5cut parce que j’écoutais encore et encore de longs cours dans une langue étrangère. Les pauses prenaient '
                     'beaucoup de mon temps d’étude. La traduction et la suppression des silences sur l’appareil ont changé ma façon '
                     'd’apprendre. Mes enregistrements ne quittent jamais mon iPhone.',
@@ -97,8 +97,10 @@ HOME = {'dir': 'fr',
                      'enregistrements que vous faites dans 5cut reçoivent une transcription complète. Les fichiers importés reçoivent '
                      'une transcription des 5 premières minutes. Premium ajoute des exports illimités sans filigrane, des transcriptions '
                      'complètes des fichiers importés, l’identification des intervenants, des notes IA et des fiches de révision, et la '
-                     'recherche dans toutes les transcriptions. Premium est un abonnement mensuel, que les nouveaux abonnés peuvent '
-                     'essayer gratuitement pendant 7 jours, ou un achat à vie unique. L’App Store affiche le prix pour votre région.'},
+                     'recherche dans toutes les transcriptions. Premium est un abonnement mensuel, un abonnement Semestre de 6 mois '
+                     'ou un achat à vie unique. Les nouveaux abonnés peuvent essayer l’abonnement mensuel gratuitement pendant 7 jours. '
+                     'L’abonnement Semestre se renouvelle tous les 6 mois, jusqu’à ce que vous l’annuliez. L’App Store affiche les prix '
+                     'pour votre région.'},
                {'q': 'Dans quelles langues l’app est-elle disponible\u00a0?',
                 'a': 'L’interface de l’app est en anglais, allemand, espagnol, français, italien, japonais, coréen, portugais (Brésil), '
                      'vietnamien et chinois simplifié. La transcription fonctionne dans plus de 30 langues.'}],

@@ -24,7 +24,7 @@ HOME = {'dir': 'vi',
  'cta_pill1': '5 lượt xuất miễn phí mỗi tháng',
  'cta_pill2': '5 Lượt Xuất Miễn Phí/Tháng',
  'cta_pill3': 'Không Cần Tài Khoản',
- 'cta_subtext': 'Tải miễn phí · Premium: theo tháng với 7 ngày dùng thử miễn phí, hoặc mua một lần · Không cần tài khoản',
+ 'cta_subtext': 'Tải miễn phí · Premium: theo tháng với 7 ngày dùng thử miễn phí, Học kỳ (6 tháng) hoặc mua một lần · Không cần tài khoản',
  'creator_promise': 'Tôi tạo ra 5cut vì tôi đã nghe đi nghe lại những bài giảng dài bằng tiếng nước ngoài. Các khoảng lặng chiếm nhiều thời '
                     'gian học của tôi. Dịch và cắt khoảng lặng trên thiết bị đã thay đổi cách tôi học. Bản ghi của tôi không bao giờ rời '
                     'khỏi iPhone.',
@@ -91,8 +91,9 @@ HOME = {'dir': 'vi',
                 'a': 'Có. Bản miễn phí gồm máy ghi âm, cắt khoảng lặng và 5 lượt xuất mỗi tháng. Bản ghi bạn tạo trong 5cut có bản chép '
                      'lời đầy đủ. Tệp đã nhập có bản chép lời của 5 phút đầu. Premium thêm lượt xuất không giới hạn và không có hình '
                      'mờ, bản chép lời đầy đủ của tệp đã nhập, nhận diện người nói, ghi chú AI và thẻ ghi nhớ, và tìm kiếm trong mọi bản '
-                     'chép lời. Premium là gói đăng ký hằng tháng (người đăng ký mới được dùng thử miễn phí 7 ngày) hoặc mua trọn đời '
-                     'một lần. App Store hiển thị giá theo khu vực của bạn.'},
+                     'chép lời. Premium là gói đăng ký hằng tháng (người đăng ký mới được dùng thử miễn phí 7 ngày), gói đăng ký Học kỳ '
+                     '6 tháng hoặc mua trọn đời một lần. Gói Học kỳ tự gia hạn mỗi 6 tháng cho đến khi bạn hủy. App Store hiển thị giá '
+                     'theo khu vực của bạn.'},
                {'q': 'Ứng dụng có những ngôn ngữ nào?',
                 'a': 'Giao diện ứng dụng có tiếng Anh, tiếng Đức, tiếng Tây Ban Nha, tiếng Pháp, tiếng Ý, tiếng Nhật, tiếng Hàn, tiếng '
                      'Bồ Đào Nha (Brazil), tiếng Việt và tiếng Trung giản thể. Chép lời hoạt động với hơn 30 ngôn ngữ.'}],

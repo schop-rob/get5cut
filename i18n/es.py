@@ -24,7 +24,7 @@ HOME = {'dir': 'es',
  'cta_pill1': '5 exportaciones gratis al mes',
  'cta_pill2': '5 exportaciones gratis/mes',
  'cta_pill3': 'Sin cuenta',
- 'cta_subtext': 'Descarga gratis · Premium: mensual con 7 días gratis, o compra única · Sin cuenta',
+ 'cta_subtext': 'Descarga gratis · Premium: mensual con 7 días gratis, Semestre (6 meses) o compra única · Sin cuenta',
  'creator_promise': 'Creé 5cut porque escuchaba una y otra vez clases largas en un idioma extranjero. Las pausas me quitaban '
                     'mucho tiempo de estudio. La traducción y la eliminación de silencios en el dispositivo cambiaron mi forma '
                     'de aprender. Mis grabaciones nunca salen de mi iPhone.',
@@ -97,9 +97,9 @@ HOME = {'dir': 'es',
                      'grabaciones que haces en 5cut tienen una transcripción completa. Los archivos importados tienen una '
                      'transcripción de los primeros 5 minutos. Premium añade exportaciones ilimitadas sin marca de agua, '
                      'transcripciones completas de archivos importados, identificación de hablantes, notas y tarjetas con IA, y '
-                     'búsqueda en todas las transcripciones. Premium es una suscripción mensual, que los nuevos suscriptores '
-                     'pueden probar gratis durante 7 días, o una compra única de por vida. La App Store muestra el precio '
-                     'para tu región.'},
+                     'búsqueda en todas las transcripciones. Premium es una suscripción mensual, el plan Semestre (una '
+                     'suscripción que se renueva cada 6 meses) o una compra única de por vida. Los nuevos suscriptores pueden probar '
+                     'gratis el plan mensual durante 7 días. La App Store muestra los precios para tu región.'},
                {'q': '¿En qué idiomas está disponible la app?',
                 'a': 'La interfaz de la app está en inglés, alemán, español, francés, italiano, japonés, coreano, portugués '
                      '(Brasil), vietnamita y chino simplificado. La transcripción funciona en más de 30 idiomas.'}],

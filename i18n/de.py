@@ -24,7 +24,7 @@ HOME = {'dir': 'de',
  'cta_pill1': '5 kostenlose Exporte pro Monat',
  'cta_pill2': '5 kostenlose Exporte/Monat',
  'cta_pill3': 'Kein Konto',
- 'cta_subtext': 'Kostenloser Download · Premium: Monatsabo mit 7 Tagen gratis oder Einmalkauf · Kein Konto',
+ 'cta_subtext': 'Kostenloser Download · Premium: Monatsabo mit 7 Tagen gratis, Semester-Abo (6 Monate) oder Einmalkauf · Kein Konto',
  'creator_promise': 'Ich habe 5cut entwickelt, weil ich lange Vorlesungen in einer Fremdsprache immer wieder angehört habe. Die Pausen '
                     'haben viel von meiner Lernzeit gekostet. Übersetzung und Stilleentfernung auf dem Gerät haben mein Lernen verändert. '
                     'Meine Aufnahmen verlassen mein iPhone nie.',
@@ -95,9 +95,10 @@ HOME = {'dir': 'de',
                 'a': 'Ja. Die kostenlose Version enthält den Recorder, die Stilleentfernung und 5 Exporte pro Monat. Aufnahmen, die du in '
                      '5cut machst, erhalten ein vollständiges Transkript. Importierte Dateien erhalten ein Transkript der ersten 5 '
                      'Minuten. Premium bietet zusätzlich unbegrenzte Exporte ohne Wasserzeichen, vollständige Transkripte importierter '
-                     'Dateien, Sprechererkennung, KI-Notizen und Lernkarten sowie die Suche in allen Transkripten. Premium ist ein '
-                     'Monatsabo, das du beim ersten Abschluss 7 Tage kostenlos testen kannst, oder ein einmaliger Lifetime-Kauf. Der App Store '
-                     'zeigt den Preis für deine Region.'},
+                     'Dateien, Sprechererkennung, KI-Notizen und Lernkarten sowie die Suche in allen Transkripten. Premium gibt es als '
+                     'Monatsabo, als Semester-Abo für 6 Monate oder als einmaligen Lifetime-Kauf. Neue Abonnenten können das Monatsabo '
+                     '7 Tage kostenlos testen. Das Semester-Abo verlängert sich alle 6 Monate, bis du kündigst. Der App Store zeigt die '
+                     'Preise für deine Region.'},
                {'q': 'In welchen Sprachen gibt es die App?',
                 'a': 'Die App-Oberfläche gibt es auf Englisch, Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, '
                      'Portugiesisch (Brasilien), Vietnamesisch und Chinesisch (vereinfacht). Die Transkription funktioniert in mehr als 30 '

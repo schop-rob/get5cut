@@ -24,7 +24,7 @@ HOME = {'dir': '.',
  'cta_pill1': '5 free exports each month',
  'cta_pill2': '5 Free Exports/Month',
  'cta_pill3': 'No Account',
- 'cta_subtext': 'Free download · Premium: monthly with 7 days free, or one-time · No account',
+ 'cta_subtext': 'Free download · Premium: monthly with 7 days free, Semester (6 months) or one-time · No account',
  'creator_promise': 'I made 5cut because I listened to long lectures in a foreign language again and again. The pauses took a lot of my '
                     'study time. Translation and silence removal on the device changed how I learn. My recordings never leave my iPhone.',
  'creator_signature': 'Creator of 5cut',
@@ -91,8 +91,9 @@ HOME = {'dir': '.',
                 'a': 'Yes. The free version includes the recorder, silence removal and 5 exports each month. Recordings that you make '
                      'in 5cut get a full transcript. Imported files get a transcript of the first 5 minutes. Premium adds unlimited '
                      'exports without a watermark, full transcripts of imported files, speaker identification, AI notes and flashcards, '
-                     'and search in all transcripts. Premium is a monthly subscription, which new subscribers can try free for 7 '
-                     'days, or a one-time lifetime purchase. The App Store shows the price for your region.'},
+                     'and search in all transcripts. Premium is a monthly subscription, a 6-month Semester subscription or a '
+                     'one-time lifetime purchase. New subscribers can try the monthly plan free for 7 days. The Semester plan '
+                     'renews every 6 months until you cancel. The App Store shows the prices for your region.'},
                {'q': 'What languages is the app available in?',
                 'a': 'The app interface is in English, German, Spanish, French, Italian, Japanese, Korean, Portuguese (Brazil), '
                      'Vietnamese and Simplified Chinese. Transcription works in more than 30 languages.'}],
