@@ -5,14 +5,14 @@
 
 HOME = {'dir': '.',
  'lang_code': 'en',
- 'title': '5cut – Record & Trim Lectures, Export Study Notes | iOS App',
+ 'title': '5cut: Lecture Recorder & Notes for iPhone',
  'description': 'Record lectures on your iPhone. 5cut cuts the silence, transcribes in 30+ languages, translates live and exports study notes to '
                 'Anki, Notion and Obsidian.',
- 'og_title': '5cut – Record & Trim Lectures, Export Study Notes',
+ 'og_title': '5cut: Lecture Recorder & Notes for iPhone',
  'og_description': 'Record lectures. Cut the silence. Translate live. Get a transcript and study notes. Your recordings never leave your '
                    'iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — AI Lecture Recorder & Silence Trimmer',
+ 'brand_suffix': ': Lecture Recorder & Notes',
  'tagline': 'Follow every lecture in your language, at your speed.',
  'subhead_features': 'Record lectures, cut the silence, transcribe in 30+ languages, translate live and export study notes. All of it '
                      'happens on your iPhone.',
