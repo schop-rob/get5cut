@@ -12,7 +12,7 @@ HOME = {'dir': 'vi',
  'og_description': 'Ghi âm bài giảng. Cắt khoảng lặng. Dịch trực tiếp. Nhận bản chép lời và ghi chú học tập. Bản ghi của bạn không bao giờ '
                    'rời khỏi iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — Máy ghi âm bài giảng AI & Cắt khoảng lặng',
+ 'brand_suffix': ': Ghi & cắt bài giảng',
  'tagline': 'Theo dõi mọi bài giảng bằng ngôn ngữ của bạn, theo tốc độ của bạn.',
  'subhead_features': 'Ghi âm bài giảng, cắt khoảng lặng, chép lời hơn 30 ngôn ngữ, dịch trực tiếp và xuất ghi chú học tập. Tất cả diễn ra '
                      'trên iPhone của bạn.',

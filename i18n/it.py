@@ -12,7 +12,7 @@ HOME = {'dir': 'it',
  'og_description': 'Registra le lezioni. Taglia i silenzi. Traduci dal vivo. Ottieni una trascrizione e appunti di studio. Le tue '
                    'registrazioni non lasciano mai il tuo iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — Registratore di lezioni con IA e rimozione dei silenzi',
+ 'brand_suffix': ': Lezioni, taglio e note',
  'tagline': 'Segui ogni lezione nella tua lingua, al tuo ritmo.',
  'subhead_features': 'Registra le lezioni, taglia i silenzi, trascrivi in oltre 30 lingue, traduci dal vivo ed esporta appunti di studio. '
                      'Tutto avviene sul tuo iPhone.',

@@ -12,7 +12,7 @@ HOME = {'dir': 'es',
  'og_description': 'Graba clases. Elimina los silencios. Traduce en vivo. Obtén una transcripción y apuntes de estudio. Tus '
                    'grabaciones nunca salen de tu iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — Grabadora de clases con IA y eliminador de silencios',
+ 'brand_suffix': ': Recortar clases y notas',
  'tagline': 'Sigue cada clase en tu idioma, a tu ritmo.',
  'subhead_features': 'Graba clases, elimina los silencios, transcribe en más de 30 idiomas, traduce en vivo y exporta apuntes de '
                      'estudio. Todo ocurre en tu iPhone.',

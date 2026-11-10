@@ -12,7 +12,7 @@ HOME = {'dir': 'de',
  'og_description': 'Vorlesungen aufnehmen. Stille entfernen. Live übersetzen. Transkript und Lernnotizen erhalten. Deine Aufnahmen '
                    'verlassen dein iPhone nie.',
  'brand': '5cut',
- 'brand_suffix': ' — KI-Vorlesungs-Recorder & Stille entfernen',
+ 'brand_suffix': ': Vorlesungen aufnehmen',
  'tagline': 'Folge jeder Vorlesung – in deiner Sprache, in deinem Tempo.',
  'subhead_features': 'Nimm Vorlesungen auf, entferne die Stille, transkribiere in 30+ Sprachen, übersetze live und exportiere Lernnotizen. '
                      'Alles passiert auf deinem iPhone.',

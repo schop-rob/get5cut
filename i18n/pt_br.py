@@ -12,7 +12,7 @@ HOME = {'dir': 'pt-br',
  'og_description': 'Grave aulas. Corte o silêncio. Traduza ao vivo. Receba a transcrição e anotações de estudo. Suas gravações nunca saem '
                    'do seu iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — Gravador de Aulas com IA e Removedor de Silêncio',
+ 'brand_suffix': ': Gravar e cortar aulas',
  'tagline': 'Acompanhe cada aula no seu idioma, no seu ritmo.',
  'subhead_features': 'Grave aulas, corte o silêncio, transcreva em 30+ idiomas, traduza ao vivo e exporte anotações de estudo. Tudo isso '
                      'acontece no seu iPhone.',

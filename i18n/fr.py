@@ -12,7 +12,7 @@ HOME = {'dir': 'fr',
  'og_description': 'Enregistrez vos cours. Supprimez les silences. Traduisez en direct. Obtenez une transcription et des notes d’étude. '
                    'Vos enregistrements ne quittent jamais votre iPhone.',
  'brand': '5cut',
- 'brand_suffix': ' — Enregistreur de cours IA & coupe-silences',
+ 'brand_suffix': ': Cours, coupe & notes',
  'tagline': 'Suivez chaque cours dans votre langue, à votre rythme.',
  'subhead_features': 'Enregistrez vos cours, supprimez les silences, transcrivez en 30+ langues, traduisez en direct et exportez des notes '
                      'd’étude. Tout se passe sur votre iPhone.',
